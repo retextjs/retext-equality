@@ -1,6 +1,6 @@
 {
   "name": "retext-equality",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Warn about possible insensitive, inconsiderate language with Retext",
   "license": "MIT",
   "keywords": [
