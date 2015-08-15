@@ -1,0 +1,11 @@
+- type: and
+  considerate:
+    primary: a
+    primaries: a
+    replica: b
+    replicas: b
+  inconsiderate:
+    master: a
+    masters: a
+    slave: b
+    slaves: b

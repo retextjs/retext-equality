@@ -1,0 +1,71 @@
+{
+  "name": "retext-equality",
+  "version": "0.0.0",
+  "description": "Warn about possible insensitive, inconsiderate language with Retext",
+  "license": "MIT",
+  "keywords": [
+    "equal",
+    "race",
+    "religion",
+    "sex",
+    "orientation",
+    "identity",
+    "gender",
+    "sensitive",
+    "insensitive",
+    "neutral",
+    "writing",
+    "language",
+    "english",
+    "retext"
+  ],
+  "dependencies": {
+    "nlcst-to-string": "^0.1.5",
+    "object-keys": "^1.0.7",
+    "pluralize": "^1.1.4",
+    "unist-util-visit": "^1.0.0"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wooorm/retext-equality.git"
+  },
+  "author": "Titus Wormer <tituswormer@gmail.com>",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "eslint": "^1.0.0",
+    "eslint-stylish": "^0.2.0",
+    "esmangle": "^1.0.1",
+    "istanbul": "^0.3.0",
+    "js-yaml": "^3.3.1",
+    "jscs": "^2.0.0",
+    "jscs-jsdoc": "^1.0.0",
+    "mdast": "^1.0.0",
+    "mdast-comment-config": "^0.1.2",
+    "mdast-github": "^0.3.2",
+    "mdast-lint": "^0.4.2",
+    "mdast-slug": "^0.1.1",
+    "mdast-validate-links": "^0.3.1",
+    "mocha": "^2.0.0",
+    "retext": "^1.0.0-rc.3",
+    "vfile": "^1.0.0"
+  },
+  "scripts": {
+    "test-api": "mocha --check-leaks test.js",
+    "test-coverage": "istanbul cover _mocha -- test.js",
+    "test-travis": "npm run test-coverage",
+    "test": "npm run test-api",
+    "lint-api": "eslint .",
+    "lint-style": "jscs --reporter inline .",
+    "lint": "npm run lint-api && npm run lint-style",
+    "make": "npm run lint && npm run test-coverage",
+    "bundle": "browserify index.js --no-builtins -s retextEquality > retext-equality.js",
+    "postbundle": "esmangle retext-equality.js > retext-equality.min.js",
+    "extract": "node script/extract.js",
+    "build-md": "mdast . --quiet",
+    "build": "npm run extract && npm run bundle && npm run build-md"
+  }
+}

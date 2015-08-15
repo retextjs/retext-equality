@@ -1,0 +1,36 @@
+- type: simple
+  considerate: person with learning disabilities
+  inconsiderate: learning disabled
+- type: simple
+  considerate: person with disabilities
+  inconsiderate: disabled
+- type: simple
+  considerate: person with mental illness
+  inconsiderate: mentally ill
+- type: simple
+  considerate: person with physical handicaps
+  inconsiderate: handicapped
+- type: simple
+  considerate: person with schizophrenia
+  inconsiderate: schizophrenic
+- type: simple
+  considerate: person with an amputation
+  inconsiderate: amputee
+- type: simple
+  considerate: person with a limp
+  inconsiderate: cripple
+- type: simple
+  considerate: person with Down’s Syndrome
+  inconsiderate: mongoloid
+- type: simple
+  considerate: person with symptoms of mental illness
+  inconsiderate: crazy
+- type: simple
+  considerate: individual who has had a stroke
+  inconsiderate: stroke victim
+- type: simple
+  considerate: person who has multiple sclerosis
+  inconsiderate: suffering from multiple sclerosis
+- type: simple
+  considerate: with family support needs
+  inconsiderate: family burden

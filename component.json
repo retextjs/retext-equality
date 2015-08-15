@@ -1,0 +1,34 @@
+{
+  "name": "retext-equality",
+  "version": "0.0.0",
+  "description": "Warn about possible insensitive, inconsiderate language with Retext",
+  "license": "MIT",
+  "keywords": [
+    "equal",
+    "race",
+    "religion",
+    "sex",
+    "orientation",
+    "identity",
+    "gender",
+    "sensitive",
+    "insensitive",
+    "neutral",
+    "writing",
+    "language",
+    "english",
+    "retext"
+  ],
+  "dependencies": {
+    "wooorm/nlcst-to-string": "^0.1.5",
+    "ljharb/object-keys": "^1.0.7",
+    "blakeembrey/pluralize": "^1.1.4",
+    "wooorm/unist-util-visit": "^1.0.0"
+  },
+  "repository": "wooorm/retext-equality",
+  "scripts": [
+    "lib/patterns.json",
+    "lib/equality.js",
+    "index.js"
+  ]
+}

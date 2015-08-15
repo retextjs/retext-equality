@@ -1,0 +1,6 @@
+build/
+components/
+coverage/
+build.js
+retext-equality.js
+retext-equality.min.js

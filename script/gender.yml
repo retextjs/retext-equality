@@ -1,0 +1,1462 @@
+- type: or
+  considerate:
+    - their
+    - theirs
+  inconsiderate:
+    her: female
+    hers: female
+    him: male
+    his: male
+- type: or
+  considerate:
+    - they
+    - it
+  inconsiderate:
+    she: female
+    he: male
+- type: or
+  considerate:
+    - themselves
+    - theirself
+    - self
+  inconsiderate:
+    herself: female
+    himself: male
+- type: or
+  considerate:
+    - kid
+    - child
+  inconsiderate:
+    girl: female
+    boy: male
+- type: or
+  considerate:
+    - people
+    - persons
+    - folks
+  inconsiderate:
+    women: female
+    girls: female
+    gals: female
+    ladies: female
+    men: male
+    guys: male
+    dudes: male
+    gents: male
+    gentlemen: male
+    mankind: male
+- type: or
+  considerate:
+    - person
+    - friend
+    - pal
+    - folk
+    - individual
+  inconsiderate:
+    woman: female
+    gal: female
+    lady: female
+    babe: female
+    bimbo: female
+    chick: female
+    man: male
+    guy: male
+    lad: male
+    fellow: male
+    dude: male
+    bro: male
+    gentleman: male
+- type: or
+  considerate:
+    - native land
+  inconsiderate:
+    motherland: female
+    fatherland: male
+- type: or
+  considerate:
+    - native tongue
+    - native language
+  inconsiderate:
+    mother tongue: female
+    father tongue: male
+- type: or
+  considerate:
+    - first-year students
+    - freshers
+  inconsiderate:
+    freshwomen: female
+    freshmen: male
+- type: or
+  considerate:
+    - garbage collector
+    - waste collector
+    - trash collector
+  inconsiderate:
+    garbagewoman: female
+    garbageman: male
+- type: or
+  considerate:
+    - garbage collectors
+    - waste collectors
+    - trash collectors
+  inconsiderate:
+    garbagewomen: female
+    garbagemen: male
+- type: or
+  considerate:
+    - chair
+    - chairperson
+    - coordinator
+  inconsiderate:
+    chairwoman: female
+    chairman: male
+- type: or
+  considerate:
+    - committee member
+  inconsiderate:
+    committee woman: female
+    committee man: male
+- type: or
+  considerate:
+    - cowhand
+  inconsiderate:
+    cowgirl: female
+    cowboy: male
+- type: or
+  considerate:
+    - cowhands
+  inconsiderate:
+    cowgirls: female
+    cowboys: male
+- type: or
+  considerate:
+    - cattle rancher
+  inconsiderate:
+    cattlewoman: female
+    cattleman: male
+- type: or
+  considerate:
+    - cattle ranchers
+  inconsiderate:
+    cattlewomen: female
+    cattlemen: male
+- type: or
+  considerate:
+    - chairs
+    - chairpersons
+    - coordinators
+  inconsiderate:
+    chairwomen: female
+    chairmen: male
+- type: or
+  considerate:
+    - mail carrier
+    - letter carrier
+    - postal worker
+  inconsiderate:
+    postwoman: female
+    mailwoman: female
+    postman: male
+    mailman: male
+- type: or
+  considerate:
+    - mail carriers
+    - letter carriers
+    - postal workers
+  inconsiderate:
+    postwomen: female
+    mailwomen: female
+    postmen: male
+    mailmen: male
+- type: or
+  considerate:
+    - officer
+    - police officer
+  inconsiderate:
+    policewoman: female
+    policeman: male
+- type: or
+  considerate:
+    - officers
+    - police officers
+  inconsiderate:
+    policewomen: female
+    policemen: male
+- type: or
+  considerate:
+    - flight attendant
+  inconsiderate:
+    stewardess: female
+    steward: male
+- type: or
+  considerate:
+    - flight attendants
+  inconsiderate:
+    stewardesses: female
+    stewards: male
+- type: or
+  considerate:
+    - member of congress
+    - congress person
+    - legislator
+    - representative
+  inconsiderate:
+    congresswoman: female
+    congressman: male
+- type: or
+  considerate:
+    - member of congresss
+    - congress persons
+    - legislators
+    - representatives
+  inconsiderate:
+    congresswomen: female
+    congressmen: male
+- type: or
+  considerate:
+    - fire fighter
+  inconsiderate:
+    firewoman: female
+    fireman: male
+- type: or
+  considerate:
+    - fire fighters
+  inconsiderate:
+    firewomen: female
+    firemen: male
+- type: or
+  considerate:
+    - fisher
+    - crew member
+  inconsiderate:
+    fisherwoman: female
+    fisherman: male
+- type: or
+  considerate:
+    - fishers
+  inconsiderate:
+    fisherwomen: female
+    fishermen: male
+- type: or
+  considerate:
+    - kinship
+    - community
+  inconsiderate:
+    sisterhood: female
+    brotherhood: male
+- type: or
+  considerate:
+    - common person
+    - average person
+  inconsiderate:
+    common girl: female
+    common man: male
+- type: or
+  considerate:
+    - business executive
+    - entrepreneur
+    - business person
+    - professional
+  inconsiderate:
+    businesswoman: female
+    salarywoman: female
+    businessman: male
+    salaryman: male
+- type: or
+  considerate:
+    - business executives
+    - entrepreneurs
+  inconsiderate:
+    businesswomen: female
+    salarywomen: female
+    career girl: female
+    career woman: female
+    businessmen: male
+    salarymen: male
+- type: or
+  considerate:
+    - cleaner
+  inconsiderate:
+    cleaning lady: female
+    cleaning girl: female
+    cleaning woman: female
+    janitress: female
+    cleaning man: male
+    cleaning boy: male
+    janitor: male
+- type: or
+  considerate:
+    - cleaners
+  inconsiderate:
+    cleaning ladies: female
+    cleaning girls: female
+    janitresses: female
+    cleaning men: male
+    janitors: male
+- type: or
+  considerate:
+    - courier
+    - messenger
+  inconsiderate:
+    delivery girl: female
+    delivery boy: male
+- type: or
+  considerate:
+    - supervisor
+    - shift boss
+  inconsiderate:
+    forewoman: female
+    foreman: male
+- type: or
+  considerate:
+    - lead
+    - front
+    - figurehead
+  inconsiderate:
+    'frontwoman, front woman': female
+    'frontman, front man': male
+- type: or
+  considerate:
+    - figureheads
+  inconsiderate:
+    'front women, frontwomen': female
+    'front men, frontmen': male
+- type: or
+  considerate:
+    - supervisors
+    - shift bosses
+  inconsiderate:
+    forewomen: female
+    foremen: male
+- type: or
+  considerate:
+    - insurance agent
+  inconsiderate:
+    insurance woman: female
+    insurance man: male
+- type: or
+  considerate:
+    - insurance agents
+  inconsiderate:
+    insurance women: female
+    insurance men: male
+- type: or
+  considerate:
+    - proprietor
+    - building manager
+  inconsiderate:
+    landlady: female
+    landlord: male
+- type: or
+  considerate:
+    - proprietors
+    - building managers
+  inconsiderate:
+    landladies: female
+    landlords: male
+- type: or
+  considerate:
+    - graduate
+  inconsiderate:
+    alumna: female
+    alumnus: male
+- type: or
+  considerate:
+    - graduates
+  inconsiderate:
+    alumnae: female
+    alumni: male
+- type: or
+  considerate:
+    - anchor
+    - journalist
+  inconsiderate:
+    newswoman: female
+    newspaperwoman: female
+    anchorwoman: female
+    newsman: male
+    newspaperman: male
+    anchorman: male
+- type: or
+  considerate:
+    - anchors
+    - journalists
+  inconsiderate:
+    newswomen: female
+    newspaperwomen: female
+    anchorwomen: female
+    newsmen: male
+    newspapermen: male
+    anchormen: male
+- type: or
+  considerate:
+    - repairer
+    - technician
+  inconsiderate:
+    repairwoman: female
+    repairman: male
+- type: or
+  considerate:
+    - technicians
+  inconsiderate:
+    repairwomen: female
+    repairmen: male
+- type: or
+  considerate:
+    - salesperson
+    - sales clerk
+    - sales rep
+    - sales agent
+    - seller
+  inconsiderate:
+    saleswoman: female
+    sales woman: female
+    saleslady: female
+    salesman: male
+    sales man: male
+- type: or
+  considerate:
+    - sales clerks
+    - sales reps
+    - sales agents
+    - sellers
+  inconsiderate:
+    saleswomen: female
+    sales women: female
+    salesladies: female
+    salesmen: male
+    sales men: male
+- type: or
+  considerate:
+    - soldier
+    - service representative
+  inconsiderate:
+    servicewoman: female
+    serviceman: male
+- type: or
+  considerate:
+    - soldiers
+    - service representatives
+  inconsiderate:
+    servicewomen: female
+    servicemen: male
+- type: or
+  considerate:
+    - server
+  inconsiderate:
+    waitress: female
+    waiter: male
+- type: or
+  considerate:
+    - servers
+  inconsiderate:
+    waitresses: female
+    waiters: male
+- type: or
+  considerate:
+    - worker
+    - wage earner
+    - taxpayer
+  inconsiderate:
+    workwoman: female
+    working woman: female
+    workman: male
+    working man: male
+- type: or
+  considerate:
+    - workers
+  inconsiderate:
+    workwomen: female
+    workmen: male
+- type: or
+  considerate:
+    - performer
+    - star
+    - artist
+  inconsiderate:
+    actress: female
+    actor: male
+- type: or
+  considerate:
+    - performers
+    - stars
+    - artists
+  inconsiderate:
+    actresses: female
+    actors: male
+- type: or
+  considerate:
+    - pilot
+    - aviator
+    - airstaff
+  inconsiderate:
+    aircrewwoman: female
+    aircrew woman: female
+    aircrewman: male
+    airman: male
+- type: or
+  considerate:
+    - pilots
+    - aviators
+    - airstaff
+  inconsiderate:
+    aircrewwomen: female
+    aircrew women: female
+    aircrewmen: male
+    airmen: male
+- type: or
+  considerate:
+    - cabinet member
+  inconsiderate:
+    alderwoman: female
+    alderman: male
+- type: or
+  considerate:
+    - cabinet
+    - cabinet members
+  inconsiderate:
+    alderwomen: female
+    aldermen: male
+- type: or
+  considerate:
+    - assembly person
+    - assembly worker
+  inconsiderate:
+    assemblywoman: female
+    assemblyman: male
+- type: or
+  considerate:
+    - relative
+  inconsiderate:
+    kinswoman: female
+    aunt: female
+    kinsman: male
+    uncle: male
+- type: or
+  considerate:
+    - relatives
+  inconsiderate:
+    kinswomen: female
+    aunts: female
+    kinsmen: male
+    uncles: male
+- type: or
+  considerate:
+    - klansperson
+  inconsiderate:
+    klanswoman: female
+    klansman: male
+- type: or
+  considerate:
+    - clansperson
+    - clan member
+  inconsiderate:
+    clanswoman: female
+    clansman: male
+- type: or
+  considerate:
+    - klan
+    - klanspersons
+  inconsiderate:
+    klanswomen: female
+    klansmen: male
+- type: or
+  considerate:
+    - boogey
+  inconsiderate:
+    boogeywoman: female
+    boogeyman: male
+- type: or
+  considerate:
+    - boogie
+  inconsiderate:
+    boogiewoman: female
+    boogieman: male
+- type: or
+  considerate:
+    - bogey
+  inconsiderate:
+    bogeywoman: female
+    bogeyman: male
+- type: or
+  considerate:
+    - bogie
+  inconsiderate:
+    bogiewoman: female
+    bogieman: male
+- type: or
+  considerate:
+    - boogies
+  inconsiderate:
+    boogiewomen: female
+    boogiemen: male
+- type: or
+  considerate:
+    - bogies
+  inconsiderate:
+    bogiewomen: female
+    bogiemen: male
+- type: or
+  considerate:
+    - bonder
+  inconsiderate:
+    bondswoman: female
+    bondsman: male
+- type: or
+  considerate:
+    - bonders
+  inconsiderate:
+    bondswomen: female
+    bondsmen: male
+- type: or
+  considerate:
+    - partner
+    - significant other
+    - spouse
+  inconsiderate:
+    wife: female
+    husband: male
+- type: or
+  considerate:
+    - partners
+    - significant others
+    - spouses
+  inconsiderate:
+    wives: female
+    husbands: male
+- type: or
+  considerate:
+    - partner
+    - friend
+    - significant other
+  inconsiderate:
+    girlfriend: female
+    boyfriend: male
+- type: or
+  considerate:
+    - partners
+    - friends
+    - significant others
+  inconsiderate:
+    girlfriends: female
+    boyfriends: male
+- type: or
+  considerate:
+    - childhood
+  inconsiderate:
+    girlhood: female
+    boyhood: male
+- type: or
+  considerate:
+    - childish
+  inconsiderate:
+    girly: female
+    girlish: female
+    boyish: male
+- type: or
+  considerate:
+    - traveler
+  inconsiderate:
+    journeywoman: female
+    journeyman: male
+- type: or
+  considerate:
+    - travelers
+  inconsiderate:
+    journeywomen: female
+    journeymen: male
+- type: or
+  considerate:
+    - godparent
+    - elder
+    - patron
+  inconsiderate:
+    godmother: female
+    patroness: female
+    godfather: male
+- type: or
+  considerate:
+    - grandchild
+  inconsiderate:
+    granddaughter: female
+    grandson: male
+- type: or
+  considerate:
+    - grandchildred
+  inconsiderate:
+    granddaughters: female
+    grandsons: male
+- type: or
+  considerate:
+    - ancestor
+  inconsiderate:
+    foremother: female
+    forefather: male
+- type: or
+  considerate:
+    - ancestors
+  inconsiderate:
+    foremothers: female
+    forefathers: male
+- type: or
+  considerate:
+    - grandparent
+    - ancestor
+  inconsiderate:
+    granny: female
+    grandma: female
+    grandmother: female
+    grandpappy: male
+    granddaddy: male
+    gramps: male
+    grandpa: male
+    grandfather: male
+- type: or
+  considerate:
+    - grandparents
+    - ancestors
+  inconsiderate:
+    grandmothers: female
+    grandfathers: male
+- type: or
+  considerate:
+    - spouse
+  inconsiderate:
+    bride: female
+    groom: male
+- type: or
+  considerate:
+    - sibling
+  inconsiderate:
+    sister: female
+    brother: male
+- type: or
+  considerate:
+    - siblings
+  inconsiderate:
+    sisters: female
+    brothers: male
+- type: or
+  considerate:
+    - camera operator
+    - camera person
+  inconsiderate:
+    camerawoman: female
+    cameraman: male
+- type: or
+  considerate:
+    - camera operators
+  inconsiderate:
+    camerawomen: female
+    cameramen: male
+- type: or
+  considerate:
+    - troglodyte
+    - hominidae
+  inconsiderate:
+    cavewoman: female
+    caveman: male
+- type: or
+  considerate:
+    - troglodytae
+    - troglodyti
+    - troglodytes
+    - hominids
+  inconsiderate:
+    cavewomen: female
+    cavemen: male
+- type: or
+  considerate:
+    - clergyperson
+    - clergy
+    - cleric
+  inconsiderate:
+    clergywomen: female
+    clergyman: male
+- type: or
+  considerate:
+    - clergies
+    - clerics
+  inconsiderate:
+    clergywomen: female
+    clergymen: male
+- type: or
+  considerate:
+    - council member
+  inconsiderate:
+    councilwoman: female
+    councilman: male
+- type: or
+  considerate:
+    - council members
+  inconsiderate:
+    councilwomen: female
+    councilmen: male
+- type: or
+  considerate:
+    - country person
+  inconsiderate:
+    countrywoman: female
+    countryman: male
+- type: or
+  considerate:
+    - country folk
+  inconsiderate:
+    countrywomen: female
+    countrymen: male
+- type: or
+  considerate:
+    - artisan
+    - craftsperson
+    - skilled worker
+  inconsiderate:
+    handywoman: female
+    craftswoman: female
+    handyman: male
+    craftsman: male
+- type: or
+  considerate:
+    - presenter
+  inconsiderate:
+    hostess: female
+    host: male
+- type: or
+  considerate:
+    - presenters
+  inconsiderate:
+    hostesses: female
+    hosts: male
+- type: or
+  considerate:
+    - artisans
+    - craftspersons
+    - skilled workers
+  inconsiderate:
+    handywomen: female
+    craftswomen: female
+    handymen: male
+    craftsmen: male
+- type: or
+  considerate:
+    - guillotine
+  inconsiderate:
+    hangwoman: female
+    hangman: male
+- type: or
+  considerate:
+    - guillotines
+  inconsiderate:
+    hangwomen: female
+    hangmen: male
+- type: or
+  considerate:
+    - sidekick
+  inconsiderate:
+    henchwoman: female
+    henchman: male
+- type: or
+  considerate:
+    - sidekicks
+  inconsiderate:
+    henchwomen: female
+    henchmen: male
+- type: or
+  considerate:
+    - role-model
+  inconsiderate:
+    heroine: female
+    hero: male
+- type: or
+  considerate:
+    - role-models
+  inconsiderate:
+    heroines: female
+    heroes: male
+- type: or
+  considerate:
+    - parental
+    - warm
+    - intimate
+  inconsiderate:
+    maternal: female
+    paternal: male
+    fraternal: male
+- type: or
+  considerate:
+    - parental
+  inconsiderate:
+    maternity: female
+    paternity: male
+- type: or
+  considerate:
+    - parents
+  inconsiderate:
+    mamas: female
+    mothers: female
+    moms: female
+    mums: female
+    mommas: female
+    mommies: female
+    papas: male
+    fathers: male
+    dads: male
+    daddies: male
+- type: or
+  considerate:
+    - parent
+  inconsiderate:
+    mama: female
+    mother: female
+    mom: female
+    mum: female
+    momma: female
+    mommy: female
+    papa: male
+    father: male
+    dad: male
+    pop: male
+    daddy: male
+- type: or
+  considerate:
+    - child
+  inconsiderate:
+    daughter: female
+    son: male
+- type: or
+  considerate:
+    - children
+  inconsiderate:
+    daughters: female
+    sons: male
+- type: or
+  considerate:
+    - convierge
+  inconsiderate:
+    doorwoman: female
+    doorman: male
+- type: or
+  considerate:
+    - convierges
+  inconsiderate:
+    doorwomen: female
+    doormen: male
+- type: or
+  considerate:
+    - humanly
+    - mature
+  inconsiderate:
+    feminin: female
+    dudely: male
+    manly: male
+- type: or
+  considerate:
+    - human
+  inconsiderate:
+    female: female
+    male: male
+- type: or
+  considerate:
+    - humans
+  inconsiderate:
+    females: female
+    males: male
+- type: or
+  considerate:
+    - ruler
+  inconsiderate:
+    empress: female
+    queen: female
+    emperor: male
+    king: male
+- type: or
+  considerate:
+    - rulers
+  inconsiderate:
+    empresses: female
+    queens: female
+    emperors: male
+    kings: male
+- type: or
+  considerate:
+    - jumbo
+    - gigantic
+  inconsiderate:
+    queen-size: female
+    king-size: male
+- type: or
+  considerate:
+    - power behind the throne
+  inconsiderate:
+    queenmaker: female
+    kingmaker: male
+- type: or
+  considerate:
+    - civilian
+  inconsiderate:
+    laywoman: female
+    layman: male
+- type: or
+  considerate:
+    - civilians
+  inconsiderate:
+    laywomen: female
+    laymen: male
+- type: or
+  considerate:
+    - official
+    - owner
+    - expert
+    - superior
+    - chief
+    - ruler
+  inconsiderate:
+    dame: female
+    lord: male
+- type: or
+  considerate:
+    - officials
+    - masters
+    - chiefs
+    - rulers
+  inconsiderate:
+    dames: female
+    lords: male
+- type: or
+  considerate:
+    - adulthood
+    - personhood
+  inconsiderate:
+    girlhood: female
+    masculinity: male
+    manhood: male
+- type: or
+  considerate:
+    - humanity
+  inconsiderate:
+    femininity: female
+    manliness: male
+- type: or
+  considerate:
+    - shooter
+  inconsiderate:
+    markswoman: female
+    marksman: male
+- type: or
+  considerate:
+    - shooters
+  inconsiderate:
+    markswomen: female
+    marksmen: male
+- type: or
+  considerate:
+    - intermediary
+    - go-between
+  inconsiderate:
+    middlewoman: female
+    middleman: male
+- type: or
+  considerate:
+    - intermediaries
+    - go-betweens
+  inconsiderate:
+    middlewomen: female
+    middlemen: male
+- type: or
+  considerate:
+    - milk person
+  inconsiderate:
+    milkwoman: female
+    milkman: male
+- type: or
+  considerate:
+    - milk people
+  inconsiderate:
+    milkwomen: female
+    milkmen: male
+- type: or
+  considerate:
+    - nibling
+    - sibling’s child
+  inconsiderate:
+    niece: female
+    nephew: male
+- type: or
+  considerate:
+    - niblings
+    - sibling’s children
+  inconsiderate:
+    nieces: female
+    nephews: male
+- type: or
+  considerate:
+    - noble
+  inconsiderate:
+    noblewoman: female
+    nobleman: male
+- type: or
+  considerate:
+    - nobles
+  inconsiderate:
+    noblewomen: female
+    noblemen: male
+- type: or
+  considerate:
+    - notary
+    - consumer advocate
+    - trouble shooter
+  inconsiderate:
+    ombudswoman: female
+    ombudsman: male
+- type: or
+  considerate:
+    - notaries
+  inconsiderate:
+    ombudswomen: female
+    ombudsmen: male
+- type: or
+  considerate:
+    - heir
+  inconsiderate:
+    princess: female
+    prince: male
+- type: or
+  considerate:
+    - heirs
+  inconsiderate:
+    princesses: female
+    princes: male
+- type: or
+  considerate:
+    - fairy
+  inconsiderate:
+    sandwoman: female
+    sandman: male
+- type: or
+  considerate:
+    - fairies
+  inconsiderate:
+    sandwomen: female
+    sandmen: male
+- type: or
+  considerate:
+    - promoter
+  inconsiderate:
+    showwoman: female
+    showman: male
+- type: or
+  considerate:
+    - promoters
+  inconsiderate:
+    showwomen: female
+    show women: female
+    showmen: male
+- type: or
+  considerate:
+    - astronaut
+  inconsiderate:
+    spacewoman: female
+    spaceman: male
+- type: or
+  considerate:
+    - astronauts
+  inconsiderate:
+    spacewomen: female
+    spacemen: male
+- type: or
+  considerate:
+    - speaker
+    - spokesperson
+    - representative
+  inconsiderate:
+    spokeswoman: female
+    spokesman: male
+- type: or
+  considerate:
+    - speakers
+    - spokespersons
+  inconsiderate:
+    spokeswomen: female
+    spokesmen: male
+- type: or
+  considerate:
+    - athlete
+    - sports person
+  inconsiderate:
+    sportswoman: female
+    sportsman: male
+- type: or
+  considerate:
+    - athletes
+    - sports persons
+  inconsiderate:
+    sportswomen: female
+    sportsmen: male
+- type: or
+  considerate:
+    - senator
+  inconsiderate:
+    stateswoman: female
+    statesman: male
+- type: or
+  considerate:
+    - step-sibling
+  inconsiderate:
+    stepsister: female
+    stepbrother: male
+- type: or
+  considerate:
+    - step-siblings
+  inconsiderate:
+    stepsisters: female
+    stepbrothers: male
+- type: or
+  considerate:
+    - step-parent
+  inconsiderate:
+    stepmom: female
+    stepmother: female
+    stepdad: male
+    stepfather: male
+- type: or
+  considerate:
+    - step-parents
+  inconsiderate:
+    stepmothers: female
+    stepfathers: male
+- type: or
+  considerate:
+    - titan
+  inconsiderate:
+    superwoman: female
+    superman: male
+- type: or
+  considerate:
+    - titans
+  inconsiderate:
+    superwomen: female
+    supermen: male
+- type: or
+  considerate:
+    - inhumane
+  inconsiderate:
+    unwomanly: female
+    unwomenly: female
+    unmanly: male
+    unmenly: male
+- type: or
+  considerate:
+    - watcher
+  inconsiderate:
+    watchwoman: female
+    watchman: male
+- type: or
+  considerate:
+    - watchers
+  inconsiderate:
+    watchwomen: female
+    watchmen: male
+- type: or
+  considerate:
+    - weather forecaster
+    - meteorologist
+  inconsiderate:
+    weatherwoman: female
+    weatherman: male
+- type: or
+  considerate:
+    - weather forecasters
+    - meteorologists
+  inconsiderate:
+    weatherwomen: female
+    weathermen: male
+- type: or
+  considerate:
+    - bereaved
+  inconsiderate:
+    widow: female
+    widows: female
+    widower: male
+    widowers: male
+- type: or
+  considerate:
+    - own person
+  inconsiderate:
+    own woman: female
+    own man: male
+- type: simple
+  considerate:
+    - french
+  inconsiderate:
+    frenchmen: male
+- type: simple
+  considerate:
+    - courteous
+    - cultured
+  inconsiderate:
+    ladylike: female
+- type: simple
+  considerate:
+    - resolutely
+    - bravely
+  inconsiderate:
+    like a man: male
+- type: simple
+  considerate:
+    - birth name
+  inconsiderate:
+    maiden name: female
+- type: simple
+  considerate:
+    - first voyage
+  inconsiderate:
+    maiden voyage: female
+- type: simple
+  considerate:
+    - strong enough
+  inconsiderate:
+    man enough: male
+- type: simple
+  considerate:
+    - upstaging
+    - competitiveness
+  inconsiderate:
+    oneupmanship: male
+- type: simple
+  considerate:
+    - ms.
+  inconsiderate:
+    miss.: female
+    mrs.: female
+- type: simple
+  considerate:
+    - manufactured
+    - artificial
+    - synthetic
+    - machine-made
+  inconsiderate:
+    manmade: male
+- type: simple
+  considerate:
+    - dynamo
+  inconsiderate:
+    man of action: male
+- type: simple
+  considerate:
+    - scholar
+    - writer
+    - literary figure
+  inconsiderate:
+    man of letters: male
+- type: simple
+  considerate:
+    - sophisticate
+  inconsiderate:
+    man of the world: male
+- type: simple
+  considerate:
+    - camaraderie
+  inconsiderate:
+    fellowship: male
+- type: simple
+  considerate:
+    - first-year student
+    - fresher
+  inconsiderate:
+    freshman: male
+    freshwoman: male
+- type: simple
+  considerate:
+    - quality construction
+    - expertise
+  inconsiderate:
+    workmanship: male
+- type: simple
+  considerate:
+    - homemaker
+    - homeworker
+  inconsiderate:
+    housewife: female
+- type: simple
+  considerate:
+    - homemakers
+    - homeworkers
+  inconsiderate:
+    housewifes: female
+- type: simple
+  considerate:
+    - loving
+    - warm
+    - nurturing
+  inconsiderate:
+    motherly: female
+- type: simple
+  considerate:
+    - human resources
+  inconsiderate:
+    manpower: male
+- type: simple
+  considerate:
+    - emcee
+    - moderator
+    - convenor
+  inconsiderate:
+    master of ceremonies: male
+- type: simple
+  considerate:
+    - skilled
+    - authoritative
+    - commanding
+  inconsiderate:
+    masterful: male
+- type: simple
+  considerate:
+    - genius
+    - creator
+    - instigator
+    - oversee
+    - launch
+    - originate
+  inconsiderate:
+    mastermind: male
+- type: simple
+  considerate:
+    - work of genius
+    - chef d’oeuvre
+  inconsiderate:
+    masterpiece: male
+- type: simple
+  considerate:
+    - vision
+    - comprehensive plan
+  inconsiderate:
+    masterplan: male
+- type: simple
+  considerate:
+    - trump card
+    - stroke of genius
+  inconsiderate:
+    masterstroke: male
+- type: simple
+  considerate:
+    - sociopath
+  inconsiderate:
+    madman: male
+    mad man: male
+- type: simple
+  considerate:
+    - sociopaths
+  inconsiderate:
+    madmen: male
+    mad men: male
+- type: simple
+  considerate:
+    - humankind
+  inconsiderate:
+    mankind: male
+- type: simple
+  considerate:
+    - staff hours
+    - hours of work
+  inconsiderate:
+    manhour: male
+    man hour: male
