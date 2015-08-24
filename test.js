@@ -89,11 +89,11 @@ describe('retext-equality', function () {
 
     it('should warn about disability-inconsiderate words', function () {
         dequal(process('Eric is mentally ill.'), [
-            '1:9-1:17: `mentally ill` may be insensitive, use `person with mental illness` instead'
+            '1:9-1:17: `mentally ill` may be insensitive, use `person with mental illness`, `person with symptoms of mental illness`, `rude`, `mean`, `disgusting`, `vile` instead'
         ]);
 
         dequal(process('Eric is Mentally ill.'), [
-            '1:9-1:17: `Mentally ill` may be insensitive, use `Person with mental illness` instead'
+            '1:9-1:17: `Mentally ill` may be insensitive, use `Person with mental illness`, `Person with symptoms of mental illness`, `Rude`, `Mean`, `Disgusting`, `Vile` instead'
         ]);
     });
 
@@ -127,5 +127,17 @@ describe('retext-equality', function () {
         dequal(messages, [
             '1:32-1:38: `master` / `slaves` may be insensitive, use `primary` / `replica` instead'
         ]);
+    });
+});
+
+describe('Phrasing', function () {
+    describe('Should warn', function () {
+        it('This is insane', function () {
+            var messages = process('This is insane.');
+
+            dequal(messages, [
+                '1:9-1:15: `insane` may be insensitive, use `person with mental illness`, `person with symptoms of mental illness`, `rude`, `mean`, `disgusting`, `vile` instead'
+            ]);
+        });
     });
 });

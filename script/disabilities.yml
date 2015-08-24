@@ -5,14 +5,33 @@
   considerate: person with disabilities
   inconsiderate: disabled
 - type: simple
-  considerate: person with mental illness
-  inconsiderate: mentally ill
+  considerate:
+    - person with mental illness
+    - person with symptoms of mental illness
+    - rude
+    - mean
+    - disgusting
+    - vile
+  inconsiderate:
+    - batshit
+    - crazy
+    - insane
+    - loony
+    - lunacy
+    - lunatic
+    - mentally ill
+- type: simple
+  considerate:
+    - person with schizophrenia
+    - person with bi-polar disorder
+    - fluctuating
+  inconsiderate:
+    - bi-polar
+    - schizophrenic
+    - schizo
 - type: simple
   considerate: person with physical handicaps
   inconsiderate: handicapped
-- type: simple
-  considerate: person with schizophrenia
-  inconsiderate: schizophrenic
 - type: simple
   considerate: person with an amputation
   inconsiderate: amputee
@@ -23,9 +42,6 @@
   considerate: person with Down’s Syndrome
   inconsiderate: mongoloid
 - type: simple
-  considerate: person with symptoms of mental illness
-  inconsiderate: crazy
-- type: simple
   considerate: individual who has had a stroke
   inconsiderate: stroke victim
 - type: simple
@@ -34,3 +50,11 @@
 - type: simple
   considerate: with family support needs
   inconsiderate: family burden
+- type: simple
+  considerate:
+    - chaos
+    - hectic
+    - pandemonium
+  inconsiderate:
+    - bedlam
+    - madhouse

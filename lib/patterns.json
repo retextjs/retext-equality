@@ -3306,9 +3306,20 @@
   {
     "type": "simple",
     "considerate": {
-      "person with mental illness": "a"
+      "person with mental illness": "a",
+      "person with symptoms of mental illness": "a",
+      "rude": "a",
+      "mean": "a",
+      "disgusting": "a",
+      "vile": "a"
     },
     "inconsiderate": {
+      "batshit": "a",
+      "crazy": "a",
+      "insane": "a",
+      "loony": "a",
+      "lunacy": "a",
+      "lunatic": "a",
       "mentally ill": "a"
     },
     "categories": [
@@ -3319,10 +3330,14 @@
   {
     "type": "simple",
     "considerate": {
-      "person with physical handicaps": "a"
+      "person with schizophrenia": "a",
+      "person with bi-polar disorder": "a",
+      "fluctuating": "a"
     },
     "inconsiderate": {
-      "handicapped": "a"
+      "bi-polar": "a",
+      "schizophrenic": "a",
+      "schizo": "a"
     },
     "categories": [
       "a"
@@ -3332,10 +3347,10 @@
   {
     "type": "simple",
     "considerate": {
-      "person with schizophrenia": "a"
+      "person with physical handicaps": "a"
     },
     "inconsiderate": {
-      "schizophrenic": "a"
+      "handicapped": "a"
     },
     "categories": [
       "a"
@@ -3384,19 +3399,6 @@
   {
     "type": "simple",
     "considerate": {
-      "person with symptoms of mental illness": "a"
-    },
-    "inconsiderate": {
-      "crazy": "a"
-    },
-    "categories": [
-      "a"
-    ],
-    "id": 213
-  },
-  {
-    "type": "simple",
-    "considerate": {
       "individual who has had a stroke": "a"
     },
     "inconsiderate": {
@@ -3405,7 +3407,7 @@
     "categories": [
       "a"
     ],
-    "id": 214
+    "id": 213
   },
   {
     "type": "simple",
@@ -3418,7 +3420,7 @@
     "categories": [
       "a"
     ],
-    "id": 215
+    "id": 214
   },
   {
     "type": "simple",
@@ -3427,6 +3429,22 @@
     },
     "inconsiderate": {
       "family burden": "a"
+    },
+    "categories": [
+      "a"
+    ],
+    "id": 215
+  },
+  {
+    "type": "simple",
+    "considerate": {
+      "chaos": "a",
+      "hectic": "a",
+      "pandemonium": "a"
+    },
+    "inconsiderate": {
+      "bedlam": "a",
+      "madhouse": "a"
     },
     "categories": [
       "a"

@@ -3875,9 +3875,20 @@ module.exports=[
   {
     "type": "simple",
     "considerate": {
-      "person with mental illness": "a"
+      "person with mental illness": "a",
+      "person with symptoms of mental illness": "a",
+      "rude": "a",
+      "mean": "a",
+      "disgusting": "a",
+      "vile": "a"
     },
     "inconsiderate": {
+      "batshit": "a",
+      "crazy": "a",
+      "insane": "a",
+      "loony": "a",
+      "lunacy": "a",
+      "lunatic": "a",
       "mentally ill": "a"
     },
     "categories": [
@@ -3888,10 +3899,14 @@ module.exports=[
   {
     "type": "simple",
     "considerate": {
-      "person with physical handicaps": "a"
+      "person with schizophrenia": "a",
+      "person with bi-polar disorder": "a",
+      "fluctuating": "a"
     },
     "inconsiderate": {
-      "handicapped": "a"
+      "bi-polar": "a",
+      "schizophrenic": "a",
+      "schizo": "a"
     },
     "categories": [
       "a"
@@ -3901,10 +3916,10 @@ module.exports=[
   {
     "type": "simple",
     "considerate": {
-      "person with schizophrenia": "a"
+      "person with physical handicaps": "a"
     },
     "inconsiderate": {
-      "schizophrenic": "a"
+      "handicapped": "a"
     },
     "categories": [
       "a"
@@ -3953,19 +3968,6 @@ module.exports=[
   {
     "type": "simple",
     "considerate": {
-      "person with symptoms of mental illness": "a"
-    },
-    "inconsiderate": {
-      "crazy": "a"
-    },
-    "categories": [
-      "a"
-    ],
-    "id": 213
-  },
-  {
-    "type": "simple",
-    "considerate": {
       "individual who has had a stroke": "a"
     },
     "inconsiderate": {
@@ -3974,7 +3976,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 214
+    "id": 213
   },
   {
     "type": "simple",
@@ -3987,7 +3989,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 215
+    "id": 214
   },
   {
     "type": "simple",
@@ -3996,6 +3998,22 @@ module.exports=[
     },
     "inconsiderate": {
       "family burden": "a"
+    },
+    "categories": [
+      "a"
+    ],
+    "id": 215
+  },
+  {
+    "type": "simple",
+    "considerate": {
+      "chaos": "a",
+      "hectic": "a",
+      "pandemonium": "a"
+    },
+    "inconsiderate": {
+      "bedlam": "a",
+      "madhouse": "a"
     },
     "categories": [
       "a"
@@ -4025,27 +4043,38 @@ module.exports=[
 ]
 
 },{}],4:[function(require,module,exports){
+/**
+ * @author Titus Wormer
+ * @copyright 2014-2015 Titus Wormer
+ * @license MIT
+ * @module nlcst:to-string
+ * @fileoverview Transform an NLCST node into a string.
+ */
+
 'use strict';
+
+/* eslint-env commonjs */
 
 /**
  * Stringify an NLCST node.
  *
- * @param {NLCSTNode} nlcst
- * @return {string}
+ * @param {NLCSTNode|Array.<NLCSTNode>} node - Node to to
+ *   stringify.
+ * @return {string} - Stringified `node`.
  */
-function nlcstToString(nlcst) {
-    var values,
-        length,
-        children;
+function nlcstToString(node) {
+    var values;
+    var length;
+    var children;
 
-    if (typeof nlcst.value === 'string') {
-        return nlcst.value;
+    if (typeof node.value === 'string') {
+        return node.value;
     }
 
-    children = nlcst.children;
+    children = 'length' in node ? node : node.children;
     length = children.length;
 
-    /**
+    /*
      * Shortcut: This is pretty common, and a small performance win.
      */
 
@@ -4063,7 +4092,7 @@ function nlcstToString(nlcst) {
 }
 
 /*
- * Expose `nlcstToString`.
+ * Expose.
  */
 
 module.exports = nlcstToString;
