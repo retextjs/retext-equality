@@ -140,4 +140,12 @@ describe('Phrasing', function () {
             ]);
         });
     });
+
+    describe('Should NOT warn', function () {
+        it('he - A robust HTML entity encoder/decoder.', function () {
+            var messages = process('he - A robust HTML entity encoder/decoder.');
+
+            dequal(messages, []);
+        });
+    });
 });
