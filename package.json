@@ -20,7 +20,7 @@
     "retext"
   ],
   "dependencies": {
-    "nlcst-to-string": "^0.1.5",
+    "nlcst-to-string": "^1.0.0",
     "object-keys": "^1.0.7",
     "pluralize": "^1.1.4",
     "unist-util-visit": "^1.0.0"
@@ -37,18 +37,17 @@
   "devDependencies": {
     "browserify": "^11.0.1",
     "eslint": "^1.0.0",
-    "eslint-stylish": "^0.2.0",
     "esmangle": "^1.0.1",
     "istanbul": "^0.3.0",
     "js-yaml": "^3.3.1",
     "jscs": "^2.0.0",
     "jscs-jsdoc": "^1.0.0",
     "mdast": "^1.0.0",
-    "mdast-comment-config": "^0.1.2",
-    "mdast-github": "^0.3.2",
-    "mdast-lint": "^0.4.2",
-    "mdast-slug": "^0.1.1",
-    "mdast-validate-links": "^0.3.1",
+    "mdast-comment-config": "^1.0.0",
+    "mdast-github": "^1.0.0",
+    "mdast-lint": "^1.0.0",
+    "mdast-slug": "^1.0.0",
+    "mdast-validate-links": "^1.0.0",
     "mocha": "^2.0.0",
     "retext": "^1.0.0-rc.3",
     "vfile": "^1.0.0"
