@@ -513,9 +513,10 @@ function factory(file) {
          */
 
         visit(node, 'WordNode', function (child, position, parent) {
-            var patterns;
-            var length;
-            var index;
+            var value = toString(child).toLowerCase()
+            var patterns = byWord.hasOwnProperty(value) ? byWord[value] : null;
+            var length = patterns ? patterns.length : 0;
+            var index = -1;
             var result;
 
             if (isLiteral(parent, position)) {
