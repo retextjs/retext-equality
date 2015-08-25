@@ -41,7 +41,7 @@ function patch(entry, position) {
  */
 
 var gender = read(join(__dirname, 'gender.yml'), 'utf8');
-var disabilities = read(join(__dirname, 'disabilities.yml'), 'utf8');
+var ablist = read(join(__dirname, 'ablist.yml'), 'utf8');
 var relationships = read(join(__dirname, 'relationships.yml'), 'utf8');
 
 /*
@@ -52,7 +52,7 @@ var data;
 
 data = [].concat(
     yaml.load(gender),
-    yaml.load(disabilities),
+    yaml.load(ablist),
     yaml.load(relationships)
 );
 
