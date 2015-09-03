@@ -4,6 +4,11 @@
 
 <!--lint disable maximum-line-length-->
 
+1.1.2 / 2015-09-03
+==================
+
+*   Remove man, male, and female (7f2d1a8)
+
 1.1.1 / 2015-09-03
 ==================
 
