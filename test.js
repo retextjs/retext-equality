@@ -40,6 +40,10 @@ function process(doc) {
  */
 
 describe('retext-equality', function () {
+    it('should not fail on prototypal properties', function () {
+        dequal(process('toString and constructor.'), []);
+    });
+
     it('should warn about gender polarisign words', function () {
         dequal(process('her bicycle.'), [
             '1:1-1:4: `her` may be insensitive, use `their`, `theirs` instead'
