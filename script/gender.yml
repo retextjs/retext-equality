@@ -59,7 +59,6 @@
     babe: female
     bimbo: female
     chick: female
-    man: male
     guy: male
     lad: male
     fellow: male
@@ -948,12 +947,6 @@
     feminin: female
     dudely: male
     manly: male
-- type: or
-  considerate:
-    - human
-  inconsiderate:
-    female: female
-    male: male
 - type: or
   considerate:
     - humans

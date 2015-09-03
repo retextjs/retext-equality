@@ -687,7 +687,6 @@ module.exports=[
       "babe": "female",
       "bimbo": "female",
       "chick": "female",
-      "man": "male",
       "guy": "male",
       "lad": "male",
       "fellow": "male",
@@ -2666,21 +2665,6 @@ module.exports=[
   {
     "type": "or",
     "considerate": {
-      "human": "a"
-    },
-    "inconsiderate": {
-      "female": "female",
-      "male": "male"
-    },
-    "categories": [
-      "female",
-      "male"
-    ],
-    "id": 126
-  },
-  {
-    "type": "or",
-    "considerate": {
       "humans": "a"
     },
     "inconsiderate": {
@@ -2691,7 +2675,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 127
+    "id": 126
   },
   {
     "type": "or",
@@ -2708,7 +2692,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 128
+    "id": 127
   },
   {
     "type": "or",
@@ -2725,7 +2709,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 129
+    "id": 128
   },
   {
     "type": "or",
@@ -2741,7 +2725,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 130
+    "id": 129
   },
   {
     "type": "or",
@@ -2756,7 +2740,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 131
+    "id": 130
   },
   {
     "type": "or",
@@ -2771,7 +2755,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 132
+    "id": 131
   },
   {
     "type": "or",
@@ -2786,7 +2770,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 133
+    "id": 132
   },
   {
     "type": "or",
@@ -2806,7 +2790,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 134
+    "id": 133
   },
   {
     "type": "or",
@@ -2824,7 +2808,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 135
+    "id": 134
   },
   {
     "type": "or",
@@ -2841,7 +2825,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 136
+    "id": 135
   },
   {
     "type": "or",
@@ -2856,7 +2840,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 137
+    "id": 136
   },
   {
     "type": "or",
@@ -2871,7 +2855,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 138
+    "id": 137
   },
   {
     "type": "or",
@@ -2886,7 +2870,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 139
+    "id": 138
   },
   {
     "type": "or",
@@ -2902,7 +2886,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 140
+    "id": 139
   },
   {
     "type": "or",
@@ -2918,7 +2902,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 141
+    "id": 140
   },
   {
     "type": "or",
@@ -2933,7 +2917,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 142
+    "id": 141
   },
   {
     "type": "or",
@@ -2948,7 +2932,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 143
+    "id": 142
   },
   {
     "type": "or",
@@ -2964,7 +2948,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 144
+    "id": 143
   },
   {
     "type": "or",
@@ -2980,7 +2964,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 145
+    "id": 144
   },
   {
     "type": "or",
@@ -2995,7 +2979,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 146
+    "id": 145
   },
   {
     "type": "or",
@@ -3010,7 +2994,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 147
+    "id": 146
   },
   {
     "type": "or",
@@ -3027,7 +3011,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 148
+    "id": 147
   },
   {
     "type": "or",
@@ -3042,7 +3026,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 149
+    "id": 148
   },
   {
     "type": "or",
@@ -3057,7 +3041,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 150
+    "id": 149
   },
   {
     "type": "or",
@@ -3072,7 +3056,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 151
+    "id": 150
   },
   {
     "type": "or",
@@ -3087,7 +3071,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 152
+    "id": 151
   },
   {
     "type": "or",
@@ -3102,7 +3086,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 153
+    "id": 152
   },
   {
     "type": "or",
@@ -3117,7 +3101,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 154
+    "id": 153
   },
   {
     "type": "or",
@@ -3133,7 +3117,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 155
+    "id": 154
   },
   {
     "type": "or",
@@ -3148,7 +3132,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 156
+    "id": 155
   },
   {
     "type": "or",
@@ -3163,7 +3147,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 157
+    "id": 156
   },
   {
     "type": "or",
@@ -3180,7 +3164,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 158
+    "id": 157
   },
   {
     "type": "or",
@@ -3196,7 +3180,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 159
+    "id": 158
   },
   {
     "type": "or",
@@ -3212,7 +3196,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 160
+    "id": 159
   },
   {
     "type": "or",
@@ -3228,7 +3212,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 161
+    "id": 160
   },
   {
     "type": "or",
@@ -3243,7 +3227,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 162
+    "id": 161
   },
   {
     "type": "or",
@@ -3258,7 +3242,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 163
+    "id": 162
   },
   {
     "type": "or",
@@ -3273,7 +3257,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 164
+    "id": 163
   },
   {
     "type": "or",
@@ -3290,7 +3274,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 165
+    "id": 164
   },
   {
     "type": "or",
@@ -3305,7 +3289,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 166
+    "id": 165
   },
   {
     "type": "or",
@@ -3320,7 +3304,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 167
+    "id": 166
   },
   {
     "type": "or",
@@ -3335,7 +3319,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 168
+    "id": 167
   },
   {
     "type": "or",
@@ -3352,7 +3336,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 169
+    "id": 168
   },
   {
     "type": "or",
@@ -3367,7 +3351,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 170
+    "id": 169
   },
   {
     "type": "or",
@@ -3382,7 +3366,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 171
+    "id": 170
   },
   {
     "type": "or",
@@ -3398,7 +3382,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 172
+    "id": 171
   },
   {
     "type": "or",
@@ -3414,7 +3398,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 173
+    "id": 172
   },
   {
     "type": "or",
@@ -3431,7 +3415,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 174
+    "id": 173
   },
   {
     "type": "or",
@@ -3446,7 +3430,7 @@ module.exports=[
       "female",
       "male"
     ],
-    "id": 175
+    "id": 174
   },
   {
     "type": "simple",
@@ -3459,7 +3443,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 176
+    "id": 175
   },
   {
     "type": "simple",
@@ -3473,7 +3457,7 @@ module.exports=[
     "categories": [
       "female"
     ],
-    "id": 177
+    "id": 176
   },
   {
     "type": "simple",
@@ -3487,7 +3471,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 178
+    "id": 177
   },
   {
     "type": "simple",
@@ -3500,7 +3484,7 @@ module.exports=[
     "categories": [
       "female"
     ],
-    "id": 179
+    "id": 178
   },
   {
     "type": "simple",
@@ -3513,7 +3497,7 @@ module.exports=[
     "categories": [
       "female"
     ],
-    "id": 180
+    "id": 179
   },
   {
     "type": "simple",
@@ -3526,7 +3510,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 181
+    "id": 180
   },
   {
     "type": "simple",
@@ -3540,7 +3524,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 182
+    "id": 181
   },
   {
     "type": "simple",
@@ -3554,7 +3538,7 @@ module.exports=[
     "categories": [
       "female"
     ],
-    "id": 183
+    "id": 182
   },
   {
     "type": "simple",
@@ -3570,7 +3554,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 184
+    "id": 183
   },
   {
     "type": "simple",
@@ -3583,7 +3567,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 185
+    "id": 184
   },
   {
     "type": "simple",
@@ -3598,7 +3582,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 186
+    "id": 185
   },
   {
     "type": "simple",
@@ -3611,7 +3595,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 187
+    "id": 186
   },
   {
     "type": "simple",
@@ -3624,7 +3608,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 188
+    "id": 187
   },
   {
     "type": "simple",
@@ -3639,7 +3623,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 189
+    "id": 188
   },
   {
     "type": "simple",
@@ -3653,7 +3637,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 190
+    "id": 189
   },
   {
     "type": "simple",
@@ -3667,7 +3651,7 @@ module.exports=[
     "categories": [
       "female"
     ],
-    "id": 191
+    "id": 190
   },
   {
     "type": "simple",
@@ -3681,7 +3665,7 @@ module.exports=[
     "categories": [
       "female"
     ],
-    "id": 192
+    "id": 191
   },
   {
     "type": "simple",
@@ -3696,7 +3680,7 @@ module.exports=[
     "categories": [
       "female"
     ],
-    "id": 193
+    "id": 192
   },
   {
     "type": "simple",
@@ -3709,7 +3693,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 194
+    "id": 193
   },
   {
     "type": "simple",
@@ -3724,7 +3708,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 195
+    "id": 194
   },
   {
     "type": "simple",
@@ -3739,7 +3723,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 196
+    "id": 195
   },
   {
     "type": "simple",
@@ -3757,7 +3741,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 197
+    "id": 196
   },
   {
     "type": "simple",
@@ -3771,7 +3755,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 198
+    "id": 197
   },
   {
     "type": "simple",
@@ -3785,7 +3769,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 199
+    "id": 198
   },
   {
     "type": "simple",
@@ -3799,7 +3783,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 200
+    "id": 199
   },
   {
     "type": "simple",
@@ -3813,7 +3797,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 201
+    "id": 200
   },
   {
     "type": "simple",
@@ -3827,7 +3811,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 202
+    "id": 201
   },
   {
     "type": "simple",
@@ -3840,7 +3824,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 203
+    "id": 202
   },
   {
     "type": "simple",
@@ -3855,7 +3839,7 @@ module.exports=[
     "categories": [
       "male"
     ],
-    "id": 204
+    "id": 203
   },
   {
     "type": "simple",
@@ -3868,7 +3852,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 205
+    "id": 204
   },
   {
     "type": "simple",
@@ -3881,7 +3865,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 206
+    "id": 205
   },
   {
     "type": "simple",
@@ -3905,7 +3889,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 207
+    "id": 206
   },
   {
     "type": "simple",
@@ -3922,7 +3906,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 208
+    "id": 207
   },
   {
     "type": "simple",
@@ -3935,7 +3919,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 209
+    "id": 208
   },
   {
     "type": "simple",
@@ -3948,7 +3932,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 210
+    "id": 209
   },
   {
     "type": "simple",
@@ -3961,7 +3945,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 211
+    "id": 210
   },
   {
     "type": "simple",
@@ -3974,7 +3958,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 212
+    "id": 211
   },
   {
     "type": "simple",
@@ -3987,7 +3971,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 213
+    "id": 212
   },
   {
     "type": "simple",
@@ -4000,7 +3984,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 214
+    "id": 213
   },
   {
     "type": "simple",
@@ -4013,7 +3997,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 215
+    "id": 214
   },
   {
     "type": "simple",
@@ -4029,7 +4013,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 216
+    "id": 215
   },
   {
     "type": "and",
@@ -4049,7 +4033,7 @@ module.exports=[
       "a",
       "b"
     ],
-    "id": 217
+    "id": 216
   }
 ]
 
