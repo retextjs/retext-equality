@@ -583,7 +583,8 @@ module.exports=[
     "type": "or",
     "considerate": {
       "their": "a",
-      "theirs": "a"
+      "theirs": "a",
+      "them": "a"
     },
     "inconsiderate": {
       "her": "female",

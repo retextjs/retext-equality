@@ -46,7 +46,7 @@ describe('retext-equality', function () {
 
     it('should warn about gender polarisign words', function () {
         dequal(process('her bicycle.'), [
-            '1:1-1:4: `her` may be insensitive, use `their`, `theirs` instead'
+            '1:1-1:4: `her` may be insensitive, use `their`, `theirs`, `them` instead'
         ]);
 
         dequal(process('Ze frenchmen are comming.'), [
@@ -56,7 +56,7 @@ describe('retext-equality', function () {
 
     it('should warn case-insensitive', function () {
         dequal(process('Her bicycle.'), [
-            '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs` instead'
+            '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead'
         ]);
 
         dequal(process('Frenchmen are comming.'), [
@@ -86,8 +86,8 @@ describe('retext-equality', function () {
         var messages = process('Her bike, his bicycle.');
 
         dequal(messages, [
-            '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs` instead',
-            '1:11-1:14: `his` may be insensitive, use `their`, `theirs` instead'
+            '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead',
+            '1:11-1:14: `his` may be insensitive, use `their`, `theirs`, `them` instead'
         ]);
     });
 
@@ -141,6 +141,14 @@ describe('Phrasing', function () {
 
             dequal(messages, [
                 '1:9-1:15: `insane` may be insensitive, use `person with mental illness`, `person with symptoms of mental illness`, `rude`, `mean`, `disgusting`, `vile` instead'
+            ]);
+        });
+
+        it('I like him', function () {
+            var messages = process('I like him.');
+
+            dequal(messages, [
+                '1:8-1:11: `him` may be insensitive, use `their`, `theirs`, `them` instead'
             ]);
         });
     });
