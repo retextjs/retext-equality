@@ -4,6 +4,11 @@
 
 <!--lint disable maximum-line-length-->
 
+1.1.1 / 2015-09-03
+==================
+
+*   Fix prototypal properties ([69f9651](https://github.com/wooorm/retext-equality/commit/69f9651))
+
 1.1.0 / 2015-08-26
 ==================
 
