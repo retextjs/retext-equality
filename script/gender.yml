@@ -1454,3 +1454,30 @@
   inconsiderate:
     manhour: male
     man hour: male
+- type: simple
+  considerate:
+    - staffed
+    - crewed
+    - pilotted
+  inconsiderate: manned
+- type: simple
+  considerate:
+    - robotic
+    - automated
+  inconsiderate: unmanned
+- type: simple
+  considerate:
+    - whining
+    - complaining
+    - crying
+  inconsiderate:
+    - bitching
+    - moaning
+- type: simple
+  considerate:
+    - whine
+    - complain
+    - cry
+  inconsiderate:
+    - bitch
+    - moan

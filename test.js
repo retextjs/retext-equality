@@ -151,6 +151,22 @@ describe('Phrasing', function () {
                 '1:8-1:11: `him` may be insensitive, use `their`, `theirs`, `them` instead'
             ]);
         });
+
+        it('Manned spacecraft', function () {
+            var messages = process('Manned spacecraft.');
+
+            dequal(messages, [
+                '1:1-1:7: `Manned` may be insensitive, use `Staffed`, `Crewed`, `Pilotted` instead'
+            ]);
+        });
+
+        it('Moaning, like wormen are always doing', function () {
+            var messages = process('Moaning, like wormen are always doing.');
+
+            dequal(messages, [
+                '1:1-1:8: `Moaning` may be insensitive, use `Whining`, `Complaining`, `Crying` instead'
+            ]);
+        });
     });
 
     describe('Should NOT warn', function () {

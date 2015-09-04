@@ -3845,6 +3845,67 @@ module.exports=[
   {
     "type": "simple",
     "considerate": {
+      "staffed": "a",
+      "crewed": "a",
+      "pilotted": "a"
+    },
+    "inconsiderate": {
+      "manned": "a"
+    },
+    "categories": [
+      "a"
+    ],
+    "id": 204
+  },
+  {
+    "type": "simple",
+    "considerate": {
+      "robotic": "a",
+      "automated": "a"
+    },
+    "inconsiderate": {
+      "unmanned": "a"
+    },
+    "categories": [
+      "a"
+    ],
+    "id": 205
+  },
+  {
+    "type": "simple",
+    "considerate": {
+      "whining": "a",
+      "complaining": "a",
+      "crying": "a"
+    },
+    "inconsiderate": {
+      "bitching": "a",
+      "moaning": "a"
+    },
+    "categories": [
+      "a"
+    ],
+    "id": 206
+  },
+  {
+    "type": "simple",
+    "considerate": {
+      "whine": "a",
+      "complain": "a",
+      "cry": "a"
+    },
+    "inconsiderate": {
+      "bitch": "a",
+      "moan": "a"
+    },
+    "categories": [
+      "a"
+    ],
+    "id": 207
+  },
+  {
+    "type": "simple",
+    "considerate": {
       "person with learning disabilities": "a"
     },
     "inconsiderate": {
@@ -3853,7 +3914,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 204
+    "id": 208
   },
   {
     "type": "simple",
@@ -3866,7 +3927,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 205
+    "id": 209
   },
   {
     "type": "simple",
@@ -3890,7 +3951,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 206
+    "id": 210
   },
   {
     "type": "simple",
@@ -3907,7 +3968,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 207
+    "id": 211
   },
   {
     "type": "simple",
@@ -3920,7 +3981,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 208
+    "id": 212
   },
   {
     "type": "simple",
@@ -3933,7 +3994,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 209
+    "id": 213
   },
   {
     "type": "simple",
@@ -3946,7 +4007,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 210
+    "id": 214
   },
   {
     "type": "simple",
@@ -3959,7 +4020,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 211
+    "id": 215
   },
   {
     "type": "simple",
@@ -3972,7 +4033,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 212
+    "id": 216
   },
   {
     "type": "simple",
@@ -3985,7 +4046,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 213
+    "id": 217
   },
   {
     "type": "simple",
@@ -3998,7 +4059,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 214
+    "id": 218
   },
   {
     "type": "simple",
@@ -4014,7 +4075,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 215
+    "id": 219
   },
   {
     "type": "and",
@@ -4034,7 +4095,7 @@ module.exports=[
       "a",
       "b"
     ],
-    "id": 216
+    "id": 220
   }
 ]
 
