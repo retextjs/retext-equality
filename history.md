@@ -1,13 +1,17 @@
 <!--mdast setext-->
 
-<!--lint disable no-multiple-toplevel-headings-->
+<!--lint disable no-multiple-toplevel-headings maximum-line-length-->
 
-<!--lint disable maximum-line-length-->
+1.1.3 / 2015-09-04
+==================
+
+*   Add `bitching`, `moaning`, `manned`, `unmanned` ([ee7c95e](https://github.com/wooorm/retext-equality/commit/ee7c95e))
+*   Add `them` as a suggestion for `him`, `her` ([6abb92c](https://github.com/wooorm/retext-equality/commit/6abb92c))
 
 1.1.2 / 2015-09-03
 ==================
 
-*   Remove man, male, and female (7f2d1a8)
+*   Remove man, male, and female ([7f2d1a8](https://github.com/wooorm/retext-equality/commit/7f2d1a8))
 
 1.1.1 / 2015-09-03
 ==================
