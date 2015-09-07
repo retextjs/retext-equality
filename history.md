@@ -2,6 +2,11 @@
 
 <!--lint disable no-multiple-toplevel-headings maximum-line-length-->
 
+1.2.0 / 2015-09-07
+==================
+
+*   Add racial terms ([7d1a3c3](https://github.com/wooorm/retext-equality/commit/7d1a3c3))
+
 1.1.3 / 2015-09-04
 ==================
 
