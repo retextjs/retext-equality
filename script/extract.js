@@ -37,24 +37,19 @@ function patch(entry, position) {
 }
 
 /*
- * Read.
- */
-
-var gender = read(join(__dirname, 'gender.yml'), 'utf8');
-var ablist = read(join(__dirname, 'ablist.yml'), 'utf8');
-var relationships = read(join(__dirname, 'relationships.yml'), 'utf8');
-
-/*
  * Gather.
  */
 
-var data;
+var data = [
+    'gender',
+    'ablist',
+    'racial',
+    'relationships'
+].map(function (name) {
+    return yaml.load(read(join(__dirname, name + '.yml'), 'utf8'));
+});
 
-data = [].concat(
-    yaml.load(gender),
-    yaml.load(ablist),
-    yaml.load(relationships)
-);
+data = [].concat.apply([], data);
 
 /**
  * Clean a value.

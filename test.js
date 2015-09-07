@@ -167,6 +167,14 @@ describe('Phrasing', function () {
                 '1:1-1:8: `Moaning` may be insensitive, use `Whining`, `Complaining`, `Crying` instead'
             ]);
         });
+
+        it('N*gg*rs is not a nice word', function () {
+            var messages = process('Niggers is not a nice word.');
+
+            dequal(messages, [
+                '1:1-1:8: `Niggers` may be insensitive, use `African americans`, `South americans`, `Caribbean people`, `Africans`, `People of color`, `Black people` instead'
+            ]);
+        });
     });
 
     describe('Should NOT warn', function () {
