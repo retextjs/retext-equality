@@ -32,8 +32,27 @@ var stringify = JSON.stringify;
  * @param {*} position - Identifier.
  */
 function patch(entry, position) {
-    entry.id = position;
-    return entry;
+    var description = entry.note;
+    var source = entry.source;
+    var result = {
+        'id': position,
+        'type': entry.type,
+        'categories': entry.categories,
+        'considerate': entry.considerate,
+        'inconsiderate': entry.inconsiderate
+    };
+
+    if (source) {
+        if (description) {
+            description += ' (source: ' + source + ')';
+        } else {
+            description = 'Source: ' + source;
+        }
+    }
+
+    result.note = description;
+
+    return result;
 }
 
 /*
@@ -92,7 +111,7 @@ data.forEach(function (entry) {
  * Patch.
  */
 
-data.forEach(patch);
+data = data.map(patch);
 
 data.forEach(function (entry) {
     if (entry.type !== 'simple' && entry.categories.length < 2) {

@@ -14,6 +14,7 @@ var equality = require('./');
  * Methods.
  */
 
+var equal = assert.strictEqual;
 var dequal = assert.deepEqual;
 
 /*
@@ -42,6 +43,18 @@ function process(doc) {
 describe('retext-equality', function () {
     it('should not fail on prototypal properties', function () {
         dequal(process('toString and constructor.'), []);
+    });
+
+    it('should patch `description` when applicable', function () {
+        var doc = 'Their child has a birth defect.';
+
+        retext().use(equality).process(doc, function (err, file) {
+            assert.ifError(err);
+
+            equal(file.messages[0].note,
+                'If possible, describe exacly what this is. (source: http://ncdj.org/style-guide/)'
+            );
+        });
     });
 
     it('should warn about gender polarisign words', function () {
@@ -93,11 +106,11 @@ describe('retext-equality', function () {
 
     it('should warn about disability-inconsiderate words', function () {
         dequal(process('Eric is mentally ill.'), [
-            '1:9-1:17: `mentally ill` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with mental illness`, `person with symptoms of mental illness` instead'
+            '1:9-1:17: `mentally ill` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
         ]);
 
         dequal(process('Eric is Mentally ill.'), [
-            '1:9-1:17: `Mentally ill` may be insensitive, use `Rude`, `Mean`, `Disgusting`, `Vile`, `Person with mental illness`, `Person with symptoms of mental illness` instead'
+            '1:9-1:17: `Mentally ill` may be insensitive, use `Rude`, `Mean`, `Disgusting`, `Vile`, `Person with symptoms of mental illness`, `Person with mental illness`, `Person with symptoms of a mental disorder`, `Person with a mental disorder` instead'
         ]);
     });
 
@@ -140,7 +153,7 @@ describe('Phrasing', function () {
             var messages = process('This is insane.');
 
             dequal(messages, [
-                '1:9-1:15: `insane` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with mental illness`, `person with symptoms of mental illness` instead'
+                '1:9-1:15: `insane` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
             ]);
         });
 
@@ -198,7 +211,7 @@ describe('Phrasing', function () {
             var messages = process('I’m not psychotic, I didn’t have amnesia yesterday.');
 
             dequal(messages, [
-                '1:9-1:18: `psychotic` may be insensitive, use `person with psychosis` instead'
+                '1:9-1:18: `psychotic` may be insensitive, use `person with a psychotic condition`, `person with psychosis` instead'
             ]);
         });
 
@@ -207,7 +220,7 @@ describe('Phrasing', function () {
 
             dequal(messages, [
                 '1:33-1:36: `him` may be insensitive, use `their`, `theirs`, `them` instead',
-                '1:23-1:29: `psycho` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with mental illness`, `person with symptoms of mental illness` instead'
+                '1:23-1:29: `psycho` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
             ]);
         });
 
@@ -215,7 +228,7 @@ describe('Phrasing', function () {
             var messages = process('I’m so retarded.');
 
             dequal(messages, [
-                '1:8-1:16: `retarded` may be insensitive, use `silly`, `dullard`, `person with developmental disabilities`, `delay`, `hold back` instead'
+                '1:8-1:16: `retarded` may be insensitive, use `silly`, `dullard`, `person with Down Syndrome`, `person with developmental disabilities`, `delay`, `hold back` instead'
             ]);
         });
     });
