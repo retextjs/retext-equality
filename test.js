@@ -93,11 +93,11 @@ describe('retext-equality', function () {
 
     it('should warn about disability-inconsiderate words', function () {
         dequal(process('Eric is mentally ill.'), [
-            '1:9-1:17: `mentally ill` may be insensitive, use `person with mental illness`, `person with symptoms of mental illness`, `rude`, `mean`, `disgusting`, `vile` instead'
+            '1:9-1:17: `mentally ill` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with mental illness`, `person with symptoms of mental illness` instead'
         ]);
 
         dequal(process('Eric is Mentally ill.'), [
-            '1:9-1:17: `Mentally ill` may be insensitive, use `Person with mental illness`, `Person with symptoms of mental illness`, `Rude`, `Mean`, `Disgusting`, `Vile` instead'
+            '1:9-1:17: `Mentally ill` may be insensitive, use `Rude`, `Mean`, `Disgusting`, `Vile`, `Person with mental illness`, `Person with symptoms of mental illness` instead'
         ]);
     });
 
@@ -140,7 +140,7 @@ describe('Phrasing', function () {
             var messages = process('This is insane.');
 
             dequal(messages, [
-                '1:9-1:15: `insane` may be insensitive, use `person with mental illness`, `person with symptoms of mental illness`, `rude`, `mean`, `disgusting`, `vile` instead'
+                '1:9-1:15: `insane` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with mental illness`, `person with symptoms of mental illness` instead'
             ]);
         });
 
@@ -173,6 +173,49 @@ describe('Phrasing', function () {
 
             dequal(messages, [
                 '1:1-1:8: `Niggers` may be insensitive, use `African americans`, `South americans`, `Caribbean people`, `Africans`, `People of color`, `Black people` instead'
+            ]);
+        });
+
+        it('He muttered some lame excuse', function () {
+            var messages = process('He muttered some lame excuse.');
+
+            dequal(messages, [
+                '1:1-1:3: `He` may be insensitive, use `They`, `It` instead',
+                '1:18-1:22: `lame` may be insensitive, use `boring`, `dull` instead'
+            ]);
+        });
+
+        it('He muttered some lame excuse', function () {
+            var messages = process('He muttered some lame excuse.');
+
+            dequal(messages, [
+                '1:1-1:3: `He` may be insensitive, use `They`, `It` instead',
+                '1:18-1:22: `lame` may be insensitive, use `boring`, `dull` instead'
+            ]);
+        });
+
+        it('I’m not psychotic, I didn’t have amnesia yesterday', function () {
+            var messages = process('I’m not psychotic, I didn’t have amnesia yesterday.');
+
+            dequal(messages, [
+                '1:9-1:18: `psychotic` may be insensitive, use `person with psychosis` instead'
+            ]);
+        });
+
+        it('Yeah, you were really psycho to him', function () {
+            var messages = process('Yeah, you were really psycho to him.');
+
+            dequal(messages, [
+                '1:33-1:36: `him` may be insensitive, use `their`, `theirs`, `them` instead',
+                '1:23-1:29: `psycho` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with mental illness`, `person with symptoms of mental illness` instead'
+            ]);
+        });
+
+        it('I’m so retarded', function () {
+            var messages = process('I’m so retarded.');
+
+            dequal(messages, [
+                '1:8-1:16: `retarded` may be insensitive, use `silly`, `dullard`, `person with developmental disabilities`, `delay`, `hold back` instead'
             ]);
         });
     });

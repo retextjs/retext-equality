@@ -3932,15 +3932,16 @@ module.exports=[
   {
     "type": "simple",
     "considerate": {
-      "person with mental illness": "a",
-      "person with symptoms of mental illness": "a",
       "rude": "a",
       "mean": "a",
       "disgusting": "a",
-      "vile": "a"
+      "vile": "a",
+      "person with mental illness": "a",
+      "person with symptoms of mental illness": "a"
     },
     "inconsiderate": {
       "batshit": "a",
+      "psycho": "a",
       "crazy": "a",
       "insane": "a",
       "loony": "a",
@@ -3956,9 +3957,9 @@ module.exports=[
   {
     "type": "simple",
     "considerate": {
+      "fluctuating": "a",
       "person with schizophrenia": "a",
-      "person with bi-polar disorder": "a",
-      "fluctuating": "a"
+      "person with bi-polar disorder": "a"
     },
     "inconsiderate": {
       "bi-polar": "a",
@@ -4080,6 +4081,68 @@ module.exports=[
   {
     "type": "simple",
     "considerate": {
+      "silly": "a",
+      "dullard": "a",
+      "person with developmental disabilities": "a",
+      "delay": "a",
+      "hold back": "a"
+    },
+    "inconsiderate": {
+      "retard": "a",
+      "retarded": "a"
+    },
+    "categories": [
+      "a"
+    ],
+    "id": 220
+  },
+  {
+    "type": "simple",
+    "considerate": {
+      "sillies": "a",
+      "dullards": "a",
+      "people with developmental disabilities": "a",
+      "delays": "a",
+      "holds back": "a"
+    },
+    "inconsiderate": {
+      "retards": "a"
+    },
+    "categories": [
+      "a"
+    ],
+    "id": 221
+  },
+  {
+    "type": "simple",
+    "considerate": {
+      "person with psychosis": "a"
+    },
+    "inconsiderate": {
+      "psychotic": "a"
+    },
+    "categories": [
+      "a"
+    ],
+    "id": 222
+  },
+  {
+    "type": "simple",
+    "considerate": {
+      "boring": "a",
+      "dull": "a"
+    },
+    "inconsiderate": {
+      "lame": "a"
+    },
+    "categories": [
+      "a"
+    ],
+    "id": 223
+  },
+  {
+    "type": "simple",
+    "considerate": {
       "Armenian person": "a",
       "Armenian American": "a"
     },
@@ -4089,7 +4152,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 220
+    "id": 224
   },
   {
     "type": "simple",
@@ -4103,7 +4166,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 221
+    "id": 225
   },
   {
     "type": "simple",
@@ -4120,7 +4183,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 222
+    "id": 226
   },
   {
     "type": "simple",
@@ -4139,7 +4202,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 223
+    "id": 227
   },
   {
     "type": "simple",
@@ -4152,7 +4215,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 224
+    "id": 228
   },
   {
     "type": "simple",
@@ -4165,7 +4228,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 225
+    "id": 229
   },
   {
     "type": "simple",
@@ -4179,7 +4242,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 226
+    "id": 230
   },
   {
     "type": "simple",
@@ -4193,7 +4256,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 227
+    "id": 231
   },
   {
     "type": "simple",
@@ -4207,7 +4270,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 228
+    "id": 232
   },
   {
     "type": "simple",
@@ -4221,7 +4284,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 229
+    "id": 233
   },
   {
     "type": "simple",
@@ -4234,7 +4297,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 230
+    "id": 234
   },
   {
     "type": "simple",
@@ -4248,7 +4311,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 231
+    "id": 235
   },
   {
     "type": "simple",
@@ -4264,7 +4327,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 232
+    "id": 236
   },
   {
     "type": "simple",
@@ -4280,7 +4343,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 233
+    "id": 237
   },
   {
     "type": "simple",
@@ -4296,7 +4359,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 234
+    "id": 238
   },
   {
     "type": "simple",
@@ -4314,7 +4377,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 235
+    "id": 239
   },
   {
     "type": "simple",
@@ -4327,7 +4390,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 236
+    "id": 240
   },
   {
     "type": "simple",
@@ -4340,7 +4403,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 237
+    "id": 241
   },
   {
     "type": "simple",
@@ -4356,7 +4419,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 238
+    "id": 242
   },
   {
     "type": "simple",
@@ -4372,7 +4435,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 239
+    "id": 243
   },
   {
     "type": "simple",
@@ -4386,7 +4449,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 240
+    "id": 244
   },
   {
     "type": "simple",
@@ -4400,7 +4463,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 241
+    "id": 245
   },
   {
     "type": "simple",
@@ -4414,7 +4477,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 242
+    "id": 246
   },
   {
     "type": "simple",
@@ -4428,7 +4491,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 243
+    "id": 247
   },
   {
     "type": "simple",
@@ -4442,7 +4505,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 244
+    "id": 248
   },
   {
     "type": "simple",
@@ -4456,7 +4519,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 245
+    "id": 249
   },
   {
     "type": "simple",
@@ -4469,7 +4532,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 246
+    "id": 250
   },
   {
     "type": "simple",
@@ -4482,7 +4545,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 247
+    "id": 251
   },
   {
     "type": "simple",
@@ -4495,7 +4558,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 248
+    "id": 252
   },
   {
     "type": "simple",
@@ -4515,7 +4578,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 249
+    "id": 253
   },
   {
     "type": "simple",
@@ -4534,7 +4597,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 250
+    "id": 254
   },
   {
     "type": "simple",
@@ -4547,7 +4610,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 251
+    "id": 255
   },
   {
     "type": "simple",
@@ -4560,7 +4623,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 252
+    "id": 256
   },
   {
     "type": "simple",
@@ -4573,7 +4636,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 253
+    "id": 257
   },
   {
     "type": "simple",
@@ -4586,7 +4649,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 254
+    "id": 258
   },
   {
     "type": "simple",
@@ -4599,7 +4662,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 255
+    "id": 259
   },
   {
     "type": "simple",
@@ -4612,7 +4675,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 256
+    "id": 260
   },
   {
     "type": "simple",
@@ -4625,7 +4688,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 257
+    "id": 261
   },
   {
     "type": "simple",
@@ -4638,7 +4701,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 258
+    "id": 262
   },
   {
     "type": "simple",
@@ -4653,7 +4716,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 259
+    "id": 263
   },
   {
     "type": "simple",
@@ -4668,7 +4731,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 260
+    "id": 264
   },
   {
     "type": "simple",
@@ -4681,7 +4744,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 261
+    "id": 265
   },
   {
     "type": "simple",
@@ -4694,7 +4757,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 262
+    "id": 266
   },
   {
     "type": "simple",
@@ -4707,7 +4770,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 263
+    "id": 267
   },
   {
     "type": "simple",
@@ -4720,7 +4783,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 264
+    "id": 268
   },
   {
     "type": "simple",
@@ -4733,7 +4796,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 265
+    "id": 269
   },
   {
     "type": "simple",
@@ -4746,7 +4809,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 266
+    "id": 270
   },
   {
     "type": "simple",
@@ -4761,7 +4824,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 267
+    "id": 271
   },
   {
     "type": "simple",
@@ -4778,7 +4841,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 268
+    "id": 272
   },
   {
     "type": "simple",
@@ -4801,7 +4864,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 269
+    "id": 273
   },
   {
     "type": "simple",
@@ -4819,7 +4882,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 270
+    "id": 274
   },
   {
     "type": "simple",
@@ -4839,7 +4902,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 271
+    "id": 275
   },
   {
     "type": "simple",
@@ -4859,7 +4922,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 272
+    "id": 276
   },
   {
     "type": "simple",
@@ -4872,7 +4935,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 273
+    "id": 277
   },
   {
     "type": "simple",
@@ -4894,7 +4957,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 274
+    "id": 278
   },
   {
     "type": "simple",
@@ -4913,7 +4976,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 275
+    "id": 279
   },
   {
     "type": "simple",
@@ -4932,7 +4995,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 276
+    "id": 280
   },
   {
     "type": "simple",
@@ -4951,7 +5014,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 277
+    "id": 281
   },
   {
     "type": "simple",
@@ -5023,7 +5086,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 278
+    "id": 282
   },
   {
     "type": "simple",
@@ -5098,7 +5161,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 279
+    "id": 283
   },
   {
     "type": "simple",
@@ -5114,7 +5177,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 280
+    "id": 284
   },
   {
     "type": "simple",
@@ -5130,7 +5193,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 281
+    "id": 285
   },
   {
     "type": "simple",
@@ -5149,7 +5212,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 282
+    "id": 286
   },
   {
     "type": "simple",
@@ -5168,7 +5231,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 283
+    "id": 287
   },
   {
     "type": "simple",
@@ -5186,7 +5249,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 284
+    "id": 288
   },
   {
     "type": "simple",
@@ -5205,7 +5268,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 285
+    "id": 289
   },
   {
     "type": "simple",
@@ -5226,7 +5289,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 286
+    "id": 290
   },
   {
     "type": "simple",
@@ -5247,7 +5310,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 287
+    "id": 291
   },
   {
     "type": "simple",
@@ -5283,7 +5346,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 288
+    "id": 292
   },
   {
     "type": "simple",
@@ -5320,7 +5383,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 289
+    "id": 293
   },
   {
     "type": "simple",
@@ -5338,7 +5401,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 290
+    "id": 294
   },
   {
     "type": "simple",
@@ -5351,7 +5414,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 291
+    "id": 295
   },
   {
     "type": "simple",
@@ -5366,7 +5429,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 292
+    "id": 296
   },
   {
     "type": "simple",
@@ -5381,7 +5444,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 293
+    "id": 297
   },
   {
     "type": "simple",
@@ -5400,7 +5463,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 294
+    "id": 298
   },
   {
     "type": "simple",
@@ -5419,7 +5482,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 295
+    "id": 299
   },
   {
     "type": "simple",
@@ -5443,7 +5506,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 296
+    "id": 300
   },
   {
     "type": "simple",
@@ -5467,7 +5530,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 297
+    "id": 301
   },
   {
     "type": "simple",
@@ -5494,7 +5557,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 298
+    "id": 302
   },
   {
     "type": "simple",
@@ -5521,7 +5584,7 @@ module.exports=[
     "categories": [
       "a"
     ],
-    "id": 299
+    "id": 303
   },
   {
     "type": "and",
@@ -5541,7 +5604,7 @@ module.exports=[
       "a",
       "b"
     ],
-    "id": 300
+    "id": 304
   }
 ]
 
