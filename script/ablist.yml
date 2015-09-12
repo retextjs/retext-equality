@@ -383,3 +383,17 @@
   inconsiderate:
     - rehab
     - detox
+- type: simple
+  source: http://ncdj.org/style-guide/
+  considerate:
+    - person with a personality disorder
+    - person with psychopathic personality
+  inconsiderate:
+    - sociopath
+- type: simple
+  source: http://ncdj.org/style-guide/
+  considerate:
+    - people with psychopathic personalities
+    - people with a personality disorder
+  inconsiderate:
+    - sociopaths

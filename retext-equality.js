@@ -3802,7 +3802,7 @@ module.exports=[
       "male"
     ],
     "considerate": {
-      "sociopath": "a"
+      "maniac": "a"
     },
     "inconsiderate": {
       "madman": "male",
@@ -3816,7 +3816,7 @@ module.exports=[
       "male"
     ],
     "considerate": {
-      "sociopaths": "a"
+      "maniacs": "a"
     },
     "inconsiderate": {
       "madmen": "male",
@@ -4726,6 +4726,36 @@ module.exports=[
       "a"
     ],
     "considerate": {
+      "person with a personality disorder": "a",
+      "person with psychopathic personality": "a"
+    },
+    "inconsiderate": {
+      "sociopath": "a"
+    },
+    "note": "Source: http://ncdj.org/style-guide/"
+  },
+  {
+    "id": 260,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "people with psychopathic personalities": "a",
+      "people with a personality disorder": "a"
+    },
+    "inconsiderate": {
+      "sociopaths": "a"
+    },
+    "note": "Source: http://ncdj.org/style-guide/"
+  },
+  {
+    "id": 261,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
       "Armenian person": "a",
       "Armenian American": "a"
     },
@@ -4734,7 +4764,7 @@ module.exports=[
     }
   },
   {
-    "id": 260,
+    "id": 262,
     "type": "simple",
     "categories": [
       "a"
@@ -4748,7 +4778,7 @@ module.exports=[
     }
   },
   {
-    "id": 261,
+    "id": 263,
     "type": "simple",
     "categories": [
       "a"
@@ -4765,7 +4795,7 @@ module.exports=[
     }
   },
   {
-    "id": 262,
+    "id": 264,
     "type": "simple",
     "categories": [
       "a"
@@ -4784,7 +4814,7 @@ module.exports=[
     }
   },
   {
-    "id": 263,
+    "id": 265,
     "type": "simple",
     "categories": [
       "a"
@@ -4797,7 +4827,7 @@ module.exports=[
     }
   },
   {
-    "id": 264,
+    "id": 266,
     "type": "simple",
     "categories": [
       "a"
@@ -4810,7 +4840,7 @@ module.exports=[
     }
   },
   {
-    "id": 265,
+    "id": 267,
     "type": "simple",
     "categories": [
       "a"
@@ -4824,7 +4854,7 @@ module.exports=[
     }
   },
   {
-    "id": 266,
+    "id": 268,
     "type": "simple",
     "categories": [
       "a"
@@ -4838,7 +4868,7 @@ module.exports=[
     }
   },
   {
-    "id": 267,
+    "id": 269,
     "type": "simple",
     "categories": [
       "a"
@@ -4852,7 +4882,7 @@ module.exports=[
     }
   },
   {
-    "id": 268,
+    "id": 270,
     "type": "simple",
     "categories": [
       "a"
@@ -4866,7 +4896,7 @@ module.exports=[
     }
   },
   {
-    "id": 269,
+    "id": 271,
     "type": "simple",
     "categories": [
       "a"
@@ -4879,7 +4909,7 @@ module.exports=[
     }
   },
   {
-    "id": 270,
+    "id": 272,
     "type": "simple",
     "categories": [
       "a"
@@ -4893,7 +4923,7 @@ module.exports=[
     }
   },
   {
-    "id": 271,
+    "id": 273,
     "type": "simple",
     "categories": [
       "a"
@@ -4909,7 +4939,7 @@ module.exports=[
     }
   },
   {
-    "id": 272,
+    "id": 274,
     "type": "simple",
     "categories": [
       "a"
@@ -4925,7 +4955,7 @@ module.exports=[
     }
   },
   {
-    "id": 273,
+    "id": 275,
     "type": "simple",
     "categories": [
       "a"
@@ -4941,7 +4971,7 @@ module.exports=[
     }
   },
   {
-    "id": 274,
+    "id": 276,
     "type": "simple",
     "categories": [
       "a"
@@ -4959,7 +4989,7 @@ module.exports=[
     }
   },
   {
-    "id": 275,
+    "id": 277,
     "type": "simple",
     "categories": [
       "a"
@@ -4972,7 +5002,7 @@ module.exports=[
     }
   },
   {
-    "id": 276,
+    "id": 278,
     "type": "simple",
     "categories": [
       "a"
@@ -4985,7 +5015,7 @@ module.exports=[
     }
   },
   {
-    "id": 277,
+    "id": 279,
     "type": "simple",
     "categories": [
       "a"
@@ -5001,7 +5031,7 @@ module.exports=[
     }
   },
   {
-    "id": 278,
+    "id": 280,
     "type": "simple",
     "categories": [
       "a"
@@ -5017,7 +5047,7 @@ module.exports=[
     }
   },
   {
-    "id": 279,
+    "id": 281,
     "type": "simple",
     "categories": [
       "a"
@@ -5031,7 +5061,7 @@ module.exports=[
     }
   },
   {
-    "id": 280,
+    "id": 282,
     "type": "simple",
     "categories": [
       "a"
@@ -5045,7 +5075,7 @@ module.exports=[
     }
   },
   {
-    "id": 281,
+    "id": 283,
     "type": "simple",
     "categories": [
       "a"
@@ -5059,7 +5089,7 @@ module.exports=[
     }
   },
   {
-    "id": 282,
+    "id": 284,
     "type": "simple",
     "categories": [
       "a"
@@ -5073,7 +5103,7 @@ module.exports=[
     }
   },
   {
-    "id": 283,
+    "id": 285,
     "type": "simple",
     "categories": [
       "a"
@@ -5087,7 +5117,7 @@ module.exports=[
     }
   },
   {
-    "id": 284,
+    "id": 286,
     "type": "simple",
     "categories": [
       "a"
@@ -5101,7 +5131,7 @@ module.exports=[
     }
   },
   {
-    "id": 285,
+    "id": 287,
     "type": "simple",
     "categories": [
       "a"
@@ -5114,7 +5144,7 @@ module.exports=[
     }
   },
   {
-    "id": 286,
+    "id": 288,
     "type": "simple",
     "categories": [
       "a"
@@ -5127,7 +5157,7 @@ module.exports=[
     }
   },
   {
-    "id": 287,
+    "id": 289,
     "type": "simple",
     "categories": [
       "a"
@@ -5140,7 +5170,7 @@ module.exports=[
     }
   },
   {
-    "id": 288,
+    "id": 290,
     "type": "simple",
     "categories": [
       "a"
@@ -5160,7 +5190,7 @@ module.exports=[
     }
   },
   {
-    "id": 289,
+    "id": 291,
     "type": "simple",
     "categories": [
       "a"
@@ -5179,7 +5209,7 @@ module.exports=[
     }
   },
   {
-    "id": 290,
+    "id": 292,
     "type": "simple",
     "categories": [
       "a"
@@ -5192,7 +5222,7 @@ module.exports=[
     }
   },
   {
-    "id": 291,
+    "id": 293,
     "type": "simple",
     "categories": [
       "a"
@@ -5205,7 +5235,7 @@ module.exports=[
     }
   },
   {
-    "id": 292,
+    "id": 294,
     "type": "simple",
     "categories": [
       "a"
@@ -5218,7 +5248,7 @@ module.exports=[
     }
   },
   {
-    "id": 293,
+    "id": 295,
     "type": "simple",
     "categories": [
       "a"
@@ -5231,7 +5261,7 @@ module.exports=[
     }
   },
   {
-    "id": 294,
+    "id": 296,
     "type": "simple",
     "categories": [
       "a"
@@ -5244,7 +5274,7 @@ module.exports=[
     }
   },
   {
-    "id": 295,
+    "id": 297,
     "type": "simple",
     "categories": [
       "a"
@@ -5257,7 +5287,7 @@ module.exports=[
     }
   },
   {
-    "id": 296,
+    "id": 298,
     "type": "simple",
     "categories": [
       "a"
@@ -5270,7 +5300,7 @@ module.exports=[
     }
   },
   {
-    "id": 297,
+    "id": 299,
     "type": "simple",
     "categories": [
       "a"
@@ -5283,7 +5313,7 @@ module.exports=[
     }
   },
   {
-    "id": 298,
+    "id": 300,
     "type": "simple",
     "categories": [
       "a"
@@ -5298,7 +5328,7 @@ module.exports=[
     }
   },
   {
-    "id": 299,
+    "id": 301,
     "type": "simple",
     "categories": [
       "a"
@@ -5313,7 +5343,7 @@ module.exports=[
     }
   },
   {
-    "id": 300,
+    "id": 302,
     "type": "simple",
     "categories": [
       "a"
@@ -5326,7 +5356,7 @@ module.exports=[
     }
   },
   {
-    "id": 301,
+    "id": 303,
     "type": "simple",
     "categories": [
       "a"
@@ -5339,7 +5369,7 @@ module.exports=[
     }
   },
   {
-    "id": 302,
+    "id": 304,
     "type": "simple",
     "categories": [
       "a"
@@ -5352,7 +5382,7 @@ module.exports=[
     }
   },
   {
-    "id": 303,
+    "id": 305,
     "type": "simple",
     "categories": [
       "a"
@@ -5365,7 +5395,7 @@ module.exports=[
     }
   },
   {
-    "id": 304,
+    "id": 306,
     "type": "simple",
     "categories": [
       "a"
@@ -5378,7 +5408,7 @@ module.exports=[
     }
   },
   {
-    "id": 305,
+    "id": 307,
     "type": "simple",
     "categories": [
       "a"
@@ -5391,7 +5421,7 @@ module.exports=[
     }
   },
   {
-    "id": 306,
+    "id": 308,
     "type": "simple",
     "categories": [
       "a"
@@ -5406,7 +5436,7 @@ module.exports=[
     }
   },
   {
-    "id": 307,
+    "id": 309,
     "type": "simple",
     "categories": [
       "a"
@@ -5423,7 +5453,7 @@ module.exports=[
     }
   },
   {
-    "id": 308,
+    "id": 310,
     "type": "simple",
     "categories": [
       "a"
@@ -5446,7 +5476,7 @@ module.exports=[
     }
   },
   {
-    "id": 309,
+    "id": 311,
     "type": "simple",
     "categories": [
       "a"
@@ -5464,7 +5494,7 @@ module.exports=[
     }
   },
   {
-    "id": 310,
+    "id": 312,
     "type": "simple",
     "categories": [
       "a"
@@ -5484,7 +5514,7 @@ module.exports=[
     }
   },
   {
-    "id": 311,
+    "id": 313,
     "type": "simple",
     "categories": [
       "a"
@@ -5504,7 +5534,7 @@ module.exports=[
     }
   },
   {
-    "id": 312,
+    "id": 314,
     "type": "simple",
     "categories": [
       "a"
@@ -5517,7 +5547,7 @@ module.exports=[
     }
   },
   {
-    "id": 313,
+    "id": 315,
     "type": "simple",
     "categories": [
       "a"
@@ -5539,7 +5569,7 @@ module.exports=[
     }
   },
   {
-    "id": 314,
+    "id": 316,
     "type": "simple",
     "categories": [
       "a"
@@ -5558,7 +5588,7 @@ module.exports=[
     }
   },
   {
-    "id": 315,
+    "id": 317,
     "type": "simple",
     "categories": [
       "a"
@@ -5577,7 +5607,7 @@ module.exports=[
     }
   },
   {
-    "id": 316,
+    "id": 318,
     "type": "simple",
     "categories": [
       "a"
@@ -5596,7 +5626,7 @@ module.exports=[
     }
   },
   {
-    "id": 317,
+    "id": 319,
     "type": "simple",
     "categories": [
       "a"
@@ -5668,7 +5698,7 @@ module.exports=[
     }
   },
   {
-    "id": 318,
+    "id": 320,
     "type": "simple",
     "categories": [
       "a"
@@ -5743,7 +5773,7 @@ module.exports=[
     }
   },
   {
-    "id": 319,
+    "id": 321,
     "type": "simple",
     "categories": [
       "a"
@@ -5759,7 +5789,7 @@ module.exports=[
     }
   },
   {
-    "id": 320,
+    "id": 322,
     "type": "simple",
     "categories": [
       "a"
@@ -5775,7 +5805,7 @@ module.exports=[
     }
   },
   {
-    "id": 321,
+    "id": 323,
     "type": "simple",
     "categories": [
       "a"
@@ -5794,7 +5824,7 @@ module.exports=[
     }
   },
   {
-    "id": 322,
+    "id": 324,
     "type": "simple",
     "categories": [
       "a"
@@ -5813,7 +5843,7 @@ module.exports=[
     }
   },
   {
-    "id": 323,
+    "id": 325,
     "type": "simple",
     "categories": [
       "a"
@@ -5831,7 +5861,7 @@ module.exports=[
     }
   },
   {
-    "id": 324,
+    "id": 326,
     "type": "simple",
     "categories": [
       "a"
@@ -5850,7 +5880,7 @@ module.exports=[
     }
   },
   {
-    "id": 325,
+    "id": 327,
     "type": "simple",
     "categories": [
       "a"
@@ -5871,7 +5901,7 @@ module.exports=[
     }
   },
   {
-    "id": 326,
+    "id": 328,
     "type": "simple",
     "categories": [
       "a"
@@ -5892,7 +5922,7 @@ module.exports=[
     }
   },
   {
-    "id": 327,
+    "id": 329,
     "type": "simple",
     "categories": [
       "a"
@@ -5928,7 +5958,7 @@ module.exports=[
     }
   },
   {
-    "id": 328,
+    "id": 330,
     "type": "simple",
     "categories": [
       "a"
@@ -5965,7 +5995,7 @@ module.exports=[
     }
   },
   {
-    "id": 329,
+    "id": 331,
     "type": "simple",
     "categories": [
       "a"
@@ -5983,7 +6013,7 @@ module.exports=[
     }
   },
   {
-    "id": 330,
+    "id": 332,
     "type": "simple",
     "categories": [
       "a"
@@ -5996,7 +6026,7 @@ module.exports=[
     }
   },
   {
-    "id": 331,
+    "id": 333,
     "type": "simple",
     "categories": [
       "a"
@@ -6011,7 +6041,7 @@ module.exports=[
     }
   },
   {
-    "id": 332,
+    "id": 334,
     "type": "simple",
     "categories": [
       "a"
@@ -6026,7 +6056,7 @@ module.exports=[
     }
   },
   {
-    "id": 333,
+    "id": 335,
     "type": "simple",
     "categories": [
       "a"
@@ -6045,7 +6075,7 @@ module.exports=[
     }
   },
   {
-    "id": 334,
+    "id": 336,
     "type": "simple",
     "categories": [
       "a"
@@ -6064,7 +6094,7 @@ module.exports=[
     }
   },
   {
-    "id": 335,
+    "id": 337,
     "type": "simple",
     "categories": [
       "a"
@@ -6088,7 +6118,7 @@ module.exports=[
     }
   },
   {
-    "id": 336,
+    "id": 338,
     "type": "simple",
     "categories": [
       "a"
@@ -6112,7 +6142,7 @@ module.exports=[
     }
   },
   {
-    "id": 337,
+    "id": 339,
     "type": "simple",
     "categories": [
       "a"
@@ -6139,7 +6169,7 @@ module.exports=[
     }
   },
   {
-    "id": 338,
+    "id": 340,
     "type": "simple",
     "categories": [
       "a"
@@ -6166,7 +6196,7 @@ module.exports=[
     }
   },
   {
-    "id": 339,
+    "id": 341,
     "type": "and",
     "categories": [
       "a",

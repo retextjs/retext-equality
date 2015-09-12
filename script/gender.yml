@@ -1432,13 +1432,13 @@
     masterstroke: male
 - type: simple
   considerate:
-    - sociopath
+    - maniac
   inconsiderate:
     madman: male
     mad man: male
 - type: simple
   considerate:
-    - sociopaths
+    - maniacs
   inconsiderate:
     madmen: male
     mad men: male
