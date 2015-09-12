@@ -2,6 +2,13 @@
 
 <!--lint disable no-multiple-toplevel-headings maximum-line-length-->
 
+1.3.0 / 2015-09-12
+==================
+
+*   Add sociopath, sociopaths ([ef25413](https://github.com/wooorm/retext-equality/commit/ef25413))
+*   Add new ableist patterns, support for notes ([10258ff](https://github.com/wooorm/retext-equality/commit/10258ff))
+*   Add lame, psycho, psychotic, retard ([1d5380d](https://github.com/wooorm/retext-equality/commit/1d5380d))
+
 1.2.0 / 2015-09-07
 ==================
 
