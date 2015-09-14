@@ -1,0 +1,152 @@
+- type: simple
+  source: http://www.glaad.org/reference/offensive
+  considerate:
+    - gay
+    - gay man
+    - lesbian
+    - gay person/people
+  inconsiderate:
+    - homosexual
+- type: simple
+  source: http://www.glaad.org/reference/offensive
+  considerate:
+    - relationship
+  inconsiderate:
+    - homosexual relations
+    - homosexual relationship
+- type: simple
+  source: http://www.glaad.org/reference/offensive
+  considerate:
+    - couple
+  inconsiderate:
+    - homosexual couple
+- type: simple
+  source: http://www.glaad.org/reference/offensive
+  considerate:
+    - sexual orientation
+    - orientation
+  inconsiderate:
+    - sexual preference
+- type: simple
+  source: http://www.glaad.org/reference/offensive
+  considerate:
+    - gay lives
+    - gay/lesbian lives
+  inconsiderate:
+    - gay lifestyle
+    - homosexual lifestyle
+- type: simple
+  source: http://www.glaad.org/reference/offensive
+  considerate:
+    - sexual orientation
+    - orientation
+  inconsiderate:
+    - sexual preference
+- type: simple
+  source: http://www.glaad.org/reference/offensive
+  considerate:
+    - gay issues
+  inconsiderate:
+    - gay agenda
+    - homosexual agenda
+- type: simple
+  source: http://www.glaad.org/reference/style
+  considerate:
+    - equal rights
+    - civil rights for gay people
+  inconsiderate:
+    - special rights
+    - gay rights
+- type: simple
+  source: http://www.glaad.org/reference/offensive
+  considerate:
+    - gay
+  inconsiderate:
+    - fag
+    - faggot
+    - dyke
+    - homo
+    - sodomite
+- type: simple
+  source: http://www.glaad.org/reference/style
+  considerate:
+    - bisexual
+  inconsiderate:
+    - bi
+  - type: simple
+  source: http://www.glaad.org/reference/style
+  considerate:
+    - gay marriage
+    - same-sex marriage
+  inconsiderate:
+    - homosexual marriage
+- type: simple
+  source: http://www.glaad.org/reference/style
+  considerate:
+    - transgender
+  inconsiderate:
+    - tranny
+- type: simple
+  source: http://www.glaad.org/reference/transgender
+  considerate:
+    - cross-dresser
+  inconsiderate:
+    - transvestite
+- type: simple
+  source: http://www.glaad.org/reference/transgender
+  considerate:
+    - transition
+  inconsiderate:
+    - sex-change
+- type: simple
+  source: http://www.glaad.org/reference/transgender
+  considerate:
+    - sex reassignment surgery
+  inconsiderate:
+    - sex change operation
+- type: simple
+  source: http://www.glaad.org/reference/transgender
+  note: Transgender should be used as an adjective, not as a noun.
+  considerate:
+    - transgender people
+  inconsiderate:
+    - transgenders
+- type: simple
+  source: http://www.glaad.org/reference/transgender
+  note: Transgender should be used as an adjective, not as a noun.
+  considerate:
+    - a transgender person
+  inconsiderate:
+    - a transgender
+- type: simple
+  source: http://www.glaad.org/reference/transgender
+  considerate:
+    - trangender
+  inconsiderate:
+    - transgendered
+- type: simple
+  source: http://www.glaad.org/reference/transgender
+  considerate:
+    - being trangender
+    - the movement for transgender equality
+  inconsiderate:
+    - transgenderism
+- type: or
+  considerate:
+    assigned male at birth: male
+    designated male at birth: male
+    assigned female at birth: female
+    designated female at birth: female
+  inconsiderate:
+    biologically male: male
+    genetically male: male
+    born a man: male
+    biologically female: female
+    genetically female: female
+    born a woman: female
+- type: simple
+  source: http://www.glaad.org/reference/transgender
+  considerate:
+    - non-discrimination law/ordinance
+  inconsiderate:
+    - bathroom bill
