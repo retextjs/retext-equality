@@ -345,6 +345,23 @@ describe('Phrasing', function () {
                 '1:15-1:20: `gyped` may be insensitive, use `ripped-off`, `bamboozled`, `cheated` instead'
             ]);
         });
+
+        it('When condemned by the ruler he committed suicide.', function () {
+            var messages = process('When condemned by the ruler he committed suicide.');
+
+            dequal(messages, [
+              '1:29-1:31: `he` may be insensitive, use `they`, `it` instead',
+              '1:32-1:41: `committed suicide` may be insensitive, use `died by suicide`, `completed suicide` instead'
+            ]);
+        });
+
+        it('I’ll not dye my hair like some f*g.', function () {
+            var messages = process('I’ll not dye my hair like some fag.');
+
+            dequal(messages, [
+                '1:32-1:35: `fag` may be insensitive, use `gay` instead'
+            ]);
+        });
     });
 
     describe('Should NOT warn', function () {

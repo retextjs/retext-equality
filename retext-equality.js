@@ -6533,6 +6533,381 @@ module.exports=[
       "slave": "b",
       "slaves": "b"
     }
+  },
+  {
+    "id": 361,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "gay": "a",
+      "gay man": "a",
+      "lesbian": "a",
+      "gay person/people": "a"
+    },
+    "inconsiderate": {
+      "homosexual": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/offensive"
+  },
+  {
+    "id": 362,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "relationship": "a"
+    },
+    "inconsiderate": {
+      "homosexual relations": "a",
+      "homosexual relationship": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/offensive"
+  },
+  {
+    "id": 363,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "couple": "a"
+    },
+    "inconsiderate": {
+      "homosexual couple": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/offensive"
+  },
+  {
+    "id": 364,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "sexual orientation": "a",
+      "orientation": "a"
+    },
+    "inconsiderate": {
+      "sexual preference": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/offensive"
+  },
+  {
+    "id": 365,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "gay lives": "a",
+      "gay/lesbian lives": "a"
+    },
+    "inconsiderate": {
+      "gay lifestyle": "a",
+      "homosexual lifestyle": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/offensive"
+  },
+  {
+    "id": 366,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "sexual orientation": "a",
+      "orientation": "a"
+    },
+    "inconsiderate": {
+      "sexual preference": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/offensive"
+  },
+  {
+    "id": 367,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "gay issues": "a"
+    },
+    "inconsiderate": {
+      "gay agenda": "a",
+      "homosexual agenda": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/offensive"
+  },
+  {
+    "id": 368,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "equal rights": "a",
+      "civil rights for gay people": "a"
+    },
+    "inconsiderate": {
+      "special rights": "a",
+      "gay rights": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/style"
+  },
+  {
+    "id": 369,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "gay": "a"
+    },
+    "inconsiderate": {
+      "fag": "a",
+      "faggot": "a",
+      "dyke": "a",
+      "homo": "a",
+      "sodomite": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/offensive"
+  },
+  {
+    "id": 370,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "bisexual": "a"
+    },
+    "inconsiderate": {
+      "bi": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/style"
+  },
+  {
+    "id": 371,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "gay marriage": "a",
+      "same-sex marriage": "a"
+    },
+    "inconsiderate": {
+      "homosexual marriage": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/style"
+  },
+  {
+    "id": 372,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "transgender": "a"
+    },
+    "inconsiderate": {
+      "tranny": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/style"
+  },
+  {
+    "id": 373,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "cross-dresser": "a"
+    },
+    "inconsiderate": {
+      "transvestite": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/transgender"
+  },
+  {
+    "id": 374,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "transition": "a"
+    },
+    "inconsiderate": {
+      "sexchange": "a",
+      "sex change": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/transgender"
+  },
+  {
+    "id": 375,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "sex reassignment surgery": "a"
+    },
+    "inconsiderate": {
+      "sex change operation": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/transgender"
+  },
+  {
+    "id": 376,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "transgender people": "a"
+    },
+    "inconsiderate": {
+      "transgenders": "a"
+    },
+    "note": "Transgender should be used as an adjective, not as a noun. (source: http://www.glaad.org/reference/transgender)"
+  },
+  {
+    "id": 377,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "a transgender person": "a"
+    },
+    "inconsiderate": {
+      "a transgender": "a"
+    },
+    "note": "Transgender should be used as an adjective, not as a noun. (source: http://www.glaad.org/reference/transgender)"
+  },
+  {
+    "id": 378,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "trangender": "a"
+    },
+    "inconsiderate": {
+      "transgendered": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/transgender"
+  },
+  {
+    "id": 379,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "being trangender": "a",
+      "the movement for transgender equality": "a"
+    },
+    "inconsiderate": {
+      "transgenderism": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/transgender"
+  },
+  {
+    "id": 380,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "assigned male at birth": "a",
+      "designated male at birth": "a"
+    },
+    "inconsiderate": {
+      "biologically male": "a",
+      "born a man": "a",
+      "genetically male": "a"
+    }
+  },
+  {
+    "id": 381,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "assigned female at birth": "a",
+      "designated female at birth": "a"
+    },
+    "inconsiderate": {
+      "biologically female": "a",
+      "born a woman": "a",
+      "genetically female": "a"
+    }
+  },
+  {
+    "id": 382,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "non-discrimination law": "a",
+      "non-discrimination ordinance": "a"
+    },
+    "inconsiderate": {
+      "bathroom bill": "a"
+    },
+    "note": "Source: http://www.glaad.org/reference/transgender"
+  },
+  {
+    "id": 383,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "died by suicide": "a",
+      "completed suicide": "a"
+    },
+    "inconsiderate": {
+      "committed suicide": "a"
+    },
+    "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide"
+  },
+  {
+    "id": 384,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "die by suicide": "a",
+      "complete suicide": "a"
+    },
+    "inconsiderate": {
+      "commit suicide": "a"
+    },
+    "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide"
+  },
+  {
+    "id": 385,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "rise in suicides": "a"
+    },
+    "inconsiderate": {
+      "suicide epidemic": "a"
+    },
+    "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide"
   }
 ]
 

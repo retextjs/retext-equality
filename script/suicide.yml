@@ -1,0 +1,20 @@
+- type: simple
+  source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide
+  considerate:
+    - died by suicide
+    - completed suicide
+  inconsiderate:
+    - committed suicide
+- type: simple
+  source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide
+  considerate:
+    - die by suicide
+    - complete suicide
+  inconsiderate:
+    - commit suicide
+- type: simple
+  source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide
+  considerate:
+    - rise in suicides
+  inconsiderate:
+    - suicide epidemic
