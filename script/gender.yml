@@ -817,12 +817,14 @@
 - type: or
   considerate:
     - presenter
+    - entertainer
   inconsiderate:
     hostess: female
     host: male
 - type: or
   considerate:
     - presenters
+    - entertainers
   inconsiderate:
     hostesses: female
     hosts: male
