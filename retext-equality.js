@@ -2384,7 +2384,8 @@ module.exports=[
       "male"
     ],
     "considerate": {
-      "presenter": "a"
+      "presenter": "a",
+      "entertainer": "a"
     },
     "inconsiderate": {
       "hostess": "female",
@@ -2399,7 +2400,8 @@ module.exports=[
       "male"
     ],
     "considerate": {
-      "presenters": "a"
+      "presenters": "a",
+      "entertainers": "a"
     },
     "inconsiderate": {
       "hostesses": "female",
