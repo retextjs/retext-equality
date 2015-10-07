@@ -273,6 +273,14 @@ describe('Phrasing', function () {
                 '1:8-1:16: `retarded` may be insensitive, use `silly`, `dullard`, `person with Down Syndrome`, `person with developmental disabilities`, `delay`, `hold back` instead'
             ]);
         });
+
+        it('This is dumb!', function () {
+            var messages = process('This is dumb!');
+
+            dequal(messages, [
+                '1:9-1:13: `dumb` may be insensitive, use `stupid`, `speechless`, `silent` instead'
+            ]);
+        });
     });
 
     describe('Should NOT warn', function () {
