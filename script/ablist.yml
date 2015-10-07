@@ -254,6 +254,9 @@
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
+    - sad
+    - blue
+    - bummed out
     - person with seasonal affective disorder
     - person with psychotic depression
     - person with postpartum depression
@@ -398,3 +401,42 @@
     - silent
   inconsiderate:
     - dumb
+- type: simple
+  considerate:
+    - fit of terror
+    - scare
+  inconsiderate:
+    - panic attack
+- type: simple
+  considerate:
+    - thin
+    - slim
+  inconsiderate:
+    - anorexic
+- type: simple
+  source: http://english.stackexchange.com/questions/247550/
+  considerate:
+    - obsesive
+    - pedantic
+    - niggly
+    - picky
+  inconsiderate:
+    - ocd
+    - o.c.d
+    - o.c.d.
+- type: simple
+  considerate:
+    - restlessness
+    - sleeplessness
+  inconsiderate:
+    - insomnia
+- type: simple
+  considerate:
+    - person who has insomnia
+  inconsiderate:
+    - insomniac
+- type: simple
+  considerate:
+    - people who have insomnia
+  inconsiderate:
+    - insomniacs

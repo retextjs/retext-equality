@@ -281,6 +281,46 @@ describe('Phrasing', function () {
                 '1:9-1:13: `dumb` may be insensitive, use `stupid`, `speechless`, `silent` instead'
             ]);
         });
+
+        it('You almost gave me a panic attack!', function () {
+            var messages = process('You almost gave me a panic attack!');
+
+            dequal(messages, [
+                '1:22-1:27: `panic attack` may be insensitive, use `fit of terror`, `scare` instead'
+            ]);
+        });
+
+        it('You look so anorexic!', function () {
+            var messages = process('You look so anorexic!');
+
+            dequal(messages, [
+                '1:13-1:21: `anorexic` may be insensitive, use `thin`, `slim` instead'
+            ]);
+        });
+
+        it('My O.C.D. is coming out again!', function () {
+            var messages = process('My O.C.D. is coming out again!');
+
+            dequal(messages, [
+                '1:4-1:10: `O.C.D.` may be insensitive, use `Obsesive`, `Pedantic`, `Niggly`, `Picky` instead'
+            ]);
+        });
+
+        it('My insomnia is so bad!', function () {
+            var messages = process('My insomnia is so bad!');
+
+            dequal(messages, [
+                '1:4-1:12: `insomnia` may be insensitive, use `restlessness`, `sleeplessness` instead'
+            ]);
+        });
+
+        it('Yesterday I was feeling depressed.', function () {
+            var messages = process('Yesterday I was feeling depressed.');
+
+            dequal(messages, [
+                '1:25-1:34: `depressed` may be insensitive, use `sad`, `blue`, `bummed out`, `person with seasonal affective disorder`, `person with psychotic depression`, `person with postpartum depression` instead'
+            ]);
+        });
     });
 
     describe('Should NOT warn', function () {
