@@ -57,7 +57,7 @@ describe('retext-equality', function () {
         });
     });
 
-    it('should warn about gender polarisign words', function () {
+    it('should warn about gender polarising words', function () {
         dequal(process('her bicycle.'), [
             '1:1-1:4: `her` may be insensitive, use `their`, `theirs`, `them` instead'
         ]);
@@ -102,6 +102,48 @@ describe('retext-equality', function () {
             '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead',
             '1:11-1:14: `his` may be insensitive, use `their`, `theirs`, `them` instead'
         ]);
+    });
+
+    describe('Should ignore dashes and ampersands', function () {
+        it('Two bipolar magnets', function () {
+            var messages = process('Two bipolar magnets.');
+
+            dequal(messages, [
+                '1:5-1:12: `bipolar` may be insensitive, use `fluctuating`, `person with schizophrenia`, `person with bipolar disorder` instead'
+            ]);
+        });
+
+        it('Two bi-polar magnets', function () {
+            var messages = process('Two bi-polar magnets.');
+
+            dequal(messages, [
+                '1:5-1:13: `bi-polar` may be insensitive, use `fluctuating`, `person with schizophrenia`, `person with bipolar disorder` instead'
+            ]);
+        });
+
+        it('Downs Syndrome', function () {
+            var messages = process('Downs Syndrome.');
+
+            dequal(messages, [
+                '1:1-1:6: `Downs Syndrome` may be insensitive, use `Down Syndrome` instead'
+            ]);
+        });
+
+        it('Down’s Syndrome', function () {
+            var messages = process('Down’s Syndrome.');
+
+            dequal(messages, [
+                '1:1-1:7: `Down’s Syndrome` may be insensitive, use `Down Syndrome` instead'
+            ]);
+        });
+
+        it('Downs Syndrome', function () {
+            var messages = process('Downs Syndrome.');
+
+            dequal(messages, [
+                '1:1-1:6: `Downs Syndrome` may be insensitive, use `Down Syndrome` instead'
+            ]);
+        });
     });
 
     it('should warn about disability-inconsiderate words', function () {

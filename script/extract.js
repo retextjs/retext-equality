@@ -120,6 +120,19 @@ data.forEach(function (entry) {
             Object.keys(entry.inconsiderate).join(', ')
         );
     }
+
+    if (entry.inconsiderate) {
+        Object.keys(entry.inconsiderate).forEach(function (inconsiderate) {
+            if (/['’-]/.test(inconsiderate)) {
+                throw new Error(
+                    'Refrain from using dashes or ampersands ' +
+                    'inside inconsiderate terms: they’ll be stripped ' +
+                    'when looking for words: ' +
+                    Object.keys(entry.inconsiderate).join(', ')
+                );
+            }
+        })
+    }
 });
 
 /*

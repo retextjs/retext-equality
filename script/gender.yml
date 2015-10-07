@@ -977,8 +977,8 @@
     - jumbo
     - gigantic
   inconsiderate:
-    queen-size: female
-    king-size: male
+    queensize: female
+    kingsize: male
 - type: or
   considerate:
     - power behind the throne

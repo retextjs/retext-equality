@@ -70,9 +70,9 @@
   considerate:
     - fluctuating
     - person with schizophrenia
-    - person with bi-polar disorder
+    - person with bipolar disorder
   inconsiderate:
-    - bi-polar
+    - bipolar
     - schizophrenic
     - schizo
     - suffers from schizophrenia
@@ -135,7 +135,7 @@
   considerate:
     - Down Syndrome
   inconsiderate:
-    - down’s syndrome
+    - downs syndrome
 - type: simple
   considerate:
     - silly
@@ -203,7 +203,7 @@
   considerate:
     - non-disabled
   inconsiderate:
-    - able-bodied
+    - ablebodied
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
@@ -243,14 +243,7 @@
     - deaf
   inconsiderate:
     - deaf and dumb
-    - deaf-mute
-- type: simple
-  source: http://ncdj.org/style-guide/
-  considerate:
-    - deaf
-  inconsiderate:
-    - deaf and dumb
-    - deaf-mute
+    - deafmute
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
