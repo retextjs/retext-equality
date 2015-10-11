@@ -396,11 +396,20 @@
 - type: simple
   source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
   considerate:
-    - stupid
+    - foolish
+    - ludicrous
     - speechless
     - silent
   inconsiderate:
     - dumb
+- type: simple
+  source: http://www.mmonjejr.com/2014/02/deconstructing-stupid.html
+  considerate:
+    - foolish
+    - ludicrous
+    - unintelligent
+  inconsiderate:
+    - stupid
 - type: simple
   considerate:
     - fit of terror

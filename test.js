@@ -278,7 +278,15 @@ describe('Phrasing', function () {
             var messages = process('This is dumb!');
 
             dequal(messages, [
-                '1:9-1:13: `dumb` may be insensitive, use `stupid`, `speechless`, `silent` instead'
+                '1:9-1:13: `dumb` may be insensitive, use `foolish`, `ludicrous`, `speechless`, `silent` instead'
+            ]);
+        });
+
+        it('The stupid PS3 controller.', function () {
+            var messages = process('The stupid PS3 controller.');
+
+            dequal(messages, [
+                '1:5-1:11: `stupid` may be insensitive, use `foolish`, `ludicrous`, `unintelligent` instead'
             ]);
         });
 
