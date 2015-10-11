@@ -66,6 +66,10 @@
     - lunatic
     - mentally ill
     - psychopathology
+    - mental defective
+    - moron
+    - moronic
+    - nuts
 - type: simple
   considerate:
     - fluctuating
@@ -130,6 +134,7 @@
     - asylum
     - bedlam
     - madhouse
+    - loony bin
 - type: simple
   source: http://www.specialolympics.org/uploadedFiles/Fact%20Sheet_Terminology%20Guide.pdf
   considerate:
@@ -187,6 +192,7 @@
     - uses a wheelchair
   inconsiderate:
     - confined to a wheelchair
+    - bound to a wheelchair
     - restricted to a wheelchair
     - wheelchair bound
 - type: simple
@@ -409,7 +415,10 @@
     - ludicrous
     - unintelligent
   inconsiderate:
+    - simpleton
     - stupid
+    - wacko
+    - whacko
 - type: simple
   considerate:
     - fit of terror
@@ -449,3 +458,88 @@
     - people who have insomnia
   inconsiderate:
     - insomniacs
+- type: simple
+  source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  considerate:
+    - empty
+    - sterile
+    - infertile
+  inconsiderate:
+    - barren
+- type: simple
+  source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  considerate:
+    - careless
+    - heartless
+    - indifferent
+    - insensitive
+  inconsiderate:
+    - blind to
+    - blind eye to
+    - blinded by
+- type: simple
+  source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  considerate:
+    - careless
+    - heartless
+    - indifferent
+    - insensitive
+  inconsiderate:
+    - blind to
+    - blind eye to
+    - blinded by
+    - deaf to
+    - deaf ear to
+    - deafened by
+- type: simple
+  source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  considerate:
+    - creep
+    - fool
+  inconsiderate:
+    - cretin
+- type: simple
+  source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  considerate:
+    - absurd
+    - foolish
+  inconsiderate:
+    - daft
+- type: simple
+  source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  considerate:
+    - foolish
+    - ludicrous
+    - silly
+  inconsiderate:
+    - feebleminded
+    - feeble minded
+    - idiot
+    - imbecile
+- type: simple
+  source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  considerate:
+    - person with a cleft-lip and palate
+  inconsiderate:
+    - harelipped
+    - cleftlipped
+- type: simple
+  source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  considerate:
+    - cleft-lip and palate
+  inconsiderate:
+    - harelip
+- type: simple
+  source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  considerate:
+    - cleft-lip and palate
+  inconsiderate:
+    - harelip
+- type: simple
+  source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  considerate:
+    - fanatic
+    - zealot
+    - enthusiast
+  inconsiderate:
+    - maniac

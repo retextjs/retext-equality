@@ -1434,7 +1434,9 @@
     masterstroke: male
 - type: simple
   considerate:
-    - maniac
+    - fanatic
+    - zealot
+    - enthusiast
   inconsiderate:
     madman: male
     mad man: male
