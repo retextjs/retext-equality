@@ -188,7 +188,23 @@
     - guizi
 - type: simple
   considerate:
-    - Romani person
+    - ripped-off
+    - bamboozled
+    - cheated
+  inconsiderate:
+    - gyped
+    - gypped
+- type: simple
+  considerate:
+    - rip-off
+    - bamboozle
+    - cheat
+  inconsiderate:
+    - gyp
+- type: simple
+  considerate:
+    - Romani people
+    - Romani people
   inconsiderate:
     - gyppos
     - gippos
@@ -200,7 +216,7 @@
     - gypsies
 - type: simple
   considerate:
-    - Romani people
+    - Romani person
   inconsiderate:
     - gyppo
     - gippo

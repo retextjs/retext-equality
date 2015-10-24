@@ -337,6 +337,14 @@ describe('Phrasing', function () {
                 '1:46-1:53: `katsaps` may be insensitive, use `Russians` instead'
             ]);
         });
+
+        it('...but we got gyped out of it all in two days.', function () {
+            var messages = process('...but we got gyped out of it all in two days.');
+
+            dequal(messages, [
+                '1:15-1:20: `gyped` may be insensitive, use `ripped-off`, `bamboozled`, `cheated` instead'
+            ]);
+        });
     });
 
     describe('Should NOT warn', function () {

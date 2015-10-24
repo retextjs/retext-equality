@@ -5462,7 +5462,38 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "Romani person": "a"
+      "ripped-off": "a",
+      "bamboozled": "a",
+      "cheated": "a"
+    },
+    "inconsiderate": {
+      "gyped": "a",
+      "gypped": "a"
+    }
+  },
+  {
+    "id": 308,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "rip-off": "a",
+      "bamboozle": "a",
+      "cheat": "a"
+    },
+    "inconsiderate": {
+      "gyp": "a"
+    }
+  },
+  {
+    "id": 309,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "Romani people": "a"
     },
     "inconsiderate": {
       "gyppos": "a",
@@ -5476,13 +5507,13 @@ module.exports=[
     }
   },
   {
-    "id": 308,
+    "id": 310,
     "type": "simple",
     "categories": [
       "a"
     ],
     "considerate": {
-      "Romani people": "a"
+      "Romani person": "a"
     },
     "inconsiderate": {
       "gyppo": "a",
@@ -5495,7 +5526,7 @@ module.exports=[
     }
   },
   {
-    "id": 309,
+    "id": 311,
     "type": "simple",
     "categories": [
       "a"
@@ -5508,7 +5539,7 @@ module.exports=[
     }
   },
   {
-    "id": 310,
+    "id": 312,
     "type": "simple",
     "categories": [
       "a"
@@ -5521,7 +5552,7 @@ module.exports=[
     }
   },
   {
-    "id": 311,
+    "id": 313,
     "type": "simple",
     "categories": [
       "a"
@@ -5534,7 +5565,7 @@ module.exports=[
     }
   },
   {
-    "id": 312,
+    "id": 314,
     "type": "simple",
     "categories": [
       "a"
@@ -5547,7 +5578,7 @@ module.exports=[
     }
   },
   {
-    "id": 313,
+    "id": 315,
     "type": "simple",
     "categories": [
       "a"
@@ -5560,7 +5591,7 @@ module.exports=[
     }
   },
   {
-    "id": 314,
+    "id": 316,
     "type": "simple",
     "categories": [
       "a"
@@ -5573,7 +5604,7 @@ module.exports=[
     }
   },
   {
-    "id": 315,
+    "id": 317,
     "type": "simple",
     "categories": [
       "a"
@@ -5586,7 +5617,7 @@ module.exports=[
     }
   },
   {
-    "id": 316,
+    "id": 318,
     "type": "simple",
     "categories": [
       "a"
@@ -5599,7 +5630,7 @@ module.exports=[
     }
   },
   {
-    "id": 317,
+    "id": 319,
     "type": "simple",
     "categories": [
       "a"
@@ -5614,7 +5645,7 @@ module.exports=[
     }
   },
   {
-    "id": 318,
+    "id": 320,
     "type": "simple",
     "categories": [
       "a"
@@ -5629,7 +5660,7 @@ module.exports=[
     }
   },
   {
-    "id": 319,
+    "id": 321,
     "type": "simple",
     "categories": [
       "a"
@@ -5642,7 +5673,7 @@ module.exports=[
     }
   },
   {
-    "id": 320,
+    "id": 322,
     "type": "simple",
     "categories": [
       "a"
@@ -5655,7 +5686,7 @@ module.exports=[
     }
   },
   {
-    "id": 321,
+    "id": 323,
     "type": "simple",
     "categories": [
       "a"
@@ -5668,7 +5699,7 @@ module.exports=[
     }
   },
   {
-    "id": 322,
+    "id": 324,
     "type": "simple",
     "categories": [
       "a"
@@ -5681,7 +5712,7 @@ module.exports=[
     }
   },
   {
-    "id": 323,
+    "id": 325,
     "type": "simple",
     "categories": [
       "a"
@@ -5696,7 +5727,7 @@ module.exports=[
     }
   },
   {
-    "id": 324,
+    "id": 326,
     "type": "simple",
     "categories": [
       "a"
@@ -5713,7 +5744,7 @@ module.exports=[
     }
   },
   {
-    "id": 325,
+    "id": 327,
     "type": "simple",
     "categories": [
       "a"
@@ -5736,7 +5767,7 @@ module.exports=[
     }
   },
   {
-    "id": 326,
+    "id": 328,
     "type": "simple",
     "categories": [
       "a"
@@ -5754,7 +5785,7 @@ module.exports=[
     }
   },
   {
-    "id": 327,
+    "id": 329,
     "type": "simple",
     "categories": [
       "a"
@@ -5774,7 +5805,7 @@ module.exports=[
     }
   },
   {
-    "id": 328,
+    "id": 330,
     "type": "simple",
     "categories": [
       "a"
@@ -5794,7 +5825,7 @@ module.exports=[
     }
   },
   {
-    "id": 329,
+    "id": 331,
     "type": "simple",
     "categories": [
       "a"
@@ -5807,7 +5838,7 @@ module.exports=[
     }
   },
   {
-    "id": 330,
+    "id": 332,
     "type": "simple",
     "categories": [
       "a"
@@ -5829,7 +5860,7 @@ module.exports=[
     }
   },
   {
-    "id": 331,
+    "id": 333,
     "type": "simple",
     "categories": [
       "a"
@@ -5848,7 +5879,7 @@ module.exports=[
     }
   },
   {
-    "id": 332,
+    "id": 334,
     "type": "simple",
     "categories": [
       "a"
@@ -5867,7 +5898,7 @@ module.exports=[
     }
   },
   {
-    "id": 333,
+    "id": 335,
     "type": "simple",
     "categories": [
       "a"
@@ -5886,7 +5917,7 @@ module.exports=[
     }
   },
   {
-    "id": 334,
+    "id": 336,
     "type": "simple",
     "categories": [
       "a"
@@ -5958,7 +5989,7 @@ module.exports=[
     }
   },
   {
-    "id": 335,
+    "id": 337,
     "type": "simple",
     "categories": [
       "a"
@@ -6033,7 +6064,7 @@ module.exports=[
     }
   },
   {
-    "id": 336,
+    "id": 338,
     "type": "simple",
     "categories": [
       "a"
@@ -6049,7 +6080,7 @@ module.exports=[
     }
   },
   {
-    "id": 337,
+    "id": 339,
     "type": "simple",
     "categories": [
       "a"
@@ -6065,7 +6096,7 @@ module.exports=[
     }
   },
   {
-    "id": 338,
+    "id": 340,
     "type": "simple",
     "categories": [
       "a"
@@ -6084,7 +6115,7 @@ module.exports=[
     }
   },
   {
-    "id": 339,
+    "id": 341,
     "type": "simple",
     "categories": [
       "a"
@@ -6103,7 +6134,7 @@ module.exports=[
     }
   },
   {
-    "id": 340,
+    "id": 342,
     "type": "simple",
     "categories": [
       "a"
@@ -6121,7 +6152,7 @@ module.exports=[
     }
   },
   {
-    "id": 341,
+    "id": 343,
     "type": "simple",
     "categories": [
       "a"
@@ -6140,7 +6171,7 @@ module.exports=[
     }
   },
   {
-    "id": 342,
+    "id": 344,
     "type": "simple",
     "categories": [
       "a"
@@ -6161,7 +6192,7 @@ module.exports=[
     }
   },
   {
-    "id": 343,
+    "id": 345,
     "type": "simple",
     "categories": [
       "a"
@@ -6182,7 +6213,7 @@ module.exports=[
     }
   },
   {
-    "id": 344,
+    "id": 346,
     "type": "simple",
     "categories": [
       "a"
@@ -6218,7 +6249,7 @@ module.exports=[
     }
   },
   {
-    "id": 345,
+    "id": 347,
     "type": "simple",
     "categories": [
       "a"
@@ -6255,7 +6286,7 @@ module.exports=[
     }
   },
   {
-    "id": 346,
+    "id": 348,
     "type": "simple",
     "categories": [
       "a"
@@ -6270,7 +6301,7 @@ module.exports=[
     }
   },
   {
-    "id": 347,
+    "id": 349,
     "type": "simple",
     "categories": [
       "a"
@@ -6285,7 +6316,7 @@ module.exports=[
     }
   },
   {
-    "id": 348,
+    "id": 350,
     "type": "simple",
     "categories": [
       "a"
@@ -6301,7 +6332,7 @@ module.exports=[
     }
   },
   {
-    "id": 349,
+    "id": 351,
     "type": "simple",
     "categories": [
       "a"
@@ -6314,7 +6345,7 @@ module.exports=[
     }
   },
   {
-    "id": 350,
+    "id": 352,
     "type": "simple",
     "categories": [
       "a"
@@ -6329,7 +6360,7 @@ module.exports=[
     }
   },
   {
-    "id": 351,
+    "id": 353,
     "type": "simple",
     "categories": [
       "a"
@@ -6344,7 +6375,7 @@ module.exports=[
     }
   },
   {
-    "id": 352,
+    "id": 354,
     "type": "simple",
     "categories": [
       "a"
@@ -6363,7 +6394,7 @@ module.exports=[
     }
   },
   {
-    "id": 353,
+    "id": 355,
     "type": "simple",
     "categories": [
       "a"
@@ -6382,7 +6413,7 @@ module.exports=[
     }
   },
   {
-    "id": 354,
+    "id": 356,
     "type": "simple",
     "categories": [
       "a"
@@ -6406,7 +6437,7 @@ module.exports=[
     }
   },
   {
-    "id": 355,
+    "id": 357,
     "type": "simple",
     "categories": [
       "a"
@@ -6430,7 +6461,7 @@ module.exports=[
     }
   },
   {
-    "id": 356,
+    "id": 358,
     "type": "simple",
     "categories": [
       "a"
@@ -6457,7 +6488,7 @@ module.exports=[
     }
   },
   {
-    "id": 357,
+    "id": 359,
     "type": "simple",
     "categories": [
       "a"
@@ -6484,7 +6515,7 @@ module.exports=[
     }
   },
   {
-    "id": 358,
+    "id": 360,
     "type": "and",
     "categories": [
       "a",
