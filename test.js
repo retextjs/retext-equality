@@ -329,6 +329,14 @@ describe('Phrasing', function () {
                 '1:25-1:34: `depressed` may be insensitive, use `sad`, `blue`, `bummed out`, `person with seasonal affective disorder`, `person with psychotic depression`, `person with postpartum depression` instead'
             ]);
         });
+
+        it('I don’t understand all those complaints from katsaps living in foreign countries.', function () {
+            var messages = process('I don’t understand all those complaints from katsaps living in foreign countries.');
+
+            dequal(messages, [
+                '1:46-1:53: `katsaps` may be insensitive, use `Russians` instead'
+            ]);
+        });
     });
 
     describe('Should NOT warn', function () {

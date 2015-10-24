@@ -683,8 +683,18 @@
     - ukrop
     - khokhol
     - khokhols
+- type: simple
+  considerate:
+    - Russian
+  inconsiderate:
     - katsap
     - kacap
+- type: simple
+  considerate:
+    - Russians
+  inconsiderate:
+    - katsaps
+    - kacaps
     - kacapas
 - type: simple
   considerate:

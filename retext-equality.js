@@ -6292,14 +6292,40 @@ module.exports=[
     "inconsiderate": {
       "ukrop": "a",
       "khokhol": "a",
-      "khokhols": "a",
-      "katsap": "a",
-      "kacap": "a",
-      "kacapas": "a"
+      "khokhols": "a"
     }
   },
   {
     "id": 349,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "Russian": "a"
+    },
+    "inconsiderate": {
+      "katsap": "a",
+      "kacap": "a"
+    }
+  },
+  {
+    "id": 350,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "Russians": "a"
+    },
+    "inconsiderate": {
+      "katsaps": "a",
+      "kacaps": "a",
+      "kacapas": "a"
+    }
+  },
+  {
+    "id": 351,
     "type": "simple",
     "categories": [
       "a"
@@ -6312,7 +6338,7 @@ module.exports=[
     }
   },
   {
-    "id": 350,
+    "id": 352,
     "type": "simple",
     "categories": [
       "a"
@@ -6327,7 +6353,7 @@ module.exports=[
     }
   },
   {
-    "id": 351,
+    "id": 353,
     "type": "simple",
     "categories": [
       "a"
@@ -6342,7 +6368,7 @@ module.exports=[
     }
   },
   {
-    "id": 352,
+    "id": 354,
     "type": "simple",
     "categories": [
       "a"
@@ -6361,7 +6387,7 @@ module.exports=[
     }
   },
   {
-    "id": 353,
+    "id": 355,
     "type": "simple",
     "categories": [
       "a"
@@ -6380,7 +6406,7 @@ module.exports=[
     }
   },
   {
-    "id": 354,
+    "id": 356,
     "type": "simple",
     "categories": [
       "a"
@@ -6404,7 +6430,7 @@ module.exports=[
     }
   },
   {
-    "id": 355,
+    "id": 357,
     "type": "simple",
     "categories": [
       "a"
@@ -6428,7 +6454,7 @@ module.exports=[
     }
   },
   {
-    "id": 356,
+    "id": 358,
     "type": "simple",
     "categories": [
       "a"
@@ -6455,7 +6481,7 @@ module.exports=[
     }
   },
   {
-    "id": 357,
+    "id": 359,
     "type": "simple",
     "categories": [
       "a"
@@ -6482,7 +6508,7 @@ module.exports=[
     }
   },
   {
-    "id": 358,
+    "id": 360,
     "type": "and",
     "categories": [
       "a",
