@@ -13,7 +13,7 @@
 - type: simple
   considerate:
     - Australian Aboriginal
-    - people of the pacific islands
+    - people of the Pacific islands
   inconsiderate:
     - boongas
     - boongs
@@ -22,7 +22,7 @@
 - type: simple
   considerate:
     - Australian Aboriginal
-    - pacific islander
+    - Pacific islander
   inconsiderate:
     - boonga
     - boong
@@ -121,7 +121,7 @@
     - chugs
 - type: simple
   considerate:
-    - hispanic person
+    - Hispanic person
     - person of color
     - black person
   inconsiderate:
@@ -129,7 +129,7 @@
     - oreo
 - type: simple
   considerate:
-    - hispanic people
+    - Hispanic people
     - people of color
     - black people
   inconsiderate:
@@ -173,12 +173,12 @@
     - Dot head
 - type: simple
   considerate:
-    - caribbean people
+    - Caribbean people
   inconsiderate:
     - golliwogs
 - type: simple
   considerate:
-    - caribbean person
+    - Caribbean person
   inconsiderate:
     - golliwog
 - type: simple
@@ -188,7 +188,7 @@
     - guizi
 - type: simple
   considerate:
-    - romani person
+    - Romani person
   inconsiderate:
     - gyppos
     - gippos
@@ -200,7 +200,7 @@
     - gypsies
 - type: simple
   considerate:
-    - romani people
+    - Romani people
   inconsiderate:
     - gyppo
     - gippo
@@ -265,34 +265,24 @@
     - kimchi
 - type: simple
   considerate:
-    - lebanese
+    - Lebanese
   inconsiderate:
     - lebos
 - type: simple
   considerate:
-    - lebanese person
+    - Lebanese person
   inconsiderate:
     - lebo
 - type: simple
   considerate:
-    - lithuanians
+    - Lithuanians
   inconsiderate:
     - lugans
 - type: simple
   considerate:
-    - lithuanian person
+    - Lithuanian person
   inconsiderate:
     - lugan
-- type: simple
-  considerate:
-    - russians
-  inconsiderate:
-    - moskals
-- type: simple
-  considerate:
-    - russian person
-  inconsiderate:
-    - moskal
 - type: simple
   considerate:
     - Poles
@@ -312,7 +302,7 @@
 - type: simple
   considerate:
     - English
-    - Brittish
+    - British
   inconsiderate:
     - lebo
     - pom
@@ -409,7 +399,7 @@
   considerate:
     - african americans
     - south americans
-    - caribbean people
+    - Caribbean people
     - africans
     - people of color
     - black people
@@ -473,7 +463,7 @@
   considerate:
     - african american
     - south american
-    - caribbean person
+    - Caribbean person
     - african
     - person of color
     - black person
@@ -675,7 +665,7 @@
     - wiggers
     - whiggers
     - wiggas
-    - write trash
+    - white trash
 - type: simple
   considerate:
     - ukrainian
@@ -687,12 +677,14 @@
   considerate:
     - Russian
   inconsiderate:
+    - moskal
     - katsap
     - kacap
 - type: simple
   considerate:
     - Russians
   inconsiderate:
+    - moskals
     - katsaps
     - kacaps
     - kacapas

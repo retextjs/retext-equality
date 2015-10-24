@@ -1377,7 +1377,7 @@
     - homemakers
     - homeworkers
   inconsiderate:
-    housewifes: female
+    housewives: female
 - type: simple
   considerate:
     - loving
@@ -1462,7 +1462,7 @@
   considerate:
     - staffed
     - crewed
-    - pilotted
+    - piloted
   inconsiderate: manned
 - type: simple
   considerate:

@@ -3676,7 +3676,7 @@ module.exports=[
       "homeworkers": "a"
     },
     "inconsiderate": {
-      "housewifes": "female"
+      "housewives": "female"
     }
   },
   {
@@ -3864,7 +3864,7 @@ module.exports=[
     "considerate": {
       "staffed": "a",
       "crewed": "a",
-      "pilotted": "a"
+      "piloted": "a"
     },
     "inconsiderate": {
       "manned": "a"
@@ -4589,7 +4589,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "sustaine injuries": "a",
+      "sustain injuries": "a",
       "receive injuries": "a"
     },
     "inconsiderate": {
@@ -4679,7 +4679,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "tourette syndrome": "a"
+      "Tourette syndrome": "a"
     },
     "inconsiderate": {
       "tourettes syndrome": "a",
@@ -4818,7 +4818,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "obsesive": "a",
+      "obsessive": "a",
       "pedantic": "a",
       "niggly": "a",
       "picky": "a"
@@ -5071,7 +5071,7 @@ module.exports=[
     ],
     "considerate": {
       "Australian Aboriginal": "a",
-      "people of the pacific islands": "a"
+      "people of the Pacific islands": "a"
     },
     "inconsiderate": {
       "boongas": "a",
@@ -5088,7 +5088,7 @@ module.exports=[
     ],
     "considerate": {
       "Australian Aboriginal": "a",
-      "pacific islander": "a"
+      "Pacific islander": "a"
     },
     "inconsiderate": {
       "boonga": "a",
@@ -5307,7 +5307,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "hispanic person": "a",
+      "Hispanic person": "a",
       "person of color": "a",
       "black person": "a"
     },
@@ -5323,7 +5323,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "hispanic people": "a",
+      "Hispanic people": "a",
       "people of color": "a",
       "black people": "a"
     },
@@ -5423,7 +5423,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "caribbean people": "a"
+      "Caribbean people": "a"
     },
     "inconsiderate": {
       "golliwogs": "a"
@@ -5436,7 +5436,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "caribbean person": "a"
+      "Caribbean person": "a"
     },
     "inconsiderate": {
       "golliwog": "a"
@@ -5462,7 +5462,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "romani person": "a"
+      "Romani person": "a"
     },
     "inconsiderate": {
       "gyppos": "a",
@@ -5482,7 +5482,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "romani people": "a"
+      "Romani people": "a"
     },
     "inconsiderate": {
       "gyppo": "a",
@@ -5635,7 +5635,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "lebanese": "a"
+      "Lebanese": "a"
     },
     "inconsiderate": {
       "lebos": "a"
@@ -5648,7 +5648,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "lebanese person": "a"
+      "Lebanese person": "a"
     },
     "inconsiderate": {
       "lebo": "a"
@@ -5661,7 +5661,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "lithuanians": "a"
+      "Lithuanians": "a"
     },
     "inconsiderate": {
       "lugans": "a"
@@ -5674,7 +5674,7 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "lithuanian person": "a"
+      "Lithuanian person": "a"
     },
     "inconsiderate": {
       "lugan": "a"
@@ -5682,32 +5682,6 @@ module.exports=[
   },
   {
     "id": 323,
-    "type": "simple",
-    "categories": [
-      "a"
-    ],
-    "considerate": {
-      "russians": "a"
-    },
-    "inconsiderate": {
-      "moskals": "a"
-    }
-  },
-  {
-    "id": 324,
-    "type": "simple",
-    "categories": [
-      "a"
-    ],
-    "considerate": {
-      "russian person": "a"
-    },
-    "inconsiderate": {
-      "moskal": "a"
-    }
-  },
-  {
-    "id": 325,
     "type": "simple",
     "categories": [
       "a"
@@ -5722,7 +5696,7 @@ module.exports=[
     }
   },
   {
-    "id": 326,
+    "id": 324,
     "type": "simple",
     "categories": [
       "a"
@@ -5739,14 +5713,14 @@ module.exports=[
     }
   },
   {
-    "id": 327,
+    "id": 325,
     "type": "simple",
     "categories": [
       "a"
     ],
     "considerate": {
       "English": "a",
-      "Brittish": "a"
+      "British": "a"
     },
     "inconsiderate": {
       "lebo": "a",
@@ -5762,7 +5736,7 @@ module.exports=[
     }
   },
   {
-    "id": 328,
+    "id": 326,
     "type": "simple",
     "categories": [
       "a"
@@ -5780,7 +5754,7 @@ module.exports=[
     }
   },
   {
-    "id": 329,
+    "id": 327,
     "type": "simple",
     "categories": [
       "a"
@@ -5800,7 +5774,7 @@ module.exports=[
     }
   },
   {
-    "id": 330,
+    "id": 328,
     "type": "simple",
     "categories": [
       "a"
@@ -5820,7 +5794,7 @@ module.exports=[
     }
   },
   {
-    "id": 331,
+    "id": 329,
     "type": "simple",
     "categories": [
       "a"
@@ -5833,7 +5807,7 @@ module.exports=[
     }
   },
   {
-    "id": 332,
+    "id": 330,
     "type": "simple",
     "categories": [
       "a"
@@ -5855,7 +5829,7 @@ module.exports=[
     }
   },
   {
-    "id": 333,
+    "id": 331,
     "type": "simple",
     "categories": [
       "a"
@@ -5874,7 +5848,7 @@ module.exports=[
     }
   },
   {
-    "id": 334,
+    "id": 332,
     "type": "simple",
     "categories": [
       "a"
@@ -5893,7 +5867,7 @@ module.exports=[
     }
   },
   {
-    "id": 335,
+    "id": 333,
     "type": "simple",
     "categories": [
       "a"
@@ -5912,7 +5886,7 @@ module.exports=[
     }
   },
   {
-    "id": 336,
+    "id": 334,
     "type": "simple",
     "categories": [
       "a"
@@ -5920,7 +5894,7 @@ module.exports=[
     "considerate": {
       "african americans": "a",
       "south americans": "a",
-      "caribbean people": "a",
+      "Caribbean people": "a",
       "africans": "a",
       "people of color": "a",
       "black people": "a"
@@ -5984,7 +5958,7 @@ module.exports=[
     }
   },
   {
-    "id": 337,
+    "id": 335,
     "type": "simple",
     "categories": [
       "a"
@@ -5992,7 +5966,7 @@ module.exports=[
     "considerate": {
       "african american": "a",
       "south american": "a",
-      "caribbean person": "a",
+      "Caribbean person": "a",
       "african": "a",
       "person of color": "a",
       "black person": "a"
@@ -6059,7 +6033,7 @@ module.exports=[
     }
   },
   {
-    "id": 338,
+    "id": 336,
     "type": "simple",
     "categories": [
       "a"
@@ -6075,7 +6049,7 @@ module.exports=[
     }
   },
   {
-    "id": 339,
+    "id": 337,
     "type": "simple",
     "categories": [
       "a"
@@ -6091,7 +6065,7 @@ module.exports=[
     }
   },
   {
-    "id": 340,
+    "id": 338,
     "type": "simple",
     "categories": [
       "a"
@@ -6110,7 +6084,7 @@ module.exports=[
     }
   },
   {
-    "id": 341,
+    "id": 339,
     "type": "simple",
     "categories": [
       "a"
@@ -6129,7 +6103,7 @@ module.exports=[
     }
   },
   {
-    "id": 342,
+    "id": 340,
     "type": "simple",
     "categories": [
       "a"
@@ -6147,7 +6121,7 @@ module.exports=[
     }
   },
   {
-    "id": 343,
+    "id": 341,
     "type": "simple",
     "categories": [
       "a"
@@ -6166,7 +6140,7 @@ module.exports=[
     }
   },
   {
-    "id": 344,
+    "id": 342,
     "type": "simple",
     "categories": [
       "a"
@@ -6187,7 +6161,7 @@ module.exports=[
     }
   },
   {
-    "id": 345,
+    "id": 343,
     "type": "simple",
     "categories": [
       "a"
@@ -6208,7 +6182,7 @@ module.exports=[
     }
   },
   {
-    "id": 346,
+    "id": 344,
     "type": "simple",
     "categories": [
       "a"
@@ -6244,7 +6218,7 @@ module.exports=[
     }
   },
   {
-    "id": 347,
+    "id": 345,
     "type": "simple",
     "categories": [
       "a"
@@ -6277,11 +6251,11 @@ module.exports=[
       "wiggers": "a",
       "whiggers": "a",
       "wiggas": "a",
-      "write trash": "a"
+      "white trash": "a"
     }
   },
   {
-    "id": 348,
+    "id": 346,
     "type": "simple",
     "categories": [
       "a"
@@ -6296,7 +6270,7 @@ module.exports=[
     }
   },
   {
-    "id": 349,
+    "id": 347,
     "type": "simple",
     "categories": [
       "a"
@@ -6305,12 +6279,13 @@ module.exports=[
       "Russian": "a"
     },
     "inconsiderate": {
+      "moskal": "a",
       "katsap": "a",
       "kacap": "a"
     }
   },
   {
-    "id": 350,
+    "id": 348,
     "type": "simple",
     "categories": [
       "a"
@@ -6319,13 +6294,14 @@ module.exports=[
       "Russians": "a"
     },
     "inconsiderate": {
+      "moskals": "a",
       "katsaps": "a",
       "kacaps": "a",
       "kacapas": "a"
     }
   },
   {
-    "id": 351,
+    "id": 349,
     "type": "simple",
     "categories": [
       "a"
@@ -6338,7 +6314,7 @@ module.exports=[
     }
   },
   {
-    "id": 352,
+    "id": 350,
     "type": "simple",
     "categories": [
       "a"
@@ -6353,7 +6329,7 @@ module.exports=[
     }
   },
   {
-    "id": 353,
+    "id": 351,
     "type": "simple",
     "categories": [
       "a"
@@ -6368,7 +6344,7 @@ module.exports=[
     }
   },
   {
-    "id": 354,
+    "id": 352,
     "type": "simple",
     "categories": [
       "a"
@@ -6387,7 +6363,7 @@ module.exports=[
     }
   },
   {
-    "id": 355,
+    "id": 353,
     "type": "simple",
     "categories": [
       "a"
@@ -6406,7 +6382,7 @@ module.exports=[
     }
   },
   {
-    "id": 356,
+    "id": 354,
     "type": "simple",
     "categories": [
       "a"
@@ -6430,7 +6406,7 @@ module.exports=[
     }
   },
   {
-    "id": 357,
+    "id": 355,
     "type": "simple",
     "categories": [
       "a"
@@ -6454,7 +6430,7 @@ module.exports=[
     }
   },
   {
-    "id": 358,
+    "id": 356,
     "type": "simple",
     "categories": [
       "a"
@@ -6481,7 +6457,7 @@ module.exports=[
     }
   },
   {
-    "id": 359,
+    "id": 357,
     "type": "simple",
     "categories": [
       "a"
@@ -6508,7 +6484,7 @@ module.exports=[
     }
   },
   {
-    "id": 360,
+    "id": 358,
     "type": "and",
     "categories": [
       "a",

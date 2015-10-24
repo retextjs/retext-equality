@@ -211,7 +211,7 @@ describe('Phrasing', function () {
             var messages = process('Manned spacecraft.');
 
             dequal(messages, [
-                '1:1-1:7: `Manned` may be insensitive, use `Staffed`, `Crewed`, `Pilotted` instead'
+                '1:1-1:7: `Manned` may be insensitive, use `Staffed`, `Crewed`, `Piloted` instead'
             ]);
         });
 
@@ -310,7 +310,7 @@ describe('Phrasing', function () {
             var messages = process('My O.C.D. is coming out again!');
 
             dequal(messages, [
-                '1:4-1:10: `O.C.D.` may be insensitive, use `Obsesive`, `Pedantic`, `Niggly`, `Picky` instead'
+                '1:4-1:10: `O.C.D.` may be insensitive, use `Obsessive`, `Pedantic`, `Niggly`, `Picky` instead'
             ]);
         });
 

@@ -325,7 +325,7 @@
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
-    - sustaine injuries
+    - sustain injuries
     - receive injuries
   inconsiderate:
     - suffer from injuries
@@ -367,7 +367,7 @@
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
-    - tourette syndrome
+    - Tourette syndrome
   inconsiderate:
     - tourettes syndrome
     - tourettes disorder
@@ -434,7 +434,7 @@
 - type: simple
   source: http://english.stackexchange.com/questions/247550/
   considerate:
-    - obsesive
+    - obsessive
     - pedantic
     - niggly
     - picky
