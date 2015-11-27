@@ -4396,21 +4396,6 @@ module.exports=[
       "a"
     ],
     "considerate": {
-      "people with a drug addiction": "a",
-      "people recovering from a drug addiction": "a"
-    },
-    "inconsiderate": {
-      "addicts": "a"
-    },
-    "note": "Source: http://ncdj.org/style-guide/"
-  },
-  {
-    "id": 238,
-    "type": "simple",
-    "categories": [
-      "a"
-    ],
-    "considerate": {
       "someone with an alcohol problem": "a"
     },
     "inconsiderate": {
@@ -4419,7 +4404,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 239,
+    "id": 238,
     "type": "simple",
     "categories": [
       "a"
@@ -4433,7 +4418,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 240,
+    "id": 239,
     "type": "simple",
     "categories": [
       "a"
@@ -4448,7 +4433,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 241,
+    "id": 240,
     "type": "simple",
     "categories": [
       "a"
@@ -4463,7 +4448,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 242,
+    "id": 241,
     "type": "simple",
     "categories": [
       "a"
@@ -4482,7 +4467,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 243,
+    "id": 242,
     "type": "simple",
     "categories": [
       "a"
@@ -4497,7 +4482,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 244,
+    "id": 243,
     "type": "simple",
     "categories": [
       "a"
@@ -4511,7 +4496,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 245,
+    "id": 244,
     "type": "simple",
     "categories": [
       "a"
@@ -4525,7 +4510,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 246,
+    "id": 245,
     "type": "simple",
     "categories": [
       "a"
@@ -4543,7 +4528,7 @@ module.exports=[
     "note": "When possible, ask the person what they prefer. (source: http://ncdj.org/style-guide/)"
   },
   {
-    "id": 247,
+    "id": 246,
     "type": "simple",
     "categories": [
       "a"
@@ -4564,7 +4549,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 248,
+    "id": 247,
     "type": "simple",
     "categories": [
       "a"
@@ -4583,7 +4568,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 249,
+    "id": 248,
     "type": "simple",
     "categories": [
       "a"
@@ -4602,7 +4587,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 250,
+    "id": 249,
     "type": "simple",
     "categories": [
       "a"
@@ -4616,7 +4601,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 251,
+    "id": 250,
     "type": "simple",
     "categories": [
       "a"
@@ -4630,7 +4615,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 252,
+    "id": 251,
     "type": "simple",
     "categories": [
       "a"
@@ -4645,7 +4630,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 253,
+    "id": 252,
     "type": "simple",
     "categories": [
       "a"
@@ -4659,7 +4644,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 254,
+    "id": 253,
     "type": "simple",
     "categories": [
       "a"
@@ -4673,7 +4658,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 255,
+    "id": 254,
     "type": "simple",
     "categories": [
       "a"
@@ -4688,7 +4673,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 256,
+    "id": 255,
     "type": "simple",
     "categories": [
       "a"
@@ -4703,7 +4688,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 257,
+    "id": 256,
     "type": "simple",
     "categories": [
       "a"
@@ -4718,7 +4703,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 258,
+    "id": 257,
     "type": "simple",
     "categories": [
       "a"
@@ -4733,7 +4718,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 259,
+    "id": 258,
     "type": "simple",
     "categories": [
       "a"
@@ -4748,7 +4733,7 @@ module.exports=[
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 260,
+    "id": 259,
     "type": "simple",
     "categories": [
       "a"
@@ -4765,7 +4750,7 @@ module.exports=[
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 261,
+    "id": 260,
     "type": "simple",
     "categories": [
       "a"
@@ -4784,7 +4769,7 @@ module.exports=[
     "note": "Source: http://www.mmonjejr.com/2014/02/deconstructing-stupid.html"
   },
   {
-    "id": 262,
+    "id": 261,
     "type": "simple",
     "categories": [
       "a"
@@ -4798,7 +4783,7 @@ module.exports=[
     }
   },
   {
-    "id": 263,
+    "id": 262,
     "type": "simple",
     "categories": [
       "a"
@@ -4812,7 +4797,7 @@ module.exports=[
     }
   },
   {
-    "id": 264,
+    "id": 263,
     "type": "simple",
     "categories": [
       "a"
@@ -4831,7 +4816,7 @@ module.exports=[
     "note": "Source: http://english.stackexchange.com/questions/247550/"
   },
   {
-    "id": 265,
+    "id": 264,
     "type": "simple",
     "categories": [
       "a"
@@ -4845,7 +4830,7 @@ module.exports=[
     }
   },
   {
-    "id": 266,
+    "id": 265,
     "type": "simple",
     "categories": [
       "a"
@@ -4858,7 +4843,7 @@ module.exports=[
     }
   },
   {
-    "id": 267,
+    "id": 266,
     "type": "simple",
     "categories": [
       "a"
@@ -4871,7 +4856,7 @@ module.exports=[
     }
   },
   {
-    "id": 268,
+    "id": 267,
     "type": "simple",
     "categories": [
       "a"
@@ -4887,7 +4872,7 @@ module.exports=[
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 269,
+    "id": 268,
     "type": "simple",
     "categories": [
       "a"
@@ -4906,7 +4891,7 @@ module.exports=[
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 270,
+    "id": 269,
     "type": "simple",
     "categories": [
       "a"
@@ -4928,7 +4913,7 @@ module.exports=[
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 271,
+    "id": 270,
     "type": "simple",
     "categories": [
       "a"
@@ -4943,7 +4928,7 @@ module.exports=[
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 272,
+    "id": 271,
     "type": "simple",
     "categories": [
       "a"
@@ -4958,7 +4943,7 @@ module.exports=[
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 273,
+    "id": 272,
     "type": "simple",
     "categories": [
       "a"
@@ -4977,7 +4962,7 @@ module.exports=[
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 274,
+    "id": 273,
     "type": "simple",
     "categories": [
       "a"
@@ -4992,35 +4977,21 @@ module.exports=[
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
+    "id": 274,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "cleft-lip and palate": "a"
+    },
+    "inconsiderate": {
+      "harelip": "a"
+    },
+    "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
+  },
+  {
     "id": 275,
-    "type": "simple",
-    "categories": [
-      "a"
-    ],
-    "considerate": {
-      "cleft-lip and palate": "a"
-    },
-    "inconsiderate": {
-      "harelip": "a"
-    },
-    "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
-  },
-  {
-    "id": 276,
-    "type": "simple",
-    "categories": [
-      "a"
-    ],
-    "considerate": {
-      "cleft-lip and palate": "a"
-    },
-    "inconsiderate": {
-      "harelip": "a"
-    },
-    "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
-  },
-  {
-    "id": 277,
     "type": "simple",
     "categories": [
       "a"
@@ -5036,7 +5007,7 @@ module.exports=[
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 278,
+    "id": 276,
     "type": "simple",
     "categories": [
       "a"
@@ -5050,7 +5021,7 @@ module.exports=[
     }
   },
   {
-    "id": 279,
+    "id": 277,
     "type": "simple",
     "categories": [
       "a"
@@ -5064,7 +5035,7 @@ module.exports=[
     }
   },
   {
-    "id": 280,
+    "id": 278,
     "type": "simple",
     "categories": [
       "a"
@@ -5081,7 +5052,7 @@ module.exports=[
     }
   },
   {
-    "id": 281,
+    "id": 279,
     "type": "simple",
     "categories": [
       "a"
@@ -5100,7 +5071,7 @@ module.exports=[
     }
   },
   {
-    "id": 282,
+    "id": 280,
     "type": "simple",
     "categories": [
       "a"
@@ -5113,7 +5084,7 @@ module.exports=[
     }
   },
   {
-    "id": 283,
+    "id": 281,
     "type": "simple",
     "categories": [
       "a"
@@ -5126,7 +5097,7 @@ module.exports=[
     }
   },
   {
-    "id": 284,
+    "id": 282,
     "type": "simple",
     "categories": [
       "a"
@@ -5140,7 +5111,7 @@ module.exports=[
     }
   },
   {
-    "id": 285,
+    "id": 283,
     "type": "simple",
     "categories": [
       "a"
@@ -5154,7 +5125,7 @@ module.exports=[
     }
   },
   {
-    "id": 286,
+    "id": 284,
     "type": "simple",
     "categories": [
       "a"
@@ -5168,7 +5139,7 @@ module.exports=[
     }
   },
   {
-    "id": 287,
+    "id": 285,
     "type": "simple",
     "categories": [
       "a"
@@ -5182,7 +5153,7 @@ module.exports=[
     }
   },
   {
-    "id": 288,
+    "id": 286,
     "type": "simple",
     "categories": [
       "a"
@@ -5195,7 +5166,7 @@ module.exports=[
     }
   },
   {
-    "id": 289,
+    "id": 287,
     "type": "simple",
     "categories": [
       "a"
@@ -5209,7 +5180,7 @@ module.exports=[
     }
   },
   {
-    "id": 290,
+    "id": 288,
     "type": "simple",
     "categories": [
       "a"
@@ -5225,7 +5196,7 @@ module.exports=[
     }
   },
   {
-    "id": 291,
+    "id": 289,
     "type": "simple",
     "categories": [
       "a"
@@ -5241,7 +5212,7 @@ module.exports=[
     }
   },
   {
-    "id": 292,
+    "id": 290,
     "type": "simple",
     "categories": [
       "a"
@@ -5257,7 +5228,7 @@ module.exports=[
     }
   },
   {
-    "id": 293,
+    "id": 291,
     "type": "simple",
     "categories": [
       "a"
@@ -5275,7 +5246,7 @@ module.exports=[
     }
   },
   {
-    "id": 294,
+    "id": 292,
     "type": "simple",
     "categories": [
       "a"
@@ -5288,7 +5259,7 @@ module.exports=[
     }
   },
   {
-    "id": 295,
+    "id": 293,
     "type": "simple",
     "categories": [
       "a"
@@ -5301,7 +5272,7 @@ module.exports=[
     }
   },
   {
-    "id": 296,
+    "id": 294,
     "type": "simple",
     "categories": [
       "a"
@@ -5317,7 +5288,7 @@ module.exports=[
     }
   },
   {
-    "id": 297,
+    "id": 295,
     "type": "simple",
     "categories": [
       "a"
@@ -5333,7 +5304,7 @@ module.exports=[
     }
   },
   {
-    "id": 298,
+    "id": 296,
     "type": "simple",
     "categories": [
       "a"
@@ -5347,7 +5318,7 @@ module.exports=[
     }
   },
   {
-    "id": 299,
+    "id": 297,
     "type": "simple",
     "categories": [
       "a"
@@ -5361,7 +5332,7 @@ module.exports=[
     }
   },
   {
-    "id": 300,
+    "id": 298,
     "type": "simple",
     "categories": [
       "a"
@@ -5375,7 +5346,7 @@ module.exports=[
     }
   },
   {
-    "id": 301,
+    "id": 299,
     "type": "simple",
     "categories": [
       "a"
@@ -5389,7 +5360,7 @@ module.exports=[
     }
   },
   {
-    "id": 302,
+    "id": 300,
     "type": "simple",
     "categories": [
       "a"
@@ -5403,7 +5374,7 @@ module.exports=[
     }
   },
   {
-    "id": 303,
+    "id": 301,
     "type": "simple",
     "categories": [
       "a"
@@ -5417,7 +5388,7 @@ module.exports=[
     }
   },
   {
-    "id": 304,
+    "id": 302,
     "type": "simple",
     "categories": [
       "a"
@@ -5430,7 +5401,7 @@ module.exports=[
     }
   },
   {
-    "id": 305,
+    "id": 303,
     "type": "simple",
     "categories": [
       "a"
@@ -5443,7 +5414,7 @@ module.exports=[
     }
   },
   {
-    "id": 306,
+    "id": 304,
     "type": "simple",
     "categories": [
       "a"
@@ -5456,7 +5427,7 @@ module.exports=[
     }
   },
   {
-    "id": 307,
+    "id": 305,
     "type": "simple",
     "categories": [
       "a"
@@ -5472,7 +5443,7 @@ module.exports=[
     }
   },
   {
-    "id": 308,
+    "id": 306,
     "type": "simple",
     "categories": [
       "a"
@@ -5487,7 +5458,7 @@ module.exports=[
     }
   },
   {
-    "id": 309,
+    "id": 307,
     "type": "simple",
     "categories": [
       "a"
@@ -5507,7 +5478,7 @@ module.exports=[
     }
   },
   {
-    "id": 310,
+    "id": 308,
     "type": "simple",
     "categories": [
       "a"
@@ -5526,7 +5497,7 @@ module.exports=[
     }
   },
   {
-    "id": 311,
+    "id": 309,
     "type": "simple",
     "categories": [
       "a"
@@ -5539,7 +5510,7 @@ module.exports=[
     }
   },
   {
-    "id": 312,
+    "id": 310,
     "type": "simple",
     "categories": [
       "a"
@@ -5552,7 +5523,7 @@ module.exports=[
     }
   },
   {
-    "id": 313,
+    "id": 311,
     "type": "simple",
     "categories": [
       "a"
@@ -5565,7 +5536,7 @@ module.exports=[
     }
   },
   {
-    "id": 314,
+    "id": 312,
     "type": "simple",
     "categories": [
       "a"
@@ -5578,7 +5549,7 @@ module.exports=[
     }
   },
   {
-    "id": 315,
+    "id": 313,
     "type": "simple",
     "categories": [
       "a"
@@ -5591,7 +5562,7 @@ module.exports=[
     }
   },
   {
-    "id": 316,
+    "id": 314,
     "type": "simple",
     "categories": [
       "a"
@@ -5604,7 +5575,7 @@ module.exports=[
     }
   },
   {
-    "id": 317,
+    "id": 315,
     "type": "simple",
     "categories": [
       "a"
@@ -5617,7 +5588,7 @@ module.exports=[
     }
   },
   {
-    "id": 318,
+    "id": 316,
     "type": "simple",
     "categories": [
       "a"
@@ -5630,7 +5601,7 @@ module.exports=[
     }
   },
   {
-    "id": 319,
+    "id": 317,
     "type": "simple",
     "categories": [
       "a"
@@ -5645,7 +5616,7 @@ module.exports=[
     }
   },
   {
-    "id": 320,
+    "id": 318,
     "type": "simple",
     "categories": [
       "a"
@@ -5660,7 +5631,7 @@ module.exports=[
     }
   },
   {
-    "id": 321,
+    "id": 319,
     "type": "simple",
     "categories": [
       "a"
@@ -5673,7 +5644,7 @@ module.exports=[
     }
   },
   {
-    "id": 322,
+    "id": 320,
     "type": "simple",
     "categories": [
       "a"
@@ -5686,7 +5657,7 @@ module.exports=[
     }
   },
   {
-    "id": 323,
+    "id": 321,
     "type": "simple",
     "categories": [
       "a"
@@ -5699,7 +5670,7 @@ module.exports=[
     }
   },
   {
-    "id": 324,
+    "id": 322,
     "type": "simple",
     "categories": [
       "a"
@@ -5712,7 +5683,7 @@ module.exports=[
     }
   },
   {
-    "id": 325,
+    "id": 323,
     "type": "simple",
     "categories": [
       "a"
@@ -5727,7 +5698,7 @@ module.exports=[
     }
   },
   {
-    "id": 326,
+    "id": 324,
     "type": "simple",
     "categories": [
       "a"
@@ -5744,7 +5715,7 @@ module.exports=[
     }
   },
   {
-    "id": 327,
+    "id": 325,
     "type": "simple",
     "categories": [
       "a"
@@ -5767,7 +5738,7 @@ module.exports=[
     }
   },
   {
-    "id": 328,
+    "id": 326,
     "type": "simple",
     "categories": [
       "a"
@@ -5785,7 +5756,7 @@ module.exports=[
     }
   },
   {
-    "id": 329,
+    "id": 327,
     "type": "simple",
     "categories": [
       "a"
@@ -5805,7 +5776,7 @@ module.exports=[
     }
   },
   {
-    "id": 330,
+    "id": 328,
     "type": "simple",
     "categories": [
       "a"
@@ -5825,7 +5796,7 @@ module.exports=[
     }
   },
   {
-    "id": 331,
+    "id": 329,
     "type": "simple",
     "categories": [
       "a"
@@ -5838,7 +5809,7 @@ module.exports=[
     }
   },
   {
-    "id": 332,
+    "id": 330,
     "type": "simple",
     "categories": [
       "a"
@@ -5860,7 +5831,7 @@ module.exports=[
     }
   },
   {
-    "id": 333,
+    "id": 331,
     "type": "simple",
     "categories": [
       "a"
@@ -5879,7 +5850,7 @@ module.exports=[
     }
   },
   {
-    "id": 334,
+    "id": 332,
     "type": "simple",
     "categories": [
       "a"
@@ -5898,7 +5869,7 @@ module.exports=[
     }
   },
   {
-    "id": 335,
+    "id": 333,
     "type": "simple",
     "categories": [
       "a"
@@ -5917,7 +5888,7 @@ module.exports=[
     }
   },
   {
-    "id": 336,
+    "id": 334,
     "type": "simple",
     "categories": [
       "a"
@@ -5989,7 +5960,7 @@ module.exports=[
     }
   },
   {
-    "id": 337,
+    "id": 335,
     "type": "simple",
     "categories": [
       "a"
@@ -6064,7 +6035,7 @@ module.exports=[
     }
   },
   {
-    "id": 338,
+    "id": 336,
     "type": "simple",
     "categories": [
       "a"
@@ -6080,7 +6051,7 @@ module.exports=[
     }
   },
   {
-    "id": 339,
+    "id": 337,
     "type": "simple",
     "categories": [
       "a"
@@ -6096,7 +6067,7 @@ module.exports=[
     }
   },
   {
-    "id": 340,
+    "id": 338,
     "type": "simple",
     "categories": [
       "a"
@@ -6115,7 +6086,7 @@ module.exports=[
     }
   },
   {
-    "id": 341,
+    "id": 339,
     "type": "simple",
     "categories": [
       "a"
@@ -6134,7 +6105,7 @@ module.exports=[
     }
   },
   {
-    "id": 342,
+    "id": 340,
     "type": "simple",
     "categories": [
       "a"
@@ -6152,7 +6123,7 @@ module.exports=[
     }
   },
   {
-    "id": 343,
+    "id": 341,
     "type": "simple",
     "categories": [
       "a"
@@ -6171,7 +6142,7 @@ module.exports=[
     }
   },
   {
-    "id": 344,
+    "id": 342,
     "type": "simple",
     "categories": [
       "a"
@@ -6192,7 +6163,7 @@ module.exports=[
     }
   },
   {
-    "id": 345,
+    "id": 343,
     "type": "simple",
     "categories": [
       "a"
@@ -6213,7 +6184,7 @@ module.exports=[
     }
   },
   {
-    "id": 346,
+    "id": 344,
     "type": "simple",
     "categories": [
       "a"
@@ -6249,7 +6220,7 @@ module.exports=[
     }
   },
   {
-    "id": 347,
+    "id": 345,
     "type": "simple",
     "categories": [
       "a"
@@ -6286,7 +6257,7 @@ module.exports=[
     }
   },
   {
-    "id": 348,
+    "id": 346,
     "type": "simple",
     "categories": [
       "a"
@@ -6301,7 +6272,7 @@ module.exports=[
     }
   },
   {
-    "id": 349,
+    "id": 347,
     "type": "simple",
     "categories": [
       "a"
@@ -6316,7 +6287,7 @@ module.exports=[
     }
   },
   {
-    "id": 350,
+    "id": 348,
     "type": "simple",
     "categories": [
       "a"
@@ -6332,7 +6303,7 @@ module.exports=[
     }
   },
   {
-    "id": 351,
+    "id": 349,
     "type": "simple",
     "categories": [
       "a"
@@ -6345,7 +6316,7 @@ module.exports=[
     }
   },
   {
-    "id": 352,
+    "id": 350,
     "type": "simple",
     "categories": [
       "a"
@@ -6360,7 +6331,7 @@ module.exports=[
     }
   },
   {
-    "id": 353,
+    "id": 351,
     "type": "simple",
     "categories": [
       "a"
@@ -6375,7 +6346,7 @@ module.exports=[
     }
   },
   {
-    "id": 354,
+    "id": 352,
     "type": "simple",
     "categories": [
       "a"
@@ -6394,7 +6365,7 @@ module.exports=[
     }
   },
   {
-    "id": 355,
+    "id": 353,
     "type": "simple",
     "categories": [
       "a"
@@ -6413,7 +6384,7 @@ module.exports=[
     }
   },
   {
-    "id": 356,
+    "id": 354,
     "type": "simple",
     "categories": [
       "a"
@@ -6437,7 +6408,7 @@ module.exports=[
     }
   },
   {
-    "id": 357,
+    "id": 355,
     "type": "simple",
     "categories": [
       "a"
@@ -6461,7 +6432,7 @@ module.exports=[
     }
   },
   {
-    "id": 358,
+    "id": 356,
     "type": "simple",
     "categories": [
       "a"
@@ -6488,7 +6459,7 @@ module.exports=[
     }
   },
   {
-    "id": 359,
+    "id": 357,
     "type": "simple",
     "categories": [
       "a"
@@ -6515,7 +6486,7 @@ module.exports=[
     }
   },
   {
-    "id": 360,
+    "id": 358,
     "type": "and",
     "categories": [
       "a",
@@ -6535,7 +6506,7 @@ module.exports=[
     }
   },
   {
-    "id": 361,
+    "id": 359,
     "type": "simple",
     "categories": [
       "a"
@@ -6552,7 +6523,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 362,
+    "id": 360,
     "type": "simple",
     "categories": [
       "a"
@@ -6567,7 +6538,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 363,
+    "id": 361,
     "type": "simple",
     "categories": [
       "a"
@@ -6581,7 +6552,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 364,
+    "id": 362,
     "type": "simple",
     "categories": [
       "a"
@@ -6596,7 +6567,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 365,
+    "id": 363,
     "type": "simple",
     "categories": [
       "a"
@@ -6612,22 +6583,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 366,
-    "type": "simple",
-    "categories": [
-      "a"
-    ],
-    "considerate": {
-      "sexual orientation": "a",
-      "orientation": "a"
-    },
-    "inconsiderate": {
-      "sexual preference": "a"
-    },
-    "note": "Source: http://www.glaad.org/reference/offensive"
-  },
-  {
-    "id": 367,
+    "id": 364,
     "type": "simple",
     "categories": [
       "a"
@@ -6642,7 +6598,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 368,
+    "id": 365,
     "type": "simple",
     "categories": [
       "a"
@@ -6658,7 +6614,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/style"
   },
   {
-    "id": 369,
+    "id": 366,
     "type": "simple",
     "categories": [
       "a"
@@ -6676,7 +6632,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 370,
+    "id": 367,
     "type": "simple",
     "categories": [
       "a"
@@ -6690,7 +6646,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/style"
   },
   {
-    "id": 371,
+    "id": 368,
     "type": "simple",
     "categories": [
       "a"
@@ -6705,7 +6661,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/style"
   },
   {
-    "id": 372,
+    "id": 369,
     "type": "simple",
     "categories": [
       "a"
@@ -6719,7 +6675,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/style"
   },
   {
-    "id": 373,
+    "id": 370,
     "type": "simple",
     "categories": [
       "a"
@@ -6733,7 +6689,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
-    "id": 374,
+    "id": 371,
     "type": "simple",
     "categories": [
       "a"
@@ -6748,7 +6704,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
-    "id": 375,
+    "id": 372,
     "type": "simple",
     "categories": [
       "a"
@@ -6762,7 +6718,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
-    "id": 376,
+    "id": 373,
     "type": "simple",
     "categories": [
       "a"
@@ -6776,7 +6732,7 @@ module.exports=[
     "note": "Transgender should be used as an adjective, not as a noun. (source: http://www.glaad.org/reference/transgender)"
   },
   {
-    "id": 377,
+    "id": 374,
     "type": "simple",
     "categories": [
       "a"
@@ -6790,7 +6746,7 @@ module.exports=[
     "note": "Transgender should be used as an adjective, not as a noun. (source: http://www.glaad.org/reference/transgender)"
   },
   {
-    "id": 378,
+    "id": 375,
     "type": "simple",
     "categories": [
       "a"
@@ -6804,7 +6760,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
-    "id": 379,
+    "id": 376,
     "type": "simple",
     "categories": [
       "a"
@@ -6819,7 +6775,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
-    "id": 380,
+    "id": 377,
     "type": "simple",
     "categories": [
       "a"
@@ -6835,7 +6791,7 @@ module.exports=[
     }
   },
   {
-    "id": 381,
+    "id": 378,
     "type": "simple",
     "categories": [
       "a"
@@ -6851,7 +6807,7 @@ module.exports=[
     }
   },
   {
-    "id": 382,
+    "id": 379,
     "type": "simple",
     "categories": [
       "a"
@@ -6866,7 +6822,7 @@ module.exports=[
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
-    "id": 383,
+    "id": 380,
     "type": "simple",
     "categories": [
       "a"
@@ -6881,7 +6837,7 @@ module.exports=[
     "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide"
   },
   {
-    "id": 384,
+    "id": 381,
     "type": "simple",
     "categories": [
       "a"
@@ -6896,7 +6852,7 @@ module.exports=[
     "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide"
   },
   {
-    "id": 385,
+    "id": 382,
     "type": "simple",
     "categories": [
       "a"
@@ -7221,12 +7177,16 @@ module.exports = isLiteral;
  *
  * @param {NLCSTNode|Array.<NLCSTNode>} node - Node to to
  *   stringify.
+ * @param {string} separator - Value to separate each item
+ *   with.
  * @return {string} - Stringified `node`.
  */
-function nlcstToString(node) {
+function nlcstToString(node, separator) {
     var values;
     var length;
     var children;
+
+    separator = separator || '';
 
     if (typeof node.value === 'string') {
         return node.value;
@@ -7246,10 +7206,10 @@ function nlcstToString(node) {
     values = [];
 
     while (length--) {
-        values[length] = nlcstToString(children[length]);
+        values[length] = nlcstToString(children[length], separator);
     }
 
-    return values.join('');
+    return values.join(separator);
 }
 
 /*

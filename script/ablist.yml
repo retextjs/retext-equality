@@ -227,13 +227,6 @@
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
-    - people with a drug addiction
-    - people recovering from a drug addiction
-  inconsiderate:
-    - addicts
-- type: simple
-  source: http://ncdj.org/style-guide/
-  considerate:
     - someone with an alcohol problem
   inconsiderate:
     - alcoholic
@@ -523,12 +516,6 @@
   inconsiderate:
     - harelipped
     - cleftlipped
-- type: simple
-  source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
-  considerate:
-    - cleft-lip and palate
-  inconsiderate:
-    - harelip
 - type: simple
   source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
   considerate:
