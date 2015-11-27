@@ -14,6 +14,7 @@
 
 var fs = require('fs');
 var path = require('path');
+var duplicated = require('array-duplicated');
 var yaml = require('js-yaml');
 
 /*
@@ -58,6 +59,7 @@ function patch(entry, position) {
 /*
  * Gather.
  */
+var allData = [];
 
 var data = [
     'gender',
@@ -67,7 +69,18 @@ var data = [
     'lgbtq',
     'suicide'
 ].map(function (name) {
-    return yaml.load(read(join(__dirname, name + '.yml'), 'utf8'));
+    var yamlData = yaml.load(read(join(__dirname, name + '.yml'), 'utf8'));
+
+    allData = allData.concat(yamlData.map(function(item) {
+        return stringify(item, 0 , 2); 
+    }));
+
+    var dups = duplicated(allData);
+    if (dups.length !== 0) {
+        throw new Error('"' + name + '.yml" has duplicated value(s): \n' + dups.join('\n'));
+    }
+
+    return yamlData;
 });
 
 data = [].concat.apply([], data);
