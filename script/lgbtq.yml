@@ -38,13 +38,6 @@
 - type: simple
   source: http://www.glaad.org/reference/offensive
   considerate:
-    - sexual orientation
-    - orientation
-  inconsiderate:
-    - sexual preference
-- type: simple
-  source: http://www.glaad.org/reference/offensive
-  considerate:
     - gay issues
   inconsiderate:
     - gay agenda
