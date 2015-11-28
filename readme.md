@@ -11,9 +11,9 @@ Warn about possible insensitive, inconsiderate language with
 npm install retext-equality
 ```
 
-**retext-equality** is also available for [bower](http://bower.io/#install-packages),
-and [duo](http://duojs.org/#getting-started), and as an AMD, CommonJS, and
-globals module, [uncompressed](retext-equality.js) and [compressed](retext-equality.min.js).
+**retext-equality** is also available for
+[duo](http://duojs.org/#getting-started), and as an AMD, CommonJS, and
+globals module, [uncompressed and compressed](https://github.com/wooorm/retext-equality/releases).
 
 ## Usage
 

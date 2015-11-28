@@ -1,8 +1,9 @@
 .DS_Store
 *.log
-bower_components/
 build/
 components/
 node_modules/
 coverage/
 build.js
+retext-equality.js
+retext-equality.min.js

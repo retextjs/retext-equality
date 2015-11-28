@@ -58,15 +58,15 @@
     "test-api": "mocha --check-leaks test.js",
     "test-coverage": "istanbul cover _mocha -- test.js",
     "test-travis": "npm run test-coverage",
-    "test": "npm run test-api",
     "lint-api": "eslint .",
     "lint-style": "jscs --reporter inline .",
     "lint": "npm run lint-api && npm run lint-style",
     "make": "npm run lint && npm run test-coverage",
-    "bundle": "browserify index.js --no-builtins -s retextEquality > retext-equality.js",
-    "postbundle": "esmangle retext-equality.js > retext-equality.min.js",
-    "extract": "node script/extract.js",
-    "build-md": "mdast . --quiet",
-    "build": "npm run extract && npm run bundle && npm run build-md"
+    "build-bundle": "browserify index.js --no-builtins -s retextEquality > retext-equality.js",
+    "build-mangle": "esmangle retext-equality.js > retext-equality.min.js",
+    "build-extract": "node script/extract.js",
+    "build-md": "mdast . --quiet --frail",
+    "build": "npm run build-md && npm run build-extract && npm run build-bundle && npm run build-mangle",
+    "test": "npm run build && npm run lint && npm run test-coverage"
   }
 }
