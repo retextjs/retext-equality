@@ -71,8 +71,8 @@ var data = [
 ].map(function (name) {
     var yamlData = yaml.load(read(join(__dirname, name + '.yml'), 'utf8'));
 
-    allData = allData.concat(yamlData.map(function(item) {
-        return stringify(item, 0 , 2); 
+    allData = allData.concat(yamlData.map(function (item) {
+        return stringify(item, 0, 2);
     }));
 
     var dups = duplicated(allData);
