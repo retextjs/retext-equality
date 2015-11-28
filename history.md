@@ -2,6 +2,13 @@
 
 <!--lint disable no-multiple-toplevel-headings maximum-line-length-->
 
+1.6.1 / 2015-11-28
+==================
+
+*   Remove bower, distribution files ([6bafa2f](https://github.com/wooorm/retext-equality/commit/6bafa2f))
+*   Remove duplicated items from `ablist.yml` and `lgbtq.yml` ([f77ba36](https://github.com/wooorm/retext-equality/commit/f77ba36))
+*   Test if YAML files include any duplicated values ([6a5dcb1](https://github.com/wooorm/retext-equality/commit/6a5dcb1))
+
 1.6.0 / 2015-10-31
 ==================
 
