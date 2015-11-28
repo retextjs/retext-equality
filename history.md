@@ -2,6 +2,12 @@
 
 <!--lint disable no-multiple-toplevel-headings maximum-line-length-->
 
+1.6.3 / 2015-11-28
+==================
+
+*   Add node 4, 5 to travis ([eb70610](https://github.com/wooorm/retext-equality/commit/eb70610))
+*   Add linting, building to travis ([cba649e](https://github.com/wooorm/retext-equality/commit/cba649e))
+
 1.6.2 / 2015-11-28
 ==================
 
