@@ -2,6 +2,11 @@
 
 <!--lint disable no-multiple-toplevel-headings maximum-line-length-->
 
+1.6.2 / 2015-11-28
+==================
+
+*   Fix travis key ([9c86bbe](https://github.com/wooorm/retext-equality/commit/9c86bbe))
+
 1.6.1 / 2015-11-28
 ==================
 
