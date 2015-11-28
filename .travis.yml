@@ -10,7 +10,7 @@ after_script: npm install codecov.io && cat ./coverage/lcov.info | codecov
 deploy:
   provider: releases
   api_key:
-    secure: GCfTZxoqpp1tMmslM5MTI13BLv+bvFhZUuhX+dQFbcVYODQKUjnUj9EBF10PJSTpYqm3GnGpxEoQ6RAUVxlH7rBQUFm4czaZPPgCDSZT3B8pszmQkl1aRyvdmXFoKfyNhFUwBUSsoBpM92wp/UrgIZ/CI0jLoIZbCwn4KH02rf8=
+    secure: sTRvblMHQHyAlck5qEie1THTuVGuE/MZ+vcI/3Outv9z5TkUN5fn+YojBvwQYaF6E6CQ5vqUwohG5kIfEC257sfYWd+CtFZHuDeP1gZPFktf2n2LhhDCCyt4qIGkzRlwR8uJqtaO+O7KCVwTZ9PdAu3wnlOR30PGZ/eOvPkmDjd8gJfHVftzCbHIKOcDuzn2woc2zE59I96ty/ucQy+HMHm0cjL3beRysfWXQWZ6SbeQOWiClaW8+JQH6Gjo7gL5NtOct4cbN6AgKBE7bJkHpezbPp9BlcXPFrp9lem4ThM0LKQ0eDJTnI+sqlvI06JFWXL9oM6op20DKAJjMO/9GoV/TncreZ6fTKVN3wuMd7KGF0fVXjyBF5wEAsbDvj/sQU6zvRSufhBTUHVgR79Q6sfVgwXqoCkjd9UrOjHTColJe0TxGRzo69PA1NBOdXNJpbw/uMxuSKsMznWEwngxT52Yf15a84bgOrorSSj13qkKbi/7fs+wlepSwu0kJGYU55oDIpLIkS30Dagp8x/YmdawylFJL7zfQWmET4dsFraHmPxsTpdlhbpndz7DCFohkZUPUGFn1jlPEP9ywFW3BfOwyM+0JrXlb/UugGYjuIkc8GNO0TpjDZTZco6E3tRdMOl708ChEQpcV5RAiLkmFJUMhj02v8CHz/ypMiGRgEo=
   file:
     - "retext-equality.js"
     - "retext-equality.min.js"
