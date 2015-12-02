@@ -2,6 +2,11 @@
 
 <!--lint disable no-multiple-toplevel-headings maximum-line-length-->
 
+1.6.4 / 2015-12-02
+==================
+
+*   Add terms for intersex people ([9b5ec3e](https://github.com/wooorm/retext-equality/commit/9b5ec3e))
+
 1.6.3 / 2015-11-28
 ==================
 
