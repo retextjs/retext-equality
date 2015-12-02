@@ -6239,6 +6239,39 @@
       "a"
     ],
     "considerate": {
+      "intersex": "a"
+    },
+    "inconsiderate": {
+      "hermaphroditic": "a",
+      "pseudohermaphroditic": "a",
+      "pseudo hermaphroditic": "a"
+    },
+    "note": "Source: http://www.isna.org/node/979"
+  },
+  {
+    "id": 381,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "person who is intersex": "a",
+      "person": "a"
+    },
+    "inconsiderate": {
+      "hermaphrodite": "a",
+      "pseudohermaphrodite": "a",
+      "pseudo hermaphrodite": "a"
+    },
+    "note": "Source: http://www.isna.org/node/979"
+  },
+  {
+    "id": 382,
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
       "died by suicide": "a",
       "completed suicide": "a"
     },
@@ -6248,7 +6281,7 @@
     "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide"
   },
   {
-    "id": 381,
+    "id": 383,
     "type": "simple",
     "categories": [
       "a"
@@ -6263,7 +6296,7 @@
     "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide"
   },
   {
-    "id": 382,
+    "id": 384,
     "type": "simple",
     "categories": [
       "a"

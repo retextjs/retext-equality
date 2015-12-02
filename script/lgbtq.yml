@@ -148,3 +148,20 @@
     - non-discrimination ordinance
   inconsiderate:
     - bathroom bill
+- type: simple
+  source: http://www.isna.org/node/979
+  considerate:
+    - intersex
+  inconsiderate:
+    - hermaphroditic
+    - pseudohermaphroditic
+    - pseudo hermaphroditic
+- type: simple
+  source: http://www.isna.org/node/979
+  considerate:
+    - person who is intersex
+    - person
+  inconsiderate:
+    - hermaphrodite
+    - pseudohermaphrodite
+    - pseudo hermaphrodite
