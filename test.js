@@ -6,16 +6,9 @@
  * Dependencies.
  */
 
-var assert = require('assert');
+var tap = require('tap');
 var retext = require('retext');
 var equality = require('./');
-
-/*
- * Methods.
- */
-
-var equal = assert.strictEqual;
-var dequal = assert.deepEqual;
 
 /*
  * Helpers.
@@ -28,8 +21,6 @@ function process(doc) {
     var messages;
 
     retext().use(equality).process(doc, function (err, file) {
-        assert.ifError(err);
-
         messages = file.messages;
     });
 
@@ -40,335 +31,280 @@ function process(doc) {
  * Tests.
  */
 
-describe('retext-equality', function () {
-    it('should not fail on prototypal properties', function () {
-        dequal(process('toString and constructor.'), []);
+tap.test('retext-equality', function (t) {
+    var doc;
+
+    t.plan(21);
+
+    t.same(process('toString and constructor.'), []);
+
+    doc = 'Their child has a birth defect.';
+
+    retext().use(equality).process(doc, function (err, file) {
+        t.ifError(err);
+
+        t.same(
+            file.messages[0].note,
+            'If possible, describe exacly what this is. (source: http://ncdj.org/style-guide/)',
+            'should patch `description` when applicable'
+        );
     });
 
-    it('should patch `description` when applicable', function () {
-        var doc = 'Their child has a birth defect.';
+    t.same(
+        process('her bicycle.'),
+        ['1:1-1:4: `her` may be insensitive, use `their`, `theirs`, `them` instead'],
+        'pronouns'
+    );
 
-        retext().use(equality).process(doc, function (err, file) {
-            assert.ifError(err);
+    t.same(
+        process('Ze frenchmen are comming.'),
+        ['1:4-1:13: `frenchmen` may be insensitive, use `french` instead'],
+        'gender polarising words'
+    );
 
-            equal(file.messages[0].note,
-                'If possible, describe exacly what this is. (source: http://ncdj.org/style-guide/)'
-            );
-        });
-    });
+    t.same(
+        process('Her bicycle.'),
+        ['1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead'],
+        'case-insensitive pronouns'
+    );
 
-    it('should warn about gender polarising words', function () {
-        dequal(process('her bicycle.'), [
-            '1:1-1:4: `her` may be insensitive, use `their`, `theirs`, `them` instead'
-        ]);
+    t.same(
+        process('Frenchmen are comming.'),
+        ['1:1-1:10: `Frenchmen` may be insensitive, use `French` instead'],
+        'case-insensitive pronouns'
+    );
 
-        dequal(process('Ze frenchmen are comming.'), [
-            '1:4-1:13: `frenchmen` may be insensitive, use `french` instead'
-        ]);
-    });
+    t.same(
+        process('Her/his bicycle.'),
+        [],
+        'should ignore `/` comparison'
+    );
 
-    it('should warn case-insensitive', function () {
-        dequal(process('Her bicycle.'), [
-            '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead'
-        ]);
+    t.same(
+        process('Her and his bicycle.'),
+        [],
+        'should ignore `and` comparison'
+    );
 
-        dequal(process('Frenchmen are comming.'), [
-            '1:1-1:10: `Frenchmen` may be insensitive, use `French` instead'
-        ]);
-    });
+    t.same(
+        process('Her or his bicycle.'),
+        [],
+        'should ignore `or` comparison'
+    );
 
-    it('should ignore `/` comparison', function () {
-        var messages = process('Her/his bicycle.');
-
-        dequal(messages, []);
-    });
-
-    it('should ignore `and` comparison', function () {
-        var messages = process('Her and his bicycle.');
-
-        dequal(messages, []);
-    });
-
-    it('should ignore `or` comparison', function () {
-        var messages = process('Her or his bicycle.');
-
-        dequal(messages, []);
-    });
-
-    it('should NOT ignore other close words', function () {
-        var messages = process('Her bike, his bicycle.');
-
-        dequal(messages, [
+    t.same(
+        process('Her bike, his bicycle.'),
+        [
             '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead',
             '1:11-1:14: `his` may be insensitive, use `their`, `theirs`, `them` instead'
-        ]);
-    });
+        ],
+        'should NOT ignore other close words'
+    );
 
-    describe('Should ignore dashes and ampersands', function () {
-        it('Two bipolar magnets', function () {
-            var messages = process('Two bipolar magnets.');
+    t.same(
+        process('Two bipolar magnets.'),
+        ['1:5-1:12: `bipolar` may be insensitive, use `fluctuating`, `person with schizophrenia`, `person with bipolar disorder` instead'],
+        '`bipolar` (without dash)'
+    );
 
-            dequal(messages, [
-                '1:5-1:12: `bipolar` may be insensitive, use `fluctuating`, `person with schizophrenia`, `person with bipolar disorder` instead'
-            ]);
-        });
+    t.same(
+        process('Two bi-polar magnets.'),
+        ['1:5-1:13: `bi-polar` may be insensitive, use `fluctuating`, `person with schizophrenia`, `person with bipolar disorder` instead'],
+        '`bi-polar` (with dash)'
+    );
 
-        it('Two bi-polar magnets', function () {
-            var messages = process('Two bi-polar magnets.');
+    t.same(
+        process('Downs Syndrome.'),
+        ['1:1-1:6: `Downs Syndrome` may be insensitive, use `Down Syndrome` instead'],
+        '`Downs Syndrome` (without apostrophe)'
+    );
 
-            dequal(messages, [
-                '1:5-1:13: `bi-polar` may be insensitive, use `fluctuating`, `person with schizophrenia`, `person with bipolar disorder` instead'
-            ]);
-        });
+    t.same(
+        process('Down’s Syndrome.'),
+        ['1:1-1:7: `Down’s Syndrome` may be insensitive, use `Down Syndrome` instead'],
+        'Down’s Syndrome (apostrophe)'
+    );
 
-        it('Downs Syndrome', function () {
-            var messages = process('Downs Syndrome.');
+    t.same(
+        process('Eric is mentally ill.'),
+        ['1:9-1:17: `mentally ill` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'],
+        'ablist-language'
+    );
 
-            dequal(messages, [
-                '1:1-1:6: `Downs Syndrome` may be insensitive, use `Down Syndrome` instead'
-            ]);
-        });
+    t.same(
+        process('Sam set up the network as master and slave.'),
+        ['1:27-1:33: `master` / `slave` may be insensitive, use `primary` / `replica` instead'],
+        'relational insensitivities'
+    );
 
-        it('Down’s Syndrome', function () {
-            var messages = process('Down’s Syndrome.');
+    t.same(
+        process('Master and slave can be quite hurtful.'),
+        ['1:1-1:7: `Master` / `slave` may be insensitive, use `Primary` / `Replica` instead'],
+        'relational insensitivities (case #1)'
+    );
 
-            dequal(messages, [
-                '1:1-1:7: `Down’s Syndrome` may be insensitive, use `Down Syndrome` instead'
-            ]);
-        });
+    t.same(
+        process('master and Slave can be quite hurtful.'),
+        ['1:1-1:7: `master` / `Slave` may be insensitive, use `primary` / `replica` instead'],
+        'relational insensitivities (case #2)'
+    );
 
-        it('Downs Syndrome', function () {
-            var messages = process('Downs Syndrome.');
+    t.same(
+        process('Slaves. Master.'),
+        ['1:1-1:7: `Slaves` / `Master` may be insensitive, use `Replica` / `Primary` instead'],
+        'relation order'
+    );
 
-            dequal(messages, [
-                '1:1-1:6: `Downs Syndrome` may be insensitive, use `Down Syndrome` instead'
-            ]);
-        });
-    });
-
-    it('should warn about disability-inconsiderate words', function () {
-        dequal(process('Eric is mentally ill.'), [
-            '1:9-1:17: `mentally ill` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
-        ]);
-
-        dequal(process('Eric is Mentally ill.'), [
-            '1:9-1:17: `Mentally ill` may be insensitive, use `Rude`, `Mean`, `Disgusting`, `Vile`, `Person with symptoms of mental illness`, `Person with mental illness`, `Person with symptoms of a mental disorder`, `Person with a mental disorder` instead'
-        ]);
-    });
-
-    it('should warn about relational insensitivities', function () {
-        var messages = process('Sam set up the network as master and slave.');
-
-        dequal(messages, [
-            '1:27-1:33: `master` / `slave` may be insensitive, use `primary` / `replica` instead'
-        ]);
-    });
-
-    it('should warn about relational insensitivities supporting case', function () {
-        dequal(process('Master and slave can be quite hurtful.'), [
-            '1:1-1:7: `Master` / `slave` may be insensitive, use `Primary` / `Replica` instead'
-        ]);
-
-        dequal(process('master and Slave can be quite hurtful.'), [
-            '1:1-1:7: `master` / `Slave` may be insensitive, use `primary` / `replica` instead'
-        ]);
-    });
-
-    it('should re-order relationals based on which came first', function () {
-        dequal(process('Slaves. Master.'), [
-            '1:1-1:7: `Slaves` / `Master` may be insensitive, use `Replica` / `Primary` instead'
-        ]);
-    });
-
-    it('should warn about relationals across sentences', function () {
-        var messages = process('All changes are written to the master server. The slaves are read-only copies of master.');
-
-        dequal(messages, [
-            '1:32-1:38: `master` / `slaves` may be insensitive, use `primary` / `replica` instead'
-        ]);
-    });
+    t.same(
+        process('All changes are written to the master server. The slaves are read-only copies of master.'),
+        ['1:32-1:38: `master` / `slaves` may be insensitive, use `primary` / `replica` instead'],
+        'relation across sentences'
+    );
 });
 
-describe('Phrasing', function () {
-    describe('Should warn', function () {
-        it('This is insane', function () {
-            var messages = process('This is insane.');
+tap.test('Phrasing', function (t) {
+    t.plan(22);
 
-            dequal(messages, [
-                '1:9-1:15: `insane` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
-            ]);
-        });
+    t.same(
+        process('This is insane.'),
+        ['1:9-1:15: `insane` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'],
+        'This is insane'
+    );
 
-        it('I like him', function () {
-            var messages = process('I like him.');
+    t.same(process('I like him.'), [
+        '1:8-1:11: `him` may be insensitive, use `their`, `theirs`, `them` instead'],
+        'I like him'
+    );
 
-            dequal(messages, [
-                '1:8-1:11: `him` may be insensitive, use `their`, `theirs`, `them` instead'
-            ]);
-        });
+    t.same(
+        process('Manned spacecraft.'),
+        ['1:1-1:7: `Manned` may be insensitive, use `Staffed`, `Crewed`, `Piloted` instead'],
+        'Manned spacecraft'
+    );
 
-        it('Manned spacecraft', function () {
-            var messages = process('Manned spacecraft.');
+    t.same(
+        process('Moaning, like wormen are always doing.'),
+        ['1:1-1:8: `Moaning` may be insensitive, use `Whining`, `Complaining`, `Crying` instead'],
+        'Moaning, like women are always doing'
+    );
 
-            dequal(messages, [
-                '1:1-1:7: `Manned` may be insensitive, use `Staffed`, `Crewed`, `Piloted` instead'
-            ]);
-        });
+    t.same(
+        process('Niggers is not a nice word.'),
+        ['1:1-1:8: `Niggers` may be insensitive, use `African americans`, `South americans`, `Caribbean people`, `Africans`, `People of color`, `Black people` instead'],
+        'N*gg*rs is not a nice word'
+    );
 
-        it('Moaning, like wormen are always doing', function () {
-            var messages = process('Moaning, like wormen are always doing.');
+    t.same(
+        process('He muttered some lame excuse.'),
+        [
+            '1:1-1:3: `He` may be insensitive, use `They`, `It` instead',
+            '1:18-1:22: `lame` may be insensitive, use `boring`, `dull` instead'
+        ],
+        'He muttered some lame excuse'
+    );
 
-            dequal(messages, [
-                '1:1-1:8: `Moaning` may be insensitive, use `Whining`, `Complaining`, `Crying` instead'
-            ]);
-        });
+    t.same(
+        process('He muttered some lame excuse.'),
+        [
+            '1:1-1:3: `He` may be insensitive, use `They`, `It` instead',
+            '1:18-1:22: `lame` may be insensitive, use `boring`, `dull` instead'
+        ],
+        'He muttered some lame excuse'
+    );
 
-        it('N*gg*rs is not a nice word', function () {
-            var messages = process('Niggers is not a nice word.');
+    t.same(
+        process('I’m not psychotic, I didn’t have amnesia yesterday.'),
+        ['1:9-1:18: `psychotic` may be insensitive, use `person with a psychotic condition`, `person with psychosis` instead'],
+        'I’m not psychotic, I didn’t have amnesia yesterday'
+    );
 
-            dequal(messages, [
-                '1:1-1:8: `Niggers` may be insensitive, use `African americans`, `South americans`, `Caribbean people`, `Africans`, `People of color`, `Black people` instead'
-            ]);
-        });
+    t.same(
+        process('Yeah, you were really psycho to him.'),
+        [
+            '1:33-1:36: `him` may be insensitive, use `their`, `theirs`, `them` instead',
+            '1:23-1:29: `psycho` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
+        ],
+        'Yeah, you were really psycho to him'
+    );
 
-        it('He muttered some lame excuse', function () {
-            var messages = process('He muttered some lame excuse.');
+    t.same(
+        process('I’m so retarded.'),
+        ['1:8-1:16: `retarded` may be insensitive, use `silly`, `dullard`, `person with Down Syndrome`, `person with developmental disabilities`, `delay`, `hold back` instead'],
+        'I’m so retarded'
+    );
 
-            dequal(messages, [
-                '1:1-1:3: `He` may be insensitive, use `They`, `It` instead',
-                '1:18-1:22: `lame` may be insensitive, use `boring`, `dull` instead'
-            ]);
-        });
+    t.same(
+        process('This is dumb!'),
+        ['1:9-1:13: `dumb` may be insensitive, use `foolish`, `ludicrous`, `speechless`, `silent` instead'],
+        'This is dumb!'
+    );
 
-        it('He muttered some lame excuse', function () {
-            var messages = process('He muttered some lame excuse.');
+    t.same(
+        process('The stupid PS3 controller.'),
+        ['1:5-1:11: `stupid` may be insensitive, use `foolish`, `ludicrous`, `unintelligent` instead'],
+        'The stupid PS3 controller.'
+    );
 
-            dequal(messages, [
-                '1:1-1:3: `He` may be insensitive, use `They`, `It` instead',
-                '1:18-1:22: `lame` may be insensitive, use `boring`, `dull` instead'
-            ]);
-        });
+    t.same(
+        process('You almost gave me a panic attack!'),
+        ['1:22-1:27: `panic attack` may be insensitive, use `fit of terror`, `scare` instead'],
+        'You almost gave me a panic attack!'
+    );
 
-        it('I’m not psychotic, I didn’t have amnesia yesterday', function () {
-            var messages = process('I’m not psychotic, I didn’t have amnesia yesterday.');
+    t.same(
+        process('You look so anorexic!'),
+        ['1:13-1:21: `anorexic` may be insensitive, use `thin`, `slim` instead'],
+        'You look so anorexic!'
+    );
 
-            dequal(messages, [
-                '1:9-1:18: `psychotic` may be insensitive, use `person with a psychotic condition`, `person with psychosis` instead'
-            ]);
-        });
+    t.same(
+        process('My O.C.D. is coming out again!'),
+        ['1:4-1:10: `O.C.D.` may be insensitive, use `Obsessive`, `Pedantic`, `Niggly`, `Picky` instead'],
+        'My O.C.D. is coming out again!'
+    );
 
-        it('Yeah, you were really psycho to him', function () {
-            var messages = process('Yeah, you were really psycho to him.');
+    t.same(
+        process('My insomnia is so bad!'),
+        ['1:4-1:12: `insomnia` may be insensitive, use `restlessness`, `sleeplessness` instead'],
+        'My insomnia is so bad!'
+    );
 
-            dequal(messages, [
-                '1:33-1:36: `him` may be insensitive, use `their`, `theirs`, `them` instead',
-                '1:23-1:29: `psycho` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
-            ]);
-        });
+    t.same(
+        process('Yesterday I was feeling depressed.'),
+        ['1:25-1:34: `depressed` may be insensitive, use `sad`, `blue`, `bummed out`, `person with seasonal affective disorder`, `person with psychotic depression`, `person with postpartum depression` instead'],
+        'Yesterday I was feeling depressed.'
+    );
 
-        it('I’m so retarded', function () {
-            var messages = process('I’m so retarded.');
+    t.same(
+        process('I don’t understand all those complaints from katsaps living in foreign countries.'),
+        ['1:46-1:53: `katsaps` may be insensitive, use `Russians` instead'],
+        'I don’t understand all those complaints from katsaps living in foreign countries.'
+    );
 
-            dequal(messages, [
-                '1:8-1:16: `retarded` may be insensitive, use `silly`, `dullard`, `person with Down Syndrome`, `person with developmental disabilities`, `delay`, `hold back` instead'
-            ]);
-        });
+    t.same(
+        process('...but we got gyped out of it all in two days.'),
+        ['1:15-1:20: `gyped` may be insensitive, use `ripped-off`, `bamboozled`, `cheated` instead'],
+        '...but we got gyped out of it all in two days.'
+    );
 
-        it('This is dumb!', function () {
-            var messages = process('This is dumb!');
+    t.same(
+        process('When condemned by the ruler he committed suicide.'),
+        [
+            '1:29-1:31: `he` may be insensitive, use `they`, `it` instead',
+            '1:32-1:41: `committed suicide` may be insensitive, use `died by suicide`, `completed suicide` instead'
+        ],
+        'When condemned by the ruler he committed suicide.'
+    );
 
-            dequal(messages, [
-                '1:9-1:13: `dumb` may be insensitive, use `foolish`, `ludicrous`, `speechless`, `silent` instead'
-            ]);
-        });
+    t.same(
+        process('I’ll not dye my hair like some fag.'),
+        ['1:32-1:35: `fag` may be insensitive, use `gay` instead'],
+        'I’ll not dye my hair like some f*g.'
+    );
 
-        it('The stupid PS3 controller.', function () {
-            var messages = process('The stupid PS3 controller.');
-
-            dequal(messages, [
-                '1:5-1:11: `stupid` may be insensitive, use `foolish`, `ludicrous`, `unintelligent` instead'
-            ]);
-        });
-
-        it('You almost gave me a panic attack!', function () {
-            var messages = process('You almost gave me a panic attack!');
-
-            dequal(messages, [
-                '1:22-1:27: `panic attack` may be insensitive, use `fit of terror`, `scare` instead'
-            ]);
-        });
-
-        it('You look so anorexic!', function () {
-            var messages = process('You look so anorexic!');
-
-            dequal(messages, [
-                '1:13-1:21: `anorexic` may be insensitive, use `thin`, `slim` instead'
-            ]);
-        });
-
-        it('My O.C.D. is coming out again!', function () {
-            var messages = process('My O.C.D. is coming out again!');
-
-            dequal(messages, [
-                '1:4-1:10: `O.C.D.` may be insensitive, use `Obsessive`, `Pedantic`, `Niggly`, `Picky` instead'
-            ]);
-        });
-
-        it('My insomnia is so bad!', function () {
-            var messages = process('My insomnia is so bad!');
-
-            dequal(messages, [
-                '1:4-1:12: `insomnia` may be insensitive, use `restlessness`, `sleeplessness` instead'
-            ]);
-        });
-
-        it('Yesterday I was feeling depressed.', function () {
-            var messages = process('Yesterday I was feeling depressed.');
-
-            dequal(messages, [
-                '1:25-1:34: `depressed` may be insensitive, use `sad`, `blue`, `bummed out`, `person with seasonal affective disorder`, `person with psychotic depression`, `person with postpartum depression` instead'
-            ]);
-        });
-
-        it('I don’t understand all those complaints from katsaps living in foreign countries.', function () {
-            var messages = process('I don’t understand all those complaints from katsaps living in foreign countries.');
-
-            dequal(messages, [
-                '1:46-1:53: `katsaps` may be insensitive, use `Russians` instead'
-            ]);
-        });
-
-        it('...but we got gyped out of it all in two days.', function () {
-            var messages = process('...but we got gyped out of it all in two days.');
-
-            dequal(messages, [
-                '1:15-1:20: `gyped` may be insensitive, use `ripped-off`, `bamboozled`, `cheated` instead'
-            ]);
-        });
-
-        it('When condemned by the ruler he committed suicide.', function () {
-            var messages = process('When condemned by the ruler he committed suicide.');
-
-            dequal(messages, [
-              '1:29-1:31: `he` may be insensitive, use `they`, `it` instead',
-              '1:32-1:41: `committed suicide` may be insensitive, use `died by suicide`, `completed suicide` instead'
-            ]);
-        });
-
-        it('I’ll not dye my hair like some f*g.', function () {
-            var messages = process('I’ll not dye my hair like some fag.');
-
-            dequal(messages, [
-                '1:32-1:35: `fag` may be insensitive, use `gay` instead'
-            ]);
-        });
-    });
-
-    describe('Should NOT warn', function () {
-        it('he - A robust HTML entity encoder/decoder.', function () {
-            var messages = process('he - A robust HTML entity encoder/decoder.');
-
-            dequal(messages, []);
-        });
-    });
+    t.same(
+        process('he - A robust HTML entity encoder/decoder.'),
+        [],
+        'he - A robust HTML entity encoder/decoder.'
+    );
 });
