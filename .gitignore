@@ -1,9 +1,7 @@
 .DS_Store
 *.log
-build/
 components/
 node_modules/
 coverage/
-build.js
 retext-equality.js
 retext-equality.min.js
