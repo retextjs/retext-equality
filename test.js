@@ -1,6 +1,7 @@
 'use strict';
 
-/* eslint-env mocha */
+/* eslint-env node */
+/* jscs:disable maximumLineLength */
 
 /*
  * Dependencies.
@@ -16,6 +17,9 @@ var equality = require('./');
 
 /**
  * Helper to get warnings from `equality` in `doc`.
+ *
+ * @param {string} doc - Document to process.
+ * @return {Array.<VFileMessage>} - Virtual messages.
  */
 function process(doc) {
     var messages;

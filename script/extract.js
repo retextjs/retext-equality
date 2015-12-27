@@ -8,6 +8,8 @@
 
 'use strict';
 
+/* eslint-env node */
+
 /*
  * Dependencies.
  */
@@ -77,7 +79,10 @@ var data = [
 
     var dups = duplicated(allData);
     if (dups.length !== 0) {
-        throw new Error('"' + name + '.yml" has duplicated value(s): \n' + dups.join('\n'));
+        throw new Error(
+            '"' + name + '.yml" has duplicated value(s): \n' +
+            dups.join('\n')
+        );
     }
 
     return yamlData;
@@ -120,7 +125,7 @@ data.forEach(function (entry) {
     }).filter(function (value, index, parent) {
         return parent.indexOf(value, index + 1) === -1;
     });
-})
+});
 
 /*
  * Patch.
@@ -146,7 +151,7 @@ data.forEach(function (entry) {
                     Object.keys(entry.inconsiderate).join(', ')
                 );
             }
-        })
+        });
     }
 });
 
@@ -154,6 +159,6 @@ data.forEach(function (entry) {
  * Write.
  */
 
-data = stringify(data, 0, 2) + '\n'
+data = stringify(data, 0, 2) + '\n';
 
 write(join(__dirname, '..', 'lib', 'patterns.json'), data);
