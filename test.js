@@ -312,3 +312,28 @@ tap.test('Phrasing', function (t) {
         'he - A robust HTML entity encoder/decoder.'
     );
 });
+
+describe('ignoreTerms', function () {
+    it('should skip terms explicitly ignored', function () {
+        equality.config.ignoreTerms = {
+            host: 'a computer server',
+            pop: 'operating on a data structure'
+        };
+
+        var messages = process('The process running on the remote host will pop a job off the queue.');
+
+        dequal(messages, []);
+    });
+
+    it('should still warn about terms not ignored', function () {
+        equality.config.ignoreTerms = {
+            pop: 'operating on a data structure'
+        };
+
+        var messages = process('The process running on the remote host will pop a job off the queue.');
+
+        dequal(messages, [
+            '1:35-1:39: `host` may be insensitive, use `presenter`, `entertainer` instead'
+        ]);
+    });
+});

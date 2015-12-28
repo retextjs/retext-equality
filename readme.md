@@ -34,6 +34,27 @@ retext().use(equality).process(doc, function (err, file) {
 });
 ```
 
+### Adding exceptions
+
+```js
+var retext = require('retext');
+var equality = require('retext-equality');
+var doc = 'The process running on the host will pop a job off the queue.';
+
+equality.config.ignoreTerms = {
+    host: 'a computer server',
+    pop: 'operating on a data structure'
+};
+
+retext().use(equality).process(doc, function (err, file) {
+    if (err) throw err;
+    console.log(file.messages.map(String));
+    /*
+     * []
+     */
+});
+```
+
 ## API
 
 ### [retext](https://github.com/wooorm/retext/tree/feature/stable#api).[use](https://github.com/wooorm/retext/tree/feature/stable#retextuseplugin-options)(equality)
