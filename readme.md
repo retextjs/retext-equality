@@ -36,9 +36,10 @@ retext().use(equality).process(doc, function (err, file) {
 
 ## API
 
-### [retext](https://github.com/wooorm/retext/tree/feature/stable#api).[use](https://github.com/wooorm/retext/tree/feature/stable#retextuseplugin-options)(equality)
+### `retext.use(equality)`
 
-Adds warnings for possible insensitive, inconsiderate language to processed [virtual file](https://github.com/wooorm/vfile)s.
+Adds warnings for possible insensitive, inconsiderate language to the
+processed [virtual file](https://github.com/wooorm/vfile)s.
 
 **Parameters**
 
