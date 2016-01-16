@@ -29,16 +29,14 @@ var write = fs.writeFileSync;
 var stringify = JSON.stringify;
 
 /**
- * Add `position` to `entry` as `id`.
+ * Patch information on `entry`.
  *
  * @param {Object} entry - Thing.
- * @param {*} position - Identifier.
  */
-function patch(entry, position) {
+function patch(entry) {
     var description = entry.note;
     var source = entry.source;
     var result = {
-        'id': position,
         'type': entry.type,
         'categories': entry.categories,
         'considerate': entry.considerate,
