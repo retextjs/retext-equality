@@ -64,7 +64,6 @@
     "lint": "npm run lint-api && npm run lint-style",
     "test-api": "node test.js",
     "test-coverage": "istanbul cover test.js",
-    "test-travis": "npm run test-coverage",
     "test": "npm run build && npm run lint && npm run test-coverage"
   }
 }
