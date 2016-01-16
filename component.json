@@ -20,10 +20,13 @@
     "retext"
   ],
   "dependencies": {
+    "sindresorhus/array-differ": "^1.0.0",
+    "wooorm/nlcst-normalize": "^1.0.0",
     "wooorm/nlcst-to-string": "^1.0.0",
+    "wooorm/nlcst-search": "^1.0.0",
     "ljharb/object-keys": "^1.0.7",
-    "wooorm/unist-util-visit": "^1.0.0",
-    "wooorm/nlcst-is-literal": "^1.0.0"
+    "wooorm/quotation": "^1.0.1",
+    "wooorm/unist-util-visit": "^1.0.0"
   },
   "repository": "wooorm/retext-equality",
   "scripts": [

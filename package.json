@@ -20,9 +20,12 @@
     "retext"
   ],
   "dependencies": {
-    "nlcst-is-literal": "^1.0.0",
+    "array-differ": "^1.0.0",
+    "nlcst-normalize": "^1.0.0",
     "nlcst-to-string": "^1.0.0",
+    "nlcst-search": "^1.0.0",
     "object-keys": "^1.0.7",
+    "quotation": "^1.0.1",
     "unist-util-visit": "^1.0.0"
   },
   "files": [
@@ -50,7 +53,7 @@
     "remark-lint": "^2.0.0",
     "remark-slug": "^3.0.0",
     "remark-validate-links": "^2.0.0",
-    "retext": "^1.0.0-rc.3",
+    "retext": "^1.0.0",
     "tap": "^5.0.0"
   },
   "scripts": {

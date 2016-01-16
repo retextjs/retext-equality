@@ -19,31 +19,42 @@ globals module, [uncompressed and compressed](https://github.com/wooorm/retext-e
 
 ```js
 var retext = require('retext');
-var equality = require('retext-equality');
-var doc = 'His network was set up with a master and slave.';
+var report = require('vfile-reporter');
+var equality = require('.');
 
-retext().use(equality).process(doc, function (err, file) {
-    if (err) throw err;
-    console.log(file.messages.map(String));
-    /*
-     * [
-     *   '1:1-1:4: `His` may be insensitive, use `Their`, `Theirs` instead',
-     *   '1:31-1:37: `master` / `slave` may be insensitive, use `primary` / `replica` instead'
-     * ]
-     */
-});
+retext()
+    .use(equality)
+    .process([
+        'His network was set up with a master and slave.'
+    ].join('\n'), function (err, file) {
+        console.log(report(file));
+    });
+```
+
+Yields:
+
+```text
+<stdin>
+    1:1-1:4  warning  `His` may be insensitive, use `Their`, `Theirs`, `Them` instead
+  1:31-1:37  warning  `master` / `slave` may be insensitive, use `primary` / `replica` instead
+
+⚠ 2 warnings
 ```
 
 ## API
 
-### `retext.use(equality)`
+### `retext.use(equality[, options])`
 
 Adds warnings for possible insensitive, inconsiderate language to the
 processed [virtual file](https://github.com/wooorm/vfile)s.
 
 **Parameters**
 
-*   `equality` — This plug-in.
+*   `equality` — This plug-in;
+
+*   `options` (`Object?`, optional):
+
+    *   `ignore` (`Array.<string>`) — List of phrases to _not_ warn about.
 
 ## License
 
