@@ -22,7 +22,6 @@
   "dependencies": {
     "wooorm/nlcst-to-string": "^1.0.0",
     "ljharb/object-keys": "^1.0.7",
-    "blakeembrey/pluralize": "^1.1.4",
     "wooorm/unist-util-visit": "^1.0.0",
     "wooorm/nlcst-is-literal": "^1.0.0"
   },
