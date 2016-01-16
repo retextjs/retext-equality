@@ -45,7 +45,6 @@
     dudes: male
     gents: male
     gentlemen: male
-    mankind: male
 - type: or
   considerate:
     - person
@@ -542,26 +541,6 @@
     uncles: male
 - type: or
   considerate:
-    - klansperson
-  inconsiderate:
-    klanswoman: female
-    klansman: male
-- type: or
-  considerate:
-    - clansperson
-    - clan member
-  inconsiderate:
-    clanswoman: female
-    clansman: male
-- type: or
-  considerate:
-    - klan
-    - klanspersons
-  inconsiderate:
-    klanswomen: female
-    klansmen: male
-- type: or
-  considerate:
     - boogey
   inconsiderate:
     boogeywoman: female
@@ -771,7 +750,7 @@
     - clergy
     - cleric
   inconsiderate:
-    clergywomen: female
+    clergywoman: female
     clergyman: male
 - type: or
   considerate:
@@ -1022,7 +1001,7 @@
     - adulthood
     - personhood
   inconsiderate:
-    girlhood: female
+    womanhood: female
     masculinity: male
     manhood: male
 - type: or

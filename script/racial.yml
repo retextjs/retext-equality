@@ -73,7 +73,6 @@
   considerate:
     - Chinese people
   inconsiderate:
-    - ching chong
     - chinaman
 - type: simple
   considerate:
@@ -249,7 +248,7 @@
   considerate:
     - Indonesian person
   inconsiderate:
-    - jap
+    - indon
 - type: simple
   considerate:
     - Indonesians
@@ -320,7 +319,6 @@
     - English
     - British
   inconsiderate:
-    - lebo
     - pom
     - poms
     - pohm
@@ -420,7 +418,6 @@
     - people of color
     - black people
   inconsiderate:
-    - abid
     - abeed
     - bluegums
     - bootlips
@@ -485,7 +482,6 @@
     - black person
   inconsiderate:
     - abid
-    - abeed
     - alligator bait
     - gator bait
     - bluegum
@@ -521,7 +517,7 @@
     - porch monkey
     - sambo
     - spade
-    - spearchuckers
+    - spearchucker
     - sooty
     - schvartse
     - schwartze
@@ -594,7 +590,7 @@
     - arab
     - muslim
   inconsiderate:
-    - pakis
+    - paki
     - osama
     - raghead
     - sand nigger
@@ -644,6 +640,9 @@
     - yarpie
     - mabuno
     - mahbuno
+    - clanswoman
+    - clansman
+    - klanswoman
     - klansman
     - mzungu
     - redleg
@@ -671,6 +670,9 @@
     - yarpies
     - mabunos
     - mahbunos
+    - clanswomen
+    - clansmen
+    - klanswomen
     - klansmen
     - mzungus
     - redlegs
@@ -749,7 +751,7 @@
   considerate:
     - jew
   inconsiderate:
-    - christ killers
+    - christ killer
     - cushi
     - kushi
     - heeb

@@ -88,8 +88,7 @@
       "guys": "male",
       "dudes": "male",
       "gents": "male",
-      "gentlemen": "male",
-      "mankind": "male"
+      "gentlemen": "male"
     }
   },
   {
@@ -1161,53 +1160,6 @@
       "male"
     ],
     "considerate": {
-      "klansperson": "a"
-    },
-    "inconsiderate": {
-      "klanswoman": "female",
-      "klansman": "male"
-    }
-  },
-  {
-    "id": 69,
-    "type": "or",
-    "categories": [
-      "female",
-      "male"
-    ],
-    "considerate": {
-      "clansperson": "a",
-      "clan member": "a"
-    },
-    "inconsiderate": {
-      "clanswoman": "female",
-      "clansman": "male"
-    }
-  },
-  {
-    "id": 70,
-    "type": "or",
-    "categories": [
-      "female",
-      "male"
-    ],
-    "considerate": {
-      "klan": "a",
-      "klanspersons": "a"
-    },
-    "inconsiderate": {
-      "klanswomen": "female",
-      "klansmen": "male"
-    }
-  },
-  {
-    "id": 71,
-    "type": "or",
-    "categories": [
-      "female",
-      "male"
-    ],
-    "considerate": {
       "boogey": "a"
     },
     "inconsiderate": {
@@ -1216,7 +1168,7 @@
     }
   },
   {
-    "id": 72,
+    "id": 69,
     "type": "or",
     "categories": [
       "female",
@@ -1231,7 +1183,7 @@
     }
   },
   {
-    "id": 73,
+    "id": 70,
     "type": "or",
     "categories": [
       "female",
@@ -1246,7 +1198,7 @@
     }
   },
   {
-    "id": 74,
+    "id": 71,
     "type": "or",
     "categories": [
       "female",
@@ -1261,7 +1213,7 @@
     }
   },
   {
-    "id": 75,
+    "id": 72,
     "type": "or",
     "categories": [
       "female",
@@ -1276,7 +1228,7 @@
     }
   },
   {
-    "id": 76,
+    "id": 73,
     "type": "or",
     "categories": [
       "female",
@@ -1291,7 +1243,7 @@
     }
   },
   {
-    "id": 77,
+    "id": 74,
     "type": "or",
     "categories": [
       "female",
@@ -1306,7 +1258,7 @@
     }
   },
   {
-    "id": 78,
+    "id": 75,
     "type": "or",
     "categories": [
       "female",
@@ -1321,7 +1273,7 @@
     }
   },
   {
-    "id": 79,
+    "id": 76,
     "type": "or",
     "categories": [
       "female",
@@ -1338,7 +1290,7 @@
     }
   },
   {
-    "id": 80,
+    "id": 77,
     "type": "or",
     "categories": [
       "female",
@@ -1355,7 +1307,7 @@
     }
   },
   {
-    "id": 81,
+    "id": 78,
     "type": "or",
     "categories": [
       "female",
@@ -1372,7 +1324,7 @@
     }
   },
   {
-    "id": 82,
+    "id": 79,
     "type": "or",
     "categories": [
       "female",
@@ -1389,7 +1341,7 @@
     }
   },
   {
-    "id": 83,
+    "id": 80,
     "type": "or",
     "categories": [
       "female",
@@ -1404,7 +1356,7 @@
     }
   },
   {
-    "id": 84,
+    "id": 81,
     "type": "or",
     "categories": [
       "female",
@@ -1420,7 +1372,7 @@
     }
   },
   {
-    "id": 85,
+    "id": 82,
     "type": "or",
     "categories": [
       "female",
@@ -1435,7 +1387,7 @@
     }
   },
   {
-    "id": 86,
+    "id": 83,
     "type": "or",
     "categories": [
       "female",
@@ -1450,7 +1402,7 @@
     }
   },
   {
-    "id": 87,
+    "id": 84,
     "type": "or",
     "categories": [
       "female",
@@ -1468,7 +1420,7 @@
     }
   },
   {
-    "id": 88,
+    "id": 85,
     "type": "or",
     "categories": [
       "female",
@@ -1483,7 +1435,7 @@
     }
   },
   {
-    "id": 89,
+    "id": 86,
     "type": "or",
     "categories": [
       "female",
@@ -1498,7 +1450,7 @@
     }
   },
   {
-    "id": 90,
+    "id": 87,
     "type": "or",
     "categories": [
       "female",
@@ -1513,7 +1465,7 @@
     }
   },
   {
-    "id": 91,
+    "id": 88,
     "type": "or",
     "categories": [
       "female",
@@ -1528,7 +1480,7 @@
     }
   },
   {
-    "id": 92,
+    "id": 89,
     "type": "or",
     "categories": [
       "female",
@@ -1550,7 +1502,7 @@
     }
   },
   {
-    "id": 93,
+    "id": 90,
     "type": "or",
     "categories": [
       "female",
@@ -1566,7 +1518,7 @@
     }
   },
   {
-    "id": 94,
+    "id": 91,
     "type": "or",
     "categories": [
       "female",
@@ -1581,7 +1533,7 @@
     }
   },
   {
-    "id": 95,
+    "id": 92,
     "type": "or",
     "categories": [
       "female",
@@ -1596,7 +1548,7 @@
     }
   },
   {
-    "id": 96,
+    "id": 93,
     "type": "or",
     "categories": [
       "female",
@@ -1611,7 +1563,7 @@
     }
   },
   {
-    "id": 97,
+    "id": 94,
     "type": "or",
     "categories": [
       "female",
@@ -1627,7 +1579,7 @@
     }
   },
   {
-    "id": 98,
+    "id": 95,
     "type": "or",
     "categories": [
       "female",
@@ -1642,7 +1594,7 @@
     }
   },
   {
-    "id": 99,
+    "id": 96,
     "type": "or",
     "categories": [
       "female",
@@ -1658,7 +1610,7 @@
     }
   },
   {
-    "id": 100,
+    "id": 97,
     "type": "or",
     "categories": [
       "female",
@@ -1676,7 +1628,7 @@
     }
   },
   {
-    "id": 101,
+    "id": 98,
     "type": "or",
     "categories": [
       "female",
@@ -1688,12 +1640,12 @@
       "cleric": "a"
     },
     "inconsiderate": {
-      "clergywomen": "female",
+      "clergywoman": "female",
       "clergyman": "male"
     }
   },
   {
-    "id": 102,
+    "id": 99,
     "type": "or",
     "categories": [
       "female",
@@ -1709,7 +1661,7 @@
     }
   },
   {
-    "id": 103,
+    "id": 100,
     "type": "or",
     "categories": [
       "female",
@@ -1724,7 +1676,7 @@
     }
   },
   {
-    "id": 104,
+    "id": 101,
     "type": "or",
     "categories": [
       "female",
@@ -1739,7 +1691,7 @@
     }
   },
   {
-    "id": 105,
+    "id": 102,
     "type": "or",
     "categories": [
       "female",
@@ -1754,7 +1706,7 @@
     }
   },
   {
-    "id": 106,
+    "id": 103,
     "type": "or",
     "categories": [
       "female",
@@ -1769,7 +1721,7 @@
     }
   },
   {
-    "id": 107,
+    "id": 104,
     "type": "or",
     "categories": [
       "female",
@@ -1788,7 +1740,7 @@
     }
   },
   {
-    "id": 108,
+    "id": 105,
     "type": "or",
     "categories": [
       "female",
@@ -1804,7 +1756,7 @@
     }
   },
   {
-    "id": 109,
+    "id": 106,
     "type": "or",
     "categories": [
       "female",
@@ -1820,7 +1772,7 @@
     }
   },
   {
-    "id": 110,
+    "id": 107,
     "type": "or",
     "categories": [
       "female",
@@ -1839,7 +1791,7 @@
     }
   },
   {
-    "id": 111,
+    "id": 108,
     "type": "or",
     "categories": [
       "female",
@@ -1854,7 +1806,7 @@
     }
   },
   {
-    "id": 112,
+    "id": 109,
     "type": "or",
     "categories": [
       "female",
@@ -1869,7 +1821,7 @@
     }
   },
   {
-    "id": 113,
+    "id": 110,
     "type": "or",
     "categories": [
       "female",
@@ -1884,7 +1836,7 @@
     }
   },
   {
-    "id": 114,
+    "id": 111,
     "type": "or",
     "categories": [
       "female",
@@ -1899,7 +1851,7 @@
     }
   },
   {
-    "id": 115,
+    "id": 112,
     "type": "or",
     "categories": [
       "female",
@@ -1914,7 +1866,7 @@
     }
   },
   {
-    "id": 116,
+    "id": 113,
     "type": "or",
     "categories": [
       "female",
@@ -1929,7 +1881,7 @@
     }
   },
   {
-    "id": 117,
+    "id": 114,
     "type": "or",
     "categories": [
       "female",
@@ -1947,7 +1899,7 @@
     }
   },
   {
-    "id": 118,
+    "id": 115,
     "type": "or",
     "categories": [
       "female",
@@ -1962,7 +1914,7 @@
     }
   },
   {
-    "id": 119,
+    "id": 116,
     "type": "or",
     "categories": [
       "female",
@@ -1985,7 +1937,7 @@
     }
   },
   {
-    "id": 120,
+    "id": 117,
     "type": "or",
     "categories": [
       "female",
@@ -2009,7 +1961,7 @@
     }
   },
   {
-    "id": 121,
+    "id": 118,
     "type": "or",
     "categories": [
       "female",
@@ -2024,7 +1976,7 @@
     }
   },
   {
-    "id": 122,
+    "id": 119,
     "type": "or",
     "categories": [
       "female",
@@ -2039,7 +1991,7 @@
     }
   },
   {
-    "id": 123,
+    "id": 120,
     "type": "or",
     "categories": [
       "female",
@@ -2054,7 +2006,7 @@
     }
   },
   {
-    "id": 124,
+    "id": 121,
     "type": "or",
     "categories": [
       "female",
@@ -2069,7 +2021,7 @@
     }
   },
   {
-    "id": 125,
+    "id": 122,
     "type": "or",
     "categories": [
       "female",
@@ -2086,7 +2038,7 @@
     }
   },
   {
-    "id": 126,
+    "id": 123,
     "type": "or",
     "categories": [
       "female",
@@ -2101,7 +2053,7 @@
     }
   },
   {
-    "id": 127,
+    "id": 124,
     "type": "or",
     "categories": [
       "female",
@@ -2118,7 +2070,7 @@
     }
   },
   {
-    "id": 128,
+    "id": 125,
     "type": "or",
     "categories": [
       "female",
@@ -2135,7 +2087,7 @@
     }
   },
   {
-    "id": 129,
+    "id": 126,
     "type": "or",
     "categories": [
       "female",
@@ -2151,7 +2103,7 @@
     }
   },
   {
-    "id": 130,
+    "id": 127,
     "type": "or",
     "categories": [
       "female",
@@ -2166,7 +2118,7 @@
     }
   },
   {
-    "id": 131,
+    "id": 128,
     "type": "or",
     "categories": [
       "female",
@@ -2181,7 +2133,7 @@
     }
   },
   {
-    "id": 132,
+    "id": 129,
     "type": "or",
     "categories": [
       "female",
@@ -2196,7 +2148,7 @@
     }
   },
   {
-    "id": 133,
+    "id": 130,
     "type": "or",
     "categories": [
       "female",
@@ -2216,7 +2168,7 @@
     }
   },
   {
-    "id": 134,
+    "id": 131,
     "type": "or",
     "categories": [
       "female",
@@ -2234,7 +2186,7 @@
     }
   },
   {
-    "id": 135,
+    "id": 132,
     "type": "or",
     "categories": [
       "female",
@@ -2245,13 +2197,13 @@
       "personhood": "a"
     },
     "inconsiderate": {
-      "girlhood": "female",
+      "womanhood": "female",
       "masculinity": "male",
       "manhood": "male"
     }
   },
   {
-    "id": 136,
+    "id": 133,
     "type": "or",
     "categories": [
       "female",
@@ -2266,7 +2218,7 @@
     }
   },
   {
-    "id": 137,
+    "id": 134,
     "type": "or",
     "categories": [
       "female",
@@ -2281,7 +2233,7 @@
     }
   },
   {
-    "id": 138,
+    "id": 135,
     "type": "or",
     "categories": [
       "female",
@@ -2296,7 +2248,7 @@
     }
   },
   {
-    "id": 139,
+    "id": 136,
     "type": "or",
     "categories": [
       "female",
@@ -2312,7 +2264,7 @@
     }
   },
   {
-    "id": 140,
+    "id": 137,
     "type": "or",
     "categories": [
       "female",
@@ -2328,7 +2280,7 @@
     }
   },
   {
-    "id": 141,
+    "id": 138,
     "type": "or",
     "categories": [
       "female",
@@ -2343,7 +2295,7 @@
     }
   },
   {
-    "id": 142,
+    "id": 139,
     "type": "or",
     "categories": [
       "female",
@@ -2358,7 +2310,7 @@
     }
   },
   {
-    "id": 143,
+    "id": 140,
     "type": "or",
     "categories": [
       "female",
@@ -2374,7 +2326,7 @@
     }
   },
   {
-    "id": 144,
+    "id": 141,
     "type": "or",
     "categories": [
       "female",
@@ -2390,7 +2342,7 @@
     }
   },
   {
-    "id": 145,
+    "id": 142,
     "type": "or",
     "categories": [
       "female",
@@ -2405,7 +2357,7 @@
     }
   },
   {
-    "id": 146,
+    "id": 143,
     "type": "or",
     "categories": [
       "female",
@@ -2420,7 +2372,7 @@
     }
   },
   {
-    "id": 147,
+    "id": 144,
     "type": "or",
     "categories": [
       "female",
@@ -2437,7 +2389,7 @@
     }
   },
   {
-    "id": 148,
+    "id": 145,
     "type": "or",
     "categories": [
       "female",
@@ -2452,7 +2404,7 @@
     }
   },
   {
-    "id": 149,
+    "id": 146,
     "type": "or",
     "categories": [
       "female",
@@ -2467,7 +2419,7 @@
     }
   },
   {
-    "id": 150,
+    "id": 147,
     "type": "or",
     "categories": [
       "female",
@@ -2482,7 +2434,7 @@
     }
   },
   {
-    "id": 151,
+    "id": 148,
     "type": "or",
     "categories": [
       "female",
@@ -2497,7 +2449,7 @@
     }
   },
   {
-    "id": 152,
+    "id": 149,
     "type": "or",
     "categories": [
       "female",
@@ -2512,7 +2464,7 @@
     }
   },
   {
-    "id": 153,
+    "id": 150,
     "type": "or",
     "categories": [
       "female",
@@ -2527,7 +2479,7 @@
     }
   },
   {
-    "id": 154,
+    "id": 151,
     "type": "or",
     "categories": [
       "female",
@@ -2543,7 +2495,7 @@
     }
   },
   {
-    "id": 155,
+    "id": 152,
     "type": "or",
     "categories": [
       "female",
@@ -2558,7 +2510,7 @@
     }
   },
   {
-    "id": 156,
+    "id": 153,
     "type": "or",
     "categories": [
       "female",
@@ -2573,7 +2525,7 @@
     }
   },
   {
-    "id": 157,
+    "id": 154,
     "type": "or",
     "categories": [
       "female",
@@ -2590,7 +2542,7 @@
     }
   },
   {
-    "id": 158,
+    "id": 155,
     "type": "or",
     "categories": [
       "female",
@@ -2606,7 +2558,7 @@
     }
   },
   {
-    "id": 159,
+    "id": 156,
     "type": "or",
     "categories": [
       "female",
@@ -2622,7 +2574,7 @@
     }
   },
   {
-    "id": 160,
+    "id": 157,
     "type": "or",
     "categories": [
       "female",
@@ -2638,7 +2590,7 @@
     }
   },
   {
-    "id": 161,
+    "id": 158,
     "type": "or",
     "categories": [
       "female",
@@ -2653,7 +2605,7 @@
     }
   },
   {
-    "id": 162,
+    "id": 159,
     "type": "or",
     "categories": [
       "female",
@@ -2668,7 +2620,7 @@
     }
   },
   {
-    "id": 163,
+    "id": 160,
     "type": "or",
     "categories": [
       "female",
@@ -2683,7 +2635,7 @@
     }
   },
   {
-    "id": 164,
+    "id": 161,
     "type": "or",
     "categories": [
       "female",
@@ -2700,7 +2652,7 @@
     }
   },
   {
-    "id": 165,
+    "id": 162,
     "type": "or",
     "categories": [
       "female",
@@ -2715,7 +2667,7 @@
     }
   },
   {
-    "id": 166,
+    "id": 163,
     "type": "or",
     "categories": [
       "female",
@@ -2730,7 +2682,7 @@
     }
   },
   {
-    "id": 167,
+    "id": 164,
     "type": "or",
     "categories": [
       "female",
@@ -2745,7 +2697,7 @@
     }
   },
   {
-    "id": 168,
+    "id": 165,
     "type": "or",
     "categories": [
       "female",
@@ -2762,7 +2714,7 @@
     }
   },
   {
-    "id": 169,
+    "id": 166,
     "type": "or",
     "categories": [
       "female",
@@ -2777,7 +2729,7 @@
     }
   },
   {
-    "id": 170,
+    "id": 167,
     "type": "or",
     "categories": [
       "female",
@@ -2792,7 +2744,7 @@
     }
   },
   {
-    "id": 171,
+    "id": 168,
     "type": "or",
     "categories": [
       "female",
@@ -2808,7 +2760,7 @@
     }
   },
   {
-    "id": 172,
+    "id": 169,
     "type": "or",
     "categories": [
       "female",
@@ -2824,7 +2776,7 @@
     }
   },
   {
-    "id": 173,
+    "id": 170,
     "type": "or",
     "categories": [
       "female",
@@ -2841,7 +2793,7 @@
     }
   },
   {
-    "id": 174,
+    "id": 171,
     "type": "or",
     "categories": [
       "female",
@@ -2856,7 +2808,7 @@
     }
   },
   {
-    "id": 175,
+    "id": 172,
     "type": "simple",
     "categories": [
       "male"
@@ -2869,7 +2821,7 @@
     }
   },
   {
-    "id": 176,
+    "id": 173,
     "type": "simple",
     "categories": [
       "female"
@@ -2883,7 +2835,7 @@
     }
   },
   {
-    "id": 177,
+    "id": 174,
     "type": "simple",
     "categories": [
       "male"
@@ -2897,7 +2849,7 @@
     }
   },
   {
-    "id": 178,
+    "id": 175,
     "type": "simple",
     "categories": [
       "female"
@@ -2910,7 +2862,7 @@
     }
   },
   {
-    "id": 179,
+    "id": 176,
     "type": "simple",
     "categories": [
       "female"
@@ -2923,7 +2875,7 @@
     }
   },
   {
-    "id": 180,
+    "id": 177,
     "type": "simple",
     "categories": [
       "male"
@@ -2936,7 +2888,7 @@
     }
   },
   {
-    "id": 181,
+    "id": 178,
     "type": "simple",
     "categories": [
       "male"
@@ -2950,7 +2902,7 @@
     }
   },
   {
-    "id": 182,
+    "id": 179,
     "type": "simple",
     "categories": [
       "female"
@@ -2964,7 +2916,7 @@
     }
   },
   {
-    "id": 183,
+    "id": 180,
     "type": "simple",
     "categories": [
       "male"
@@ -2980,7 +2932,7 @@
     }
   },
   {
-    "id": 184,
+    "id": 181,
     "type": "simple",
     "categories": [
       "male"
@@ -2993,7 +2945,7 @@
     }
   },
   {
-    "id": 185,
+    "id": 182,
     "type": "simple",
     "categories": [
       "male"
@@ -3008,7 +2960,7 @@
     }
   },
   {
-    "id": 186,
+    "id": 183,
     "type": "simple",
     "categories": [
       "male"
@@ -3021,7 +2973,7 @@
     }
   },
   {
-    "id": 187,
+    "id": 184,
     "type": "simple",
     "categories": [
       "male"
@@ -3034,7 +2986,7 @@
     }
   },
   {
-    "id": 188,
+    "id": 185,
     "type": "simple",
     "categories": [
       "male"
@@ -3049,7 +3001,7 @@
     }
   },
   {
-    "id": 189,
+    "id": 186,
     "type": "simple",
     "categories": [
       "male"
@@ -3063,7 +3015,7 @@
     }
   },
   {
-    "id": 190,
+    "id": 187,
     "type": "simple",
     "categories": [
       "female"
@@ -3077,7 +3029,7 @@
     }
   },
   {
-    "id": 191,
+    "id": 188,
     "type": "simple",
     "categories": [
       "female"
@@ -3091,7 +3043,7 @@
     }
   },
   {
-    "id": 192,
+    "id": 189,
     "type": "simple",
     "categories": [
       "female"
@@ -3106,7 +3058,7 @@
     }
   },
   {
-    "id": 193,
+    "id": 190,
     "type": "simple",
     "categories": [
       "male"
@@ -3119,7 +3071,7 @@
     }
   },
   {
-    "id": 194,
+    "id": 191,
     "type": "simple",
     "categories": [
       "male"
@@ -3134,7 +3086,7 @@
     }
   },
   {
-    "id": 195,
+    "id": 192,
     "type": "simple",
     "categories": [
       "male"
@@ -3149,7 +3101,7 @@
     }
   },
   {
-    "id": 196,
+    "id": 193,
     "type": "simple",
     "categories": [
       "male"
@@ -3167,7 +3119,7 @@
     }
   },
   {
-    "id": 197,
+    "id": 194,
     "type": "simple",
     "categories": [
       "male"
@@ -3181,7 +3133,7 @@
     }
   },
   {
-    "id": 198,
+    "id": 195,
     "type": "simple",
     "categories": [
       "male"
@@ -3195,7 +3147,7 @@
     }
   },
   {
-    "id": 199,
+    "id": 196,
     "type": "simple",
     "categories": [
       "male"
@@ -3209,7 +3161,7 @@
     }
   },
   {
-    "id": 200,
+    "id": 197,
     "type": "simple",
     "categories": [
       "male"
@@ -3225,7 +3177,7 @@
     }
   },
   {
-    "id": 201,
+    "id": 198,
     "type": "simple",
     "categories": [
       "male"
@@ -3239,7 +3191,7 @@
     }
   },
   {
-    "id": 202,
+    "id": 199,
     "type": "simple",
     "categories": [
       "male"
@@ -3252,7 +3204,7 @@
     }
   },
   {
-    "id": 203,
+    "id": 200,
     "type": "simple",
     "categories": [
       "male"
@@ -3267,7 +3219,7 @@
     }
   },
   {
-    "id": 204,
+    "id": 201,
     "type": "simple",
     "categories": [
       "a"
@@ -3282,7 +3234,7 @@
     }
   },
   {
-    "id": 205,
+    "id": 202,
     "type": "simple",
     "categories": [
       "a"
@@ -3296,7 +3248,7 @@
     }
   },
   {
-    "id": 206,
+    "id": 203,
     "type": "simple",
     "categories": [
       "a"
@@ -3312,7 +3264,7 @@
     }
   },
   {
-    "id": 207,
+    "id": 204,
     "type": "simple",
     "categories": [
       "a"
@@ -3328,7 +3280,7 @@
     }
   },
   {
-    "id": 208,
+    "id": 205,
     "type": "simple",
     "categories": [
       "a"
@@ -3341,7 +3293,7 @@
     }
   },
   {
-    "id": 209,
+    "id": 206,
     "type": "simple",
     "categories": [
       "a"
@@ -3356,7 +3308,7 @@
     }
   },
   {
-    "id": 210,
+    "id": 207,
     "type": "simple",
     "categories": [
       "a"
@@ -3371,7 +3323,7 @@
     "note": "If possible, describe exacly what this is. (source: http://ncdj.org/style-guide/)"
   },
   {
-    "id": 211,
+    "id": 208,
     "type": "simple",
     "categories": [
       "a"
@@ -3381,7 +3333,6 @@
       "people with disabilities": "a"
     },
     "inconsiderate": {
-      "birth defect": "a",
       "suffers from disabilities": "a",
       "suffering from disabilities": "a",
       "suffering from a disability": "a",
@@ -3390,7 +3341,7 @@
     }
   },
   {
-    "id": 212,
+    "id": 209,
     "type": "simple",
     "categories": [
       "a"
@@ -3404,7 +3355,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 213,
+    "id": 210,
     "type": "simple",
     "categories": [
       "a"
@@ -3423,7 +3374,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 214,
+    "id": 211,
     "type": "simple",
     "categories": [
       "a"
@@ -3457,7 +3408,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 215,
+    "id": 212,
     "type": "simple",
     "categories": [
       "a"
@@ -3477,7 +3428,7 @@
     }
   },
   {
-    "id": 216,
+    "id": 213,
     "type": "simple",
     "categories": [
       "a"
@@ -3491,7 +3442,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 217,
+    "id": 214,
     "type": "simple",
     "categories": [
       "a"
@@ -3505,7 +3456,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 218,
+    "id": 215,
     "type": "simple",
     "categories": [
       "a"
@@ -3519,7 +3470,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 219,
+    "id": 216,
     "type": "simple",
     "categories": [
       "a"
@@ -3533,7 +3484,7 @@
     }
   },
   {
-    "id": 220,
+    "id": 217,
     "type": "simple",
     "categories": [
       "a"
@@ -3546,7 +3497,7 @@
     }
   },
   {
-    "id": 221,
+    "id": 218,
     "type": "simple",
     "categories": [
       "a"
@@ -3561,7 +3512,7 @@
     }
   },
   {
-    "id": 222,
+    "id": 219,
     "type": "simple",
     "categories": [
       "a"
@@ -3578,7 +3529,7 @@
     }
   },
   {
-    "id": 223,
+    "id": 220,
     "type": "simple",
     "categories": [
       "a"
@@ -3591,7 +3542,7 @@
     }
   },
   {
-    "id": 224,
+    "id": 221,
     "type": "simple",
     "categories": [
       "a"
@@ -3605,7 +3556,7 @@
     }
   },
   {
-    "id": 225,
+    "id": 222,
     "type": "simple",
     "categories": [
       "a"
@@ -3616,14 +3567,13 @@
       "pandemonium": "a"
     },
     "inconsiderate": {
-      "asylum": "a",
       "bedlam": "a",
       "madhouse": "a",
       "loony bin": "a"
     }
   },
   {
-    "id": 226,
+    "id": 223,
     "type": "simple",
     "categories": [
       "a"
@@ -3637,7 +3587,7 @@
     "note": "Source: http://www.specialolympics.org/uploadedFiles/Fact%20Sheet_Terminology%20Guide.pdf"
   },
   {
-    "id": 227,
+    "id": 224,
     "type": "simple",
     "categories": [
       "a"
@@ -3656,7 +3606,7 @@
     }
   },
   {
-    "id": 228,
+    "id": 225,
     "type": "simple",
     "categories": [
       "a"
@@ -3674,7 +3624,7 @@
     }
   },
   {
-    "id": 229,
+    "id": 226,
     "type": "simple",
     "categories": [
       "a"
@@ -3692,7 +3642,7 @@
     }
   },
   {
-    "id": 230,
+    "id": 227,
     "type": "simple",
     "categories": [
       "a"
@@ -3707,7 +3657,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 231,
+    "id": 228,
     "type": "simple",
     "categories": [
       "a"
@@ -3725,7 +3675,7 @@
     }
   },
   {
-    "id": 232,
+    "id": 229,
     "type": "simple",
     "categories": [
       "a"
@@ -3741,7 +3691,7 @@
     }
   },
   {
-    "id": 233,
+    "id": 230,
     "type": "simple",
     "categories": [
       "a"
@@ -3757,7 +3707,7 @@
     "note": "Source: http://www.specialolympics.org/uploadedFiles/Fact%20Sheet_Terminology%20Guide.pdf"
   },
   {
-    "id": 234,
+    "id": 231,
     "type": "simple",
     "categories": [
       "a"
@@ -3771,7 +3721,7 @@
     "note": "Sometimes `typical` can be used. (source: http://ncdj.org/style-guide/)"
   },
   {
-    "id": 235,
+    "id": 232,
     "type": "simple",
     "categories": [
       "a"
@@ -3786,7 +3736,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 236,
+    "id": 233,
     "type": "simple",
     "categories": [
       "a"
@@ -3801,7 +3751,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 237,
+    "id": 234,
     "type": "simple",
     "categories": [
       "a"
@@ -3815,7 +3765,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 238,
+    "id": 235,
     "type": "simple",
     "categories": [
       "a"
@@ -3829,7 +3779,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 239,
+    "id": 236,
     "type": "simple",
     "categories": [
       "a"
@@ -3844,7 +3794,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 240,
+    "id": 237,
     "type": "simple",
     "categories": [
       "a"
@@ -3859,7 +3809,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 241,
+    "id": 238,
     "type": "simple",
     "categories": [
       "a"
@@ -3878,7 +3828,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 242,
+    "id": 239,
     "type": "simple",
     "categories": [
       "a"
@@ -3893,7 +3843,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 243,
+    "id": 240,
     "type": "simple",
     "categories": [
       "a"
@@ -3907,7 +3857,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 244,
+    "id": 241,
     "type": "simple",
     "categories": [
       "a"
@@ -3921,7 +3871,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 245,
+    "id": 242,
     "type": "simple",
     "categories": [
       "a"
@@ -3939,7 +3889,7 @@
     "note": "When possible, ask the person what they prefer. (source: http://ncdj.org/style-guide/)"
   },
   {
-    "id": 246,
+    "id": 243,
     "type": "simple",
     "categories": [
       "a"
@@ -3960,7 +3910,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 247,
+    "id": 244,
     "type": "simple",
     "categories": [
       "a"
@@ -3979,7 +3929,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 248,
+    "id": 245,
     "type": "simple",
     "categories": [
       "a"
@@ -3998,7 +3948,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 249,
+    "id": 246,
     "type": "simple",
     "categories": [
       "a"
@@ -4012,7 +3962,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 250,
+    "id": 247,
     "type": "simple",
     "categories": [
       "a"
@@ -4026,7 +3976,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 251,
+    "id": 248,
     "type": "simple",
     "categories": [
       "a"
@@ -4041,7 +3991,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 252,
+    "id": 249,
     "type": "simple",
     "categories": [
       "a"
@@ -4055,7 +4005,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 253,
+    "id": 250,
     "type": "simple",
     "categories": [
       "a"
@@ -4069,7 +4019,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 254,
+    "id": 251,
     "type": "simple",
     "categories": [
       "a"
@@ -4084,7 +4034,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 255,
+    "id": 252,
     "type": "simple",
     "categories": [
       "a"
@@ -4099,7 +4049,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 256,
+    "id": 253,
     "type": "simple",
     "categories": [
       "a"
@@ -4114,7 +4064,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 257,
+    "id": 254,
     "type": "simple",
     "categories": [
       "a"
@@ -4129,7 +4079,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 258,
+    "id": 255,
     "type": "simple",
     "categories": [
       "a"
@@ -4144,7 +4094,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
-    "id": 259,
+    "id": 256,
     "type": "simple",
     "categories": [
       "a"
@@ -4161,7 +4111,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 260,
+    "id": 257,
     "type": "simple",
     "categories": [
       "a"
@@ -4180,7 +4130,7 @@
     "note": "Source: http://www.mmonjejr.com/2014/02/deconstructing-stupid.html"
   },
   {
-    "id": 261,
+    "id": 258,
     "type": "simple",
     "categories": [
       "a"
@@ -4194,7 +4144,7 @@
     }
   },
   {
-    "id": 262,
+    "id": 259,
     "type": "simple",
     "categories": [
       "a"
@@ -4208,7 +4158,7 @@
     }
   },
   {
-    "id": 263,
+    "id": 260,
     "type": "simple",
     "categories": [
       "a"
@@ -4227,7 +4177,7 @@
     "note": "Source: http://english.stackexchange.com/questions/247550/"
   },
   {
-    "id": 264,
+    "id": 261,
     "type": "simple",
     "categories": [
       "a"
@@ -4241,7 +4191,7 @@
     }
   },
   {
-    "id": 265,
+    "id": 262,
     "type": "simple",
     "categories": [
       "a"
@@ -4254,7 +4204,7 @@
     }
   },
   {
-    "id": 266,
+    "id": 263,
     "type": "simple",
     "categories": [
       "a"
@@ -4267,7 +4217,7 @@
     }
   },
   {
-    "id": 267,
+    "id": 264,
     "type": "simple",
     "categories": [
       "a"
@@ -4283,26 +4233,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 268,
-    "type": "simple",
-    "categories": [
-      "a"
-    ],
-    "considerate": {
-      "careless": "a",
-      "heartless": "a",
-      "indifferent": "a",
-      "insensitive": "a"
-    },
-    "inconsiderate": {
-      "blind to": "a",
-      "blind eye to": "a",
-      "blinded by": "a"
-    },
-    "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
-  },
-  {
-    "id": 269,
+    "id": 265,
     "type": "simple",
     "categories": [
       "a"
@@ -4324,7 +4255,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 270,
+    "id": 266,
     "type": "simple",
     "categories": [
       "a"
@@ -4339,7 +4270,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 271,
+    "id": 267,
     "type": "simple",
     "categories": [
       "a"
@@ -4354,7 +4285,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 272,
+    "id": 268,
     "type": "simple",
     "categories": [
       "a"
@@ -4373,7 +4304,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 273,
+    "id": 269,
     "type": "simple",
     "categories": [
       "a"
@@ -4388,7 +4319,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 274,
+    "id": 270,
     "type": "simple",
     "categories": [
       "a"
@@ -4402,7 +4333,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 275,
+    "id": 271,
     "type": "simple",
     "categories": [
       "a"
@@ -4418,7 +4349,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
-    "id": 276,
+    "id": 272,
     "type": "simple",
     "categories": [
       "a"
@@ -4432,7 +4363,7 @@
     }
   },
   {
-    "id": 277,
+    "id": 273,
     "type": "simple",
     "categories": [
       "a"
@@ -4446,7 +4377,7 @@
     }
   },
   {
-    "id": 278,
+    "id": 274,
     "type": "simple",
     "categories": [
       "a"
@@ -4463,7 +4394,7 @@
     }
   },
   {
-    "id": 279,
+    "id": 275,
     "type": "simple",
     "categories": [
       "a"
@@ -4482,7 +4413,7 @@
     }
   },
   {
-    "id": 280,
+    "id": 276,
     "type": "simple",
     "categories": [
       "a"
@@ -4495,7 +4426,7 @@
     }
   },
   {
-    "id": 281,
+    "id": 277,
     "type": "simple",
     "categories": [
       "a"
@@ -4508,7 +4439,7 @@
     }
   },
   {
-    "id": 282,
+    "id": 278,
     "type": "simple",
     "categories": [
       "a"
@@ -4522,7 +4453,7 @@
     }
   },
   {
-    "id": 283,
+    "id": 279,
     "type": "simple",
     "categories": [
       "a"
@@ -4536,7 +4467,7 @@
     }
   },
   {
-    "id": 284,
+    "id": 280,
     "type": "simple",
     "categories": [
       "a"
@@ -4550,7 +4481,7 @@
     }
   },
   {
-    "id": 285,
+    "id": 281,
     "type": "simple",
     "categories": [
       "a"
@@ -4564,7 +4495,7 @@
     }
   },
   {
-    "id": 286,
+    "id": 282,
     "type": "simple",
     "categories": [
       "a"
@@ -4577,7 +4508,7 @@
     }
   },
   {
-    "id": 287,
+    "id": 283,
     "type": "simple",
     "categories": [
       "a"
@@ -4586,12 +4517,11 @@
       "Chinese people": "a"
     },
     "inconsiderate": {
-      "ching chong": "a",
       "chinaman": "a"
     }
   },
   {
-    "id": 288,
+    "id": 284,
     "type": "simple",
     "categories": [
       "a"
@@ -4607,7 +4537,7 @@
     }
   },
   {
-    "id": 289,
+    "id": 285,
     "type": "simple",
     "categories": [
       "a"
@@ -4623,7 +4553,7 @@
     }
   },
   {
-    "id": 290,
+    "id": 286,
     "type": "simple",
     "categories": [
       "a"
@@ -4639,7 +4569,7 @@
     }
   },
   {
-    "id": 291,
+    "id": 287,
     "type": "simple",
     "categories": [
       "a"
@@ -4657,7 +4587,7 @@
     }
   },
   {
-    "id": 292,
+    "id": 288,
     "type": "simple",
     "categories": [
       "a"
@@ -4670,7 +4600,7 @@
     }
   },
   {
-    "id": 293,
+    "id": 289,
     "type": "simple",
     "categories": [
       "a"
@@ -4683,7 +4613,7 @@
     }
   },
   {
-    "id": 294,
+    "id": 290,
     "type": "simple",
     "categories": [
       "a"
@@ -4699,7 +4629,7 @@
     }
   },
   {
-    "id": 295,
+    "id": 291,
     "type": "simple",
     "categories": [
       "a"
@@ -4715,7 +4645,7 @@
     }
   },
   {
-    "id": 296,
+    "id": 292,
     "type": "simple",
     "categories": [
       "a"
@@ -4729,7 +4659,7 @@
     }
   },
   {
-    "id": 297,
+    "id": 293,
     "type": "simple",
     "categories": [
       "a"
@@ -4743,7 +4673,7 @@
     }
   },
   {
-    "id": 298,
+    "id": 294,
     "type": "simple",
     "categories": [
       "a"
@@ -4757,7 +4687,7 @@
     }
   },
   {
-    "id": 299,
+    "id": 295,
     "type": "simple",
     "categories": [
       "a"
@@ -4771,7 +4701,7 @@
     }
   },
   {
-    "id": 300,
+    "id": 296,
     "type": "simple",
     "categories": [
       "a"
@@ -4785,7 +4715,7 @@
     }
   },
   {
-    "id": 301,
+    "id": 297,
     "type": "simple",
     "categories": [
       "a"
@@ -4799,7 +4729,7 @@
     }
   },
   {
-    "id": 302,
+    "id": 298,
     "type": "simple",
     "categories": [
       "a"
@@ -4812,7 +4742,7 @@
     }
   },
   {
-    "id": 303,
+    "id": 299,
     "type": "simple",
     "categories": [
       "a"
@@ -4825,7 +4755,7 @@
     }
   },
   {
-    "id": 304,
+    "id": 300,
     "type": "simple",
     "categories": [
       "a"
@@ -4838,7 +4768,7 @@
     }
   },
   {
-    "id": 305,
+    "id": 301,
     "type": "simple",
     "categories": [
       "a"
@@ -4854,7 +4784,7 @@
     }
   },
   {
-    "id": 306,
+    "id": 302,
     "type": "simple",
     "categories": [
       "a"
@@ -4869,7 +4799,7 @@
     }
   },
   {
-    "id": 307,
+    "id": 303,
     "type": "simple",
     "categories": [
       "a"
@@ -4889,7 +4819,7 @@
     }
   },
   {
-    "id": 308,
+    "id": 304,
     "type": "simple",
     "categories": [
       "a"
@@ -4908,7 +4838,7 @@
     }
   },
   {
-    "id": 309,
+    "id": 305,
     "type": "simple",
     "categories": [
       "a"
@@ -4921,7 +4851,7 @@
     }
   },
   {
-    "id": 310,
+    "id": 306,
     "type": "simple",
     "categories": [
       "a"
@@ -4934,7 +4864,7 @@
     }
   },
   {
-    "id": 311,
+    "id": 307,
     "type": "simple",
     "categories": [
       "a"
@@ -4947,7 +4877,7 @@
     }
   },
   {
-    "id": 312,
+    "id": 308,
     "type": "simple",
     "categories": [
       "a"
@@ -4960,7 +4890,7 @@
     }
   },
   {
-    "id": 313,
+    "id": 309,
     "type": "simple",
     "categories": [
       "a"
@@ -4969,11 +4899,11 @@
       "Indonesian person": "a"
     },
     "inconsiderate": {
-      "jap": "a"
+      "indon": "a"
     }
   },
   {
-    "id": 314,
+    "id": 310,
     "type": "simple",
     "categories": [
       "a"
@@ -4986,7 +4916,7 @@
     }
   },
   {
-    "id": 315,
+    "id": 311,
     "type": "simple",
     "categories": [
       "a"
@@ -4999,7 +4929,7 @@
     }
   },
   {
-    "id": 316,
+    "id": 312,
     "type": "simple",
     "categories": [
       "a"
@@ -5012,7 +4942,7 @@
     }
   },
   {
-    "id": 317,
+    "id": 313,
     "type": "simple",
     "categories": [
       "a"
@@ -5027,7 +4957,7 @@
     }
   },
   {
-    "id": 318,
+    "id": 314,
     "type": "simple",
     "categories": [
       "a"
@@ -5042,7 +4972,7 @@
     }
   },
   {
-    "id": 319,
+    "id": 315,
     "type": "simple",
     "categories": [
       "a"
@@ -5055,7 +4985,7 @@
     }
   },
   {
-    "id": 320,
+    "id": 316,
     "type": "simple",
     "categories": [
       "a"
@@ -5068,7 +4998,7 @@
     }
   },
   {
-    "id": 321,
+    "id": 317,
     "type": "simple",
     "categories": [
       "a"
@@ -5081,7 +5011,7 @@
     }
   },
   {
-    "id": 322,
+    "id": 318,
     "type": "simple",
     "categories": [
       "a"
@@ -5094,7 +5024,7 @@
     }
   },
   {
-    "id": 323,
+    "id": 319,
     "type": "simple",
     "categories": [
       "a"
@@ -5109,7 +5039,7 @@
     }
   },
   {
-    "id": 324,
+    "id": 320,
     "type": "simple",
     "categories": [
       "a"
@@ -5126,7 +5056,7 @@
     }
   },
   {
-    "id": 325,
+    "id": 321,
     "type": "simple",
     "categories": [
       "a"
@@ -5136,7 +5066,6 @@
       "British": "a"
     },
     "inconsiderate": {
-      "lebo": "a",
       "pom": "a",
       "poms": "a",
       "pohm": "a",
@@ -5149,7 +5078,7 @@
     }
   },
   {
-    "id": 326,
+    "id": 322,
     "type": "simple",
     "categories": [
       "a"
@@ -5167,7 +5096,7 @@
     }
   },
   {
-    "id": 327,
+    "id": 323,
     "type": "simple",
     "categories": [
       "a"
@@ -5187,7 +5116,7 @@
     }
   },
   {
-    "id": 328,
+    "id": 324,
     "type": "simple",
     "categories": [
       "a"
@@ -5207,7 +5136,7 @@
     }
   },
   {
-    "id": 329,
+    "id": 325,
     "type": "simple",
     "categories": [
       "a"
@@ -5220,7 +5149,7 @@
     }
   },
   {
-    "id": 330,
+    "id": 326,
     "type": "simple",
     "categories": [
       "a"
@@ -5242,7 +5171,7 @@
     }
   },
   {
-    "id": 331,
+    "id": 327,
     "type": "simple",
     "categories": [
       "a"
@@ -5261,7 +5190,7 @@
     }
   },
   {
-    "id": 332,
+    "id": 328,
     "type": "simple",
     "categories": [
       "a"
@@ -5280,7 +5209,7 @@
     }
   },
   {
-    "id": 333,
+    "id": 329,
     "type": "simple",
     "categories": [
       "a"
@@ -5299,7 +5228,7 @@
     }
   },
   {
-    "id": 334,
+    "id": 330,
     "type": "simple",
     "categories": [
       "a"
@@ -5313,7 +5242,6 @@
       "black people": "a"
     },
     "inconsiderate": {
-      "abid": "a",
       "abeed": "a",
       "bluegums": "a",
       "bootlips": "a",
@@ -5371,7 +5299,7 @@
     }
   },
   {
-    "id": 335,
+    "id": 331,
     "type": "simple",
     "categories": [
       "a"
@@ -5386,7 +5314,6 @@
     },
     "inconsiderate": {
       "abid": "a",
-      "abeed": "a",
       "alligator bait": "a",
       "gator bait": "a",
       "bluegum": "a",
@@ -5422,7 +5349,7 @@
       "porch monkey": "a",
       "sambo": "a",
       "spade": "a",
-      "spearchuckers": "a",
+      "spearchucker": "a",
       "sooty": "a",
       "schvartse": "a",
       "schwartze": "a",
@@ -5446,7 +5373,7 @@
     }
   },
   {
-    "id": 336,
+    "id": 332,
     "type": "simple",
     "categories": [
       "a"
@@ -5462,7 +5389,7 @@
     }
   },
   {
-    "id": 337,
+    "id": 333,
     "type": "simple",
     "categories": [
       "a"
@@ -5478,7 +5405,7 @@
     }
   },
   {
-    "id": 338,
+    "id": 334,
     "type": "simple",
     "categories": [
       "a"
@@ -5497,7 +5424,7 @@
     }
   },
   {
-    "id": 339,
+    "id": 335,
     "type": "simple",
     "categories": [
       "a"
@@ -5516,7 +5443,7 @@
     }
   },
   {
-    "id": 340,
+    "id": 336,
     "type": "simple",
     "categories": [
       "a"
@@ -5534,7 +5461,7 @@
     }
   },
   {
-    "id": 341,
+    "id": 337,
     "type": "simple",
     "categories": [
       "a"
@@ -5545,7 +5472,7 @@
       "muslim": "a"
     },
     "inconsiderate": {
-      "pakis": "a",
+      "paki": "a",
       "osama": "a",
       "raghead": "a",
       "sand nigger": "a",
@@ -5553,7 +5480,7 @@
     }
   },
   {
-    "id": 342,
+    "id": 338,
     "type": "simple",
     "categories": [
       "a"
@@ -5574,7 +5501,7 @@
     }
   },
   {
-    "id": 343,
+    "id": 339,
     "type": "simple",
     "categories": [
       "a"
@@ -5595,7 +5522,7 @@
     }
   },
   {
-    "id": 344,
+    "id": 340,
     "type": "simple",
     "categories": [
       "a"
@@ -5619,6 +5546,9 @@
       "yarpie": "a",
       "mabuno": "a",
       "mahbuno": "a",
+      "clanswoman": "a",
+      "clansman": "a",
+      "klanswoman": "a",
       "klansman": "a",
       "mzungu": "a",
       "redleg": "a",
@@ -5631,7 +5561,7 @@
     }
   },
   {
-    "id": 345,
+    "id": 341,
     "type": "simple",
     "categories": [
       "a"
@@ -5654,6 +5584,9 @@
       "yarpies": "a",
       "mabunos": "a",
       "mahbunos": "a",
+      "clanswomen": "a",
+      "clansmen": "a",
+      "klanswomen": "a",
       "klansmen": "a",
       "mzungus": "a",
       "redlegs": "a",
@@ -5668,7 +5601,7 @@
     }
   },
   {
-    "id": 346,
+    "id": 342,
     "type": "simple",
     "categories": [
       "a"
@@ -5683,7 +5616,7 @@
     }
   },
   {
-    "id": 347,
+    "id": 343,
     "type": "simple",
     "categories": [
       "a"
@@ -5698,7 +5631,7 @@
     }
   },
   {
-    "id": 348,
+    "id": 344,
     "type": "simple",
     "categories": [
       "a"
@@ -5714,7 +5647,7 @@
     }
   },
   {
-    "id": 349,
+    "id": 345,
     "type": "simple",
     "categories": [
       "a"
@@ -5727,7 +5660,7 @@
     }
   },
   {
-    "id": 350,
+    "id": 346,
     "type": "simple",
     "categories": [
       "a"
@@ -5742,7 +5675,7 @@
     }
   },
   {
-    "id": 351,
+    "id": 347,
     "type": "simple",
     "categories": [
       "a"
@@ -5757,7 +5690,7 @@
     }
   },
   {
-    "id": 352,
+    "id": 348,
     "type": "simple",
     "categories": [
       "a"
@@ -5776,7 +5709,7 @@
     }
   },
   {
-    "id": 353,
+    "id": 349,
     "type": "simple",
     "categories": [
       "a"
@@ -5795,7 +5728,7 @@
     }
   },
   {
-    "id": 354,
+    "id": 350,
     "type": "simple",
     "categories": [
       "a"
@@ -5804,7 +5737,7 @@
       "jew": "a"
     },
     "inconsiderate": {
-      "christ killers": "a",
+      "christ killer": "a",
       "cushi": "a",
       "kushi": "a",
       "heeb": "a",
@@ -5819,7 +5752,7 @@
     }
   },
   {
-    "id": 355,
+    "id": 351,
     "type": "simple",
     "categories": [
       "a"
@@ -5843,7 +5776,7 @@
     }
   },
   {
-    "id": 356,
+    "id": 352,
     "type": "simple",
     "categories": [
       "a"
@@ -5870,7 +5803,7 @@
     }
   },
   {
-    "id": 357,
+    "id": 353,
     "type": "simple",
     "categories": [
       "a"
@@ -5897,7 +5830,7 @@
     }
   },
   {
-    "id": 358,
+    "id": 354,
     "type": "and",
     "categories": [
       "a",
@@ -5917,7 +5850,7 @@
     }
   },
   {
-    "id": 359,
+    "id": 355,
     "type": "simple",
     "categories": [
       "a"
@@ -5934,7 +5867,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 360,
+    "id": 356,
     "type": "simple",
     "categories": [
       "a"
@@ -5949,7 +5882,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 361,
+    "id": 357,
     "type": "simple",
     "categories": [
       "a"
@@ -5963,7 +5896,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 362,
+    "id": 358,
     "type": "simple",
     "categories": [
       "a"
@@ -5978,7 +5911,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 363,
+    "id": 359,
     "type": "simple",
     "categories": [
       "a"
@@ -5994,7 +5927,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 364,
+    "id": 360,
     "type": "simple",
     "categories": [
       "a"
@@ -6009,7 +5942,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 365,
+    "id": 361,
     "type": "simple",
     "categories": [
       "a"
@@ -6025,7 +5958,7 @@
     "note": "Source: http://www.glaad.org/reference/style"
   },
   {
-    "id": 366,
+    "id": 362,
     "type": "simple",
     "categories": [
       "a"
@@ -6043,7 +5976,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
-    "id": 367,
+    "id": 363,
     "type": "simple",
     "categories": [
       "a"
@@ -6057,7 +5990,7 @@
     "note": "Source: http://www.glaad.org/reference/style"
   },
   {
-    "id": 368,
+    "id": 364,
     "type": "simple",
     "categories": [
       "a"
@@ -6072,7 +6005,7 @@
     "note": "Source: http://www.glaad.org/reference/style"
   },
   {
-    "id": 369,
+    "id": 365,
     "type": "simple",
     "categories": [
       "a"
@@ -6086,7 +6019,7 @@
     "note": "Source: http://www.glaad.org/reference/style"
   },
   {
-    "id": 370,
+    "id": 366,
     "type": "simple",
     "categories": [
       "a"
@@ -6100,7 +6033,7 @@
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
-    "id": 371,
+    "id": 367,
     "type": "simple",
     "categories": [
       "a"
@@ -6115,7 +6048,7 @@
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
-    "id": 372,
+    "id": 368,
     "type": "simple",
     "categories": [
       "a"
@@ -6129,7 +6062,7 @@
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
-    "id": 373,
+    "id": 369,
     "type": "simple",
     "categories": [
       "a"
@@ -6143,7 +6076,7 @@
     "note": "Transgender should be used as an adjective, not as a noun. (source: http://www.glaad.org/reference/transgender)"
   },
   {
-    "id": 374,
+    "id": 370,
     "type": "simple",
     "categories": [
       "a"
@@ -6157,7 +6090,7 @@
     "note": "Transgender should be used as an adjective, not as a noun. (source: http://www.glaad.org/reference/transgender)"
   },
   {
-    "id": 375,
+    "id": 371,
     "type": "simple",
     "categories": [
       "a"
@@ -6171,7 +6104,7 @@
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
-    "id": 376,
+    "id": 372,
     "type": "simple",
     "categories": [
       "a"
@@ -6186,7 +6119,7 @@
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
-    "id": 377,
+    "id": 373,
     "type": "simple",
     "categories": [
       "a"
@@ -6202,7 +6135,7 @@
     }
   },
   {
-    "id": 378,
+    "id": 374,
     "type": "simple",
     "categories": [
       "a"
@@ -6218,7 +6151,7 @@
     }
   },
   {
-    "id": 379,
+    "id": 375,
     "type": "simple",
     "categories": [
       "a"
@@ -6233,7 +6166,7 @@
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
-    "id": 380,
+    "id": 376,
     "type": "simple",
     "categories": [
       "a"
@@ -6249,7 +6182,7 @@
     "note": "Source: http://www.isna.org/node/979"
   },
   {
-    "id": 381,
+    "id": 377,
     "type": "simple",
     "categories": [
       "a"
@@ -6266,7 +6199,7 @@
     "note": "Source: http://www.isna.org/node/979"
   },
   {
-    "id": 382,
+    "id": 378,
     "type": "simple",
     "categories": [
       "a"
@@ -6281,7 +6214,7 @@
     "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide"
   },
   {
-    "id": 383,
+    "id": 379,
     "type": "simple",
     "categories": [
       "a"
@@ -6296,7 +6229,7 @@
     "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide"
   },
   {
-    "id": 384,
+    "id": 380,
     "type": "simple",
     "categories": [
       "a"

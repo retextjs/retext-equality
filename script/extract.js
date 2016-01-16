@@ -61,7 +61,6 @@ function patch(entry, position) {
 /*
  * Gather.
  */
-var allData = [];
 
 var data = [
     'gender',
@@ -71,21 +70,7 @@ var data = [
     'lgbtq',
     'suicide'
 ].map(function (name) {
-    var yamlData = yaml.load(read(join(__dirname, name + '.yml'), 'utf8'));
-
-    allData = allData.concat(yamlData.map(function (item) {
-        return stringify(item, 0, 2);
-    }));
-
-    var dups = duplicated(allData);
-    if (dups.length !== 0) {
-        throw new Error(
-            '"' + name + '.yml" has duplicated value(s): \n' +
-            dups.join('\n')
-        );
-    }
-
-    return yamlData;
+    return yaml.load(read(join(__dirname, name + '.yml'), 'utf8'));
 });
 
 data = [].concat.apply([], data);
@@ -131,6 +116,8 @@ data.forEach(function (entry) {
  * Patch.
  */
 
+var phrases = [];
+
 data = data.map(patch);
 
 data.forEach(function (entry) {
@@ -143,6 +130,8 @@ data.forEach(function (entry) {
 
     if (entry.inconsiderate) {
         Object.keys(entry.inconsiderate).forEach(function (inconsiderate) {
+            phrases.push(inconsiderate);
+
             if (/['’-]/.test(inconsiderate)) {
                 throw new Error(
                     'Refrain from using dashes or ampersands ' +
@@ -154,6 +143,15 @@ data.forEach(function (entry) {
         });
     }
 });
+
+var duplicates = duplicated(phrases);
+
+if (duplicates.length) {
+    throw new Error(
+        'Refrain from multiple entries:\n' +
+        '  ' + duplicates.join(', ')
+    );
+}
 
 /*
  * Write.

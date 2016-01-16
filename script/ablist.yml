@@ -21,7 +21,6 @@
     - person with a disability
     - people with disabilities
   inconsiderate:
-    - birth defect
     - suffers from disabilities
     - suffering from disabilities
     - suffering from a disability
@@ -131,7 +130,6 @@
     - hectic
     - pandemonium
   inconsiderate:
-    - asylum
     - bedlam
     - madhouse
     - loony bin
@@ -459,17 +457,6 @@
     - infertile
   inconsiderate:
     - barren
-- type: simple
-  source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
-  considerate:
-    - careless
-    - heartless
-    - indifferent
-    - insensitive
-  inconsiderate:
-    - blind to
-    - blind eye to
-    - blinded by
 - type: simple
   source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
   considerate:
