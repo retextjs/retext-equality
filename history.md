@@ -2,6 +2,18 @@
 
 <!--lint disable no-multiple-toplevel-headings maximum-line-length-->
 
+2.0.0 / 2016-01-18
+==================
+
+*   Add support for contractions ([`0707a6b`](https://github.com/wooorm/retext-equality/commit/0707a6b))
+*   Add `noBinary` option ([`01e22ec`](https://github.com/wooorm/retext-equality/commit/01e22ec))
+*   Remove racial slurs ([`6b81c7b`](https://github.com/wooorm/retext-equality/commit/6b81c7b))
+*   Add support for ignoring warnings ([`fea3f1a`](https://github.com/wooorm/retext-equality/commit/fea3f1a))
+*   Remove identifiers from generated patterns ([`f05f178`](https://github.com/wooorm/retext-equality/commit/f05f178))
+*   Fix duplicate entries, entry detection ([`0ea29b2`](https://github.com/wooorm/retext-equality/commit/0ea29b2))
+*   Add Travis deployment to npm ([`4709c8c`](https://github.com/wooorm/retext-equality/commit/4709c8c))
+*   Refactor to replace mocha with tap ([`340046e`](https://github.com/wooorm/retext-equality/commit/340046e))
+
 1.6.4 / 2015-12-02
 ==================
 
