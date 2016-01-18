@@ -186,7 +186,7 @@ tap.test('Ignoring', function (t) {
 });
 
 tap.test('Phrasing', function (t) {
-    t.plan(22);
+    t.plan(19);
 
     t.same(
         process('This is insane.'),
@@ -209,12 +209,6 @@ tap.test('Phrasing', function (t) {
         process('Moaning, like wormen are always doing.'),
         ['1:1-1:8: `Moaning` may be insensitive, use `Whining`, `Complaining`, `Crying` instead'],
         'Moaning, like women are always doing'
-    );
-
-    t.same(
-        process('Niggers is not a nice word.'),
-        ['1:1-1:8: `Niggers` may be insensitive, use `African americans`, `South americans`, `Caribbean people`, `Africans`, `People of color`, `Black people` instead'],
-        'N*gg*rs is not a nice word'
     );
 
     t.same(
@@ -296,18 +290,6 @@ tap.test('Phrasing', function (t) {
         process('Yesterday I was feeling depressed.'),
         ['1:25-1:34: `depressed` may be insensitive, use `sad`, `blue`, `bummed out`, `person with seasonal affective disorder`, `person with psychotic depression`, `person with postpartum depression` instead'],
         'Yesterday I was feeling depressed.'
-    );
-
-    t.same(
-        process('I don’t understand all those complaints from katsaps living in foreign countries.'),
-        ['1:46-1:53: `katsaps` may be insensitive, use `Russians` instead'],
-        'I don’t understand all those complaints from katsaps living in foreign countries.'
-    );
-
-    t.same(
-        process('...but we got gyped out of it all in two days.'),
-        ['1:15-1:20: `gyped` may be insensitive, use `ripped-off`, `bamboozled`, `cheated` instead'],
-        '...but we got gyped out of it all in two days.'
     );
 
     t.same(

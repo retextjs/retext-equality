@@ -63,7 +63,6 @@ function patch(entry) {
 var data = [
     'gender',
     'ablist',
-    'racial',
     'relationships',
     'lgbtq',
     'suicide'
