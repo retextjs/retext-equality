@@ -39,7 +39,7 @@ function process(doc, options) {
 tap.test('retext-equality', function (t) {
     var doc;
 
-    t.plan(23);
+    t.plan(25);
 
     t.same(process('toString and constructor.'), []);
 
@@ -59,6 +59,18 @@ tap.test('retext-equality', function (t) {
         process('her bicycle.'),
         ['1:1-1:4: `her` may be insensitive, use `their`, `theirs`, `them` instead'],
         'pronouns'
+    );
+
+    t.same(
+        process('He’ll slips through.'),
+        ['1:1-1:6: `He’ll` may be insensitive, use `They`, `It` instead'],
+        'contractions (’ll)'
+    );
+
+    t.same(
+        process('She’s incompetent.'),
+        ['1:1-1:6: `She’s` may be insensitive, use `They`, `It` instead'],
+        'contractions (’s)'
     );
 
     t.same(

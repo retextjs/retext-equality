@@ -9,12 +9,19 @@
     him: male
     his: male
 - type: or
+  apostrophe: true
   considerate:
     - they
     - it
   inconsiderate:
     she: female
     he: male
+    she'd: female
+    he'd: male
+    she'll: female
+    he'll: male
+    she's: female
+    he's: male
 - type: or
   considerate:
     - themselves

@@ -38,6 +38,7 @@ function patch(entry) {
     var source = entry.source;
     var result = {
         'type': entry.type,
+        'apostrophe': entry.apostrophe ? true : undefined,
         'categories': entry.categories,
         'considerate': entry.considerate,
         'inconsiderate': entry.inconsiderate
@@ -129,11 +130,21 @@ data.forEach(function (entry) {
         Object.keys(entry.inconsiderate).forEach(function (inconsiderate) {
             phrases.push(inconsiderate);
 
-            if (/['’-]/.test(inconsiderate)) {
+            if (/-/.test(inconsiderate)) {
                 throw new Error(
-                    'Refrain from using dashes or ampersands ' +
-                    'inside inconsiderate terms: they’ll be stripped ' +
-                    'when looking for words: ' +
+                    'Refrain from using dashes inside inconsiderate ' +
+                    'terms: they’ll be stripped when looking for ' +
+                    'words: ' +
+                    Object.keys(entry.inconsiderate).join(', ')
+                );
+            }
+
+            if (/['’]/.test(inconsiderate) && !entry.apostrophe) {
+                throw new Error(
+                    'Refrain from using apostrophes inside ' +
+                    'inconsiderate terms, they’ll be stripped ' +
+                    'when looking for words (or use `apostrophe: ' +
+                    'true`): ' +
                     Object.keys(entry.inconsiderate).join(', ')
                 );
             }

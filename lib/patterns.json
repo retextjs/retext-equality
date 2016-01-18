@@ -19,6 +19,7 @@
   },
   {
     "type": "or",
+    "apostrophe": true,
     "categories": [
       "female",
       "male"
@@ -29,7 +30,13 @@
     },
     "inconsiderate": {
       "she": "female",
-      "he": "male"
+      "he": "male",
+      "she'd": "female",
+      "he'd": "male",
+      "she'll": "female",
+      "he'll": "male",
+      "she's": "female",
+      "he's": "male"
     }
   },
   {
