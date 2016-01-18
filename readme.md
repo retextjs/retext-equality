@@ -20,7 +20,7 @@ globals module, [uncompressed and compressed](https://github.com/wooorm/retext-e
 ```js
 var retext = require('retext');
 var report = require('vfile-reporter');
-var equality = require('.');
+var equality = require('retext-equality');
 
 retext()
     .use(equality)
