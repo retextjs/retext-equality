@@ -54,7 +54,13 @@ processed [virtual file](https://github.com/wooorm/vfile)s.
 
 *   `options` (`Object?`, optional):
 
-    *   `ignore` (`Array.<string>`) — List of phrases to _not_ warn about.
+    *   `ignore` (`Array.<string>`)
+        — List of phrases to _not_ warn about;
+
+    *   `noBinary` (`boolean`, default: `false`)
+        — Do not allow binary references. By default `he` is warned
+        about unless it’s followed by something like `or she` or `and she`.
+        When `noBinary` is `true`, both cases would be warned about.
 
 ## License
 

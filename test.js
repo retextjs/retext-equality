@@ -39,7 +39,7 @@ function process(doc, options) {
 tap.test('retext-equality', function (t) {
     var doc;
 
-    t.plan(21);
+    t.plan(23);
 
     t.same(process('toString and constructor.'), []);
 
@@ -92,9 +92,31 @@ tap.test('retext-equality', function (t) {
     );
 
     t.same(
+        process('Her and his bicycle.', {
+            'noBinary': true
+        }),
+        [
+            '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead',
+            '1:9-1:12: `his` may be insensitive, use `their`, `theirs`, `them` instead'
+        ],
+        'should not ignore `and` comparison when `noBinary: true`'
+    );
+
+    t.same(
         process('Her or his bicycle.'),
         [],
         'should ignore `or` comparison'
+    );
+
+    t.same(
+        process('Her or his bicycle.', {
+            'noBinary': true
+        }),
+        [
+            '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead',
+            '1:8-1:11: `his` may be insensitive, use `their`, `theirs`, `them` instead'
+        ],
+        'should not ignore `or` comparison when `noBinary: true`'
     );
 
     t.same(
