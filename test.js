@@ -19,12 +19,13 @@ var equality = require('./');
  * Helper to get warnings from `equality` in `doc`.
  *
  * @param {string} doc - Document to process.
+ * @param {Object?} [options] - Configuration.
  * @return {Array.<VFileMessage>} - Virtual messages.
  */
-function process(doc) {
+function process(doc, options) {
     var messages;
 
-    retext().use(equality).process(doc, function (err, file) {
+    retext().use(equality, options).process(doc, function (err, file) {
         messages = file.messages;
     });
 
@@ -163,6 +164,24 @@ tap.test('retext-equality', function (t) {
         process('All changes are written to the master server. The slaves are read-only copies of master.'),
         ['1:32-1:38: `master` / `slaves` may be insensitive, use `primary` / `replica` instead'],
         'relation across sentences'
+    );
+});
+
+tap.test('Ignoring', function (t) {
+    t.plan(1);
+
+    t.same(
+        process([
+            'The process running on the remote host ' +
+            'will pop a job off the queue.'
+        ].join('\n'), {
+            'ignore': ['pop']
+        }),
+        [
+            '1:35-1:39: `host` may be insensitive, use `presenter`, ' +
+            '`entertainer` instead'
+        ],
+        'should skip terms explicitly ignored terms'
     );
 });
 
