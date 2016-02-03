@@ -9,6 +9,7 @@
 
 var tap = require('tap');
 var retext = require('retext');
+var sort = require('vfile-sort');
 var equality = require('./');
 
 /*
@@ -26,6 +27,7 @@ function process(doc, options) {
     var messages;
 
     retext().use(equality, options).process(doc, function (err, file) {
+        sort(file);
         messages = file.messages;
     });
 
@@ -272,8 +274,8 @@ tap.test('Phrasing', function (t) {
     t.same(
         process('Yeah, you were really psycho to him.'),
         [
-            '1:33-1:36: `him` may be insensitive, use `their`, `theirs`, `them` instead',
-            '1:23-1:29: `psycho` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
+            '1:23-1:29: `psycho` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead',
+            '1:33-1:36: `him` may be insensitive, use `their`, `theirs`, `them` instead'
         ],
         'Yeah, you were really psycho to him'
     );
