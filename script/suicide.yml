@@ -1,17 +1,17 @@
 - type: simple
-  source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide
+  source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide, http://www.speakingofsuicide.com/2013/04/13/language/
   considerate:
     - died by suicide
-    - completed suicide
   inconsiderate:
     - committed suicide
+    - completed suicide
 - type: simple
-  source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide
+  source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide, http://www.speakingofsuicide.com/2013/04/13/language/
   considerate:
     - die by suicide
-    - complete suicide
   inconsiderate:
     - commit suicide
+    - complete suicide
 - type: simple
   source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide
   considerate:
