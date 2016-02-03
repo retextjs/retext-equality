@@ -2,6 +2,11 @@
 
 <!--lint disable no-multiple-toplevel-headings maximum-line-length-->
 
+2.1.0 / 2016-02-03
+==================
+
+*   Add human-readable identifiers to messages ([`279f4a3`](https://github.com/wooorm/retext-equality/commit/279f4a3))
+
 2.0.0 / 2016-01-18
 ==================
 
