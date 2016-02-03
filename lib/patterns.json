@@ -4434,13 +4434,13 @@
       "a"
     ],
     "considerate": {
-      "died by suicide": "a",
-      "completed suicide": "a"
+      "died by suicide": "a"
     },
     "inconsiderate": {
-      "committed suicide": "a"
+      "committed suicide": "a",
+      "completed suicide": "a"
     },
-    "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide"
+    "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide, http://www.speakingofsuicide.com/2013/04/13/language/"
   },
   {
     "type": "simple",
@@ -4448,13 +4448,13 @@
       "a"
     ],
     "considerate": {
-      "die by suicide": "a",
-      "complete suicide": "a"
+      "die by suicide": "a"
     },
     "inconsiderate": {
-      "commit suicide": "a"
+      "commit suicide": "a",
+      "complete suicide": "a"
     },
-    "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide"
+    "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide, http://www.speakingofsuicide.com/2013/04/13/language/"
   },
   {
     "type": "simple",

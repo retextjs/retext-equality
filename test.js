@@ -332,7 +332,7 @@ tap.test('Phrasing', function (t) {
         process('When condemned by the ruler he committed suicide.'),
         [
             '1:29-1:31: `he` may be insensitive, use `they`, `it` instead',
-            '1:32-1:41: `committed suicide` may be insensitive, use `died by suicide`, `completed suicide` instead'
+            '1:32-1:41: `committed suicide` may be insensitive, use `died by suicide` instead'
         ],
         'When condemned by the ruler he committed suicide.'
     );
