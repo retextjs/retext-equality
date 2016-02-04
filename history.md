@@ -50,7 +50,7 @@
 1.6.0 / 2015-10-31
 ==================
 
-*   Add suicide, LGBTQ lists of inconsiderate terms ([`d7b1a23`](https://github.com/wooorm/retext-equality/commit/d7b1a23))
+*   Add `suicide`, LGBTQ lists of inconsiderate terms ([`d7b1a23`](https://github.com/wooorm/retext-equality/commit/d7b1a23))
 *   Add `gyp`, `gypped` to list of inconsiderate terms ([`0af9a97`](https://github.com/wooorm/retext-equality/commit/0af9a97))
 *   Fix several typographical errors ([`13c19da`](https://github.com/wooorm/retext-equality/commit/13c19da))
 *   Fix considerate version of `katsap` ([`9de5b24`](https://github.com/wooorm/retext-equality/commit/9de5b24))
