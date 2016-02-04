@@ -222,7 +222,7 @@ tap.test('Ignoring', function (t) {
 });
 
 tap.test('Phrasing', function (t) {
-    t.plan(19);
+    t.plan(21);
 
     t.same(
         process('This is insane.'),
@@ -347,5 +347,17 @@ tap.test('Phrasing', function (t) {
         process('he - A robust HTML entity encoder/decoder.'),
         [],
         'he - A robust HTML entity encoder/decoder.'
+    );
+
+    t.same(
+        process('When he’ll freeze over, hell freezes over.'),
+        ['1:6-1:11: `he’ll` may be insensitive, use `they`, `it` instead'],
+        'When he’ll freeze over, hell freezes over.'
+    );
+
+    t.same(
+        process('She’s enchanted by the hermits shell.'),
+        ['1:1-1:6: `She’s` may be insensitive, use `They`, `It` instead'],
+        'She’s enchanted by the hermits shell.'
     );
 });

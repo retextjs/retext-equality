@@ -24,7 +24,7 @@
     "jonschlinkert/array-intersection": "^0.1.2",
     "wooorm/nlcst-normalize": "^1.1.0",
     "wooorm/nlcst-to-string": "^1.0.0",
-    "wooorm/nlcst-search": "^1.1.0",
+    "wooorm/nlcst-search": "^1.1.1",
     "ljharb/object-keys": "^1.0.7",
     "wooorm/quotation": "^1.0.1",
     "wooorm/unist-util-visit": "^1.0.0"
