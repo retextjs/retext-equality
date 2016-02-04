@@ -1,5 +1,6 @@
 [
   {
+    "id": "her-him",
     "type": "or",
     "categories": [
       "female",
@@ -18,6 +19,7 @@
     }
   },
   {
+    "id": "he-she",
     "type": "or",
     "apostrophe": true,
     "categories": [
@@ -40,6 +42,7 @@
     }
   },
   {
+    "id": "herself-himself",
     "type": "or",
     "categories": [
       "female",
@@ -56,6 +59,7 @@
     }
   },
   {
+    "id": "boy-girl",
     "type": "or",
     "categories": [
       "female",
@@ -71,6 +75,7 @@
     }
   },
   {
+    "id": "gals-men",
     "type": "or",
     "categories": [
       "female",
@@ -94,6 +99,7 @@
     }
   },
   {
+    "id": "gal-guy",
     "type": "or",
     "categories": [
       "female",
@@ -122,6 +128,7 @@
     }
   },
   {
+    "id": "fatherland-motherland",
     "type": "or",
     "categories": [
       "female",
@@ -136,6 +143,7 @@
     }
   },
   {
+    "id": "father-tongue-mother-tongue",
     "type": "or",
     "categories": [
       "female",
@@ -151,6 +159,7 @@
     }
   },
   {
+    "id": "freshmen-freshwomen",
     "type": "or",
     "categories": [
       "female",
@@ -166,6 +175,7 @@
     }
   },
   {
+    "id": "garbageman-garbagewoman",
     "type": "or",
     "categories": [
       "female",
@@ -182,6 +192,7 @@
     }
   },
   {
+    "id": "garbagemen-garbagewomen",
     "type": "or",
     "categories": [
       "female",
@@ -198,6 +209,7 @@
     }
   },
   {
+    "id": "chairman-chairwoman",
     "type": "or",
     "categories": [
       "female",
@@ -214,6 +226,7 @@
     }
   },
   {
+    "id": "committee-man-committee-woman",
     "type": "or",
     "categories": [
       "female",
@@ -228,6 +241,7 @@
     }
   },
   {
+    "id": "cowboy-cowgirl",
     "type": "or",
     "categories": [
       "female",
@@ -242,6 +256,7 @@
     }
   },
   {
+    "id": "cowboys-cowgirls",
     "type": "or",
     "categories": [
       "female",
@@ -256,6 +271,7 @@
     }
   },
   {
+    "id": "cattleman-cattlewoman",
     "type": "or",
     "categories": [
       "female",
@@ -270,6 +286,7 @@
     }
   },
   {
+    "id": "cattlemen-cattlewomen",
     "type": "or",
     "categories": [
       "female",
@@ -284,6 +301,7 @@
     }
   },
   {
+    "id": "chairmen-chairwomen",
     "type": "or",
     "categories": [
       "female",
@@ -300,6 +318,7 @@
     }
   },
   {
+    "id": "postman-postwoman",
     "type": "or",
     "categories": [
       "female",
@@ -318,6 +337,7 @@
     }
   },
   {
+    "id": "postmen-postwomen",
     "type": "or",
     "categories": [
       "female",
@@ -336,6 +356,7 @@
     }
   },
   {
+    "id": "policeman-policewoman",
     "type": "or",
     "categories": [
       "female",
@@ -351,6 +372,7 @@
     }
   },
   {
+    "id": "policemen-policewomen",
     "type": "or",
     "categories": [
       "female",
@@ -366,6 +388,7 @@
     }
   },
   {
+    "id": "steward-stewardess",
     "type": "or",
     "categories": [
       "female",
@@ -380,6 +403,7 @@
     }
   },
   {
+    "id": "stewardesses-stewards",
     "type": "or",
     "categories": [
       "female",
@@ -394,6 +418,7 @@
     }
   },
   {
+    "id": "congressman-congresswoman",
     "type": "or",
     "categories": [
       "female",
@@ -411,6 +436,7 @@
     }
   },
   {
+    "id": "congressmen-congresswomen",
     "type": "or",
     "categories": [
       "female",
@@ -428,6 +454,7 @@
     }
   },
   {
+    "id": "fireman-firewoman",
     "type": "or",
     "categories": [
       "female",
@@ -442,6 +469,7 @@
     }
   },
   {
+    "id": "firemen-firewomen",
     "type": "or",
     "categories": [
       "female",
@@ -456,6 +484,7 @@
     }
   },
   {
+    "id": "fisherman-fisherwoman",
     "type": "or",
     "categories": [
       "female",
@@ -471,6 +500,7 @@
     }
   },
   {
+    "id": "fishermen-fisherwomen",
     "type": "or",
     "categories": [
       "female",
@@ -485,6 +515,7 @@
     }
   },
   {
+    "id": "brotherhood-sisterhood",
     "type": "or",
     "categories": [
       "female",
@@ -500,6 +531,7 @@
     }
   },
   {
+    "id": "common-girl-common-man",
     "type": "or",
     "categories": [
       "female",
@@ -515,6 +547,7 @@
     }
   },
   {
+    "id": "salaryman-salarywoman",
     "type": "or",
     "categories": [
       "female",
@@ -534,6 +567,7 @@
     }
   },
   {
+    "id": "salarymen-salarywomen",
     "type": "or",
     "categories": [
       "female",
@@ -553,6 +587,7 @@
     }
   },
   {
+    "id": "janitor-janitress",
     "type": "or",
     "categories": [
       "female",
@@ -572,6 +607,7 @@
     }
   },
   {
+    "id": "janitors-janitresses",
     "type": "or",
     "categories": [
       "female",
@@ -589,6 +625,7 @@
     }
   },
   {
+    "id": "delivery-boy-delivery-girl",
     "type": "or",
     "categories": [
       "female",
@@ -604,6 +641,7 @@
     }
   },
   {
+    "id": "foreman-forewoman",
     "type": "or",
     "categories": [
       "female",
@@ -619,6 +657,7 @@
     }
   },
   {
+    "id": "frontman,-front man-frontwoman,-front woman",
     "type": "or",
     "categories": [
       "female",
@@ -635,6 +674,7 @@
     }
   },
   {
+    "id": "front-men, frontmen-front-women, frontwomen",
     "type": "or",
     "categories": [
       "female",
@@ -649,6 +689,7 @@
     }
   },
   {
+    "id": "foremen-forewomen",
     "type": "or",
     "categories": [
       "female",
@@ -664,6 +705,7 @@
     }
   },
   {
+    "id": "insurance-man-insurance-woman",
     "type": "or",
     "categories": [
       "female",
@@ -678,6 +720,7 @@
     }
   },
   {
+    "id": "insurance-men-insurance-women",
     "type": "or",
     "categories": [
       "female",
@@ -692,6 +735,7 @@
     }
   },
   {
+    "id": "landlady-landlord",
     "type": "or",
     "categories": [
       "female",
@@ -707,6 +751,7 @@
     }
   },
   {
+    "id": "landladies-landlords",
     "type": "or",
     "categories": [
       "female",
@@ -722,6 +767,7 @@
     }
   },
   {
+    "id": "alumna-alumnus",
     "type": "or",
     "categories": [
       "female",
@@ -736,6 +782,7 @@
     }
   },
   {
+    "id": "alumnae-alumni",
     "type": "or",
     "categories": [
       "female",
@@ -750,6 +797,7 @@
     }
   },
   {
+    "id": "newsman-newswoman",
     "type": "or",
     "categories": [
       "female",
@@ -769,6 +817,7 @@
     }
   },
   {
+    "id": "newsmen-newswomen",
     "type": "or",
     "categories": [
       "female",
@@ -788,6 +837,7 @@
     }
   },
   {
+    "id": "repairman-repairwoman",
     "type": "or",
     "categories": [
       "female",
@@ -803,6 +853,7 @@
     }
   },
   {
+    "id": "repairmen-repairwomen",
     "type": "or",
     "categories": [
       "female",
@@ -817,6 +868,7 @@
     }
   },
   {
+    "id": "saleslady-salesman",
     "type": "or",
     "categories": [
       "female",
@@ -838,6 +890,7 @@
     }
   },
   {
+    "id": "salesmen-saleswomen",
     "type": "or",
     "categories": [
       "female",
@@ -858,6 +911,7 @@
     }
   },
   {
+    "id": "serviceman-servicewoman",
     "type": "or",
     "categories": [
       "female",
@@ -873,6 +927,7 @@
     }
   },
   {
+    "id": "servicemen-servicewomen",
     "type": "or",
     "categories": [
       "female",
@@ -888,6 +943,7 @@
     }
   },
   {
+    "id": "waiter-waitress",
     "type": "or",
     "categories": [
       "female",
@@ -902,6 +958,7 @@
     }
   },
   {
+    "id": "waiters-waitresses",
     "type": "or",
     "categories": [
       "female",
@@ -916,6 +973,7 @@
     }
   },
   {
+    "id": "workman-workwoman",
     "type": "or",
     "categories": [
       "female",
@@ -934,6 +992,7 @@
     }
   },
   {
+    "id": "workmen-workwomen",
     "type": "or",
     "categories": [
       "female",
@@ -948,6 +1007,7 @@
     }
   },
   {
+    "id": "actor-actress",
     "type": "or",
     "categories": [
       "female",
@@ -964,6 +1024,7 @@
     }
   },
   {
+    "id": "actors-actresses",
     "type": "or",
     "categories": [
       "female",
@@ -980,6 +1041,7 @@
     }
   },
   {
+    "id": "aircrewwoman-airman",
     "type": "or",
     "categories": [
       "female",
@@ -998,6 +1060,7 @@
     }
   },
   {
+    "id": "aircrewwomen-airmen",
     "type": "or",
     "categories": [
       "female",
@@ -1016,6 +1079,7 @@
     }
   },
   {
+    "id": "alderman-alderwoman",
     "type": "or",
     "categories": [
       "female",
@@ -1030,6 +1094,7 @@
     }
   },
   {
+    "id": "aldermen-alderwomen",
     "type": "or",
     "categories": [
       "female",
@@ -1045,6 +1110,7 @@
     }
   },
   {
+    "id": "assemblyman-assemblywoman",
     "type": "or",
     "categories": [
       "female",
@@ -1060,6 +1126,7 @@
     }
   },
   {
+    "id": "aunt-uncle",
     "type": "or",
     "categories": [
       "female",
@@ -1076,6 +1143,7 @@
     }
   },
   {
+    "id": "aunts-uncles",
     "type": "or",
     "categories": [
       "female",
@@ -1092,6 +1160,7 @@
     }
   },
   {
+    "id": "boogeyman-boogeywoman",
     "type": "or",
     "categories": [
       "female",
@@ -1106,6 +1175,7 @@
     }
   },
   {
+    "id": "boogieman-boogiewoman",
     "type": "or",
     "categories": [
       "female",
@@ -1120,6 +1190,7 @@
     }
   },
   {
+    "id": "bogeyman-bogeywoman",
     "type": "or",
     "categories": [
       "female",
@@ -1134,6 +1205,7 @@
     }
   },
   {
+    "id": "bogieman-bogiewoman",
     "type": "or",
     "categories": [
       "female",
@@ -1148,6 +1220,7 @@
     }
   },
   {
+    "id": "boogiemen-boogiewomen",
     "type": "or",
     "categories": [
       "female",
@@ -1162,6 +1235,7 @@
     }
   },
   {
+    "id": "bogiemen-bogiewomen",
     "type": "or",
     "categories": [
       "female",
@@ -1176,6 +1250,7 @@
     }
   },
   {
+    "id": "bondsman-bondswoman",
     "type": "or",
     "categories": [
       "female",
@@ -1190,6 +1265,7 @@
     }
   },
   {
+    "id": "bondsmen-bondswomen",
     "type": "or",
     "categories": [
       "female",
@@ -1204,6 +1280,7 @@
     }
   },
   {
+    "id": "husband-wife",
     "type": "or",
     "categories": [
       "female",
@@ -1220,6 +1297,7 @@
     }
   },
   {
+    "id": "husbands-wives",
     "type": "or",
     "categories": [
       "female",
@@ -1236,6 +1314,7 @@
     }
   },
   {
+    "id": "boyfriend-girlfriend",
     "type": "or",
     "categories": [
       "female",
@@ -1252,6 +1331,7 @@
     }
   },
   {
+    "id": "boyfriends-girlfriends",
     "type": "or",
     "categories": [
       "female",
@@ -1268,6 +1348,7 @@
     }
   },
   {
+    "id": "boyhood-girlhood",
     "type": "or",
     "categories": [
       "female",
@@ -1282,6 +1363,7 @@
     }
   },
   {
+    "id": "boyish-girly",
     "type": "or",
     "categories": [
       "female",
@@ -1297,6 +1379,7 @@
     }
   },
   {
+    "id": "journeyman-journeywoman",
     "type": "or",
     "categories": [
       "female",
@@ -1311,6 +1394,7 @@
     }
   },
   {
+    "id": "journeymen-journeywomen",
     "type": "or",
     "categories": [
       "female",
@@ -1325,6 +1409,7 @@
     }
   },
   {
+    "id": "godfather-godmother",
     "type": "or",
     "categories": [
       "female",
@@ -1342,6 +1427,7 @@
     }
   },
   {
+    "id": "granddaughter-grandson",
     "type": "or",
     "categories": [
       "female",
@@ -1356,6 +1442,7 @@
     }
   },
   {
+    "id": "granddaughters-grandsons",
     "type": "or",
     "categories": [
       "female",
@@ -1370,6 +1457,7 @@
     }
   },
   {
+    "id": "forefather-foremother",
     "type": "or",
     "categories": [
       "female",
@@ -1384,6 +1472,7 @@
     }
   },
   {
+    "id": "forefathers-foremothers",
     "type": "or",
     "categories": [
       "female",
@@ -1398,6 +1487,7 @@
     }
   },
   {
+    "id": "gramps-granny",
     "type": "or",
     "categories": [
       "female",
@@ -1419,6 +1509,7 @@
     }
   },
   {
+    "id": "grandfathers-grandmothers",
     "type": "or",
     "categories": [
       "female",
@@ -1434,6 +1525,7 @@
     }
   },
   {
+    "id": "bride-groom",
     "type": "or",
     "categories": [
       "female",
@@ -1448,6 +1540,7 @@
     }
   },
   {
+    "id": "brother-sister",
     "type": "or",
     "categories": [
       "female",
@@ -1462,6 +1555,7 @@
     }
   },
   {
+    "id": "brothers-sisters",
     "type": "or",
     "categories": [
       "female",
@@ -1476,6 +1570,7 @@
     }
   },
   {
+    "id": "cameraman-camerawoman",
     "type": "or",
     "categories": [
       "female",
@@ -1491,6 +1586,7 @@
     }
   },
   {
+    "id": "cameramen-camerawomen",
     "type": "or",
     "categories": [
       "female",
@@ -1505,6 +1601,7 @@
     }
   },
   {
+    "id": "caveman-cavewoman",
     "type": "or",
     "categories": [
       "female",
@@ -1520,6 +1617,7 @@
     }
   },
   {
+    "id": "cavemen-cavewomen",
     "type": "or",
     "categories": [
       "female",
@@ -1537,6 +1635,7 @@
     }
   },
   {
+    "id": "clergyman-clergywoman",
     "type": "or",
     "categories": [
       "female",
@@ -1553,6 +1652,7 @@
     }
   },
   {
+    "id": "clergymen-clergywomen",
     "type": "or",
     "categories": [
       "female",
@@ -1568,6 +1668,7 @@
     }
   },
   {
+    "id": "councilman-councilwoman",
     "type": "or",
     "categories": [
       "female",
@@ -1582,6 +1683,7 @@
     }
   },
   {
+    "id": "councilmen-councilwomen",
     "type": "or",
     "categories": [
       "female",
@@ -1596,6 +1698,7 @@
     }
   },
   {
+    "id": "countryman-countrywoman",
     "type": "or",
     "categories": [
       "female",
@@ -1610,6 +1713,7 @@
     }
   },
   {
+    "id": "countrymen-countrywomen",
     "type": "or",
     "categories": [
       "female",
@@ -1624,6 +1728,7 @@
     }
   },
   {
+    "id": "handyman-handywoman",
     "type": "or",
     "categories": [
       "female",
@@ -1642,6 +1747,7 @@
     }
   },
   {
+    "id": "host-hostess",
     "type": "or",
     "categories": [
       "female",
@@ -1657,6 +1763,7 @@
     }
   },
   {
+    "id": "hostesses-hosts",
     "type": "or",
     "categories": [
       "female",
@@ -1672,6 +1779,7 @@
     }
   },
   {
+    "id": "handymen-handywomen",
     "type": "or",
     "categories": [
       "female",
@@ -1690,6 +1798,7 @@
     }
   },
   {
+    "id": "hangman-hangwoman",
     "type": "or",
     "categories": [
       "female",
@@ -1704,6 +1813,7 @@
     }
   },
   {
+    "id": "hangmen-hangwomen",
     "type": "or",
     "categories": [
       "female",
@@ -1718,6 +1828,7 @@
     }
   },
   {
+    "id": "henchman-henchwoman",
     "type": "or",
     "categories": [
       "female",
@@ -1732,6 +1843,7 @@
     }
   },
   {
+    "id": "henchmen-henchwomen",
     "type": "or",
     "categories": [
       "female",
@@ -1746,6 +1858,7 @@
     }
   },
   {
+    "id": "hero-heroine",
     "type": "or",
     "categories": [
       "female",
@@ -1760,6 +1873,7 @@
     }
   },
   {
+    "id": "heroes-heroines",
     "type": "or",
     "categories": [
       "female",
@@ -1774,6 +1888,7 @@
     }
   },
   {
+    "id": "maternal-paternal",
     "type": "or",
     "categories": [
       "female",
@@ -1791,6 +1906,7 @@
     }
   },
   {
+    "id": "maternity-paternity",
     "type": "or",
     "categories": [
       "female",
@@ -1805,6 +1921,7 @@
     }
   },
   {
+    "id": "dads-moms",
     "type": "or",
     "categories": [
       "female",
@@ -1827,6 +1944,7 @@
     }
   },
   {
+    "id": "dad-mom",
     "type": "or",
     "categories": [
       "female",
@@ -1850,6 +1968,7 @@
     }
   },
   {
+    "id": "daughter-son",
     "type": "or",
     "categories": [
       "female",
@@ -1864,6 +1983,7 @@
     }
   },
   {
+    "id": "daughters-sons",
     "type": "or",
     "categories": [
       "female",
@@ -1878,6 +1998,7 @@
     }
   },
   {
+    "id": "doorman-doorwoman",
     "type": "or",
     "categories": [
       "female",
@@ -1892,6 +2013,7 @@
     }
   },
   {
+    "id": "doormen-doorwomen",
     "type": "or",
     "categories": [
       "female",
@@ -1906,6 +2028,7 @@
     }
   },
   {
+    "id": "feminin-manly",
     "type": "or",
     "categories": [
       "female",
@@ -1922,6 +2045,7 @@
     }
   },
   {
+    "id": "females-males",
     "type": "or",
     "categories": [
       "female",
@@ -1936,6 +2060,7 @@
     }
   },
   {
+    "id": "king-queen",
     "type": "or",
     "categories": [
       "female",
@@ -1952,6 +2077,7 @@
     }
   },
   {
+    "id": "kings-queens",
     "type": "or",
     "categories": [
       "female",
@@ -1968,6 +2094,7 @@
     }
   },
   {
+    "id": "kingsize-queensize",
     "type": "or",
     "categories": [
       "female",
@@ -1983,6 +2110,7 @@
     }
   },
   {
+    "id": "kingmaker-queenmaker",
     "type": "or",
     "categories": [
       "female",
@@ -1997,6 +2125,7 @@
     }
   },
   {
+    "id": "layman-laywoman",
     "type": "or",
     "categories": [
       "female",
@@ -2011,6 +2140,7 @@
     }
   },
   {
+    "id": "laymen-laywomen",
     "type": "or",
     "categories": [
       "female",
@@ -2025,6 +2155,7 @@
     }
   },
   {
+    "id": "dame-lord",
     "type": "or",
     "categories": [
       "female",
@@ -2044,6 +2175,7 @@
     }
   },
   {
+    "id": "dames-lords",
     "type": "or",
     "categories": [
       "female",
@@ -2061,6 +2193,7 @@
     }
   },
   {
+    "id": "manhood-womanhood",
     "type": "or",
     "categories": [
       "female",
@@ -2077,6 +2210,7 @@
     }
   },
   {
+    "id": "femininity-manliness",
     "type": "or",
     "categories": [
       "female",
@@ -2091,6 +2225,7 @@
     }
   },
   {
+    "id": "marksman-markswoman",
     "type": "or",
     "categories": [
       "female",
@@ -2105,6 +2240,7 @@
     }
   },
   {
+    "id": "marksmen-markswomen",
     "type": "or",
     "categories": [
       "female",
@@ -2119,6 +2255,7 @@
     }
   },
   {
+    "id": "middleman-middlewoman",
     "type": "or",
     "categories": [
       "female",
@@ -2134,6 +2271,7 @@
     }
   },
   {
+    "id": "middlemen-middlewomen",
     "type": "or",
     "categories": [
       "female",
@@ -2149,6 +2287,7 @@
     }
   },
   {
+    "id": "milkman-milkwoman",
     "type": "or",
     "categories": [
       "female",
@@ -2163,6 +2302,7 @@
     }
   },
   {
+    "id": "milkmen-milkwomen",
     "type": "or",
     "categories": [
       "female",
@@ -2177,6 +2317,7 @@
     }
   },
   {
+    "id": "nephew-niece",
     "type": "or",
     "categories": [
       "female",
@@ -2192,6 +2333,7 @@
     }
   },
   {
+    "id": "nephews-nieces",
     "type": "or",
     "categories": [
       "female",
@@ -2207,6 +2349,7 @@
     }
   },
   {
+    "id": "nobleman-noblewoman",
     "type": "or",
     "categories": [
       "female",
@@ -2221,6 +2364,7 @@
     }
   },
   {
+    "id": "noblemen-noblewomen",
     "type": "or",
     "categories": [
       "female",
@@ -2235,6 +2379,7 @@
     }
   },
   {
+    "id": "ombudsman-ombudswoman",
     "type": "or",
     "categories": [
       "female",
@@ -2251,6 +2396,7 @@
     }
   },
   {
+    "id": "ombudsmen-ombudswomen",
     "type": "or",
     "categories": [
       "female",
@@ -2265,6 +2411,7 @@
     }
   },
   {
+    "id": "prince-princess",
     "type": "or",
     "categories": [
       "female",
@@ -2279,6 +2426,7 @@
     }
   },
   {
+    "id": "princes-princesses",
     "type": "or",
     "categories": [
       "female",
@@ -2293,6 +2441,7 @@
     }
   },
   {
+    "id": "sandman-sandwoman",
     "type": "or",
     "categories": [
       "female",
@@ -2307,6 +2456,7 @@
     }
   },
   {
+    "id": "sandmen-sandwomen",
     "type": "or",
     "categories": [
       "female",
@@ -2321,6 +2471,7 @@
     }
   },
   {
+    "id": "showman-showwoman",
     "type": "or",
     "categories": [
       "female",
@@ -2335,6 +2486,7 @@
     }
   },
   {
+    "id": "showmen-showwomen",
     "type": "or",
     "categories": [
       "female",
@@ -2350,6 +2502,7 @@
     }
   },
   {
+    "id": "spaceman-spacewoman",
     "type": "or",
     "categories": [
       "female",
@@ -2364,6 +2517,7 @@
     }
   },
   {
+    "id": "spacemen-spacewomen",
     "type": "or",
     "categories": [
       "female",
@@ -2378,6 +2532,7 @@
     }
   },
   {
+    "id": "spokesman-spokeswoman",
     "type": "or",
     "categories": [
       "female",
@@ -2394,6 +2549,7 @@
     }
   },
   {
+    "id": "spokesmen-spokeswomen",
     "type": "or",
     "categories": [
       "female",
@@ -2409,6 +2565,7 @@
     }
   },
   {
+    "id": "sportsman-sportswoman",
     "type": "or",
     "categories": [
       "female",
@@ -2424,6 +2581,7 @@
     }
   },
   {
+    "id": "sportsmen-sportswomen",
     "type": "or",
     "categories": [
       "female",
@@ -2439,6 +2597,7 @@
     }
   },
   {
+    "id": "statesman-stateswoman",
     "type": "or",
     "categories": [
       "female",
@@ -2453,6 +2612,7 @@
     }
   },
   {
+    "id": "stepbrother-stepsister",
     "type": "or",
     "categories": [
       "female",
@@ -2467,6 +2627,7 @@
     }
   },
   {
+    "id": "stepbrothers-stepsisters",
     "type": "or",
     "categories": [
       "female",
@@ -2481,6 +2642,7 @@
     }
   },
   {
+    "id": "stepdad-stepmom",
     "type": "or",
     "categories": [
       "female",
@@ -2497,6 +2659,7 @@
     }
   },
   {
+    "id": "stepfathers-stepmothers",
     "type": "or",
     "categories": [
       "female",
@@ -2511,6 +2674,7 @@
     }
   },
   {
+    "id": "superman-superwoman",
     "type": "or",
     "categories": [
       "female",
@@ -2525,6 +2689,7 @@
     }
   },
   {
+    "id": "supermen-superwomen",
     "type": "or",
     "categories": [
       "female",
@@ -2539,6 +2704,7 @@
     }
   },
   {
+    "id": "unmanly-unwomanly",
     "type": "or",
     "categories": [
       "female",
@@ -2555,6 +2721,7 @@
     }
   },
   {
+    "id": "watchman-watchwoman",
     "type": "or",
     "categories": [
       "female",
@@ -2569,6 +2736,7 @@
     }
   },
   {
+    "id": "watchmen-watchwomen",
     "type": "or",
     "categories": [
       "female",
@@ -2583,6 +2751,7 @@
     }
   },
   {
+    "id": "weatherman-weatherwoman",
     "type": "or",
     "categories": [
       "female",
@@ -2598,6 +2767,7 @@
     }
   },
   {
+    "id": "weathermen-weatherwomen",
     "type": "or",
     "categories": [
       "female",
@@ -2613,6 +2783,7 @@
     }
   },
   {
+    "id": "widow-widower",
     "type": "or",
     "categories": [
       "female",
@@ -2629,6 +2800,7 @@
     }
   },
   {
+    "id": "own-man-own-woman",
     "type": "or",
     "categories": [
       "female",
@@ -2643,6 +2815,7 @@
     }
   },
   {
+    "id": "frenchmen",
     "type": "simple",
     "categories": [
       "male"
@@ -2655,6 +2828,7 @@
     }
   },
   {
+    "id": "ladylike",
     "type": "simple",
     "categories": [
       "female"
@@ -2668,6 +2842,7 @@
     }
   },
   {
+    "id": "like-a man",
     "type": "simple",
     "categories": [
       "male"
@@ -2681,6 +2856,7 @@
     }
   },
   {
+    "id": "maiden-name",
     "type": "simple",
     "categories": [
       "female"
@@ -2693,6 +2869,7 @@
     }
   },
   {
+    "id": "maiden-voyage",
     "type": "simple",
     "categories": [
       "female"
@@ -2705,6 +2882,7 @@
     }
   },
   {
+    "id": "man-enough",
     "type": "simple",
     "categories": [
       "male"
@@ -2717,6 +2895,7 @@
     }
   },
   {
+    "id": "oneupmanship",
     "type": "simple",
     "categories": [
       "male"
@@ -2730,6 +2909,7 @@
     }
   },
   {
+    "id": "mrs.",
     "type": "simple",
     "categories": [
       "female"
@@ -2743,6 +2923,7 @@
     }
   },
   {
+    "id": "manmade",
     "type": "simple",
     "categories": [
       "male"
@@ -2758,6 +2939,7 @@
     }
   },
   {
+    "id": "man-of action",
     "type": "simple",
     "categories": [
       "male"
@@ -2770,6 +2952,7 @@
     }
   },
   {
+    "id": "man-of letters",
     "type": "simple",
     "categories": [
       "male"
@@ -2784,6 +2967,7 @@
     }
   },
   {
+    "id": "man-of the world",
     "type": "simple",
     "categories": [
       "male"
@@ -2796,6 +2980,7 @@
     }
   },
   {
+    "id": "fellowship",
     "type": "simple",
     "categories": [
       "male"
@@ -2808,6 +2993,7 @@
     }
   },
   {
+    "id": "freshman",
     "type": "simple",
     "categories": [
       "male"
@@ -2822,6 +3008,7 @@
     }
   },
   {
+    "id": "workmanship",
     "type": "simple",
     "categories": [
       "male"
@@ -2835,6 +3022,7 @@
     }
   },
   {
+    "id": "housewife",
     "type": "simple",
     "categories": [
       "female"
@@ -2848,6 +3036,7 @@
     }
   },
   {
+    "id": "housewives",
     "type": "simple",
     "categories": [
       "female"
@@ -2861,6 +3050,7 @@
     }
   },
   {
+    "id": "motherly",
     "type": "simple",
     "categories": [
       "female"
@@ -2875,6 +3065,7 @@
     }
   },
   {
+    "id": "manpower",
     "type": "simple",
     "categories": [
       "male"
@@ -2887,6 +3078,7 @@
     }
   },
   {
+    "id": "master-of ceremonies",
     "type": "simple",
     "categories": [
       "male"
@@ -2901,6 +3093,7 @@
     }
   },
   {
+    "id": "masterful",
     "type": "simple",
     "categories": [
       "male"
@@ -2915,6 +3108,7 @@
     }
   },
   {
+    "id": "mastermind",
     "type": "simple",
     "categories": [
       "male"
@@ -2932,6 +3126,7 @@
     }
   },
   {
+    "id": "masterpiece",
     "type": "simple",
     "categories": [
       "male"
@@ -2945,6 +3140,7 @@
     }
   },
   {
+    "id": "masterplan",
     "type": "simple",
     "categories": [
       "male"
@@ -2958,6 +3154,7 @@
     }
   },
   {
+    "id": "masterstroke",
     "type": "simple",
     "categories": [
       "male"
@@ -2971,6 +3168,7 @@
     }
   },
   {
+    "id": "madman",
     "type": "simple",
     "categories": [
       "male"
@@ -2986,6 +3184,7 @@
     }
   },
   {
+    "id": "madmen",
     "type": "simple",
     "categories": [
       "male"
@@ -2999,6 +3198,7 @@
     }
   },
   {
+    "id": "mankind",
     "type": "simple",
     "categories": [
       "male"
@@ -3011,6 +3211,7 @@
     }
   },
   {
+    "id": "manhour",
     "type": "simple",
     "categories": [
       "male"
@@ -3025,6 +3226,7 @@
     }
   },
   {
+    "id": "manned",
     "type": "simple",
     "categories": [
       "a"
@@ -3039,6 +3241,7 @@
     }
   },
   {
+    "id": "unmanned",
     "type": "simple",
     "categories": [
       "a"
@@ -3052,6 +3255,7 @@
     }
   },
   {
+    "id": "moaning",
     "type": "simple",
     "categories": [
       "a"
@@ -3067,6 +3271,7 @@
     }
   },
   {
+    "id": "moan",
     "type": "simple",
     "categories": [
       "a"
@@ -3082,6 +3287,7 @@
     }
   },
   {
+    "id": "learning-disabled",
     "type": "simple",
     "categories": [
       "a"
@@ -3094,6 +3300,7 @@
     }
   },
   {
+    "id": "disabled",
     "type": "simple",
     "categories": [
       "a"
@@ -3108,6 +3315,7 @@
     }
   },
   {
+    "id": "birth-defect",
     "type": "simple",
     "categories": [
       "a"
@@ -3122,6 +3330,7 @@
     "note": "If possible, describe exacly what this is. (source: http://ncdj.org/style-guide/)"
   },
   {
+    "id": "suffers-from disabilities",
     "type": "simple",
     "categories": [
       "a"
@@ -3139,6 +3348,7 @@
     }
   },
   {
+    "id": "intellectually-disabled people",
     "type": "simple",
     "categories": [
       "a"
@@ -3152,6 +3362,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "intellectually-disabled",
     "type": "simple",
     "categories": [
       "a"
@@ -3170,6 +3381,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "nuts",
     "type": "simple",
     "categories": [
       "a"
@@ -3203,6 +3415,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "schizo",
     "type": "simple",
     "categories": [
       "a"
@@ -3222,6 +3435,7 @@
     }
   },
   {
+    "id": "handicapped-parking",
     "type": "simple",
     "categories": [
       "a"
@@ -3235,6 +3449,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "handicapped",
     "type": "simple",
     "categories": [
       "a"
@@ -3248,6 +3463,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "amputee",
     "type": "simple",
     "categories": [
       "a"
@@ -3261,6 +3477,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "cripple",
     "type": "simple",
     "categories": [
       "a"
@@ -3274,6 +3491,7 @@
     }
   },
   {
+    "id": "mongoloid",
     "type": "simple",
     "categories": [
       "a"
@@ -3286,6 +3504,7 @@
     }
   },
   {
+    "id": "stroke-victim",
     "type": "simple",
     "categories": [
       "a"
@@ -3300,6 +3519,7 @@
     }
   },
   {
+    "id": "multiple-sclerosis victim",
     "type": "simple",
     "categories": [
       "a"
@@ -3316,6 +3536,7 @@
     }
   },
   {
+    "id": "family-burden",
     "type": "simple",
     "categories": [
       "a"
@@ -3328,6 +3549,7 @@
     }
   },
   {
+    "id": "asylum",
     "type": "simple",
     "categories": [
       "a"
@@ -3341,6 +3563,7 @@
     }
   },
   {
+    "id": "bedlam",
     "type": "simple",
     "categories": [
       "a"
@@ -3357,6 +3580,7 @@
     }
   },
   {
+    "id": "downs-syndrome",
     "type": "simple",
     "categories": [
       "a"
@@ -3370,6 +3594,7 @@
     "note": "Source: http://www.specialolympics.org/uploadedFiles/Fact%20Sheet_Terminology%20Guide.pdf"
   },
   {
+    "id": "retard",
     "type": "simple",
     "categories": [
       "a"
@@ -3388,6 +3613,7 @@
     }
   },
   {
+    "id": "retards",
     "type": "simple",
     "categories": [
       "a"
@@ -3405,6 +3631,7 @@
     }
   },
   {
+    "id": "psychotic",
     "type": "simple",
     "categories": [
       "a"
@@ -3422,6 +3649,7 @@
     }
   },
   {
+    "id": "lame",
     "type": "simple",
     "categories": [
       "a"
@@ -3436,6 +3664,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "aids-victim",
     "type": "simple",
     "categories": [
       "a"
@@ -3453,6 +3682,7 @@
     }
   },
   {
+    "id": "wheelchair-bound",
     "type": "simple",
     "categories": [
       "a"
@@ -3468,6 +3698,7 @@
     }
   },
   {
+    "id": "special-olympians",
     "type": "simple",
     "categories": [
       "a"
@@ -3483,6 +3714,7 @@
     "note": "Source: http://www.specialolympics.org/uploadedFiles/Fact%20Sheet_Terminology%20Guide.pdf"
   },
   {
+    "id": "ablebodied",
     "type": "simple",
     "categories": [
       "a"
@@ -3496,6 +3728,7 @@
     "note": "Sometimes `typical` can be used. (source: http://ncdj.org/style-guide/)"
   },
   {
+    "id": "addict",
     "type": "simple",
     "categories": [
       "a"
@@ -3510,6 +3743,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "addicts",
     "type": "simple",
     "categories": [
       "a"
@@ -3524,6 +3758,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "alcoholic",
     "type": "simple",
     "categories": [
       "a"
@@ -3537,6 +3772,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "autistic",
     "type": "simple",
     "categories": [
       "a"
@@ -3550,6 +3786,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "deafmute",
     "type": "simple",
     "categories": [
       "a"
@@ -3564,6 +3801,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "senile",
     "type": "simple",
     "categories": [
       "a"
@@ -3578,6 +3816,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "depressed",
     "type": "simple",
     "categories": [
       "a"
@@ -3596,6 +3835,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "midget",
     "type": "simple",
     "categories": [
       "a"
@@ -3610,6 +3850,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "dyslexic",
     "type": "simple",
     "categories": [
       "a"
@@ -3623,6 +3864,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "epileptic",
     "type": "simple",
     "categories": [
       "a"
@@ -3636,6 +3878,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "hearing-impaired",
     "type": "simple",
     "categories": [
       "a"
@@ -3653,6 +3896,7 @@
     "note": "When possible, ask the person what they prefer. (source: http://ncdj.org/style-guide/)"
   },
   {
+    "id": "victim-of polio",
     "type": "simple",
     "categories": [
       "a"
@@ -3673,6 +3917,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "victim-of an injury",
     "type": "simple",
     "categories": [
       "a"
@@ -3691,6 +3936,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "victim-of injuries",
     "type": "simple",
     "categories": [
       "a"
@@ -3709,6 +3955,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "paraplegic",
     "type": "simple",
     "categories": [
       "a"
@@ -3722,6 +3969,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "quadriplegic",
     "type": "simple",
     "categories": [
       "a"
@@ -3735,6 +3983,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "spaz",
     "type": "simple",
     "categories": [
       "a"
@@ -3749,6 +3998,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "stammering",
     "type": "simple",
     "categories": [
       "a"
@@ -3762,6 +4012,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "stutterer",
     "type": "simple",
     "categories": [
       "a"
@@ -3775,6 +4026,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "tourettes-syndrome",
     "type": "simple",
     "categories": [
       "a"
@@ -3789,6 +4041,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "rehab-center",
     "type": "simple",
     "categories": [
       "a"
@@ -3803,6 +4056,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "rehab",
     "type": "simple",
     "categories": [
       "a"
@@ -3817,6 +4071,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "sociopath",
     "type": "simple",
     "categories": [
       "a"
@@ -3831,6 +4086,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "sociopaths",
     "type": "simple",
     "categories": [
       "a"
@@ -3845,6 +4101,7 @@
     "note": "Source: http://ncdj.org/style-guide/"
   },
   {
+    "id": "dumb",
     "type": "simple",
     "categories": [
       "a"
@@ -3861,6 +4118,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
+    "id": "wacko",
     "type": "simple",
     "categories": [
       "a"
@@ -3879,6 +4137,7 @@
     "note": "Source: http://www.mmonjejr.com/2014/02/deconstructing-stupid.html"
   },
   {
+    "id": "panic-attack",
     "type": "simple",
     "categories": [
       "a"
@@ -3892,6 +4151,7 @@
     }
   },
   {
+    "id": "anorexic",
     "type": "simple",
     "categories": [
       "a"
@@ -3905,6 +4165,7 @@
     }
   },
   {
+    "id": "ocd",
     "type": "simple",
     "categories": [
       "a"
@@ -3923,6 +4184,7 @@
     "note": "Source: http://english.stackexchange.com/questions/247550/"
   },
   {
+    "id": "insomnia",
     "type": "simple",
     "categories": [
       "a"
@@ -3936,6 +4198,7 @@
     }
   },
   {
+    "id": "insomniac",
     "type": "simple",
     "categories": [
       "a"
@@ -3948,6 +4211,7 @@
     }
   },
   {
+    "id": "insomniacs",
     "type": "simple",
     "categories": [
       "a"
@@ -3960,6 +4224,7 @@
     }
   },
   {
+    "id": "barren",
     "type": "simple",
     "categories": [
       "a"
@@ -3975,6 +4240,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
+    "id": "deaf-to",
     "type": "simple",
     "categories": [
       "a"
@@ -3996,6 +4262,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
+    "id": "cretin",
     "type": "simple",
     "categories": [
       "a"
@@ -4010,6 +4277,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
+    "id": "daft",
     "type": "simple",
     "categories": [
       "a"
@@ -4024,6 +4292,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
+    "id": "idiot",
     "type": "simple",
     "categories": [
       "a"
@@ -4042,6 +4311,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
+    "id": "harelipped",
     "type": "simple",
     "categories": [
       "a"
@@ -4056,6 +4326,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
+    "id": "harelip",
     "type": "simple",
     "categories": [
       "a"
@@ -4069,6 +4340,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
+    "id": "maniac",
     "type": "simple",
     "categories": [
       "a"
@@ -4084,6 +4356,7 @@
     "note": "Source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html"
   },
   {
+    "id": "master-slave",
     "type": "and",
     "categories": [
       "a",
@@ -4103,6 +4376,7 @@
     }
   },
   {
+    "id": "homosexual",
     "type": "simple",
     "categories": [
       "a"
@@ -4119,6 +4393,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
+    "id": "homosexual-relations",
     "type": "simple",
     "categories": [
       "a"
@@ -4133,6 +4408,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
+    "id": "homosexual-couple",
     "type": "simple",
     "categories": [
       "a"
@@ -4146,6 +4422,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
+    "id": "sexual-preference",
     "type": "simple",
     "categories": [
       "a"
@@ -4160,6 +4437,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
+    "id": "gay-lifestyle",
     "type": "simple",
     "categories": [
       "a"
@@ -4175,6 +4453,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
+    "id": "gay-agenda",
     "type": "simple",
     "categories": [
       "a"
@@ -4189,6 +4468,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
+    "id": "gay-rights",
     "type": "simple",
     "categories": [
       "a"
@@ -4204,6 +4484,7 @@
     "note": "Source: http://www.glaad.org/reference/style"
   },
   {
+    "id": "fag",
     "type": "simple",
     "categories": [
       "a"
@@ -4221,6 +4502,7 @@
     "note": "Source: http://www.glaad.org/reference/offensive"
   },
   {
+    "id": "bi",
     "type": "simple",
     "categories": [
       "a"
@@ -4234,6 +4516,7 @@
     "note": "Source: http://www.glaad.org/reference/style"
   },
   {
+    "id": "homosexual-marriage",
     "type": "simple",
     "categories": [
       "a"
@@ -4248,6 +4531,7 @@
     "note": "Source: http://www.glaad.org/reference/style"
   },
   {
+    "id": "tranny",
     "type": "simple",
     "categories": [
       "a"
@@ -4261,6 +4545,7 @@
     "note": "Source: http://www.glaad.org/reference/style"
   },
   {
+    "id": "transvestite",
     "type": "simple",
     "categories": [
       "a"
@@ -4274,6 +4559,7 @@
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
+    "id": "sexchange",
     "type": "simple",
     "categories": [
       "a"
@@ -4288,6 +4574,7 @@
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
+    "id": "sex-change operation",
     "type": "simple",
     "categories": [
       "a"
@@ -4301,6 +4588,7 @@
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
+    "id": "transgenders",
     "type": "simple",
     "categories": [
       "a"
@@ -4314,6 +4602,7 @@
     "note": "Transgender should be used as an adjective, not as a noun. (source: http://www.glaad.org/reference/transgender)"
   },
   {
+    "id": "a-transgender",
     "type": "simple",
     "categories": [
       "a"
@@ -4327,6 +4616,7 @@
     "note": "Transgender should be used as an adjective, not as a noun. (source: http://www.glaad.org/reference/transgender)"
   },
   {
+    "id": "transgendered",
     "type": "simple",
     "categories": [
       "a"
@@ -4340,6 +4630,7 @@
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
+    "id": "transgenderism",
     "type": "simple",
     "categories": [
       "a"
@@ -4354,6 +4645,7 @@
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
+    "id": "born-a man",
     "type": "simple",
     "categories": [
       "a"
@@ -4369,6 +4661,7 @@
     }
   },
   {
+    "id": "born-a woman",
     "type": "simple",
     "categories": [
       "a"
@@ -4384,6 +4677,7 @@
     }
   },
   {
+    "id": "bathroom-bill",
     "type": "simple",
     "categories": [
       "a"
@@ -4398,6 +4692,7 @@
     "note": "Source: http://www.glaad.org/reference/transgender"
   },
   {
+    "id": "hermaphroditic",
     "type": "simple",
     "categories": [
       "a"
@@ -4413,6 +4708,7 @@
     "note": "Source: http://www.isna.org/node/979"
   },
   {
+    "id": "hermaphrodite",
     "type": "simple",
     "categories": [
       "a"
@@ -4429,6 +4725,7 @@
     "note": "Source: http://www.isna.org/node/979"
   },
   {
+    "id": "committed-suicide",
     "type": "simple",
     "categories": [
       "a"
@@ -4443,6 +4740,7 @@
     "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide, http://www.speakingofsuicide.com/2013/04/13/language/"
   },
   {
+    "id": "commit-suicide",
     "type": "simple",
     "categories": [
       "a"
@@ -4457,6 +4755,7 @@
     "note": "Source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide, http://www.speakingofsuicide.com/2013/04/13/language/"
   },
   {
+    "id": "suicide-epidemic",
     "type": "simple",
     "categories": [
       "a"

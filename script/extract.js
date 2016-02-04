@@ -29,6 +29,34 @@ var write = fs.writeFileSync;
 var stringify = JSON.stringify;
 
 /**
+ * Get a unique identifier for a pattern.
+ *
+ * @param {Object} pattern - Pattern to generate for.
+ * @return {string} - Pattern identifier.
+ */
+function getPatternId(pattern) {
+    var inconsiderate = pattern.inconsiderate;
+    var phrases = {};
+    var result = [];
+    var phrase;
+    var category;
+
+    for (phrase in inconsiderate) {
+        category = inconsiderate[phrase];
+
+        if (!phrases[category] || phrases[category].length > phrase.length) {
+            phrases[category] = phrase;
+        }
+    }
+
+    for (phrase in phrases) {
+        result.push(phrases[phrase].replace(/\s/, '-'));
+    }
+
+    return result.sort().join('-');
+}
+
+/**
  * Patch information on `entry`.
  *
  * @param {Object} entry - Thing.
@@ -37,6 +65,7 @@ function patch(entry) {
     var description = entry.note;
     var source = entry.source;
     var result = {
+        'id': null,
         'type': entry.type,
         'apostrophe': entry.apostrophe ? true : undefined,
         'categories': entry.categories,
@@ -53,6 +82,7 @@ function patch(entry) {
     }
 
     result.note = description;
+    result.id = getPatternId(result);
 
     return result;
 }
