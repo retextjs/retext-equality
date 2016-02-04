@@ -2,6 +2,11 @@
 
 <!--lint disable no-multiple-toplevel-headings maximum-line-length-->
 
+2.2.0 / 2016-02-04
+==================
+
+*   Add `complete suicide` to inconsiderate terms ([`64ef85c`](https://github.com/wooorm/retext-equality/commit/64ef85c))
+
 2.1.0 / 2016-02-03
 ==================
 
