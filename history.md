@@ -2,6 +2,13 @@
 
 <!--lint disable no-multiple-toplevel-headings maximum-line-length-->
 
+2.2.1 / 2016-02-04
+==================
+
+*   Update dev-dependencies ([`286a583`](https://github.com/wooorm/retext-equality/commit/286a583))
+*   Fix bug where apostrophes were not normalised ([`08c5d4a`](https://github.com/wooorm/retext-equality/commit/08c5d4a))
+*   Move pattern-id generation to build-script ([`8f4d82e`](https://github.com/wooorm/retext-equality/commit/8f4d82e))
+
 2.2.0 / 2016-02-04
 ==================
 
