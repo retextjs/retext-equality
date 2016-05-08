@@ -3222,7 +3222,11 @@
     },
     "inconsiderate": {
       "manhour": "male",
-      "man hour": "male"
+      "manhours": "male",
+      "man hour": "male",
+      "man hours": "male",
+      "man-hour": "male",
+      "man-hours": "male"
     }
   },
   {
