@@ -61,6 +61,13 @@ processed [virtual file][vfile]s.
         about unless it’s followed by something like `or she` or `and she`.
         When `noBinary` is `true`, both cases would be warned about.
 
+## Contributing
+
+Thanks, contributions are greatly appreciated! :+1:
+If you add new patterns, add them in the YAML files in
+the [`script/`][script] directory, and execute `npm test` to build
+everything.  Please see the current patterns for inspiration.
+
 ## License
 
 [MIT][license] © [Titus Wormer][home]
@@ -82,6 +89,8 @@ processed [virtual file][vfile]s.
 [releases]: https://github.com/wooorm/retext-equality/releases
 
 [license]: LICENSE
+
+[script]: script
 
 [home]: http://wooorm.com
 
