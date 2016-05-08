@@ -53,7 +53,7 @@
     "remark-github": "^4.0.0",
     "remark-lint": "^3.0.0",
     "remark-validate-links": "^3.0.0",
-    "retext": "^1.0.0",
+    "retext": "^2.0.0",
     "tap": "^5.0.0",
     "vfile-sort": "^1.0.0"
   },
