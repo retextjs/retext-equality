@@ -3217,12 +3217,27 @@
       "male"
     ],
     "considerate": {
-      "staff hours": "a",
-      "hours of work": "a"
+      "staff hour": "a",
+      "hour of work": "a"
     },
     "inconsiderate": {
       "manhour": "male",
       "man hour": "male"
+    }
+  },
+  {
+    "id": "manhours",
+    "type": "simple",
+    "categories": [
+      "male"
+    ],
+    "considerate": {
+      "staff hours": "a",
+      "hours of work": "a"
+    },
+    "inconsiderate": {
+      "manhours": "male",
+      "man hours": "male"
     }
   },
   {
