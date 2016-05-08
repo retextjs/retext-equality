@@ -28,6 +28,14 @@ var read = fs.readFileSync;
 var write = fs.writeFileSync;
 var stringify = JSON.stringify;
 
+/*
+ * Info.
+ */
+
+var data;
+var phrases
+var duplicates;
+
 /**
  * Get a unique identifier for a pattern.
  *
@@ -91,7 +99,7 @@ function patch(entry) {
  * Gather.
  */
 
-var data = [
+data = [
     'gender',
     'ablist',
     'relationships',
@@ -144,7 +152,7 @@ data.forEach(function (entry) {
  * Patch.
  */
 
-var phrases = [];
+phrases = [];
 
 data = data.map(patch);
 
@@ -182,7 +190,7 @@ data.forEach(function (entry) {
     }
 });
 
-var duplicates = duplicated(phrases);
+duplicates = duplicated(phrases);
 
 if (duplicates.length) {
     throw new Error(
