@@ -48,14 +48,16 @@
     "js-yaml": "^3.3.1",
     "jscs": "^3.0.0",
     "jscs-jsdoc": "^2.0.0",
-    "remark": "^4.0.0",
+    "lint": "^1.1.2",
+    "remark": "^4.2.2",
     "remark-comment-config": "^3.0.0",
     "remark-github": "^4.0.0",
     "remark-lint": "^3.0.0",
     "remark-validate-links": "^3.0.0",
     "retext": "^2.0.0",
     "tap": "^5.0.0",
-    "vfile-sort": "^1.0.0"
+    "vfile-sort": "^1.0.0",
+    "vows": "^0.8.1"
   },
   "scripts": {
     "build-bundle": "browserify index.js --no-builtins -s retextEquality > retext-equality.js",
