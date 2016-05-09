@@ -161,7 +161,18 @@
   considerate:
     - person who is intersex
     - person
+    - intersex person
   inconsiderate:
     - hermaphrodite
     - pseudohermaphrodite
     - pseudo hermaphrodite
+- type: simple
+  source: https://www.reddit.com/r/asktransgender/comments/23wbq1/is_the_term_shemale_seen_as_offensive/
+  considerate:
+    - transgender person
+    - person
+  inconsiderate:
+    - shemale
+    - she male
+    - heshe
+    - shehe

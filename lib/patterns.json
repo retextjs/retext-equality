@@ -4730,7 +4730,8 @@
     ],
     "considerate": {
       "person who is intersex": "a",
-      "person": "a"
+      "person": "a",
+      "intersex person": "a"
     },
     "inconsiderate": {
       "hermaphrodite": "a",
@@ -4738,6 +4739,24 @@
       "pseudo hermaphrodite": "a"
     },
     "note": "Source: http://www.isna.org/node/979"
+  },
+  {
+    "id": "heshe",
+    "type": "simple",
+    "categories": [
+      "a"
+    ],
+    "considerate": {
+      "transgender person": "a",
+      "person": "a"
+    },
+    "inconsiderate": {
+      "shemale": "a",
+      "she male": "a",
+      "heshe": "a",
+      "shehe": "a"
+    },
+    "note": "Source: https://www.reddit.com/r/asktransgender/comments/23wbq1/is_the_term_shemale_seen_as_offensive/"
   },
   {
     "id": "committed-suicide",

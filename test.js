@@ -222,7 +222,7 @@ tap.test('Ignoring', function (t) {
 });
 
 tap.test('Phrasing', function (t) {
-    t.plan(21);
+    t.plan(23);
 
     t.same(
         process('This is insane.'),
@@ -359,5 +359,17 @@ tap.test('Phrasing', function (t) {
         process('She’s enchanted by the hermits shell.'),
         ['1:1-1:6: `She’s` may be insensitive, use `They`, `It` instead'],
         'She’s enchanted by the hermits shell.'
+    );
+
+    t.same(
+        process('That’s a shemale.'),
+        ['1:10-1:17: `shemale` may be insensitive, use `transgender person`, `person` instead'],
+        'That’s a shemale.'
+    );
+
+    t.same(
+        process('That person is a he-she.'),
+        ['1:18-1:24: `he-she` may be insensitive, use `transgender person`, `person` instead'],
+        'That person is a he-she.'
     );
 });
