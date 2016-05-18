@@ -99,15 +99,14 @@ function patch(entry) {
  * Gather.
  */
 
-data = [
-    'gender',
-    'ablist',
-    'relationships',
-    'lgbtq',
-    'suicide'
-].map(function (name) {
-    return yaml.load(read(join(__dirname, name + '.yml'), 'utf8'));
-});
+data = fs
+    .readdirSync(__dirname)
+    .filter(function (basename) {
+        return basename.indexOf('.yml') !== -1;
+    })
+    .map(function (basename) {
+        return yaml.load(read(join(__dirname, basename), 'utf8'));
+    });
 
 data = [].concat.apply([], data);
 
