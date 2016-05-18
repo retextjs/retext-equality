@@ -11,8 +11,8 @@ Warn about possible insensitive, inconsiderate language with
 npm install retext-equality
 ```
 
-**retext-equality** is also available for [duo][], and as an AMD, CommonJS,
-and globals module, [uncompressed and compressed][releases].
+**retext-equality** is also available as an AMD, CommonJS, and globals
+module, [uncompressed and compressed][releases].
 
 ## Usage
 
@@ -85,8 +85,6 @@ Please see the current patterns for inspiration.
 [coverage]: https://codecov.io/github/wooorm/retext-equality
 
 [npm-install]: https://docs.npmjs.com/cli/install
-
-[duo]: http://duojs.org/#getting-started
 
 [releases]: https://github.com/wooorm/retext-equality/releases
 

@@ -1,6 +1,5 @@
 .DS_Store
 *.log
-components/
 node_modules/
 coverage/
 retext-equality.js
