@@ -2,6 +2,15 @@
 
 <!--lint disable no-multiple-toplevel-headings maximum-line-length-->
 
+2.3.0 / 2016-05-18
+==================
+
+*   Add informal alternatives for `spastic`, `spaz` ([`6c24db8`](https://github.com/wooorm/retext-equality/commit/6c24db8))
+*   Fix invalid `id` generation ([`948a85a`](https://github.com/wooorm/retext-equality/commit/948a85a))
+*   Add `islamist`, `islamists` ([`d14116b`](https://github.com/wooorm/retext-equality/commit/d14116b))
+*   Add `shemale`, `he-she` ([`cc22904`](https://github.com/wooorm/retext-equality/commit/cc22904))
+*   Fix singulars/plurals of `man hours` ([`68a9318`](https://github.com/wooorm/retext-equality/commit/68a9318))
+
 2.2.1 / 2016-02-04
 ==================
 
