@@ -66,7 +66,7 @@ processed [virtual file][vfile]s.
 Thanks, contributions are greatly appreciated! :+1:
 If you add new patterns, add them in the YAML files in
 the [`script/`][script] directory, and execute `npm install` and
-then`npm test` to build everything.
+then `npm test` to build everything.
 
 Please see the current patterns for inspiration.
 
