@@ -340,9 +340,19 @@
   source: http://ncdj.org/style-guide/
   considerate:
     - person with cerebral palsy
+    - twitch
+    - flinch
+    - hectic
+  inconsiderate:
+    - spaz
+- type: simple
+  source: http://ncdj.org/style-guide/
+  considerate:
+    - person with cerebral palsy
+    - twitch
+    - flinch
   inconsiderate:
     - spastic
-    - spaz
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
