@@ -2,6 +2,11 @@
 
 <!--lint disable no-multiple-toplevel-headings-->
 
+2.3.1 / 2016-06-22
+==================
+
+*   Refactor module ([`a803b40`](https://github.com/wooorm/retext-equality/commit/a803b40))
+
 2.3.0 / 2016-05-18
 ==================
 
