@@ -11,4 +11,5 @@
 
 /* eslint-env commonjs */
 
+/* Expose. */
 module.exports = require('./lib/equality.js');

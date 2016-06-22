@@ -1,20 +1,24 @@
+/**
+ * @author Titus Wormer
+ * @copyright 2015 Titus Wormer
+ * @license MIT
+ * @module retext:equality
+ * @fileoverview Test suite for `retext-equality`.
+ */
+
 'use strict';
 
 /* eslint-env node */
+/* jscs:disable jsDoc */
 /* jscs:disable maximumLineLength */
 
-/*
- * Dependencies.
- */
-
-var tap = require('tap');
+/* Dependencies. */
+var test = require('tape');
 var retext = require('retext');
 var sort = require('vfile-sort');
 var equality = require('./');
 
-/*
- * Helpers.
- */
+/* Helpers. */
 
 /**
  * Helper to get warnings from `equality` in `doc`.
@@ -34,11 +38,8 @@ function process(doc, options) {
     return messages.map(String);
 }
 
-/*
- * Tests.
- */
-
-tap.test('retext-equality', function (t) {
+/* Tests. */
+test('retext-equality', function (t) {
     var doc;
 
     t.plan(25);
@@ -107,7 +108,7 @@ tap.test('retext-equality', function (t) {
 
     t.same(
         process('Her and his bicycle.', {
-            'noBinary': true
+            noBinary: true
         }),
         [
             '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead',
@@ -124,7 +125,7 @@ tap.test('retext-equality', function (t) {
 
     t.same(
         process('Her or his bicycle.', {
-            'noBinary': true
+            noBinary: true
         }),
         [
             '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead',
@@ -203,7 +204,7 @@ tap.test('retext-equality', function (t) {
     );
 });
 
-tap.test('Ignoring', function (t) {
+test('Ignoring', function (t) {
     t.plan(1);
 
     t.same(
@@ -211,7 +212,7 @@ tap.test('Ignoring', function (t) {
             'The process running on the remote host ' +
             'will pop a job off the queue.'
         ].join('\n'), {
-            'ignore': ['pop']
+            ignore: ['pop']
         }),
         [
             '1:35-1:39: `host` may be insensitive, use `presenter`, ' +
@@ -221,7 +222,7 @@ tap.test('Ignoring', function (t) {
     );
 });
 
-tap.test('Phrasing', function (t) {
+test('Phrasing', function (t) {
     t.plan(23);
 
     t.same(

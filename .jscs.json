@@ -8,7 +8,11 @@
   "preset": "crockford",
   "requireMultipleVarDecl": false,
   "disallowDanglingUnderscores": false,
-  "requireQuotedKeysInObjects": true,
+  "disallowQuotedKeysInObjects": {
+    "allExcept": [
+      "reserved"
+    ]
+  },
   "disallowKeywords": [
     "with"
   ],

@@ -1,4 +1,6 @@
-# retext-equality [![Build Status][travis-badge]][travis] [![Coverage Status][coverage-badge]][coverage]
+# retext-equality [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
+
+<!--lint disable heading-increment list-item-spacing-->
 
 Warn about possible insensitive, inconsiderate language with
 [**retext**][retext].
@@ -11,8 +13,8 @@ Warn about possible insensitive, inconsiderate language with
 npm install retext-equality
 ```
 
-**retext-equality** is also available as an AMD, CommonJS, and globals
-module, [uncompressed and compressed][releases].
+**retext-equality** is also available as an AMD, CommonJS, and
+globals module, [uncompressed and compressed][releases].
 
 ## Usage
 
@@ -21,13 +23,11 @@ var retext = require('retext');
 var report = require('vfile-reporter');
 var equality = require('retext-equality');
 
-retext()
+var file = retext()
     .use(equality)
-    .process([
-        'His network was set up with a master and slave.'
-    ].join('\n'), function (err, file) {
-        console.log(report(file));
-    });
+    .process('His network was set up with a master and slave.');
+
+console.log(report(file));
 ```
 
 Yields:
@@ -42,37 +42,31 @@ Yields:
 
 ## API
 
-### `retext.use(equality[, options])`
+### `retext().use(equality[, options])`
 
 Adds warnings for possible insensitive, inconsiderate language to the
 processed [virtual file][vfile]s.
 
-**Parameters**
+###### `options`
 
-*   `equality` — This plug-in;
-
-*   `options` (`Object?`, optional):
-
-    *   `ignore` (`Array.<string>`)
-        — List of phrases to _not_ warn about;
-
-    *   `noBinary` (`boolean`, default: `false`)
-        — Do not allow binary references. By default `he` is warned
-        about unless it’s followed by something like `or she` or `and she`.
-        When `noBinary` is `true`, both cases would be warned about.
+*   `ignore` (`Array.<string>`) — List of phrases _not_ to warn about;
+*   `noBinary` (`boolean`, default: `false`) — Do not allow binary
+    references.  By default `he` is warned about unless it’s followed
+    by something like `or she` or `and she`.  When `noBinary` is `true`,
+    both cases would be warned about.
 
 ## Contributing
 
-Thanks, contributions are greatly appreciated! :+1:
-If you add new patterns, add them in the YAML files in
-the [`script/`][script] directory, and execute `npm install` and
-then `npm test` to build everything.
+Thanks, contributions are greatly appreciated! :+1:  If you add new
+patterns, add them in the YAML files in the [`script/`][script]
+directory, and run `npm install` and then `npm test` to build
+everything.
 
 Please see the current patterns for inspiration.
 
 ## License
 
-[MIT][license] © [Titus Wormer][home]
+[MIT][license] © [Titus Wormer][author]
 
 <!-- Definitions -->
 
@@ -80,9 +74,9 @@ Please see the current patterns for inspiration.
 
 [travis]: https://travis-ci.org/wooorm/retext-equality
 
-[coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/retext-equality.svg
+[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/retext-equality.svg
 
-[coverage]: https://codecov.io/github/wooorm/retext-equality
+[codecov]: https://codecov.io/github/wooorm/retext-equality
 
 [npm-install]: https://docs.npmjs.com/cli/install
 
@@ -90,10 +84,10 @@ Please see the current patterns for inspiration.
 
 [license]: LICENSE
 
-[script]: script
-
-[home]: http://wooorm.com
+[author]: http://wooorm.com
 
 [retext]: https://github.com/wooorm/retext
 
 [vfile]: https://github.com/wooorm/vfile
+
+[script]: script

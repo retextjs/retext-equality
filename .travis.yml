@@ -1,13 +1,13 @@
 language: node_js
 node_js:
-- '0.10'
 - '0.11'
 - '0.12'
 - '4.0'
 - '5.0'
-- iojs
+- '6.0'
 sudo: false
-after_script: npm install codecov.io && cat ./coverage/lcov.info | codecov
+after_success:
+- bash <(curl -s https://codecov.io/bash)
 deploy:
   - provider: npm
     email: tituswormer@gmail.com
@@ -24,3 +24,4 @@ deploy:
       - "retext-equality.min.js"
     on:
       tags: true
+      node: '6.0'

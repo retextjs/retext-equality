@@ -19,16 +19,6 @@
     "english",
     "retext"
   ],
-  "dependencies": {
-    "array-differ": "^1.0.0",
-    "array-intersection": "^0.1.2",
-    "nlcst-normalize": "^2.0.0",
-    "nlcst-search": "^1.1.1",
-    "nlcst-to-string": "^1.0.0",
-    "object-keys": "^1.0.7",
-    "quotation": "^1.0.1",
-    "unist-util-visit": "^1.0.0"
-  },
   "files": [
     "lib",
     "index.js"
@@ -40,37 +30,42 @@
   "bugs": "https://github.com/wooorm/retext-equality/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
-    "Elliott Hauser <eah13@mac.com>",
-    "Shinnosuke Watanabe <snnskwtnb@gmail.com>",
-    "David Simons <david.simons@softwire.com>",
-    "Eli Feasley <eliana@khanacademy.org>",
-    "Flip Stewart <flipstewart@me.com>"
+    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
   ],
+  "dependencies": {
+    "array-differ": "^1.0.0",
+    "array-intersection": "^0.1.2",
+    "nlcst-normalize": "^2.0.0",
+    "nlcst-search": "^1.1.1",
+    "nlcst-to-string": "^2.0.0",
+    "object-keys": "^1.0.7",
+    "quotation": "^1.0.1",
+    "unist-util-visit": "^1.0.0"
+  },
   "devDependencies": {
     "array-duplicated": "^1.0.1",
-    "browserify": "^13.0.0",
+    "browserify": "^13.0.1",
     "eslint": "^2.0.0",
     "esmangle": "^1.0.1",
     "istanbul": "^0.4.0",
-    "js-yaml": "^3.3.1",
+    "js-yaml": "^3.6.1",
     "jscs": "^3.0.0",
     "jscs-jsdoc": "^2.0.0",
-    "remark": "^4.0.0",
-    "remark-comment-config": "^3.0.0",
-    "remark-github": "^4.0.0",
-    "remark-lint": "^3.0.0",
-    "remark-validate-links": "^3.0.0",
-    "retext": "^2.0.0",
-    "tap": "^5.0.0",
+    "remark-cli": "^1.0.0",
+    "remark-comment-config": "^4.0.0",
+    "remark-github": "^5.0.0",
+    "remark-lint": "^4.0.0",
+    "remark-validate-links": "^4.0.0",
+    "retext": "^3.0.0",
+    "tape": "^4.0.0",
     "vfile-sort": "^1.0.0"
   },
   "scripts": {
-    "build-bundle": "browserify index.js --no-builtins -s retextEquality > retext-equality.js",
-    "build-mangle": "esmangle retext-equality.js > retext-equality.min.js",
     "build-extract": "node script/extract.js",
     "build-md": "remark . --quiet --frail",
-    "build": "npm run build-md && npm run build-extract && npm run build-bundle && npm run build-mangle",
+    "build-bundle": "browserify index.js --bare -s retextEquality > retext-equality.js",
+    "build-mangle": "esmangle retext-equality.js > retext-equality.min.js",
+    "build": "npm run build-extract && npm run build-md && npm run build-bundle && npm run build-mangle",
     "lint-api": "eslint .",
     "lint-style": "jscs --reporter inline .",
     "lint": "npm run lint-api && npm run lint-style",

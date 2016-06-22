@@ -10,28 +10,19 @@
 
 /* eslint-env node */
 
-/*
- * Dependencies.
- */
-
+/* Dependencies. */
 var fs = require('fs');
 var path = require('path');
 var duplicated = require('array-duplicated');
 var yaml = require('js-yaml');
 
-/*
- * Methods.
- */
-
+/* Methods. */
 var join = path.join;
 var read = fs.readFileSync;
 var write = fs.writeFileSync;
 var stringify = JSON.stringify;
 
-/*
- * Info.
- */
-
+/* Info. */
 var data;
 var phrases
 var duplicates;
@@ -73,12 +64,12 @@ function patch(entry) {
     var description = entry.note;
     var source = entry.source;
     var result = {
-        'id': null,
-        'type': entry.type,
-        'apostrophe': entry.apostrophe ? true : undefined,
-        'categories': entry.categories,
-        'considerate': entry.considerate,
-        'inconsiderate': entry.inconsiderate
+        id: null,
+        type: entry.type,
+        apostrophe: entry.apostrophe ? true : undefined,
+        categories: entry.categories,
+        considerate: entry.considerate,
+        inconsiderate: entry.inconsiderate
     };
 
     if (source) {
@@ -95,10 +86,7 @@ function patch(entry) {
     return result;
 }
 
-/*
- * Gather.
- */
-
+/* Gather. */
 data = fs
     .readdirSync(__dirname)
     .filter(function (basename) {
@@ -147,10 +135,7 @@ data.forEach(function (entry) {
     });
 });
 
-/*
- * Patch.
- */
-
+/* Patch. */
 phrases = [];
 
 data = data.map(patch);
@@ -198,10 +183,7 @@ if (duplicates.length) {
     );
 }
 
-/*
- * Write.
- */
-
+/* Write. */
 data = stringify(data, 0, 2) + '\n';
 
 write(join(__dirname, '..', 'lib', 'patterns.json'), data);
