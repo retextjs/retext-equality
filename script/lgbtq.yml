@@ -107,13 +107,6 @@
     - transgenders
 - type: simple
   source: http://www.glaad.org/reference/transgender
-  note: Transgender should be used as an adjective, not as a noun.
-  considerate:
-    - a transgender person
-  inconsiderate:
-    - a transgender
-- type: simple
-  source: http://www.glaad.org/reference/transgender
   considerate:
     - trangender
   inconsiderate:
