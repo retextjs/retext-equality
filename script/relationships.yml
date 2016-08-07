@@ -2,8 +2,16 @@
   considerate:
     primary: a
     primaries: a
+    hub: a
+    hubs: a
+    reference: a
+    references: a
     replica: b
     replicas: b
+    spoke: b
+    spokes: b
+    secondary: b
+    secondaries: b
   inconsiderate:
     master: a
     masters: a
