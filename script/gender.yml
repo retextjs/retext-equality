@@ -668,7 +668,7 @@
     grandson: male
 - type: or
   considerate:
-    - grandchildred
+    - grandchildren
   inconsiderate:
     granddaughters: female
     grandsons: male
