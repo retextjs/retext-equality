@@ -211,7 +211,7 @@
     congressman: male
 - type: or
   considerate:
-    - member of congresss
+    - members of congress
     - congress persons
     - legislators
     - representatives
