@@ -1,6 +1,7 @@
 .DS_Store
 *.log
 node_modules/
+.nyc_output/
 coverage/
 retext-equality.js
 retext-equality.min.js

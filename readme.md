@@ -1,13 +1,11 @@
 # retext-equality [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
 
-<!--lint disable heading-increment list-item-spacing-->
-
 Warn about possible insensitive, inconsiderate language with
 [**retext**][retext].
 
 ## Installation
 
-[npm][npm-install]:
+[npm][]:
 
 ```bash
 npm install retext-equality
@@ -78,7 +76,7 @@ Please see the current patterns for inspiration.
 
 [codecov]: https://codecov.io/github/wooorm/retext-equality
 
-[npm-install]: https://docs.npmjs.com/cli/install
+[npm]: https://docs.npmjs.com/cli/install
 
 [releases]: https://github.com/wooorm/retext-equality/releases
 

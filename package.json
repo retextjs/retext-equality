@@ -44,13 +44,11 @@
   },
   "devDependencies": {
     "array-duplicated": "^1.0.1",
+    "bail": "^1.0.1",
     "browserify": "^13.0.1",
-    "eslint": "^2.0.0",
     "esmangle": "^1.0.1",
-    "istanbul": "^0.4.0",
     "js-yaml": "^3.6.1",
-    "jscs": "^3.0.0",
-    "jscs-jsdoc": "^2.0.0",
+    "nyc": "^7.1.0",
     "remark-cli": "^1.0.0",
     "remark-comment-config": "^4.0.0",
     "remark-github": "^5.0.0",
@@ -58,7 +56,8 @@
     "remark-validate-links": "^4.0.0",
     "retext": "^3.0.0",
     "tape": "^4.0.0",
-    "vfile-sort": "^1.0.0"
+    "vfile-sort": "^1.0.0",
+    "xo": "^0.16.0"
   },
   "scripts": {
     "build-extract": "node script/extract.js",
@@ -66,11 +65,42 @@
     "build-bundle": "browserify index.js --bare -s retextEquality > retext-equality.js",
     "build-mangle": "esmangle retext-equality.js > retext-equality.min.js",
     "build": "npm run build-extract && npm run build-md && npm run build-bundle && npm run build-mangle",
-    "lint-api": "eslint .",
-    "lint-style": "jscs --reporter inline .",
-    "lint": "npm run lint-api && npm run lint-style",
+    "lint": "xo",
     "test-api": "node test.js",
-    "test-coverage": "istanbul cover test.js",
+    "test-coverage": "nyc --reporter lcov tape test.js",
     "test": "npm run build && npm run lint && npm run test-coverage"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "lines": 100,
+    "functions": 100,
+    "branches": 100
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "guard-for-in": "off",
+      "max-lines": "off",
+      "max-params": "off"
+    },
+    "ignores": [
+      "retext-equality.js",
+      "retext-equality.min.js"
+    ]
+  },
+  "remarkConfig": {
+    "output": true,
+    "plugins": {
+      "comment-config": null,
+      "lint": {
+        "heading-increment": false,
+        "list-item-spacing": false
+      },
+      "github": null,
+      "validate-links": null
+    },
+    "settings": {
+      "bullet": "*"
+    }
   }
 }
