@@ -2,6 +2,13 @@
 
 <!--lint disable no-multiple-toplevel-headings-->
 
+2.3.3 / 2016-08-08
+==================
+
+*   Refactor code-style to use `xo` ([`64795e0`](https://github.com/wooorm/retext-equality/commit/64795e0))
+*   Add more suggestions for `master` / `slave` ([`573cb6a`](https://github.com/wooorm/retext-equality/commit/573cb6a))
+*   Fix typo’s in suggestions ([`9c2f29b`](https://github.com/wooorm/retext-equality/commit/9c2f29b))
+
 2.3.2 / 2016-06-23
 ==================
 
