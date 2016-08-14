@@ -48,7 +48,7 @@
     "browserify": "^13.0.1",
     "esmangle": "^1.0.1",
     "js-yaml": "^3.6.1",
-    "nyc": "^7.1.0",
+    "nyc": "^8.1.0",
     "remark-cli": "^1.0.0",
     "remark-comment-config": "^4.0.0",
     "remark-github": "^5.0.0",
