@@ -55,7 +55,7 @@ processed [virtual file][vfile]s.
 
 ## Contributing
 
-Thanks, contributions are greatly appreciated! :+1:  If you add new
+Thanks, contributions are greatly appreciated!  :+1:  If you add new
 patterns, add them in the YAML files in the [`script/`][script]
 directory, and run `npm install` and then `npm test` to build
 everything.

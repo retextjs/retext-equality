@@ -1,6 +1,6 @@
 <!--remark setext-->
 
-<!--lint disable no-multiple-toplevel-headings-->
+<!--lint disable no-multiple-toplevel-headings heading-style-->
 
 2.3.3 / 2016-08-08
 ==================
@@ -100,7 +100,7 @@
 *   Add more mental disorders ([`8d835e2`](https://github.com/wooorm/retext-equality/commit/8d835e2))
 *   Add `dumb` to list of inconsiderate terms ([`a023f6a`](https://github.com/wooorm/retext-equality/commit/a023f6a))
 *   Fix apostrophe, dash support in words ([`9a5573e`](https://github.com/wooorm/retext-equality/commit/9a5573e))
-*   Add `entertainer` as a alternative for `host` and `hostess` ([`64641f9`](https://github.com/wooorm/retext-equality/commit/64641f9))
+*   Add `entertainer` as an alternative for `host` and `hostess` ([`64641f9`](https://github.com/wooorm/retext-equality/commit/64641f9))
 
 1.3.0 / 2015-09-12
 ==================
