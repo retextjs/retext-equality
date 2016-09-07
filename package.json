@@ -51,7 +51,7 @@
     "nyc": "^8.1.0",
     "remark-cli": "^2.0.0",
     "remark-preset-wooorm": "^1.0.0",
-    "retext": "^3.0.0",
+    "retext": "^4.0.0",
     "tape": "^4.0.0",
     "vfile-sort": "^1.0.0",
     "xo": "^0.16.0"
