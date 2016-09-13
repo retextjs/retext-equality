@@ -198,8 +198,6 @@ test('Ignoring', function (t) {
 });
 
 test('Phrasing', function (t) {
-  t.plan(23);
-
   t.same(
     process('This is insane.'),
     ['1:9-1:15: `insane` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'],
@@ -348,6 +346,20 @@ test('Phrasing', function (t) {
     ['1:18-1:24: `he-she` may be insensitive, use `transgender person`, `person` instead'],
     'That person is a he-she.'
   );
+
+  t.same(
+    process('That person is a he-she.'),
+    ['1:18-1:24: `he-she` may be insensitive, use `transgender person`, `person` instead'],
+    'That person is a he-she.'
+  );
+
+  t.same(
+    process('it is commonly known as a tank top or by its pejorative nickname, wife-beater.'),
+    ['1:67-1:78: `wife-beater` may be insensitive, use `tank top`, `sleeveless undershirt` instead'],
+    'wife-beater.'
+  );
+
+  t.end();
 });
 
 /* Helpers. */
