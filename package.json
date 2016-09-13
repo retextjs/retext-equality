@@ -19,18 +19,15 @@
     "english",
     "retext"
   ],
-  "files": [
-    "lib",
-    "index.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wooorm/retext-equality.git"
-  },
+  "repository": "https://github.com/wooorm/retext-equality",
   "bugs": "https://github.com/wooorm/retext-equality/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
+  ],
+  "files": [
+    "lib",
+    "index.js"
   ],
   "dependencies": {
     "array-differ": "^1.0.0",
