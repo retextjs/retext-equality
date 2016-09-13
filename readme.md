@@ -11,9 +11,6 @@ Warn about possible insensitive, inconsiderate language with
 npm install retext-equality
 ```
 
-**retext-equality** is also available as an AMD, CommonJS, and
-globals module, [uncompressed and compressed][releases].
-
 ## Usage
 
 ```js
@@ -22,8 +19,8 @@ var report = require('vfile-reporter');
 var equality = require('retext-equality');
 
 var file = retext()
-    .use(equality)
-    .process('His network was set up with a master and slave.');
+  .use(equality)
+  .process('His network was set up with a master and slave.');
 
 console.log(report(file));
 ```
@@ -77,8 +74,6 @@ Please see the current patterns for inspiration.
 [codecov]: https://codecov.io/github/wooorm/retext-equality
 
 [npm]: https://docs.npmjs.com/cli/install
-
-[releases]: https://github.com/wooorm/retext-equality/releases
 
 [license]: LICENSE
 
