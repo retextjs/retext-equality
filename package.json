@@ -50,7 +50,7 @@
     "remark-preset-wooorm": "^1.0.0",
     "retext": "^4.0.0",
     "tape": "^4.0.0",
-    "vfile-sort": "^1.0.0",
+    "vfile-sort": "^2.0.0",
     "xo": "^0.16.0"
   },
   "scripts": {
