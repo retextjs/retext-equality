@@ -9,5 +9,4 @@
 
 'use strict';
 
-/* Expose. */
-module.exports = require('./lib/equality.js');
+module.exports = require('./lib');
