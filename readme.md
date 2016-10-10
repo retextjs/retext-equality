@@ -59,6 +59,10 @@ everything.
 
 Please see the current patterns for inspiration.
 
+## Rules
+
+See [`rules.md`][rules] for a list of rules.
+
 ## License
 
 [MIT][license] © [Titus Wormer][author]
@@ -84,3 +88,5 @@ Please see the current patterns for inspiration.
 [vfile]: https://github.com/wooorm/vfile
 
 [script]: script
+
+[rules]: rules.md
