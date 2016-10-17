@@ -17,3 +17,36 @@
     masters: a
     slave: b
     slaves: b
+- type: simple
+  considerate:
+    - Inuit
+  inconsiderate:
+    - eskimo
+- type: simple
+  considerate:
+    - Inuits
+  inconsiderate:
+    - eskimos
+- type: simple
+  considerate:
+    - Asian person
+  inconsiderate:
+    - oriental
+- type: simple
+  considerate:
+    - Asian people
+  inconsiderate:
+    - orientals
+- type: simple
+  considerate:
+    - person of color
+    - people of color
+  inconsiderate:
+    - nonwhite
+    - non white
+- type: simple
+  considerate:
+    - projects
+    - urban
+  inconsiderate:
+    - ghetto
