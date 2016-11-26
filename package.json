@@ -23,7 +23,14 @@
   "bugs": "https://github.com/wooorm/retext-equality/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
+    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
+    "Shinnosuke Watanabe <snnskwtnb@gmail.com>",
+    "Elliott Hauser <eah13@mac.com>",
+    "Ryan Tucker <git@ryantucker.us>",
+    "rugk <rugk@posteo.de>",
+    "Eli Feasley <eliana@khanacademy.org>",
+    "Flip Stewart <flipstewart@me.com>",
+    "David Simons <david.simons@softwire.com>"
   ],
   "files": [
     "lib",
