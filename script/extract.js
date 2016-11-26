@@ -124,7 +124,7 @@ function getPatternId(pattern) {
   }
 
   for (phrase in phrases) {
-    result.push(phrases[phrase].replace(/[\s\.]+/g, '-'));
+    result.push(phrases[phrase].replace(/[\s.]+/g, '-'));
   }
 
   return result.sort().join('-');
