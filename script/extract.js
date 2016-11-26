@@ -1,31 +1,19 @@
-/**
- * @author Titus Wormer
- * @copyright 2014-2015 Titus Wormer
- * @license MIT
- * @module retext:equality:extract
- * @fileoverview Extract and compile database into JSON.
- */
-
 'use strict';
 
-/* Dependencies. */
 var fs = require('fs');
 var path = require('path');
 var duplicated = require('array-duplicated');
 var yaml = require('js-yaml');
 
-/* Methods. */
 var join = path.join;
 var read = fs.readFileSync;
 var write = fs.writeFileSync;
 var stringify = JSON.stringify;
 
-/* Info. */
 var data;
 var phrases;
 var duplicates;
 
-/* Gather. */
 data = fs
   .readdirSync(__dirname)
   .filter(function (basename) {
@@ -102,12 +90,7 @@ data = stringify(data, 0, 2) + '\n';
 
 write(join(__dirname, '..', 'lib', 'patterns.json'), data);
 
-/**
- * Get a unique identifier for a pattern.
- *
- * @param {Object} pattern - Pattern to generate for.
- * @return {string} - Pattern identifier.
- */
+/* Get a unique identifier for a pattern. */
 function getPatternId(pattern) {
   var inconsiderate = pattern.inconsiderate;
   var phrases = {};
@@ -130,11 +113,7 @@ function getPatternId(pattern) {
   return result.sort().join('-');
 }
 
-/**
- * Patch information on `entry`.
- *
- * @param {Object} entry - Thing.
- */
+/* Patch information on `entry`. */
 function patch(entry) {
   var description = entry.note;
   var source = entry.source;
@@ -161,14 +140,7 @@ function patch(entry) {
   return result;
 }
 
-/**
- * Clean a value.
- *
- * @param {string|Array.<string>|Object} value - Either a
- *   phrase, list of phrases, or a map of phrases mapping
- *   to categories.
- * @return {Object} - Normalized `value`.
- */
+/* Clean a value. */
 function clean(value) {
   var copy;
 

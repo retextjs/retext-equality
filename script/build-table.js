@@ -1,19 +1,15 @@
 'use strict';
 
-/* Dependencies. */
 var range = require('mdast-util-heading-range');
 var u = require('unist-builder');
 var patterns = require('../lib/patterns');
 
-/* Expose. */
 module.exports = table;
 
-/* Attacher. */
 function table() {
   return transformer;
 }
 
-/* Transformer. */
 function transformer(tree) {
   range(tree, 'list of rules', function (start, nodes, end) {
     var rows = [

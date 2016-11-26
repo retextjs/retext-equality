@@ -1,21 +1,11 @@
-/**
- * @author Titus Wormer
- * @copyright 2015 Titus Wormer
- * @license MIT
- * @module retext:equality
- * @fileoverview Test suite for `retext-equality`.
- */
-
 'use strict';
 
-/* Dependencies. */
 var test = require('tape');
 var retext = require('retext');
 var bail = require('bail');
 var sort = require('vfile-sort');
 var equality = require('./');
 
-/* Tests. */
 test('retext-equality', function (t) {
   var doc;
 
@@ -364,13 +354,7 @@ test('Phrasing', function (t) {
 
 /* Helpers. */
 
-/**
- * Helper to get warnings from `equality` in `doc`.
- *
- * @param {string} doc - Document to process.
- * @param {Object?} [options] - Configuration.
- * @return {Array.<VFileMessage>} - Virtual messages.
- */
+/* Helper to get warnings from `equality` in `doc`. */
 function process(doc, options) {
   var messages;
 
