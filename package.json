@@ -55,7 +55,7 @@
     "mdast-util-heading-range": "^2.0.1",
     "nyc": "^10.0.0",
     "remark-cli": "^2.0.0",
-    "remark-preset-wooorm": "^1.0.0",
+    "remark-preset-wooorm": "^2.0.0",
     "retext": "^4.0.0",
     "tape": "^4.0.0",
     "unist-builder": "^1.0.2",
