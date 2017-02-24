@@ -20,7 +20,7 @@ var equality = require('retext-equality');
 
 var file = retext()
   .use(equality)
-  .process('His network was set up with a master and slave.');
+  .processSync('His network was set up with a master and slave.');
 
 console.log(report(file));
 ```
