@@ -153,7 +153,7 @@ function clean(value) {
     value = {};
 
     copy.forEach(function (phrase) {
-      value[phrase] = 'a'; /* example category */
+      value[phrase] = 'a'; /* Example category */
     });
   }
 

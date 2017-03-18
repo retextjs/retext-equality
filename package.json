@@ -60,7 +60,7 @@
     "tape": "^4.0.0",
     "unist-builder": "^1.0.2",
     "vfile-sort": "^2.0.0",
-    "xo": "^0.17.0"
+    "xo": "^0.18.0"
   },
   "scripts": {
     "build-extract": "node script/extract.js",
@@ -81,6 +81,7 @@
   },
   "xo": {
     "space": true,
+    "esnext": false,
     "rules": {
       "unicorn/explicit-length-check": "off",
       "guard-for-in": "off",
