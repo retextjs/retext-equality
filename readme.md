@@ -55,13 +55,17 @@ example.txt
 Adds warnings for possible insensitive, inconsiderate language to the
 processed [virtual file][vfile]s.
 
-###### `options`
+##### `options`
 
-*   `ignore` (`Array.<string>`) — List of phrases _not_ to warn about;
-*   `noBinary` (`boolean`, default: `false`) — Do not allow binary
-    references.  By default `he` is warned about unless it’s followed
-    by something like `or she` or `and she`.  When `noBinary` is `true`,
-    both cases would be warned about.
+###### `options.ignore`
+
+`Array.<string>` — List of phrases _not_ to warn about
+
+###### `options.noBinary`
+
+`boolean`, default: `false` — Do not allow binary references.  By default
+`he` is warned about unless it’s followed by something like `or she` or
+`and she`.  When `noBinary` is `true`, both cases would be warned about.
 
 ## Contributing
 
