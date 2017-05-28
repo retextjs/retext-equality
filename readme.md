@@ -13,24 +13,37 @@ npm install retext-equality
 
 ## Usage
 
-```js
-var retext = require('retext');
-var report = require('vfile-reporter');
-var equality = require('retext-equality');
-
-var file = retext()
-  .use(equality)
-  .processSync('His network was set up with a master and slave.');
-
-console.log(report(file));
-```
-
-Yields:
+Say we have the following file, `example.txt`:
 
 ```text
-<stdin>
-    1:1-1:4  warning  `His` may be insensitive, use `Their`, `Theirs`, `Them` instead           her-him
-  1:31-1:37  warning  `master` / `slave` may be insensitive, use `primary` / `replica` instead  master-slave
+He’s pretty set on beating your butt for sheriff.
+```
+
+And our script, `example.js`, looks like this:
+
+```javascript
+var vfile = require('to-vfile');
+var report = require('vfile-reporter');
+var unified = require('unified');
+var english = require('retext-english');
+var stringify = require('retext-stringify');
+var equality = require('retext-equality');
+
+unified()
+  .use(english)
+  .use(equality)
+  .use(stringify)
+  .process(vfile.readSync('example.txt'), function (err, file) {
+    console.error(report(err || file));
+  });
+```
+
+Now, running `node example` yields:
+
+```text
+example.txt
+    1:1-1:4  warning  `His` may be insensitive, use `Their`, `Theirs`, `Them` instead           her-him       retext-equality
+  1:31-1:37  warning  `master` / `slave` may be insensitive, use `primary` / `replica` instead  master-slave  retext-equality
 
 ⚠ 2 warnings
 ```
