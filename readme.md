@@ -80,6 +80,15 @@ Please see the current patterns for inspiration.
 
 See [`rules.md`][rules] for a list of rules.
 
+## Related
+
+*   [`retext-passive`](https://github.com/wooorm/retext-passive)
+    — Check passive voice
+*   [`retext-profanities`](https://github.com/wooorm/retext-profanities)
+    — Check for profane and vulgar wording
+*   [`retext-simplify`](https://github.com/wooorm/retext-simplify)
+    — Check phrases for simpler alternatives
+
 ## License
 
 [MIT][license] © [Titus Wormer][author]
