@@ -78,11 +78,8 @@ data.forEach(function (entry) {
 
 duplicates = duplicated(phrases);
 
-if (duplicates.length) {
-  throw new Error(
-    'Refrain from multiple entries:\n' +
-    '  ' + duplicates.join(', ')
-  );
+if (duplicates.length !== 0) {
+  throw new Error('Refrain from multiple entries:\n  ' + duplicates.join(', '));
 }
 
 /* Write. */
@@ -148,7 +145,7 @@ function clean(value) {
     value = [value];
   }
 
-  if (value.length) {
+  if ('length' in value && value.length !== 0) {
     copy = value;
     value = {};
 

@@ -85,9 +85,7 @@
     "space": true,
     "esnext": false,
     "rules": {
-      "unicorn/explicit-length-check": "off",
       "guard-for-in": "off",
-      "max-lines": "off",
       "max-params": "off"
     },
     "ignores": [
