@@ -19,8 +19,8 @@
     "english",
     "retext"
   ],
-  "repository": "https://github.com/wooorm/retext-equality",
-  "bugs": "https://github.com/wooorm/retext-equality/issues",
+  "repository": "retextjs/retext-equality",
+  "bugs": "https://github.com/retextjs/retext-equality/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
