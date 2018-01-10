@@ -230,6 +230,12 @@ test('Phrasing', function (t) {
   );
 
   t.same(
+    process('A journeyman arrived'),
+    ['1:3-1:13: `journeyman` may be insensitive, use `journeyperson` instead'],
+    'A journeyman arrived'
+  );
+
+  t.same(
     process('I’m not psychotic, I didn’t have amnesia yesterday.'),
     ['1:9-1:18: `psychotic` may be insensitive, use `person with a psychotic condition`, `person with psychosis` instead'],
     'I’m not psychotic, I didn’t have amnesia yesterday'
