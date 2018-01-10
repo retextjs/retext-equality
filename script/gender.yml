@@ -641,13 +641,13 @@
     boyish: male
 - type: or
   considerate:
-    - traveler
+    - journeyperson
   inconsiderate:
     journeywoman: female
     journeyman: male
 - type: or
   considerate:
-    - travelers
+    - journeypersons
   inconsiderate:
     journeywomen: female
     journeymen: male
