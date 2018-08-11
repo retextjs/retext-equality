@@ -355,6 +355,18 @@ test('Phrasing', function (t) {
     'wife-beater.'
   );
 
+  t.same(
+    process('We will make this event great again'),
+    ['1:9-1:13: `make this event great again` may be insensitive, use `improve` instead'],
+    'We will make this event great again'
+  );
+
+  t.same(
+    process('We will make something great again'),
+    ['1:9-1:13: `make something great again` may be insensitive, use `improve` instead'],
+    'We will make something great again'
+  );
+
   t.end();
 });
 
