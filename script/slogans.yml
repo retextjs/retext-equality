@@ -1,0 +1,9 @@
+- type: simple
+  considerate:
+    - improve
+  inconsiderate:
+    - make * great again
+    - make * * great again
+    - make * * * great again
+    - make * * * * great again
+    - make * * * * * great again

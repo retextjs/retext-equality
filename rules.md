@@ -336,6 +336,7 @@ And-patterns operate on a per-paragraph level.
 | `orientals` | [simple](#simple) | `orientals` | `Asian people` |
 | `nonwhite` | [simple](#simple) | `nonwhite`, `non white` | `person of color`, `people of color` |
 | `ghetto` | [simple](#simple) | `ghetto` | `projects`, `urban` |
+| `make-*-great-again` | [simple](#simple) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again` | `improve` |
 | `committed-suicide` | [simple](#simple) | `committed suicide`, `completed suicide` | `died by suicide` |
 | `commit-suicide` | [simple](#simple) | `commit suicide`, `complete suicide` | `die by suicide` |
 | `suicide-epidemic` | [simple](#simple) | `suicide epidemic` | `rise in suicides` |
