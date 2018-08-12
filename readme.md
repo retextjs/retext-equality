@@ -1,4 +1,4 @@
-# retext-equality [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
+# retext-equality [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov] [![Chat][chat-badge]][chat]
 
 Warn about possible insensitive, inconsiderate language with
 [**retext**][retext].
@@ -110,6 +110,10 @@ repository, organisation, or community you agree to abide by its terms.
 [codecov-badge]: https://img.shields.io/codecov/c/github/retextjs/retext-equality.svg
 
 [codecov]: https://codecov.io/github/retextjs/retext-equality
+
+[chat-badge]: https://img.shields.io/gitter/room/retextjs/Lobby.svg
+
+[chat]: https://gitter.im/retextjs/Lobby
 
 [npm]: https://docs.npmjs.com/cli/install
 
