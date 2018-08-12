@@ -22,20 +22,20 @@ He’s pretty set on beating your butt for sheriff.
 And our script, `example.js`, looks like this:
 
 ```javascript
-var vfile = require('to-vfile');
-var report = require('vfile-reporter');
-var unified = require('unified');
-var english = require('retext-english');
-var stringify = require('retext-stringify');
-var equality = require('retext-equality');
+var vfile = require('to-vfile')
+var report = require('vfile-reporter')
+var unified = require('unified')
+var english = require('retext-english')
+var stringify = require('retext-stringify')
+var equality = require('retext-equality')
 
 unified()
   .use(english)
   .use(equality)
   .use(stringify)
-  .process(vfile.readSync('example.txt'), function (err, file) {
-    console.error(report(err || file));
-  });
+  .process(vfile.readSync('example.txt'), function(err, file) {
+    console.error(report(err || file))
+  })
 ```
 
 Now, running `node example` yields:

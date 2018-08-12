@@ -65,15 +65,14 @@
     "xo": "^0.22.0"
   },
   "scripts": {
-    "build-extract": "node script/extract.js",
-    "build-md": "remark . -qfo",
+    "generate": "node script/extract.js",
+    "format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
     "build-bundle": "browserify . -s retextEquality > retext-equality.js",
     "build-mangle": "browserify . -s retextEquality -p tinyify > retext-equality.min.js",
-    "build": "npm run build-extract && npm run build-md && npm run build-bundle && npm run build-mangle",
-    "lint": "xo",
-    "test-api": "node test.js",
+    "build": "npm run build-bundle && npm run build-mangle",
+    "test-api": "node test",
     "test-coverage": "nyc --reporter lcov tape test.js",
-    "test": "npm run build && npm run lint && npm run test-coverage"
+    "test": "npm run generate && npm run format && npm run build && npm run test-coverage"
   },
   "nyc": {
     "check-coverage": true,
@@ -81,8 +80,16 @@
     "functions": 100,
     "branches": 100
   },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "semi": false,
+    "trailingComma": "none"
+  },
   "xo": {
-    "space": true,
+    "prettier": true,
     "esnext": false,
     "rules": {
       "guard-for-in": "off",
