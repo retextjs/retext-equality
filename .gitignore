@@ -6,3 +6,4 @@ coverage/
 retext-equality.js
 retext-equality.min.js
 lib/patterns.json
+yarn.lock
