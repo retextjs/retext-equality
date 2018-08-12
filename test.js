@@ -4,7 +4,7 @@ var test = require('tape');
 var retext = require('retext');
 var bail = require('bail');
 var sort = require('vfile-sort');
-var equality = require('./');
+var equality = require('.');
 
 test('retext-equality', function (t) {
   var doc;
@@ -194,8 +194,9 @@ test('Phrasing', function (t) {
     'This is insane'
   );
 
-  t.same(process('I like him.'), [
-    '1:8-1:11: `him` may be insensitive, use `their`, `theirs`, `them` instead'],
+  t.same(
+    process('I like him.'),
+    ['1:8-1:11: `him` may be insensitive, use `their`, `theirs`, `them` instead'],
     'I like him'
   );
 
