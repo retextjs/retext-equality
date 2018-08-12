@@ -4,21 +4,13 @@ node_js:
 - '9.0'
 after_script: bash <(curl -s https://codecov.io/bash)
 deploy:
-  - provider: npm
-    skip_cleanup: true
-    email: tituswormer@gmail.com
-    api_key:
-      secure: SIgtvnKw4hBkJl67pYsfvkKKCeK55jjG1BYVY+rA6NzeIy7uYz4Ibk1P/xavwYXV3z0eAhhwsybQ10pJblY5aTj/Ix+W+LK3/Nos/GlrvSBqw5tuLo0CPVpM8fmJ2oM3TSEdk8TG3QkpIFdlNfjBHdLfi8lwQfHGPdi+k4HSoR28RpoRvm8dj9/EtyH9CmFBLmMMIzSW5IHhcwZNuSiF6joxDJGV1DbxM3jHmdR4wJ2FOPnaWb8c2bOymt1H3LuPDD3xfJjZpszq5TR2hF6VZLlyrTF8o2hW1eSO1SPTwbzFdBpw0ea4JTZRcY5f/Bg7jFMZXqwcI4KheFgrcPsyOzxtSThSqp76xJIU4lOmBM+kMlKM1wZabK/DxwOk70qpm8Lmc1fIovYVoijwvAravdlrrR38HNvWkdMlIovbBGDaY7Q60NP+ss6eE5F2XAu3fhIDkWghD2FrC7A8DjJaVzj5ZCQGlQpjk0oJn1qbSTUyNsRnceePuOMzthU35qf2nRcJRp3yk+S1298MI8Wbh+nvqsd8O1KnDxOSduwmlYrb0zxlfU4gZYJiEDOdaLiFVgg8CY+4soLqLyFJSJTMCE3ipLzBV54wJ/4N1V7ONxqtS8qMxnFidUQwPbSdj8LNYmoDNNAqDuilAPVIOskJvr/WNkmHFjDV1Rb6EeZaPyc=
-    on:
-      tags: true
-      node: '9.0'
-  - provider: releases
-    skip_cleanup: true
-    api_key:
-      secure: sTRvblMHQHyAlck5qEie1THTuVGuE/MZ+vcI/3Outv9z5TkUN5fn+YojBvwQYaF6E6CQ5vqUwohG5kIfEC257sfYWd+CtFZHuDeP1gZPFktf2n2LhhDCCyt4qIGkzRlwR8uJqtaO+O7KCVwTZ9PdAu3wnlOR30PGZ/eOvPkmDjd8gJfHVftzCbHIKOcDuzn2woc2zE59I96ty/ucQy+HMHm0cjL3beRysfWXQWZ6SbeQOWiClaW8+JQH6Gjo7gL5NtOct4cbN6AgKBE7bJkHpezbPp9BlcXPFrp9lem4ThM0LKQ0eDJTnI+sqlvI06JFWXL9oM6op20DKAJjMO/9GoV/TncreZ6fTKVN3wuMd7KGF0fVXjyBF5wEAsbDvj/sQU6zvRSufhBTUHVgR79Q6sfVgwXqoCkjd9UrOjHTColJe0TxGRzo69PA1NBOdXNJpbw/uMxuSKsMznWEwngxT52Yf15a84bgOrorSSj13qkKbi/7fs+wlepSwu0kJGYU55oDIpLIkS30Dagp8x/YmdawylFJL7zfQWmET4dsFraHmPxsTpdlhbpndz7DCFohkZUPUGFn1jlPEP9ywFW3BfOwyM+0JrXlb/UugGYjuIkc8GNO0TpjDZTZco6E3tRdMOl708ChEQpcV5RAiLkmFJUMhj02v8CHz/ypMiGRgEo=
-    file:
-      - "retext-equality.js"
-      - "retext-equality.min.js"
-    on:
-      tags: true
-      node: '9.0'
+  provider: releases
+  skip_cleanup: true
+  api_key:
+    secure: sTRvblMHQHyAlck5qEie1THTuVGuE/MZ+vcI/3Outv9z5TkUN5fn+YojBvwQYaF6E6CQ5vqUwohG5kIfEC257sfYWd+CtFZHuDeP1gZPFktf2n2LhhDCCyt4qIGkzRlwR8uJqtaO+O7KCVwTZ9PdAu3wnlOR30PGZ/eOvPkmDjd8gJfHVftzCbHIKOcDuzn2woc2zE59I96ty/ucQy+HMHm0cjL3beRysfWXQWZ6SbeQOWiClaW8+JQH6Gjo7gL5NtOct4cbN6AgKBE7bJkHpezbPp9BlcXPFrp9lem4ThM0LKQ0eDJTnI+sqlvI06JFWXL9oM6op20DKAJjMO/9GoV/TncreZ6fTKVN3wuMd7KGF0fVXjyBF5wEAsbDvj/sQU6zvRSufhBTUHVgR79Q6sfVgwXqoCkjd9UrOjHTColJe0TxGRzo69PA1NBOdXNJpbw/uMxuSKsMznWEwngxT52Yf15a84bgOrorSSj13qkKbi/7fs+wlepSwu0kJGYU55oDIpLIkS30Dagp8x/YmdawylFJL7zfQWmET4dsFraHmPxsTpdlhbpndz7DCFohkZUPUGFn1jlPEP9ywFW3BfOwyM+0JrXlb/UugGYjuIkc8GNO0TpjDZTZco6E3tRdMOl708ChEQpcV5RAiLkmFJUMhj02v8CHz/ypMiGRgEo=
+  file:
+    - "retext-equality.js"
+    - "retext-equality.min.js"
+  on:
+    tags: true
+    node: '9.0'
