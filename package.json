@@ -51,7 +51,6 @@
     "array-duplicated": "^1.0.1",
     "bail": "^1.0.1",
     "browserify": "^16.0.0",
-    "esmangle": "^1.0.1",
     "js-yaml": "^3.6.1",
     "mdast-util-heading-range": "^2.0.1",
     "nyc": "^12.0.0",
@@ -60,6 +59,7 @@
     "remark-preset-wooorm": "^4.0.0",
     "retext": "^5.0.0",
     "tape": "^4.0.0",
+    "tinyify": "^2.4.3",
     "unist-builder": "^1.0.2",
     "vfile-sort": "^2.0.0",
     "xo": "^0.22.0"
@@ -67,8 +67,8 @@
   "scripts": {
     "build-extract": "node script/extract.js",
     "build-md": "remark . -qfo",
-    "build-bundle": "browserify index.js --bare -s retextEquality > retext-equality.js",
-    "build-mangle": "esmangle retext-equality.js > retext-equality.min.js",
+    "build-bundle": "browserify . -s retextEquality > retext-equality.js",
+    "build-mangle": "browserify . -s retextEquality -p tinyify > retext-equality.min.js",
     "build": "npm run build-extract && npm run build-md && npm run build-bundle && npm run build-mangle",
     "lint": "xo",
     "test-api": "node test.js",
