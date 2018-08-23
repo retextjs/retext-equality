@@ -918,13 +918,13 @@
     sons: male
 - type: or
   considerate:
-    - convierge
+    - concierge
   inconsiderate:
     doorwoman: female
     doorman: male
 - type: or
   considerate:
-    - convierges
+    - concierges
   inconsiderate:
     doorwomen: female
     doormen: male

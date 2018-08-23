@@ -217,8 +217,8 @@ And-patterns operate on a per-paragraph level.
 | `dad-mom` | [or](#or) | `mama` (female), `mother` (female), `mom` (female), `mum` (female), `momma` (female), `mommy` (female), `papa` (male), `father` (male), `dad` (male), `pop` (male), `daddy` (male) | `parent` |
 | `daughter-son` | [or](#or) | `daughter` (female), `son` (male) | `child` |
 | `daughters-sons` | [or](#or) | `daughters` (female), `sons` (male) | `children` |
-| `doorman-doorwoman` | [or](#or) | `doorwoman` (female), `doorman` (male) | `convierge` |
-| `doormen-doorwomen` | [or](#or) | `doorwomen` (female), `doormen` (male) | `convierges` |
+| `doorman-doorwoman` | [or](#or) | `doorwoman` (female), `doorman` (male) | `concierge` |
+| `doormen-doorwomen` | [or](#or) | `doorwomen` (female), `doormen` (male) | `concierges` |
 | `feminin-manly` | [or](#or) | `feminin` (female), `dudely` (male), `manly` (male) | `humanly`, `mature` |
 | `females-males` | [or](#or) | `females` (female), `males` (male) | `humans` |
 | `king-queen` | [or](#or) | `empress` (female), `queen` (female), `emperor` (male), `king` (male) | `ruler` |
