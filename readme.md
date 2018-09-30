@@ -84,6 +84,9 @@ To create new patterns, add them in the YAML files in the
 to build everything.  New rules will be automatically added to `rules.md`.
 Please see the current patterns for inspiration.
 
+Once you are happy with the new rule, add a test for it in
+[`test.js`][test] and open a Pull Request.
+
 ## Related
 
 *   [`retext-passive`](https://github.com/retextjs/retext-passive)
@@ -122,6 +125,8 @@ Please see the current patterns for inspiration.
 [vfile]: https://github.com/vfile/vfile
 
 [script]: script
+
+[test]: test.js
 
 [rules]: rules.md
 
