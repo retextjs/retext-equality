@@ -89,6 +89,8 @@ Once you are happy with the new rule, add a test for it in
 
 ## Related
 
+*   [`alex`](https://github.com/get-alex/alex)
+    — Catch insensitive, inconsiderate writing
 *   [`retext-passive`](https://github.com/retextjs/retext-passive)
     — Check passive voice
 *   [`retext-profanities`](https://github.com/retextjs/retext-profanities)
