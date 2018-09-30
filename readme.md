@@ -67,18 +67,25 @@ processed [virtual file][vfile]s.
 `he` is warned about unless it’s followed by something like `or she` or
 `and she`.  When `noBinary` is `true`, both cases would be warned about.
 
-## Contributing
-
-Thanks, contributions are greatly appreciated!  :+1:  If you add new
-patterns, add them in the YAML files in the [`script/`][script]
-directory, and run `npm install` and then `npm test` to build
-everything.
-
-Please see the current patterns for inspiration.
-
 ## Rules
 
 See [`rules.md`][rules] for a list of rules.
+
+## Contributing
+
+Thanks, contributions are greatly appreciated!  :+1: 
+See [`contributing.md` in `retextjs/retext`][contributing] for ways to get
+started.  This organisation has a [Code of Conduct][coc].  By interacting 
+with this repository, organisation, or community you agree to abide by its
+terms.
+
+To create new patterns, add them in the YAML files in the 
+[`script/`][script] directory, and run `npm install` and then `npm test` 
+to build everything.  New rules will be automatically added to `rules.md`.
+Please see the current patterns for inspiration.
+
+Once you are happy with the new rule, add a test for it in
+[`test.js`][test] and open a Pull Request.
 
 ## Related
 
@@ -88,14 +95,6 @@ See [`rules.md`][rules] for a list of rules.
     — Check for profane and vulgar wording
 *   [`retext-simplify`](https://github.com/retextjs/retext-simplify)
     — Check phrases for simpler alternatives
-
-## Contribute
-
-See [`contributing.md` in `retextjs/retext`][contributing] for ways to get
-started.
-
-This organisation has a [Code of Conduct][coc].  By interacting with this
-repository, organisation, or community you agree to abide by its terms.
 
 ## License
 
@@ -126,6 +125,8 @@ repository, organisation, or community you agree to abide by its terms.
 [vfile]: https://github.com/vfile/vfile
 
 [script]: script
+
+[test]: test.js
 
 [rules]: rules.md
 
