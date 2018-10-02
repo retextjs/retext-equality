@@ -12,7 +12,7 @@
     - invalid
 - type: simple
   source: http://ncdj.org/style-guide/
-  note: If possible, describe exacly what this is.
+  note: If possible, describe exactly what this is.
   considerate:
     - person with a disability
     - people with disabilities

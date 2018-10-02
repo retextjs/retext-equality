@@ -15,7 +15,7 @@ test('retext-equality', function(t) {
     retext()
       .use(equality)
       .processSync(doc).messages[0].note,
-    'If possible, describe exacly what this is. (source: http://ncdj.org/style-guide/)',
+    'If possible, describe exactly what this is. (source: http://ncdj.org/style-guide/)',
     'should patch `description` when applicable'
   )
 
