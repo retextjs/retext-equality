@@ -7,7 +7,7 @@ var sort = require('vfile-sort')
 var equality = require('.')
 
 test('retext-equality', function(t) {
-  var doc = 'Their child has a birth defect.'
+  var doc = 'Sus hijos tienen un defecto en su cumpleaños.'
 
   t.same(process('toString and constructor.'), [])
 
@@ -15,47 +15,47 @@ test('retext-equality', function(t) {
     retext()
       .use(equality)
       .processSync(doc).messages[0].note,
-    'If possible, describe exacly what this is. (source: http://ncdj.org/style-guide/)',
-    'should patch `description` when applicable'
+    'Es posible, describe exactamente que . (source: http://ncdj.org/style-guide/)',
+    'debe tener un parche `description` cuan se aplica'
   )
 
   t.same(
     process('her bicycle.'),
     [
-      '1:1-1:4: `her` may be insensitive, use `their`, `theirs`, `them` instead'
+      '1:1-1:4: `her` debe ser insensitivo, usa `their`, `theirs`, `them` preferiblemente'
     ],
     'pronouns'
   )
 
   t.same(
     process('He’ll slips through.'),
-    ['1:1-1:6: `He’ll` may be insensitive, use `They`, `It` instead'],
+    ['1:1-1:6: `He’ll` debe ser insensitivo, usa `They`, `It` en vez de este mismo'],
     'contractions (’ll)'
   )
 
   t.same(
     process('She’s incompetent.'),
-    ['1:1-1:6: `She’s` may be insensitive, use `They`, `It` instead'],
+    ['1:1-1:6: `She’s` debe ser insensitivo, usa `They`, `It` instead'],
     'contractions (’s)'
   )
 
   t.same(
     process('Ze frenchmen are comming.'),
-    ['1:4-1:13: `frenchmen` may be insensitive, use `french` instead'],
+    ['1:4-1:13: `frenchmen` mdebe ser insensitivo, usa `french` en vez de este mismo'],
     'gender polarising words'
   )
 
   t.same(
     process('Her bicycle.'),
     [
-      '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead'
+      '1:1-1:4: `Her` debe ser insensitivo, usa `Their`, `Theirs`, `Them` en vez de este mismo'
     ],
     'case-insensitive pronouns'
   )
 
   t.same(
     process('Frenchmen are comming.'),
-    ['1:1-1:10: `Frenchmen` may be insensitive, use `French` instead'],
+    ['1:1-1:10: `Frenchmen` may be insensitive, use `French` en vez de este mismo'],
     'case-insensitive pronouns'
   )
 
