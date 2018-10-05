@@ -29,6 +29,7 @@
     - afflicted with a disability
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: People with special abilities is a gentler term that conveys the same meaning.
   considerate:
     - people with intellectual disabilities
   inconsiderate:
@@ -39,6 +40,7 @@
     - person with an intellectual disability
   inconsiderate:
     - intellectually disabled
+    - has intellectual issues
     - suffers from intellectual disabilities
     - suffering from intellectual disabilities
     - suffering from an intellectual disability
@@ -48,6 +50,7 @@
   source: http://ncdj.org/style-guide/
   considerate:
     - rude
+    - malicious
     - mean
     - disgusting
     - vile
@@ -218,6 +221,7 @@
     - person recovering from a drug addiction
   inconsiderate:
     - addict
+    - junkie
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
@@ -225,12 +229,14 @@
     - people recovering from a drug addiction
   inconsiderate:
     - addicts
+    - junkies
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
     - someone with an alcohol problem
   inconsiderate:
     - alcoholic
+    - alcohol abuser
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
@@ -269,6 +275,8 @@
   inconsiderate:
     - vertically challenged
     - midget
+    - small person
+    - dwarf
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
@@ -406,6 +414,7 @@
     - sociopaths
 - type: simple
   source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  note: Dumb here is used in 2 different contexts , the inability to talk or as a curse word.
   considerate:
     - foolish
     - ludicrous
@@ -424,6 +433,7 @@
     - stupid
     - wacko
     - whacko
+    - low iq
 - type: simple
   considerate:
     - fit of terror
@@ -436,14 +446,19 @@
     - slim
   inconsiderate:
     - anorexic
+    - bony
+    - skinny
 - type: simple
   source: http://english.stackexchange.com/questions/247550/
+  note: If possible , specify which anxiety disorder is intended and its restrictions.
   considerate:
+    - has an anxiety disorder
     - obsessive
     - pedantic
     - niggly
     - picky
   inconsiderate:
+    - neurotic
     - ocd
     - o.c.d
     - o.c.d.
