@@ -1,4 +1,5 @@
 - type: simple
+  note: When possible, specify the functional ability or its restriction.
   considerate: person with learning disabilities
   inconsiderate: learning disabled
 - type: simple
@@ -196,6 +197,7 @@
     - wheelchair bound
 - type: simple
   source: http://www.specialolympics.org/uploadedFiles/Fact%20Sheet_Terminology%20Guide.pdf
+  note: When possible, use the exact discipline of sport.
   considerate:
     - athletes
     - Special Olympics athletes
@@ -358,6 +360,7 @@
   source: http://ncdj.org/style-guide/
   considerate:
     - stuttering
+    - disfluency of speech
   inconsiderate:
     - stammering
 - type: simple
@@ -509,6 +512,7 @@
     - imbecile
 - type: simple
   source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  note: Sometimes it's cleft lip or palate, not both. Specify when possible.
   considerate:
     - person with a cleft-lip and palate
   inconsiderate:
