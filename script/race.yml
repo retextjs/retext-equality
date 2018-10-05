@@ -50,3 +50,61 @@
     - urban
   inconsiderate:
     - ghetto
+- type: simple
+  considerate:
+    - Native American
+  inconsiderate:
+    - red Indian
+    - Pocahontas
+- type: simple
+  considerate:
+    - Native American People
+  inconsiderate:
+    - red Indians
+- type: simple
+  considerate:
+    - Filipinos
+    - Filipino people
+  inconsiderate:
+    - pinoys
+    - pinays
+- type: simple
+  considerate:
+    - Arabs
+    - Middle Eastern People
+  inconsiderate:
+    - sand niggers
+    - towel heads
+- type: simple
+  note: Whenever possible , always try to be gender inclusive.
+  considerate:
+    - Latinx
+  inconsiderate:
+    - Latino
+    - Latina
+    - Mexican
+- type: simple
+  considerate:
+    - Japaneses person
+    - Japanese people
+  inconsiderate:
+    - Japs
+- type: simple
+  considerate:
+    - Jewish person
+  inconsiderate:
+    - kike
+    - goyum
+    - goy
+    - Shlomo
+- type: simple
+  considerate:
+    - a Black person
+  inconsiderate:
+    - spade
+- type: simple
+  considerate:
+    - Nomad
+  inconsiderate:
+    - gyppo
+    - gypsy
