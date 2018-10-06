@@ -18,6 +18,8 @@
   inconsiderate:
     - birth defect
 - type: simple
+  source: http://ncdj.org/style-guide/
+  note: Assumes that a person with a disability has a reduced quality of life.
   considerate:
     - person with a disability
     - people with disabilities
@@ -32,13 +34,19 @@
   considerate:
     - people with intellectual disabilities
   inconsiderate:
-    - intellectually disabled people
+    - sabled people
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
     - person with an intellectual disability
   inconsiderate:
     - intellectually disabled
+- type: simple
+  source: http://ncdj.org/style-guide/
+  note: Assumes that a person with an intellectually disability has a reduced quality of life.
+  considerate:
+    - person with an intellectual disability
+  inconsiderate:
     - suffers from intellectual disabilities
     - suffering from intellectual disabilities
     - suffering from an intellectual disability
