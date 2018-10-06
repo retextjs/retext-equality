@@ -311,7 +311,7 @@ test('Phrasing', function(t) {
   t.same(
     process('My O.C.D. is coming out again!'),
     [
-      '1:4-1:10: `O.C.D.` may be insensitive, use `Has an anxiety disorder` ,`Obsessive`, `Pedantic`, `Niggly`, `Picky` instead'
+      '1:4-1:10: `O.C.D.` may be insensitive, use `Has an anxiety disorder`, `Obsessive`, `Pedantic`, `Niggly`, `Picky` instead'
     ],
     'My O.C.D. is coming out again!'
   )
