@@ -129,7 +129,7 @@ test('retext-equality', function(t) {
   t.same(
     process('Eric is mentally ill.'),
     [
-      '1:9-1:17: `mentally ill` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
+      '1:9-1:17: `mentally ill` may be insensitive, use `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
     ],
     'ablist-language'
   )
@@ -200,7 +200,7 @@ test('Phrasing', function(t) {
   t.same(
     process('This is insane.'),
     [
-      '1:9-1:15: `insane` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
+      '1:9-1:15: `insane` may be insensitive, use `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
     ],
     'This is insane'
   )
@@ -264,7 +264,7 @@ test('Phrasing', function(t) {
   t.same(
     process('Yeah, you were really psycho to him.'),
     [
-      '1:23-1:29: `psycho` may be insensitive, use `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead',
+      '1:23-1:29: `psycho` may be insensitive, use `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead',
       '1:33-1:36: `him` may be insensitive, use `their`, `theirs`, `them` instead'
     ],
     'Yeah, you were really psycho to him'
@@ -311,7 +311,7 @@ test('Phrasing', function(t) {
   t.same(
     process('My O.C.D. is coming out again!'),
     [
-      '1:4-1:10: `O.C.D.` may be insensitive, use `Obsessive`, `Pedantic`, `Niggly`, `Picky` instead'
+      '1:4-1:10: `O.C.D.` may be insensitive, use `Has an anxiety disorder` ,`Obsessive`, `Pedantic`, `Niggly`, `Picky` instead'
     ],
     'My O.C.D. is coming out again!'
   )
