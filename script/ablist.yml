@@ -80,14 +80,27 @@
     - moronic
     - nuts
 - type: simple
+  source: http://ncdj.org/style-guide/
+  note: Only refer to terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - fluctuating
-    - person with schizophrenia
     - person with bipolar disorder
   inconsiderate:
     - bipolar
+- type: simple
+  source: http://ncdj.org/style-guide/
+  note: Only refer to terms describing mental illness when referring to a professionally diagnosed medical condition.
+  considerate:
+    - person with schizophrenia
+  inconsiderate:
     - schizophrenic
     - schizo
+- type: simple
+  source: http://ncdj.org/style-guide/
+  note: Assumes a person with schizophrenia experiences a reduced quality of life.
+  considerate:
+    - person with schizophrenia
+  inconsiderate:
     - suffers from schizophrenia
     - suffering from schizophrenia
     - afflicted with schizophrenia
