@@ -206,11 +206,12 @@
     - special olympic athletes
 - type: simple
   source: http://ncdj.org/style-guide/
-  note: Sometimes `typical` can be used.
+  note: Can imply that people with disabilities lack the ability to use their bodies well. Sometimes `typical` can be used.
   considerate:
     - non-disabled
   inconsiderate:
     - ablebodied
+    - able-bodied
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
