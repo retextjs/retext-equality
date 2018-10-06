@@ -81,7 +81,7 @@
     - nuts
 - type: simple
   source: http://ncdj.org/style-guide/
-  note: Only refer to terms describing mental illness when referring to a professionally diagnosed medical condition.
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - fluctuating
     - person with bipolar disorder
@@ -89,7 +89,7 @@
     - bipolar
 - type: simple
   source: http://ncdj.org/style-guide/
-  note: Only refer to terms describing mental illness when referring to a professionally diagnosed medical condition.
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - person with schizophrenia
   inconsiderate:
@@ -183,6 +183,7 @@
     - holds back
   inconsiderate: retards
 - type: simple
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - person with a psychotic condition
     - person with psychosis
@@ -417,6 +418,7 @@
     - detox
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - person with a personality disorder
     - person with psychopathic personality
@@ -424,6 +426,7 @@
     - sociopath
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - people with psychopathic personalities
     - people with a personality disorder
@@ -463,6 +466,7 @@
     - anorexic
 - type: simple
   source: http://english.stackexchange.com/questions/247550/
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - obsessive
     - pedantic
