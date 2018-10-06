@@ -214,6 +214,7 @@
     - able-bodied
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: Addiction is a neurobiological disease.
   considerate:
     - person with a drug addiction
     - person recovering from a drug addiction
@@ -221,6 +222,7 @@
     - addict
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: Addiction is a neurobiological disease.
   considerate:
     - people with a drug addiction
     - people recovering from a drug addiction
@@ -228,6 +230,7 @@
     - addicts
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: Alcoholism is a neurobiological disease.
   considerate:
     - someone with an alcohol problem
   inconsiderate:
