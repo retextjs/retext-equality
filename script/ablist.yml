@@ -34,7 +34,7 @@
   considerate:
     - people with intellectual disabilities
   inconsiderate:
-    - sabled people
+    - intellectually disabled people
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
@@ -43,7 +43,7 @@
     - intellectually disabled
 - type: simple
   source: http://ncdj.org/style-guide/
-  note: Assumes that a person with an intellectually disability has a reduced quality of life.
+  note: Assumes that a person with an intellectual disability has a reduced quality of life.
   considerate:
     - person with an intellectual disability
   inconsiderate:
