@@ -97,7 +97,7 @@ test('retext-equality', function(t) {
   t.same(
     process('Two bipolar magnets.'),
     [
-      '1:5-1:12: `bipolar` may be insensitive, use `fluctuating`, `person with schizophrenia`, `person with bipolar disorder` instead'
+      '1:5-1:12: `bipolar` may be insensitive, use `fluctuating`, `person with bipolar disorder` instead'
     ],
     '`bipolar` (without dash)'
   )
@@ -105,7 +105,7 @@ test('retext-equality', function(t) {
   t.same(
     process('Two bi-polar magnets.'),
     [
-      '1:5-1:13: `bi-polar` may be insensitive, use `fluctuating`, `person with schizophrenia`, `person with bipolar disorder` instead'
+      '1:5-1:13: `bi-polar` may be insensitive, use `fluctuating`, `person with bipolar disorder` instead'
     ],
     '`bi-polar` (with dash)'
   )

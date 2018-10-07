@@ -18,6 +18,8 @@
   inconsiderate:
     - birth defect
 - type: simple
+  source: http://ncdj.org/style-guide/
+  note: Assumes that a person with a disability has a reduced quality of life.
   considerate:
     - person with a disability
     - people with disabilities
@@ -39,6 +41,12 @@
     - person with an intellectual disability
   inconsiderate:
     - intellectually disabled
+- type: simple
+  source: http://ncdj.org/style-guide/
+  note: Assumes that a person with an intellectual disability has a reduced quality of life.
+  considerate:
+    - person with an intellectual disability
+  inconsiderate:
     - suffers from intellectual disabilities
     - suffering from intellectual disabilities
     - suffering from an intellectual disability
@@ -72,14 +80,27 @@
     - moronic
     - nuts
 - type: simple
+  source: http://ncdj.org/style-guide/
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - fluctuating
-    - person with schizophrenia
     - person with bipolar disorder
   inconsiderate:
     - bipolar
+- type: simple
+  source: http://ncdj.org/style-guide/
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
+  considerate:
+    - person with schizophrenia
+  inconsiderate:
     - schizophrenic
     - schizo
+- type: simple
+  source: http://ncdj.org/style-guide/
+  note: Assumes a person with schizophrenia experiences a reduced quality of life.
+  considerate:
+    - person with schizophrenia
+  inconsiderate:
     - suffers from schizophrenia
     - suffering from schizophrenia
     - afflicted with schizophrenia
@@ -162,6 +183,7 @@
     - holds back
   inconsiderate: retards
 - type: simple
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - person with a psychotic condition
     - person with psychosis
@@ -206,13 +228,14 @@
     - special olympic athletes
 - type: simple
   source: http://ncdj.org/style-guide/
-  note: Sometimes `typical` can be used.
+  note: Can imply that people with disabilities lack the ability to use their bodies well. Sometimes `typical` can be used.
   considerate:
     - non-disabled
   inconsiderate:
     - ablebodied
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: Addiction is a neurobiological disease.
   considerate:
     - person with a drug addiction
     - person recovering from a drug addiction
@@ -220,6 +243,7 @@
     - addict
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: Addiction is a neurobiological disease.
   considerate:
     - people with a drug addiction
     - people recovering from a drug addiction
@@ -227,6 +251,7 @@
     - addicts
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: Alcoholism is a neurobiological disease.
   considerate:
     - someone with an alcohol problem
   inconsiderate:
@@ -392,6 +417,7 @@
     - detox
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - person with a personality disorder
     - person with psychopathic personality
@@ -399,6 +425,7 @@
     - sociopath
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - people with psychopathic personalities
     - people with a personality disorder
@@ -438,6 +465,7 @@
     - anorexic
 - type: simple
   source: http://english.stackexchange.com/questions/247550/
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - obsessive
     - pedantic
