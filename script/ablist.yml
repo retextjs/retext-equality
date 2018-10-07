@@ -36,6 +36,7 @@
     - intellectually disabled people
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: Assumes that a person with an intellectual disability has a reduced quality of life.
   considerate:
     - person with an intellectual disability
   inconsiderate:
@@ -449,7 +450,7 @@
     - bony
 - type: simple
   source: http://english.stackexchange.com/questions/247550/
-  note: If possible , specify which anxiety disorder is intended and its restrictions.
+  note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
     - has an anxiety disorder
     - obsessive
