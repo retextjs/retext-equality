@@ -54,13 +54,13 @@
   considerate:
     - Native American
   inconsiderate:
-    - red Indian
-    - Pocahontas
+    - red indian
+    - pocahontas
 - type: simple
   considerate:
     - Native American People
   inconsiderate:
-    - red Indians
+    - red indians
 - type: simple
   considerate:
     - Filipinos
@@ -80,15 +80,15 @@
   considerate:
     - Latinx
   inconsiderate:
-    - Latino
-    - Latina
-    - Mexican
+    - latino
+    - latina
+    - mexican
 - type: simple
   considerate:
-    - Japaneses person
+    - Japanese person
     - Japanese people
   inconsiderate:
-    - Japs
+    - japs
 - type: simple
   considerate:
     - Jewish person
@@ -96,7 +96,7 @@
     - kike
     - goyum
     - goy
-    - Shlomo
+    - shlomo
 - type: simple
   considerate:
     - a Black person
