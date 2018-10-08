@@ -293,6 +293,7 @@
 - type: or
   considerate:
     - cleaners
+    - housekeeping
   inconsiderate:
     cleaning ladies: female
     cleaning girls: female
@@ -479,6 +480,7 @@
     - performer
     - star
     - artist
+    - entertainer
   inconsiderate:
     actress: female
     actor: male
@@ -487,6 +489,7 @@
     - performers
     - stars
     - artists
+    - entertainers
   inconsiderate:
     actresses: female
     actors: male
@@ -707,6 +710,7 @@
 - type: or
   considerate:
     - spouse
+    - newlywed
   inconsiderate:
     bride: female
     groom: male

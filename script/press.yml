@@ -5,6 +5,8 @@
     - person of Islamic faith
     - fanatic
     - zealot
+    - follower of islam
+    - follower of the islamic faith
   inconsiderate:
     - islamist
 - type: simple
@@ -16,3 +18,4 @@
     - zealots
   inconsiderate:
     - islamists
+    - 

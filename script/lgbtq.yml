@@ -108,7 +108,7 @@
 - type: simple
   source: http://www.glaad.org/reference/transgender
   considerate:
-    - trangender
+    - transgender
   inconsiderate:
     - transgendered
 - type: simple
