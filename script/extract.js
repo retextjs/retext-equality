@@ -120,7 +120,8 @@ function patch(entry) {
     apostrophe: entry.apostrophe ? true : undefined,
     categories: entry.categories,
     considerate: entry.considerate,
-    inconsiderate: entry.inconsiderate
+    inconsiderate: entry.inconsiderate,
+    condition: entry.condition
   }
 
   if (source) {
