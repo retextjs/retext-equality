@@ -31,22 +31,19 @@
     - afflicted with a disability
 - type: simple
   source: http://ncdj.org/style-guide/
+  note: People with special abilities is a gentler term that conveys the same meaning.
   considerate:
     - people with intellectual disabilities
   inconsiderate:
     - intellectually disabled people
 - type: simple
   source: http://ncdj.org/style-guide/
-  considerate:
-    - person with an intellectual disability
-  inconsiderate:
-    - intellectually disabled
-- type: simple
-  source: http://ncdj.org/style-guide/
   note: Assumes that a person with an intellectual disability has a reduced quality of life.
   considerate:
     - person with an intellectual disability
   inconsiderate:
+    - intellectually disabled
+    - has intellectual issues
     - suffers from intellectual disabilities
     - suffering from intellectual disabilities
     - suffering from an intellectual disability
@@ -56,6 +53,7 @@
   source: http://ncdj.org/style-guide/
   considerate:
     - rude
+    - malicious
     - mean
     - disgusting
     - vile
@@ -241,6 +239,7 @@
     - person recovering from a drug addiction
   inconsiderate:
     - addict
+    - junkie
 - type: simple
   source: http://ncdj.org/style-guide/
   note: Addiction is a neurobiological disease.
@@ -249,6 +248,7 @@
     - people recovering from a drug addiction
   inconsiderate:
     - addicts
+    - junkies
 - type: simple
   source: http://ncdj.org/style-guide/
   note: Alcoholism is a neurobiological disease.
@@ -256,6 +256,7 @@
     - someone with an alcohol problem
   inconsiderate:
     - alcoholic
+    - alcohol abuser
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
@@ -288,6 +289,8 @@
   inconsiderate:
     - vertically challenged
     - midget
+    - small person
+    - dwarf
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
@@ -427,6 +430,7 @@
     - sociopaths
 - type: simple
   source: http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  note: Dumb here is used in 2 different contexts , the inability to talk or as a curse word.
   considerate:
     - foolish
     - ludicrous
@@ -445,6 +449,7 @@
     - stupid
     - wacko
     - whacko
+    - low iq
 - type: simple
   considerate:
     - fit of terror
@@ -457,15 +462,18 @@
     - slim
   inconsiderate:
     - anorexic
+    - bony
 - type: simple
   source: http://english.stackexchange.com/questions/247550/
   note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:
+    - has an anxiety disorder
     - obsessive
     - pedantic
     - niggly
     - picky
   inconsiderate:
+    - neurotic
     - ocd
     - o.c.d
     - o.c.d.
@@ -554,3 +562,10 @@
     - enthusiast
   inconsiderate:
     - maniac
+- type: simple
+  considerate:
+    - person with prominent teeth
+    - prominent teeth
+  inconsiderate:
+    - bucktoothed
+    - buckteeth
