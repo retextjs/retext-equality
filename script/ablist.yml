@@ -260,12 +260,6 @@
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate:
-    - person with autism spectrum disorder
-  inconsiderate:
-    - autistic
-- type: simple
-  source: http://ncdj.org/style-guide/
-  considerate:
     - deaf
   inconsiderate:
     - deaf and dumb

@@ -22,7 +22,7 @@ test('retext-equality', function(t) {
   t.same(
     process('her bicycle.'),
     [
-      '1:1-1:4: `her` may be insensitive, use `their`, `theirs`, `them` instead'
+      '1:1-1:4: `her` may be insensitive, when referring to a person, use `their`, `theirs`, `them` instead'
     ],
     'pronouns'
   )
@@ -48,7 +48,7 @@ test('retext-equality', function(t) {
   t.same(
     process('Her bicycle.'),
     [
-      '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead'
+      '1:1-1:4: `Her` may be insensitive, when referring to a person, use `Their`, `Theirs`, `Them` instead'
     ],
     'case-insensitive pronouns'
   )
@@ -66,8 +66,8 @@ test('retext-equality', function(t) {
   t.same(
     process('Her and his bicycle.', {noBinary: true}),
     [
-      '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead',
-      '1:9-1:12: `his` may be insensitive, use `their`, `theirs`, `them` instead'
+      '1:1-1:4: `Her` may be insensitive, when referring to a person, use `Their`, `Theirs`, `Them` instead',
+      '1:9-1:12: `his` may be insensitive, when referring to a person, use `their`, `theirs`, `them` instead'
     ],
     'should not ignore `and` comparison when `noBinary: true`'
   )
@@ -79,8 +79,8 @@ test('retext-equality', function(t) {
       noBinary: true
     }),
     [
-      '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead',
-      '1:8-1:11: `his` may be insensitive, use `their`, `theirs`, `them` instead'
+      '1:1-1:4: `Her` may be insensitive, when referring to a person, use `Their`, `Theirs`, `Them` instead',
+      '1:8-1:11: `his` may be insensitive, when referring to a person, use `their`, `theirs`, `them` instead'
     ],
     'should not ignore `or` comparison when `noBinary: true`'
   )
@@ -88,8 +88,8 @@ test('retext-equality', function(t) {
   t.same(
     process('Her bike, his bicycle.'),
     [
-      '1:1-1:4: `Her` may be insensitive, use `Their`, `Theirs`, `Them` instead',
-      '1:11-1:14: `his` may be insensitive, use `their`, `theirs`, `them` instead'
+      '1:1-1:4: `Her` may be insensitive, when referring to a person, use `Their`, `Theirs`, `Them` instead',
+      '1:11-1:14: `his` may be insensitive, when referring to a person, use `their`, `theirs`, `them` instead'
     ],
     'should NOT ignore other close words'
   )
@@ -208,7 +208,7 @@ test('Phrasing', function(t) {
   t.same(
     process('I like him.'),
     [
-      '1:8-1:11: `him` may be insensitive, use `their`, `theirs`, `them` instead'
+      '1:8-1:11: `him` may be insensitive, when referring to a person, use `their`, `theirs`, `them` instead'
     ],
     'I like him'
   )

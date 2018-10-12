@@ -59,7 +59,6 @@ And-patterns operate on a per-paragraph level.
 | `addict` | [simple](#simple) | `addict` | `person with a drug addiction`, `person recovering from a drug addiction` |
 | `addicts` | [simple](#simple) | `addicts` | `people with a drug addiction`, `people recovering from a drug addiction` |
 | `alcoholic` | [simple](#simple) | `alcoholic` | `someone with an alcohol problem` |
-| `autistic` | [simple](#simple) | `autistic` | `person with autism spectrum disorder` |
 | `deafmute` | [simple](#simple) | `deaf and dumb`, `deafmute` | `deaf` |
 | `senile` | [simple](#simple) | `demented`, `senile` | `person with dementia` |
 | `depressed` | [simple](#simple) | `depressed` | `sad`, `blue`, `bummed out`, `person with seasonal affective disorder`, `person with psychotic depression`, `person with postpartum depression` |
