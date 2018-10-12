@@ -265,7 +265,7 @@ test('Phrasing', function(t) {
     process('Yeah, you were really psycho to him.'),
     [
       '1:23-1:29: `psycho` may be insensitive, use `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead',
-      '1:33-1:36: `him` may be insensitive, use `their`, `theirs`, `them` instead'
+      '1:33-1:36: `him` may be insensitive, when referring to a person, use `their`, `theirs`, `them` instead'
     ],
     'Yeah, you were really psycho to him'
   )
