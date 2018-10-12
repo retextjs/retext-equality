@@ -5,6 +5,7 @@
 - type: simple
   considerate:
     - turned off
+    - has a disability
     - person with a disability
     - people with disabilities
   inconsiderate:
@@ -14,6 +15,7 @@
   source: http://ncdj.org/style-guide/
   note: If possible, describe exactly what this is.
   considerate:
+    - has a disability
     - person with a disability
     - people with disabilities
   inconsiderate:
@@ -22,6 +24,7 @@
   source: http://ncdj.org/style-guide/
   note: Assumes that a person with a disability has a reduced quality of life.
   considerate:
+    - has a disability
     - person with a disability
     - people with disabilities
   inconsiderate:
@@ -178,6 +181,7 @@
   inconsiderate:
     - retard
     - retarded
+    - short bus
 - type: simple
   considerate:
     - sillies
@@ -582,3 +586,32 @@
   inconsiderate:
     - bucktoothed
     - buckteeth
+- type: simple
+  source:
+    - http://cdrnys.org/blog/disability-dialogue/the-disability-dialogue-4-disability-euphemisms-that-need-to-bite-the-dust/
+    - https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  note: Euphemisms for disabilities can be infantilizing.
+  considerate:
+    - has a disability
+    - person with a disability
+    - people with disabilities
+  inconsiderate:
+    - challenged
+    - diffability
+    - differently abled
+    - handicapable
+    - special
+    - special needs
+    - specially abled
+- type: simple
+  source: https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  considerate:
+    - disagreeable
+    - uneducated
+    - ignorant
+    - naive
+    - inconsiderate
+  inconsiderate:
+    - fucktard
+    - libtard
+    - contard

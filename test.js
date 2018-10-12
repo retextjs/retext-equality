@@ -415,6 +415,14 @@ test('Phrasing', function(t) {
     'We will make something great again'
   )
 
+  t.same(
+    process("They're handicapable."),
+    [
+      '1:9-1:21: `handicapable` may be insensitive, use `has a disability`, `person with a disability`, `people with disabilities` instead'
+    ],
+    "They're handicapable."
+  )
+
   t.end()
 })
 
