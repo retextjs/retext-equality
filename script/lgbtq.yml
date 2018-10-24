@@ -1,5 +1,6 @@
 - type: simple
   source: http://www.glaad.org/reference/offensive
+  note: This term has a clinical history and is used to imply LGBTQ+ people are diseased or psychologically/emotionally disordered
   considerate:
     - gay
     - gay man
@@ -9,6 +10,7 @@
     - homosexual
 - type: simple
   source: http://www.glaad.org/reference/offensive
+  note: Avoid labeling something as LGBTQ+ unless you would call the same thing "straight"
   considerate:
     - relationship
   inconsiderate:
@@ -16,12 +18,14 @@
     - homosexual relationship
 - type: simple
   source: http://www.glaad.org/reference/offensive
+  note: Avoid labeling something as LGBTQ+ unless you would call the same thing "straight"
   considerate:
     - couple
   inconsiderate:
     - homosexual couple
 - type: simple
   source: http://www.glaad.org/reference/offensive
+  note: Implies that being LGBTQ+ is a choice
   considerate:
     - sexual orientation
     - orientation
@@ -29,6 +33,7 @@
     - sexual preference
 - type: simple
   source: http://www.glaad.org/reference/offensive
+  note: Implies that being LGBTQ+ is a choice
   considerate:
     - gay lives
     - gay/lesbian lives
@@ -37,6 +42,7 @@
     - homosexual lifestyle
 - type: simple
   source: http://www.glaad.org/reference/offensive
+  note: Used by anti-LGBTQ+ extremists to create a climate of fear around LGBTQ+ issues
   considerate:
     - gay issues
   inconsiderate:
@@ -44,6 +50,7 @@
     - homosexual agenda
 - type: simple
   source: http://www.glaad.org/reference/style
+  note: LGBTQ+ rights are human rights
   considerate:
     - equal rights
     - civil rights for gay people
@@ -52,6 +59,7 @@
     - gay rights
 - type: simple
   source: http://www.glaad.org/reference/offensive
+  note: Derogatory terms for LGBTQ+ are offensive
   considerate:
     - gay
   inconsiderate:
