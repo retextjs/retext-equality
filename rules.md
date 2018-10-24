@@ -34,9 +34,11 @@ And-patterns operate on a per-paragraph level.
 | `birth-defect` | [simple](#simple) | `birth defect` | `person with a disability`, `people with disabilities` |
 | `suffers-from-disabilities` | [simple](#simple) | `suffers from disabilities`, `suffering from disabilities`, `suffering from a disability`, `afflicted with disabilities`, `afflicted with a disability` | `person with a disability`, `people with disabilities` |
 | `intellectually-disabled-people` | [simple](#simple) | `intellectually disabled people` | `people with intellectual disabilities` |
-| `intellectually-disabled` | [simple](#simple) | `intellectually disabled`, `suffers from intellectual disabilities`, `suffering from intellectual disabilities`, `suffering from an intellectual disability`, `afflicted with intellectual disabilities`, `afflicted with a intellectual disability` | `person with an intellectual disability` |
-| `nuts` | [simple](#simple) | `batshit`, `psycho`, `crazy`, `delirious`, `insane`, `insanity`, `loony`, `lunacy`, `lunatic`, `mentally ill`, `psychopathology`, `mental defective`, `moron`, `moronic`, `nuts` | `rude`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` |
-| `schizo` | [simple](#simple) | `bipolar`, `schizophrenic`, `schizo`, `suffers from schizophrenia`, `suffering from schizophrenia`, `afflicted with schizophrenia` | `fluctuating`, `person with schizophrenia`, `person with bipolar disorder` |
+| `intellectually-disabled` | [simple](#simple) | `intellectually disabled`, `has intellectual issues`, `suffers from intellectual disabilities`, `suffering from intellectual disabilities`, `suffering from an intellectual disability`, `afflicted with intellectual disabilities`, `afflicted with a intellectual disability` | `person with an intellectual disability` |
+| `nuts` | [simple](#simple) | `batshit`, `psycho`, `crazy`, `delirious`, `insane`, `insanity`, `loony`, `lunacy`, `lunatic`, `mentally ill`, `psychopathology`, `mental defective`, `moron`, `moronic`, `nuts` | `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` |
+| `bipolar` | [simple](#simple) | `bipolar` | `fluctuating`, `person with bipolar disorder` |
+| `schizo` | [simple](#simple) | `schizophrenic`, `schizo` | `person with schizophrenia` |
+| `suffers-from-schizophrenia` | [simple](#simple) | `suffers from schizophrenia`, `suffering from schizophrenia`, `afflicted with schizophrenia` | `person with schizophrenia` |
 | `handicapped-parking` | [simple](#simple) | `handicapped parking` | `accessible parking` |
 | `handicapped` | [simple](#simple) | `handicapped` | `person with a handicap` |
 | `amputee` | [simple](#simple) | `amputee` | `person with an amputation` |
@@ -56,13 +58,13 @@ And-patterns operate on a per-paragraph level.
 | `wheelchair-bound` | [simple](#simple) | `confined to a wheelchair`, `bound to a wheelchair`, `restricted to a wheelchair`, `wheelchair bound` | `uses a wheelchair` |
 | `special-olympians` | [simple](#simple) | `special olympians`, `special olympic athletes` | `athletes`, `Special Olympics athletes` |
 | `ablebodied` | [simple](#simple) | `ablebodied` | `non-disabled` |
-| `addict` | [simple](#simple) | `addict` | `person with a drug addiction`, `person recovering from a drug addiction` |
-| `addicts` | [simple](#simple) | `addicts` | `people with a drug addiction`, `people recovering from a drug addiction` |
-| `alcoholic` | [simple](#simple) | `alcoholic` | `someone with an alcohol problem` |
+| `addict` | [simple](#simple) | `addict`, `junkie` | `person with a drug addiction`, `person recovering from a drug addiction` |
+| `addicts` | [simple](#simple) | `addicts`, `junkies` | `people with a drug addiction`, `people recovering from a drug addiction` |
+| `alcoholic` | [simple](#simple) | `alcoholic`, `alcohol abuser` | `someone with an alcohol problem` |
 | `deafmute` | [simple](#simple) | `deaf and dumb`, `deafmute` | `deaf` |
 | `senile` | [simple](#simple) | `demented`, `senile` | `person with dementia` |
 | `depressed` | [simple](#simple) | `depressed` | `sad`, `blue`, `bummed out`, `person with seasonal affective disorder`, `person with psychotic depression`, `person with postpartum depression` |
-| `midget` | [simple](#simple) | `vertically challenged`, `midget` | `person with dwarfism` |
+| `dwarf` | [simple](#simple) | `vertically challenged`, `midget`, `small person`, `dwarf` | `person with dwarfism` |
 | `dyslexic` | [simple](#simple) | `dyslexic` | `person with dyslexia` |
 | `epileptic` | [simple](#simple) | `epileptic` | `person with epilepsy` |
 | `hearing-impaired` | [simple](#simple) | `hearing impaired`, `hearing impairment` | `hard of hearing`, `partially deaf`, `partial hearing loss`, `deaf` |
@@ -73,7 +75,7 @@ And-patterns operate on a per-paragraph level.
 | `quadriplegic` | [simple](#simple) | `quadriplegic` | `person with quadriplegia` |
 | `spaz` | [simple](#simple) | `spaz` | `person with cerebral palsy`, `twitch`, `flinch`, `hectic` |
 | `spastic` | [simple](#simple) | `spastic` | `person with cerebral palsy`, `twitch`, `flinch` |
-| `stammering` | [simple](#simple) | `stammering` | `stuttering` |
+| `stammering` | [simple](#simple) | `stammering` | `stuttering`, `disfluency of speech` |
 | `stutterer` | [simple](#simple) | `stutterer` | `person who stutters` |
 | `tourettes-syndrome` | [simple](#simple) | `tourettes syndrome`, `tourettes disorder` | `Tourette syndrome` |
 | `rehab-center` | [simple](#simple) | `rehab center`, `detox center` | `treatment center` |
@@ -81,10 +83,10 @@ And-patterns operate on a per-paragraph level.
 | `sociopath` | [simple](#simple) | `sociopath` | `person with a personality disorder`, `person with psychopathic personality` |
 | `sociopaths` | [simple](#simple) | `sociopaths` | `people with psychopathic personalities`, `people with a personality disorder` |
 | `dumb` | [simple](#simple) | `dumb` | `foolish`, `ludicrous`, `speechless`, `silent` |
-| `wacko` | [simple](#simple) | `simpleton`, `stupid`, `wacko`, `whacko` | `foolish`, `ludicrous`, `unintelligent` |
+| `wacko` | [simple](#simple) | `simpleton`, `stupid`, `wacko`, `whacko`, `low iq` | `foolish`, `ludicrous`, `unintelligent` |
 | `panic-attack` | [simple](#simple) | `panic attack` | `fit of terror`, `scare` |
-| `anorexic` | [simple](#simple) | `anorexic` | `thin`, `slim` |
-| `ocd` | [simple](#simple) | `ocd`, `o.c.d`, `o.c.d.` | `obsessive`, `pedantic`, `niggly`, `picky` |
+| `bony` | [simple](#simple) | `anorexic`, `bony` | `thin`, `slim` |
+| `ocd` | [simple](#simple) | `neurotic`, `ocd`, `o.c.d`, `o.c.d.` | `has an anxiety disorder`, `obsessive`, `pedantic`, `niggly`, `picky` |
 | `insomnia` | [simple](#simple) | `insomnia` | `restlessness`, `sleeplessness` |
 | `insomniac` | [simple](#simple) | `insomniac` | `person who has insomnia` |
 | `insomniacs` | [simple](#simple) | `insomniacs` | `people who have insomnia` |
@@ -96,6 +98,7 @@ And-patterns operate on a per-paragraph level.
 | `harelipped` | [simple](#simple) | `harelipped`, `cleftlipped` | `person with a cleft-lip and palate` |
 | `harelip` | [simple](#simple) | `harelip` | `cleft-lip and palate` |
 | `maniac` | [simple](#simple) | `maniac` | `fanatic`, `zealot`, `enthusiast` |
+| `buckteeth` | [simple](#simple) | `bucktoothed`, `buckteeth` | `person with prominent teeth`, `prominent teeth` |
 | `her-him` | [or](#or) | `her` (female), `hers` (female), `him` (male), `his` (male) | `their`, `theirs`, `them` |
 | `he-she` | [or](#or) | `she` (female), `he` (male), `she'd` (female), `he'd` (male), `she'll` (female), `he'll` (male), `she's` (female), `he's` (male) | `they`, `it` |
 | `herself-himself` | [or](#or) | `herself` (female), `himself` (male) | `themselves`, `theirself`, `self` |
@@ -131,7 +134,7 @@ And-patterns operate on a per-paragraph level.
 | `salaryman-salarywoman` | [or](#or) | `businesswoman` (female), `salarywoman` (female), `businessman` (male), `salaryman` (male) | `business executive`, `entrepreneur`, `business person`, `professional` |
 | `salarymen-salarywomen` | [or](#or) | `businesswomen` (female), `salarywomen` (female), `career girl` (female), `career woman` (female), `businessmen` (male), `salarymen` (male) | `business executives`, `entrepreneurs` |
 | `janitor-janitress` | [or](#or) | `cleaning lady` (female), `cleaning girl` (female), `cleaning woman` (female), `janitress` (female), `cleaning man` (male), `cleaning boy` (male), `janitor` (male) | `cleaner` |
-| `janitors-janitresses` | [or](#or) | `cleaning ladies` (female), `cleaning girls` (female), `janitresses` (female), `cleaning men` (male), `janitors` (male) | `cleaners` |
+| `janitors-janitresses` | [or](#or) | `cleaning ladies` (female), `cleaning girls` (female), `janitresses` (female), `cleaning men` (male), `janitors` (male) | `cleaners`, `housekeeping` |
 | `delivery-boy-delivery-girl` | [or](#or) | `delivery girl` (female), `delivery boy` (male) | `courier`, `messenger` |
 | `foreman-forewoman` | [or](#or) | `forewoman` (female), `foreman` (male) | `supervisor`, `shift boss` |
 | `frontman,-front-man-frontwoman,-front-woman` | [or](#or) | `frontwoman, front woman` (female), `frontman, front man` (male) | `lead`, `front`, `figurehead` |
@@ -155,8 +158,8 @@ And-patterns operate on a per-paragraph level.
 | `waiters-waitresses` | [or](#or) | `waitresses` (female), `waiters` (male) | `servers` |
 | `workman-workwoman` | [or](#or) | `workwoman` (female), `working woman` (female), `workman` (male), `working man` (male) | `worker`, `wage earner`, `taxpayer` |
 | `workmen-workwomen` | [or](#or) | `workwomen` (female), `workmen` (male) | `workers` |
-| `actor-actress` | [or](#or) | `actress` (female), `actor` (male) | `performer`, `star`, `artist` |
-| `actors-actresses` | [or](#or) | `actresses` (female), `actors` (male) | `performers`, `stars`, `artists` |
+| `actor-actress` | [or](#or) | `actress` (female), `actor` (male) | `performer`, `star`, `artist`, `entertainer` |
+| `actors-actresses` | [or](#or) | `actresses` (female), `actors` (male) | `performers`, `stars`, `artists`, `entertainers` |
 | `aircrewwoman-airman` | [or](#or) | `aircrewwoman` (female), `aircrew woman` (female), `aircrewman` (male), `airman` (male) | `pilot`, `aviator`, `airstaff` |
 | `aircrewwomen-airmen` | [or](#or) | `aircrewwomen` (female), `aircrew women` (female), `aircrewmen` (male), `airmen` (male) | `pilots`, `aviators`, `airstaff` |
 | `alderman-alderwoman` | [or](#or) | `alderwoman` (female), `alderman` (male) | `cabinet member` |
@@ -187,7 +190,7 @@ And-patterns operate on a per-paragraph level.
 | `forefathers-foremothers` | [or](#or) | `foremothers` (female), `forefathers` (male) | `ancestors` |
 | `gramps-granny` | [or](#or) | `granny` (female), `grandma` (female), `grandmother` (female), `grandpappy` (male), `granddaddy` (male), `gramps` (male), `grandpa` (male), `grandfather` (male) | `grandparent`, `ancestor` |
 | `grandfathers-grandmothers` | [or](#or) | `grandmothers` (female), `grandfathers` (male) | `grandparents`, `ancestors` |
-| `bride-groom` | [or](#or) | `bride` (female), `groom` (male) | `spouse` |
+| `bride-groom` | [or](#or) | `bride` (female), `groom` (male) | `spouse`, `newlywed` |
 | `brother-sister` | [or](#or) | `sister` (female), `brother` (male) | `sibling` |
 | `brothers-sisters` | [or](#or) | `sisters` (female), `brothers` (male) | `siblings` |
 | `cameraman-camerawoman` | [or](#or) | `camerawoman` (female), `cameraman` (male) | `camera operator`, `camera person` |
@@ -318,7 +321,7 @@ And-patterns operate on a per-paragraph level.
 | `sexchange` | [simple](#simple) | `sexchange`, `sex change` | `transition` |
 | `sex-change-operation` | [simple](#simple) | `sex change operation` | `sex reassignment surgery` |
 | `transgenders` | [simple](#simple) | `transgenders` | `transgender people` |
-| `transgendered` | [simple](#simple) | `transgendered` | `trangender` |
+| `transgendered` | [simple](#simple) | `transgendered` | `transgender` |
 | `transgenderism` | [simple](#simple) | `transgenderism` | `being trangender`, `the movement for transgender equality` |
 | `born-a-man` | [simple](#simple) | `biologically male`, `born a man`, `genetically male` | `assigned male at birth`, `designated male at birth` |
 | `born-a-woman` | [simple](#simple) | `biologically female`, `born a woman`, `genetically female` | `assigned female at birth`, `designated female at birth` |
@@ -326,8 +329,8 @@ And-patterns operate on a per-paragraph level.
 | `hermaphroditic` | [simple](#simple) | `hermaphroditic`, `pseudohermaphroditic`, `pseudo hermaphroditic` | `intersex` |
 | `hermaphrodite` | [simple](#simple) | `hermaphrodite`, `pseudohermaphrodite`, `pseudo hermaphrodite` | `person who is intersex`, `person`, `intersex person` |
 | `heshe` | [simple](#simple) | `shemale`, `she male`, `heshe`, `shehe` | `transgender person`, `person` |
-| `islamist` | [simple](#simple) | `islamist` | `muslim`, `person of Islamic faith`, `fanatic`, `zealot` |
-| `islamists` | [simple](#simple) | `islamists` | `muslims`, `people of Islamic faith`, `fanatics`, `zealots` |
+| `islamist` | [simple](#simple) | `islamist` | `muslim`, `person of Islamic faith`, `fanatic`, `zealot`, `follower of islam`, `follower of the islamic faith` |
+| `null` | [simple](#simple) | `islamists`, `null` | `muslims`, `people of Islamic faith`, `fanatics`, `zealots` |
 | `master-slave` | [and](#and) | `master` (a), `masters` (a), `slave` (b), `slaves` (b) | `primary`, `primaries`, `hub`, `hubs`, `reference`, `references`, `replica`, `replicas`, `spoke`, `spokes`, `secondary`, `secondaries` |
 | `eskimo` | [simple](#simple) | `eskimo` | `Inuit` |
 | `eskimos` | [simple](#simple) | `eskimos` | `Inuits` |
@@ -335,6 +338,15 @@ And-patterns operate on a per-paragraph level.
 | `orientals` | [simple](#simple) | `orientals` | `Asian people` |
 | `nonwhite` | [simple](#simple) | `nonwhite`, `non white` | `person of color`, `people of color` |
 | `ghetto` | [simple](#simple) | `ghetto` | `projects`, `urban` |
+| `red-indian` | [simple](#simple) | `red indian`, `pocahontas` | `Native American` |
+| `red-indians` | [simple](#simple) | `red indians` | `Native American People` |
+| `pinoys` | [simple](#simple) | `pinoys`, `pinays` | `Filipinos`, `Filipino people` |
+| `towel-heads` | [simple](#simple) | `sand niggers`, `towel heads` | `Arabs`, `Middle Eastern People` |
+| `latino` | [simple](#simple) | `latino`, `latina`, `mexican` | `Latinx` |
+| `japs` | [simple](#simple) | `japs` | `Japanese person`, `Japanese people` |
+| `goy` | [simple](#simple) | `kike`, `goyum`, `goy`, `shlomo` | `Jewish person` |
+| `spade` | [simple](#simple) | `spade` | `a Black person` |
+| `gyppo` | [simple](#simple) | `gyppo`, `gypsy` | `Nomad` |
 | `make-*-great-again` | [simple](#simple) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
 | `committed-suicide` | [simple](#simple) | `committed suicide`, `completed suicide` | `died by suicide` |
 | `commit-suicide` | [simple](#simple) | `commit suicide`, `complete suicide` | `die by suicide` |
