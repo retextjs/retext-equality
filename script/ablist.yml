@@ -5,14 +5,17 @@
 - type: simple
   considerate:
     - turned off
+    - has a disability
     - person with a disability
     - people with disabilities
   inconsiderate:
     - disabled
+    - invalid
 - type: simple
   source: http://ncdj.org/style-guide/
-  note: If possible, describe exacly what this is.
+  note: If possible, describe exactly what this is.
   considerate:
+    - has a disability
     - person with a disability
     - people with disabilities
   inconsiderate:
@@ -21,6 +24,7 @@
   source: http://ncdj.org/style-guide/
   note: Assumes that a person with a disability has a reduced quality of life.
   considerate:
+    - has a disability
     - person with a disability
     - people with disabilities
   inconsiderate:
@@ -77,6 +81,8 @@
     - moron
     - moronic
     - nuts
+    - mental case
+    - mental
 - type: simple
   source: http://ncdj.org/style-guide/
   note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
@@ -102,13 +108,16 @@
     - suffers from schizophrenia
     - suffering from schizophrenia
     - afflicted with schizophrenia
+    - manic
 - type: simple
   source: http://ncdj.org/style-guide/
   considerate: accessible parking
   inconsiderate: handicapped parking
 - type: simple
   source: http://ncdj.org/style-guide/
-  considerate: person with a handicap
+  considerate:
+    - person with a handicap
+    - accessible
   inconsiderate: handicapped
 - type: simple
   source: http://ncdj.org/style-guide/
@@ -119,6 +128,7 @@
   inconsiderate:
     - cripple
     - crippled
+    - gimp
 - type: simple
   considerate: person with Down Syndrome
   inconsiderate: mongoloid
@@ -171,6 +181,7 @@
   inconsiderate:
     - retard
     - retarded
+    - short bus
 - type: simple
   considerate:
     - sillies
@@ -283,9 +294,15 @@
   inconsiderate:
     - depressed
 - type: simple
-  source: http://ncdj.org/style-guide/
+  source:
+    - http://ncdj.org/style-guide/
+    - https://www.lpaonline.org/faq-#Midget
   considerate:
     - person with dwarfism
+    - little person
+    - little people
+    - LP
+    - person of short stature
   inconsiderate:
     - vertically challenged
     - midget
@@ -569,3 +586,32 @@
   inconsiderate:
     - bucktoothed
     - buckteeth
+- type: simple
+  source:
+    - http://cdrnys.org/blog/disability-dialogue/the-disability-dialogue-4-disability-euphemisms-that-need-to-bite-the-dust/
+    - https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  note: Euphemisms for disabilities can be infantilizing.
+  considerate:
+    - has a disability
+    - person with a disability
+    - people with disabilities
+  inconsiderate:
+    - challenged
+    - diffability
+    - differently abled
+    - handicapable
+    - special
+    - special needs
+    - specially abled
+- type: simple
+  source: https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  considerate:
+    - disagreeable
+    - uneducated
+    - ignorant
+    - naive
+    - inconsiderate
+  inconsiderate:
+    - fucktard
+    - libtard
+    - contard
