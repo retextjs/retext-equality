@@ -13,7 +13,7 @@
     - invalid
 - type: simple
   source: http://ncdj.org/style-guide/
-  note: If possible, describe exactly what this is.
+  note: Assumes/implies that a person with a disability is deficient or inferior to others. When possible, specify the functional ability or its restriction.
   considerate:
     - has a disability
     - person with a disability

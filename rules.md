@@ -64,6 +64,7 @@ And-patterns operate on a per-paragraph level.
 | `deafmute` | [simple](#simple) | `deaf and dumb`, `deafmute` | `deaf` |
 | `senile` | [simple](#simple) | `demented`, `senile` | `person with dementia` |
 | `depressed` | [simple](#simple) | `depressed` | `sad`, `blue`, `bummed out`, `person with seasonal affective disorder`, `person with psychotic depression`, `person with postpartum depression` |
+| `dwarf` | [simple](#simple) | `vertically challenged`, `midget`, `small person`, `dwarf` | `person with dwarfism` |
 | `dwarf` | [simple](#simple) | `vertically challenged`, `midget`, `small person`, `dwarf` | `person with dwarfism`, `little person`, `little people`, `LP`, `person of short stature` |
 | `dyslexic` | [simple](#simple) | `dyslexic` | `person with dyslexia` |
 | `epileptic` | [simple](#simple) | `epileptic` | `person with epilepsy` |
