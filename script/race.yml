@@ -103,8 +103,15 @@
   inconsiderate:
     - spade
 - type: simple
+  source: en.wikipedia.org/wiki/Romani_people#cite_ref-80
+  note: Gypsy is insensitive and others the Romani
   considerate:
     - Nomad
+    - Traveler
+    - Roma
+    - Romani
   inconsiderate:
     - gyppo
     - gypsy
+    - Gipsy
+    - gyp
