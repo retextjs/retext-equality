@@ -349,7 +349,7 @@ And-patterns operate on a per-paragraph level.
 | `japs` | [simple](#simple) | `japs` | `Japanese person`, `Japanese people` |
 | `goy` | [simple](#simple) | `kike`, `goyum`, `goy`, `shlomo` | `Jewish person` |
 | `spade` | [simple](#simple) | `spade` | `a Black person` |
-| `gyppo` | [simple](#simple) | `gyppo`, `gypsy` | `Nomad` |
+| `gyp` | [simple](#simple) | `gyppo`, `gypsy`, `Gipsy`, `gyp` | `Nomad`, `Traveler`, `Roma`, `Romani` |
 | `make-*-great-again` | [simple](#simple) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
 | `committed-suicide` | [simple](#simple) | `committed suicide`, `completed suicide` | `died by suicide` |
 | `commit-suicide` | [simple](#simple) | `commit suicide`, `complete suicide` | `die by suicide` |
