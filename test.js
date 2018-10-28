@@ -15,7 +15,7 @@ test('retext-equality', function(t) {
     retext()
       .use(equality)
       .processSync(doc).messages[0].note,
-    'If possible, describe exacly what this is. (source: http://ncdj.org/style-guide/)',
+    'Assumes/implies that a person with a disability is deficient or inferior to others. When possible, specify the functional ability or its restriction. (source: http://ncdj.org/style-guide/)',
     'should patch `description` when applicable'
   )
 
@@ -54,7 +54,7 @@ test('retext-equality', function(t) {
   )
 
   t.same(
-    process('Frenchmen are comming.'),
+    process('Frenchmen are coming.'),
     ['1:1-1:10: `Frenchmen` may be insensitive, use `French` instead'],
     'case-insensitive pronouns'
   )
