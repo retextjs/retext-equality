@@ -30,19 +30,19 @@ And-patterns operate on a per-paragraph level.
 | id | type | not ok | ok |
 | --- | ---- | ------ | --- |
 | `learning-disabled` | [simple](#simple) | `learning disabled` | `person with learning disabilities` |
-| `disabled` | [simple](#simple) | `disabled` | `turned off`, `person with a disability`, `people with disabilities` |
-| `birth-defect` | [simple](#simple) | `birth defect` | `person with a disability`, `people with disabilities` |
-| `suffers-from-disabilities` | [simple](#simple) | `suffers from disabilities`, `suffering from disabilities`, `suffering from a disability`, `afflicted with disabilities`, `afflicted with a disability` | `person with a disability`, `people with disabilities` |
+| `invalid` | [simple](#simple) | `disabled`, `invalid` | `turned off`, `has a disability`, `person with a disability`, `people with disabilities` |
+| `birth-defect` | [simple](#simple) | `birth defect` | `has a disability`, `person with a disability`, `people with disabilities` |
+| `suffers-from-disabilities` | [simple](#simple) | `suffers from disabilities`, `suffering from disabilities`, `suffering from a disability`, `afflicted with disabilities`, `afflicted with a disability` | `has a disability`, `person with a disability`, `people with disabilities` |
 | `intellectually-disabled-people` | [simple](#simple) | `intellectually disabled people` | `people with intellectual disabilities` |
 | `intellectually-disabled` | [simple](#simple) | `intellectually disabled`, `has intellectual issues`, `suffers from intellectual disabilities`, `suffering from intellectual disabilities`, `suffering from an intellectual disability`, `afflicted with intellectual disabilities`, `afflicted with a intellectual disability` | `person with an intellectual disability` |
-| `nuts` | [simple](#simple) | `batshit`, `psycho`, `crazy`, `delirious`, `insane`, `insanity`, `loony`, `lunacy`, `lunatic`, `mentally ill`, `psychopathology`, `mental defective`, `moron`, `moronic`, `nuts` | `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` |
+| `nuts` | [simple](#simple) | `batshit`, `psycho`, `crazy`, `delirious`, `insane`, `insanity`, `loony`, `lunacy`, `lunatic`, `mentally ill`, `psychopathology`, `mental defective`, `moron`, `moronic`, `nuts`, `mental case`, `mental` | `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` |
 | `bipolar` | [simple](#simple) | `bipolar` | `fluctuating`, `person with bipolar disorder` |
 | `schizo` | [simple](#simple) | `schizophrenic`, `schizo` | `person with schizophrenia` |
-| `suffers-from-schizophrenia` | [simple](#simple) | `suffers from schizophrenia`, `suffering from schizophrenia`, `afflicted with schizophrenia` | `person with schizophrenia` |
+| `manic` | [simple](#simple) | `suffers from schizophrenia`, `suffering from schizophrenia`, `afflicted with schizophrenia`, `manic` | `person with schizophrenia` |
 | `handicapped-parking` | [simple](#simple) | `handicapped parking` | `accessible parking` |
-| `handicapped` | [simple](#simple) | `handicapped` | `person with a handicap` |
+| `handicapped` | [simple](#simple) | `handicapped` | `person with a handicap`, `accessible` |
 | `amputee` | [simple](#simple) | `amputee` | `person with an amputation` |
-| `cripple` | [simple](#simple) | `cripple`, `crippled` | `person with a limp` |
+| `gimp` | [simple](#simple) | `cripple`, `crippled`, `gimp` | `person with a limp` |
 | `mongoloid` | [simple](#simple) | `mongoloid` | `person with Down Syndrome` |
 | `stroke-victim` | [simple](#simple) | `stroke victim`, `suffering from a stroke`, `victim of a stroke` | `individual who has had a stroke` |
 | `multiple-sclerosis-victim` | [simple](#simple) | `suffers from multiple sclerosis`, `suffering from multiple sclerosis`, `victim of multiple sclerosis`, `multiple sclerosis victim`, `afflicted with multiple sclerosis` | `person who has multiple sclerosis` |
@@ -50,7 +50,7 @@ And-patterns operate on a per-paragraph level.
 | `asylum` | [simple](#simple) | `asylum` | `psychiatric hospital`, `mental health hospital` |
 | `bedlam` | [simple](#simple) | `bedlam`, `madhouse`, `loony bin` | `chaos`, `hectic`, `pandemonium` |
 | `downs-syndrome` | [simple](#simple) | `downs syndrome` | `Down Syndrome` |
-| `retard` | [simple](#simple) | `retard`, `retarded` | `silly`, `dullard`, `person with Down Syndrome`, `person with developmental disabilities`, `delay`, `hold back` |
+| `retard` | [simple](#simple) | `retard`, `retarded`, `short bus` | `silly`, `dullard`, `person with Down Syndrome`, `person with developmental disabilities`, `delay`, `hold back` |
 | `retards` | [simple](#simple) | `retards` | `sillies`, `dullards`, `people with developmental disabilities`, `people with Down’s Syndrome`, `delays`, `holds back` |
 | `psychotic` | [simple](#simple) | `psychotic`, `suffers from psychosis`, `suffering from psychosis`, `afflicted with psychosis`, `victim of psychosis` | `person with a psychotic condition`, `person with psychosis` |
 | `lame` | [simple](#simple) | `lame` | `boring`, `dull` |
@@ -65,6 +65,7 @@ And-patterns operate on a per-paragraph level.
 | `senile` | [simple](#simple) | `demented`, `senile` | `person with dementia` |
 | `depressed` | [simple](#simple) | `depressed` | `sad`, `blue`, `bummed out`, `person with seasonal affective disorder`, `person with psychotic depression`, `person with postpartum depression` |
 | `dwarf` | [simple](#simple) | `vertically challenged`, `midget`, `small person`, `dwarf` | `person with dwarfism` |
+| `dwarf` | [simple](#simple) | `vertically challenged`, `midget`, `small person`, `dwarf` | `person with dwarfism`, `little person`, `little people`, `LP`, `person of short stature` |
 | `dyslexic` | [simple](#simple) | `dyslexic` | `person with dyslexia` |
 | `epileptic` | [simple](#simple) | `epileptic` | `person with epilepsy` |
 | `hearing-impaired` | [simple](#simple) | `hearing impaired`, `hearing impairment` | `hard of hearing`, `partially deaf`, `partial hearing loss`, `deaf` |
@@ -99,6 +100,8 @@ And-patterns operate on a per-paragraph level.
 | `harelip` | [simple](#simple) | `harelip` | `cleft-lip and palate` |
 | `maniac` | [simple](#simple) | `maniac` | `fanatic`, `zealot`, `enthusiast` |
 | `buckteeth` | [simple](#simple) | `bucktoothed`, `buckteeth` | `person with prominent teeth`, `prominent teeth` |
+| `special` | [simple](#simple) | `challenged`, `diffability`, `differently abled`, `handicapable`, `special`, `special needs`, `specially abled` | `has a disability`, `person with a disability`, `people with disabilities` |
+| `libtard` | [simple](#simple) | `fucktard`, `libtard`, `contard` | `disagreeable`, `uneducated`, `ignorant`, `naive`, `inconsiderate` |
 | `her-him` | [or](#or) | `her` (female), `hers` (female), `him` (male), `his` (male) | `their`, `theirs`, `them` |
 | `he-she` | [or](#or) | `she` (female), `he` (male), `she'd` (female), `he'd` (male), `she'll` (female), `he'll` (male), `she's` (female), `he's` (male) | `they`, `it` |
 | `herself-himself` | [or](#or) | `herself` (female), `himself` (male) | `themselves`, `theirself`, `self` |
