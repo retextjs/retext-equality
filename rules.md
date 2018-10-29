@@ -341,8 +341,9 @@ And-patterns operate on a per-paragraph level.
 | `orientals` | [simple](#simple) | `orientals` | `Asian people` |
 | `nonwhite` | [simple](#simple) | `nonwhite`, `non white` | `person of color`, `people of color` |
 | `ghetto` | [simple](#simple) | `ghetto` | `projects`, `urban` |
-| `red-indian` | [simple](#simple) | `red indian`, `pocahontas` | `Native American` |
-| `red-indians` | [simple](#simple) | `red indians` | `Native American People` |
+| `redskin` | [simple](#simple) | `red indian`, `pocahontas`, `redskin` | `Native American` |
+| `redskins` | [simple](#simple) | `red indians`, `redskins` | `Native American People` |
+| `indian-give` | [simple](#simple) | `indian give`, `indian giver` | `go back on one's offer` |
 | `pinoys` | [simple](#simple) | `pinoys`, `pinays` | `Filipinos`, `Filipino people` |
 | `towel-heads` | [simple](#simple) | `sand niggers`, `towel heads` | `Arabs`, `Middle Eastern People` |
 | `latino` | [simple](#simple) | `latino`, `latina`, `mexican` | `Latinx` |
