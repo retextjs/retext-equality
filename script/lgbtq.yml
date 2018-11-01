@@ -115,6 +115,7 @@
     - transgenders
 - type: simple
   source: http://www.glaad.org/reference/transgender
+  note: Transgender is not an adjective. It's a noun like woman or man.
   considerate:
     - transgender
   inconsiderate:
@@ -127,6 +128,7 @@
   inconsiderate:
     - transgenderism
 - type: simple
+  note: Assigned birth gender is complicated. Gender identity is more than what your parent(s) decided you were at birth.
   considerate:
     - assigned male at birth
     - designated male at birth
@@ -135,6 +137,7 @@
     - born a man
     - genetically male
 - type: simple
+  note: Assigned birth gender is complicated. Gender identity is more than what your parent(s) decided you were at birth.
   considerate:
     - assigned female at birth
     - designated female at birth
@@ -169,6 +172,7 @@
     - pseudo hermaphrodite
 - type: simple
   source: https://www.reddit.com/r/asktransgender/comments/23wbq1/is_the_term_shemale_seen_as_offensive/
+  note: Transgender people prefer to be called by their chosen pronouns. If you're confused, just ask what pronouns they prefer.
   considerate:
     - transgender person
     - person
