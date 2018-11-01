@@ -353,5 +353,7 @@ And-patterns operate on a per-paragraph level.
 | `gyp` | [simple](#simple) | `gyppo`, `gypsy`, `Gipsy`, `gyp` | `Nomad`, `Traveler`, `Roma`, `Romani` |
 | `make-*-great-again` | [simple](#simple) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
 | `committed-suicide` | [simple](#simple) | `committed suicide`, `completed suicide` | `died by suicide` |
-| `commit-suicide` | [simple](#simple) | `commit suicide`, `complete suicide` | `die by suicide` |
-| `suicide-epidemic` | [simple](#simple) | `suicide epidemic` | `rise in suicides` |
+| `commit-suicide` | [simple](#simple) | `commit suicide`, `complete suicide`, `successful suicide` | `die by suicide` |
+| `suicide-pact` | [simple](#simple) | `suicide epidemic`, `epidemic of suicides`, `suicide pact` | `rise in suicides` |
+| `failed-suicide` | [simple](#simple) | `failed suicide`, `failed attempt`, `suicide failure` | `suicide attempt`, `attempted suicide` |
+| `suicide-note` | [simple](#simple) | `suicide note` | `a note from the deceased` |
