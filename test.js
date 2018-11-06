@@ -15,7 +15,7 @@ test('retext-equality', function(t) {
     retext()
       .use(equality)
       .processSync(doc).messages[0].note,
-    'Assumes/implies that a person with a disability is deficient or inferior to others. When possible, specify the functional ability or its restriction. (source: http://ncdj.org/style-guide/)',
+    'Assumes/implies that a person with a disability is deficient or inferior to others. When possible, specify the functional ability or its restriction. (source: https://ncdj.org/style-guide/)',
     'should patch `description` when applicable'
   )
 

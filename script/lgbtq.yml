@@ -1,5 +1,5 @@
 - type: simple
-  source: http://www.glaad.org/reference/offensive
+  source: https://www.glaad.org/reference/offensive
   note: This term has a clinical history and is used to imply LGBTQ+ people are diseased or psychologically/emotionally disordered
   considerate:
     - gay
@@ -9,7 +9,7 @@
   inconsiderate:
     - homosexual
 - type: simple
-  source: http://www.glaad.org/reference/offensive
+  source: https://www.glaad.org/reference/offensive
   note: Avoid labeling something as LGBTQ+ unless you would call the same thing "straight"
   considerate:
     - relationship
@@ -17,14 +17,14 @@
     - homosexual relations
     - homosexual relationship
 - type: simple
-  source: http://www.glaad.org/reference/offensive
+  source: https://www.glaad.org/reference/offensive
   note: Avoid labeling something as LGBTQ+ unless you would call the same thing "straight"
   considerate:
     - couple
   inconsiderate:
     - homosexual couple
 - type: simple
-  source: http://www.glaad.org/reference/offensive
+  source: https://www.glaad.org/reference/offensive
   note: Implies that being LGBTQ+ is a choice
   considerate:
     - sexual orientation
@@ -32,7 +32,7 @@
   inconsiderate:
     - sexual preference
 - type: simple
-  source: http://www.glaad.org/reference/offensive
+  source: https://www.glaad.org/reference/offensive
   note: Implies that being LGBTQ+ is a choice
   considerate:
     - gay lives
@@ -41,7 +41,7 @@
     - gay lifestyle
     - homosexual lifestyle
 - type: simple
-  source: http://www.glaad.org/reference/offensive
+  source: https://www.glaad.org/reference/offensive
   note: Used by anti-LGBTQ+ extremists to create a climate of fear around LGBTQ+ issues
   considerate:
     - gay issues
@@ -49,7 +49,7 @@
     - gay agenda
     - homosexual agenda
 - type: simple
-  source: http://www.glaad.org/reference/style
+  source: https://www.glaad.org/reference/style
   note: LGBTQ+ rights are human rights
   considerate:
     - equal rights
@@ -58,7 +58,7 @@
     - special rights
     - gay rights
 - type: simple
-  source: http://www.glaad.org/reference/offensive
+  source: https://www.glaad.org/reference/offensive
   note: Derogatory terms for LGBTQ+ are offensive
   considerate:
     - gay
@@ -69,59 +69,59 @@
     - homo
     - sodomite
 - type: simple
-  source: http://www.glaad.org/reference/style
+  source: https://www.glaad.org/reference/style
   considerate:
     - bisexual
   inconsiderate:
     - bi
 - type: simple
-  source: http://www.glaad.org/reference/style
+  source: https://www.glaad.org/reference/style
   considerate:
     - gay marriage
     - same-sex marriage
   inconsiderate:
     - homosexual marriage
 - type: simple
-  source: http://www.glaad.org/reference/style
+  source: https://www.glaad.org/reference/style
   considerate:
     - transgender
   inconsiderate:
     - tranny
 - type: simple
-  source: http://www.glaad.org/reference/transgender
+  source: https://www.glaad.org/reference/transgender
   considerate:
     - cross-dresser
   inconsiderate:
     - transvestite
 - type: simple
-  source: http://www.glaad.org/reference/transgender
+  source: https://www.glaad.org/reference/transgender
   considerate:
     - transition
   inconsiderate:
     - sexchange
     - sex change
 - type: simple
-  source: http://www.glaad.org/reference/transgender
+  source: https://www.glaad.org/reference/transgender
   considerate:
     - sex reassignment surgery
   inconsiderate:
     - sex change operation
 - type: simple
-  source: http://www.glaad.org/reference/transgender
+  source: https://www.glaad.org/reference/transgender
   note: Transgender should be used as an adjective, not as a noun.
   considerate:
     - transgender people
   inconsiderate:
     - transgenders
 - type: simple
-  source: http://www.glaad.org/reference/transgender
+  source: https://www.glaad.org/reference/transgender
   note: Transgender is not an adjective. It's a noun like woman or man.
   considerate:
     - transgender
   inconsiderate:
     - transgendered
 - type: simple
-  source: http://www.glaad.org/reference/transgender
+  source: https://www.glaad.org/reference/transgender
   considerate:
     - being trangender
     - the movement for transgender equality
@@ -146,7 +146,7 @@
     - born a woman
     - genetically female
 - type: simple
-  source: http://www.glaad.org/reference/transgender
+  source: https://www.glaad.org/reference/transgender
   considerate:
     - non-discrimination law
     - non-discrimination ordinance

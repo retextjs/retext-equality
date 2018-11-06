@@ -1,12 +1,12 @@
 - type: simple
-  source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide, http://www.speakingofsuicide.com/2013/04/13/language/
+  source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide, https://www.speakingofsuicide.com/2013/04/13/language/
   considerate:
     - died by suicide
   inconsiderate:
     - committed suicide
     - completed suicide
 - type: simple
-  source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide, http://www.speakingofsuicide.com/2013/04/13/language/
+  source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide, https://www.speakingofsuicide.com/2013/04/13/language/
   note: Committing suicide is not successful/unsuccessful, that sends the wrong message
   considerate:
     - die by suicide
@@ -23,7 +23,7 @@
     - epidemic of suicides
     - suicide pact
 - type: simple
-  source: http://www.speakingofsuicide.com/2013/04/13/language, https://www.afsp.org/news-events/for-the-media/reporting-on-suicide
+  source: https://www.speakingofsuicide.com/2013/04/13/language, https://www.afsp.org/news-events/for-the-media/reporting-on-suicide
   note: Attempted suicide should not be depicted as a failure
   considerate:
     - suicide attempt

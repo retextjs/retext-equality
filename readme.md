@@ -120,7 +120,7 @@ Once you are happy with the new rule, add a test for it in
 
 [license]: license
 
-[author]: http://wooorm.com
+[author]: https://wooorm.com
 
 [retext]: https://github.com/retextjs/retext
 
