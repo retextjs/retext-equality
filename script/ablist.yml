@@ -1,8 +1,9 @@
 - type: simple
-  note: When possible, specify the functional ability or its restriction.
+  note: Refer to the person, rather than the disability, first.
   considerate: person with learning disabilities
   inconsiderate: learning disabled
 - type: simple
+  note: Refer to the person, rather than the disability, first.
   considerate:
     - turned off
     - has a disability
@@ -35,7 +36,7 @@
     - afflicted with a disability
 - type: simple
   source: https://ncdj.org/style-guide/
-  note: People with special abilities is a gentler term that conveys the same meaning.
+  note: Refer to the person, rather than the disability, first.
   considerate:
     - people with intellectual disabilities
   inconsiderate:
@@ -55,6 +56,7 @@
     - afflicted with a intellectual disability
 - type: simple
   source: https://ncdj.org/style-guide/
+  note: Describe the behavior or illness without derogatory words.
   considerate:
     - rude
     - malicious
@@ -115,15 +117,18 @@
   inconsiderate: handicapped parking
 - type: simple
   source: https://ncdj.org/style-guide/
+  note: Refer to the person, rather than the disability, first.
   considerate:
     - person with a handicap
     - accessible
   inconsiderate: handicapped
 - type: simple
   source: https://ncdj.org/style-guide/
+  note: Refer to the person, rather than the condition, first.
   considerate: person with an amputation
   inconsiderate: amputee
 - type: simple
+  note: Refer to the specific disability.
   considerate: person with a limp
   inconsiderate:
     - cripple
@@ -133,6 +138,7 @@
   considerate: person with Down Syndrome
   inconsiderate: mongoloid
 - type: simple
+  note: Refer to the person, rather than the condition, first.
   considerate: individual who has had a stroke
   inconsiderate:
     - stroke victim
