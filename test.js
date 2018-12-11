@@ -15,7 +15,7 @@ test('retext-equality', function(t) {
     retext()
       .use(equality)
       .processSync(doc).messages[0].note,
-    'If possible, describe exacly what this is. (source: http://ncdj.org/style-guide/)',
+    'Assumes/implies that a person with a disability is deficient or inferior to others. When possible, specify the functional ability or its restriction. (source: https://ncdj.org/style-guide/)',
     'should patch `description` when applicable'
   )
 
@@ -54,7 +54,7 @@ test('retext-equality', function(t) {
   )
 
   t.same(
-    process('Frenchmen are comming.'),
+    process('Frenchmen are coming.'),
     ['1:1-1:10: `Frenchmen` may be insensitive, use `French` instead'],
     'case-insensitive pronouns'
   )
@@ -413,6 +413,14 @@ test('Phrasing', function(t) {
       '1:9-1:13: `make something great again` may be insensitive, use `improve` instead'
     ],
     'We will make something great again'
+  )
+
+  t.same(
+    process("They're handicapable."),
+    [
+      '1:9-1:21: `handicapable` may be insensitive, use `has a disability`, `person with a disability`, `people with disabilities` instead'
+    ],
+    "They're handicapable."
   )
 
   t.end()

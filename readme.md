@@ -1,4 +1,4 @@
-# retext-equality [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov] [![Chat][chat-badge]][chat]
+# retext-equality [![Build][build-badge]][build] [![Coverage][coverage-badge]][coverage] [![Downloads][downloads-badge]][downloads] [![Chat][chat-badge]][chat]
 
 Warn about possible insensitive, inconsiderate language with
 [**retext**][retext].
@@ -73,14 +73,14 @@ See [`rules.md`][rules] for a list of rules.
 
 ## Contributing
 
-Thanks, contributions are greatly appreciated!  :+1: 
+Thanks, contributions are greatly appreciated!  :+1:
 See [`contributing.md` in `retextjs/retext`][contributing] for ways to get
-started.  This organisation has a [Code of Conduct][coc].  By interacting 
+started.  This organisation has a [Code of Conduct][coc].  By interacting
 with this repository, organisation, or community you agree to abide by its
 terms.
 
-To create new patterns, add them in the YAML files in the 
-[`script/`][script] directory, and run `npm install` and then `npm test` 
+To create new patterns, add them in the YAML files in the
+[`script/`][script] directory, and run `npm install` and then `npm test`
 to build everything.  New rules will be automatically added to `rules.md`.
 Please see the current patterns for inspiration.
 
@@ -104,23 +104,27 @@ Once you are happy with the new rule, add a test for it in
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/retextjs/retext-equality.svg
+[build-badge]: https://img.shields.io/travis/retextjs/retext-equality.svg
 
-[travis]: https://travis-ci.org/retextjs/retext-equality
+[build]: https://travis-ci.org/retextjs/retext-equality
 
-[codecov-badge]: https://img.shields.io/codecov/c/github/retextjs/retext-equality.svg
+[coverage-badge]: https://img.shields.io/codecov/c/github/retextjs/retext-equality.svg
 
-[codecov]: https://codecov.io/github/retextjs/retext-equality
+[coverage]: https://codecov.io/github/retextjs/retext-equality
 
-[chat-badge]: https://img.shields.io/gitter/room/retextjs/Lobby.svg
+[downloads-badge]: https://img.shields.io/npm/dm/retext-equality.svg
 
-[chat]: https://gitter.im/retextjs/Lobby
+[downloads]: https://www.npmjs.com/package/retext-equality
+
+[chat-badge]: https://img.shields.io/badge/join%20the%20community-on%20spectrum-7b16ff.svg
+
+[chat]: https://spectrum.chat/unified/retext
 
 [npm]: https://docs.npmjs.com/cli/install
 
-[license]: LICENSE
+[license]: license
 
-[author]: http://wooorm.com
+[author]: https://wooorm.com
 
 [retext]: https://github.com/retextjs/retext
 

@@ -56,11 +56,19 @@
   inconsiderate:
     - red indian
     - pocahontas
+    - redskin
 - type: simple
   considerate:
     - Native American People
   inconsiderate:
     - red indians
+    - redskins
+- type: simple
+  considerate:
+    - go back on one's offer
+  inconsiderate:
+    - indian give
+    - indian giver
 - type: simple
   considerate:
     - Filipinos
@@ -103,11 +111,18 @@
   inconsiderate:
     - spade
 - type: simple
+  source: en.wikipedia.org/wiki/Romani_people#cite_ref-80
+  note: Gypsy is insensitive, use Roma or Romani. They're not Egyptian as their name suggests.
   considerate:
     - Nomad
+    - Traveler
+    - Roma
+    - Romani
   inconsiderate:
     - gyppo
     - gypsy
+    - Gipsy
+    - gyp
 - type: simple
   note: Replace racially-charged language with more accurate and inclusive words
   considerate:

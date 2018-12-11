@@ -1092,12 +1092,17 @@
     - notary
     - consumer advocate
     - trouble shooter
+    - omsbudperson
+    - mediator
   inconsiderate:
     ombudswoman: female
     ombudsman: male
 - type: or
   considerate:
     - notaries
+    - omsbudpersons
+    - omsbudpeople
+    - mediators
   inconsiderate:
     ombudswomen: female
     ombudsmen: male
@@ -1458,16 +1463,20 @@
     manhours: male
     man hours: male
 - type: simple
+  note: Using gender neutral language means users will help to break up gender stereotypes.
   considerate:
     - staffed
     - crewed
     - piloted
-  inconsiderate: manned
+  inconsiderate:
+    - manned
 - type: simple
+  note: Using gender neutral language means users will help to break up gender stereotypes.
   considerate:
     - robotic
     - automated
-  inconsiderate: unmanned
+  inconsiderate:
+    - unmanned
 - type: simple
   considerate:
     - whining
