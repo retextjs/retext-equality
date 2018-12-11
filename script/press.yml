@@ -1,5 +1,5 @@
 - type: simple
-  source: http://www.usnews.com/news/newsgram/articles/2013/04/04/the-associated-press-revises-islamist-another-politically-charged-term
+  source: https://www.usnews.com/news/newsgram/articles/2013/04/04/the-associated-press-revises-islamist-another-politically-charged-term
   considerate:
     - muslim
     - person of Islamic faith
@@ -10,7 +10,7 @@
   inconsiderate:
     - islamist
 - type: simple
-  source: http://www.usnews.com/news/newsgram/articles/2013/04/04/the-associated-press-revises-islamist-another-politically-charged-term
+  source: https://www.usnews.com/news/newsgram/articles/2013/04/04/the-associated-press-revises-islamist-another-politically-charged-term
   considerate:
     - muslims
     - people of Islamic faith
@@ -18,4 +18,4 @@
     - zealots
   inconsiderate:
     - islamists
-    - 
+    -
