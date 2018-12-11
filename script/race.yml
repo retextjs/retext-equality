@@ -108,3 +108,19 @@
   inconsiderate:
     - gyppo
     - gypsy
+- type: simple
+  note: Replace racially-charged language with more accurate and inclusive words
+  considerate:
+    - blocklist
+    - banlist
+    - deny list
+  inconsiderate:
+    - blacklist
+- type: simple
+  note: Replace racially-charged language with more accurate and inclusive words
+  considerate:
+    - alrightlist
+    - safelist
+    - allow list
+  inconsiderate:
+    - whitelist
