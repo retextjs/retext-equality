@@ -127,6 +127,7 @@
   note: Replace racially-charged language with more accurate and inclusive words
   considerate:
     - blocklist
+    - wronglist
     - banlist
     - deny list
   inconsiderate:
@@ -134,6 +135,7 @@
 - type: simple
   note: Replace racially-charged language with more accurate and inclusive words
   considerate:
+    - passlist
     - alrightlist
     - safelist
     - allow list
