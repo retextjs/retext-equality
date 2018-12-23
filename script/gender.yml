@@ -1385,6 +1385,9 @@
 - type: simple
   considerate:
     - human resources
+    - workforce
+    - personnel
+    - staff
   inconsiderate:
     manpower: male
 - type: simple
