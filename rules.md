@@ -281,7 +281,7 @@ And-patterns operate on a per-paragraph level.
 | `man-enough` | [simple](#simple) | `man enough` | `strong enough` |
 | `oneupmanship` | [simple](#simple) | `oneupmanship` | `upstaging`, `competitiveness` |
 | `mrs-` | [simple](#simple) | `miss.`, `mrs.` | `ms.` |
-| `manmade` | [simple](#simple) | `manmade` | `manufactured`, `artificial`, `synthetic`, `machine-made` |
+| `manmade` | [simple](#simple) | `manmade` | `manufactured`, `artificial`, `synthetic`, `machine-made`, `constructed` |
 | `man-of-action` | [simple](#simple) | `man of action` | `dynamo` |
 | `man-of-letters` | [simple](#simple) | `man of letters` | `scholar`, `writer`, `literary figure` |
 | `man-of-the-world` | [simple](#simple) | `man of the world` | `sophisticate` |
@@ -291,7 +291,7 @@ And-patterns operate on a per-paragraph level.
 | `housewife` | [simple](#simple) | `housewife` | `homemaker`, `homeworker` |
 | `housewives` | [simple](#simple) | `housewives` | `homemakers`, `homeworkers` |
 | `motherly` | [simple](#simple) | `motherly` | `loving`, `warm`, `nurturing` |
-| `manpower` | [simple](#simple) | `manpower` | `human resources` |
+| `manpower` | [simple](#simple) | `manpower` | `human resources`, `workforce`, `personnel`, `staff` |
 | `master-of-ceremonies` | [simple](#simple) | `master of ceremonies` | `emcee`, `moderator`, `convenor` |
 | `masterful` | [simple](#simple) | `masterful` | `skilled`, `authoritative`, `commanding` |
 | `mastermind` | [simple](#simple) | `mastermind` | `genius`, `creator`, `instigator`, `oversee`, `launch`, `originate` |
@@ -350,6 +350,8 @@ And-patterns operate on a per-paragraph level.
 | `goy` | [simple](#simple) | `kike`, `goyum`, `goy`, `shlomo` | `Jewish person` |
 | `spade` | [simple](#simple) | `spade` | `a Black person` |
 | `gyp` | [simple](#simple) | `gyppo`, `gypsy`, `Gipsy`, `gyp` | `Nomad`, `Traveler`, `Roma`, `Romani` |
+| `blacklist` | [simple](#simple) | `blacklist` | `blocklist`, `wronglist`, `banlist`, `deny list` |
+| `whitelist` | [simple](#simple) | `whitelist` | `passlist`, `alrightlist`, `safelist`, `allow list` |
 | `make-*-great-again` | [simple](#simple) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
 | `committed-suicide` | [simple](#simple) | `committed suicide`, `completed suicide` | `died by suicide` |
 | `commit-suicide` | [simple](#simple) | `commit suicide`, `complete suicide`, `successful suicide` | `die by suicide` |

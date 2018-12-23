@@ -1326,6 +1326,7 @@
     - artificial
     - synthetic
     - machine-made
+    - constructed
   inconsiderate:
     manmade: male
 - type: simple
@@ -1385,6 +1386,9 @@
 - type: simple
   considerate:
     - human resources
+    - workforce
+    - personnel 
+    - staff
   inconsiderate:
     manpower: male
 - type: simple
