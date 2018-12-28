@@ -176,6 +176,12 @@ test('retext-equality', function(t) {
     'relation across sentences'
   )
 
+  t.same(
+    process('Undefined and null are constants.'),
+    [],
+    'relation across sentences'
+  )
+
   t.end()
 })
 

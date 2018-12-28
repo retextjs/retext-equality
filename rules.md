@@ -332,7 +332,7 @@ And-patterns operate on a per-paragraph level.
 | `hermaphrodite` | [simple](#simple) | `hermaphrodite`, `pseudohermaphrodite`, `pseudo hermaphrodite` | `person who is intersex`, `person`, `intersex person` |
 | `heshe` | [simple](#simple) | `shemale`, `she male`, `heshe`, `shehe` | `transgender person`, `person` |
 | `islamist` | [simple](#simple) | `islamist` | `muslim`, `person of Islamic faith`, `fanatic`, `zealot`, `follower of islam`, `follower of the islamic faith` |
-| `null` | [simple](#simple) | `islamists`, `null` | `muslims`, `people of Islamic faith`, `fanatics`, `zealots` |
+| `islamists` | [simple](#simple) | `islamists` | `muslims`, `people of Islamic faith`, `fanatics`, `zealots` |
 | `master-slave` | [and](#and) | `master` (a), `masters` (a), `slave` (b), `slaves` (b) | `primary`, `primaries`, `hub`, `hubs`, `reference`, `references`, `replica`, `replicas`, `spoke`, `spokes`, `secondary`, `secondaries` |
 | `eskimo` | [simple](#simple) | `eskimo` | `Inuit` |
 | `eskimos` | [simple](#simple) | `eskimos` | `Inuits` |
