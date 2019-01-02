@@ -143,6 +143,7 @@
     - whitelist
 - type: simple
   note: Avoid using terms that imply a group has not changed over time and that they are inferior
+  considerate:
     - simple
     - indigenous
     - hunter-gatherer
