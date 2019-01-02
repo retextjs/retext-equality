@@ -141,3 +141,32 @@
     - allow list
   inconsiderate:
     - whitelist
+- type: simple
+  note: Avoid using terms that imply a group has not changed over time and that they are inferior
+  considerate:
+    - simple
+    - indigenous
+    - hunter-gatherer
+  inconsiderate:
+    - primitive
+    - savage
+    - stone age
+- type: simple
+  note: Avoid using terms that make some groups sound inferior
+  considerate:
+    - society
+    - community
+  inconsiderate:
+    - tribe
+- type: simple
+  note: Avoid using terms that make some groups sound inferior. Replace "sophisticated" with a neutral term such as "complex"
+  considerate:
+    - complex culture
+  inconsiderate:
+    - sophisticated culture
+- type: simple
+  note: Avoid using terms that make some groups sound inferior. Replace "sophisticated" with a neutral term such as "complex"
+  considerate:
+    - complex technology
+  inconsiderate:
+    - sophisticated technology

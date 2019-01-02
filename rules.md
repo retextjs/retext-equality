@@ -352,6 +352,10 @@ And-patterns operate on a per-paragraph level.
 | `gyp` | [simple](#simple) | `gyppo`, `gypsy`, `Gipsy`, `gyp` | `Nomad`, `Traveler`, `Roma`, `Romani` |
 | `blacklist` | [simple](#simple) | `blacklist` | `blocklist`, `wronglist`, `banlist`, `deny list` |
 | `whitelist` | [simple](#simple) | `whitelist` | `passlist`, `alrightlist`, `safelist`, `allow list` |
+| `savage` | [simple](#simple) | `primitive`, `savage`, `stone age` | `simple`, `indigenous`, `hunter-gatherer` |
+| `tribe` | [simple](#simple) | `tribe` | `society`, `community` |
+| `sophisticated-culture` | [simple](#simple) | `sophisticated culture` | `complex culture` |
+| `sophisticated-technology` | [simple](#simple) | `sophisticated technology` | `complex technology` |
 | `make-*-great-again` | [simple](#simple) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
 | `committed-suicide` | [simple](#simple) | `committed suicide`, `completed suicide` | `died by suicide` |
 | `commit-suicide` | [simple](#simple) | `commit suicide`, `complete suicide`, `successful suicide` | `die by suicide` |
