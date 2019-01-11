@@ -86,6 +86,24 @@
     - mental case
     - mental
 - type: simple
+  note: When describing a mathematical or programmatic value, using the word “sane” needlessly invokes the topic of mental health.  Consider using a domain-specific or neutral term instead.
+  considerate:
+    - correct
+    - adequate
+    - sufficient
+    - consistent
+    - valid
+    - coherent
+  inconsiderate: sane
+- type: simple
+  note: When describing a mathematical or programmatic value, using the phrase “sanity check” needlessly invokes the topic of mental health.  Consider using simply “check”, or a domain-specific or neutral term, instead.
+  considerate:
+    - check
+    - assertion
+    - validation
+    - smoke test
+  inconsiderate: sanity check
+- type: simple
   source: https://ncdj.org/style-guide/
   note: Only use terms describing mental illness when referring to a professionally diagnosed medical condition.
   considerate:

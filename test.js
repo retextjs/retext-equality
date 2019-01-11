@@ -212,6 +212,22 @@ test('Phrasing', function(t) {
   )
 
   t.same(
+    process('First we check if the value is sane:'),
+    [
+      '1:32-1:36: `sane` may be insensitive, use `correct`, `adequate`, `sufficient`, `consistent`, `valid`, `coherent` instead'
+    ],
+    'First we check if the value is sane:'
+  )
+
+  t.same(
+    process("Let's do a quick sanity check here."),
+    [
+      '1:18-1:24: `sanity check` may be insensitive, use `check`, `assertion`, `validation`, `smoke test` instead'
+    ],
+    "Let's do a quick sanity check here."
+  )
+
+  t.same(
     process('I like him.'),
     [
       '1:8-1:11: `him` may be insensitive, when referring to a person, use `their`, `theirs`, `them` instead'

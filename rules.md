@@ -36,6 +36,8 @@ And-patterns operate on a per-paragraph level.
 | `intellectually-disabled-people` | [simple](#simple) | `intellectually disabled people` | `people with intellectual disabilities` |
 | `intellectually-disabled` | [simple](#simple) | `intellectually disabled`, `has intellectual issues`, `suffers from intellectual disabilities`, `suffering from intellectual disabilities`, `suffering from an intellectual disability`, `afflicted with intellectual disabilities`, `afflicted with a intellectual disability` | `person with an intellectual disability` |
 | `nuts` | [simple](#simple) | `batshit`, `psycho`, `crazy`, `delirious`, `insane`, `insanity`, `loony`, `lunacy`, `lunatic`, `mentally ill`, `psychopathology`, `mental defective`, `moron`, `moronic`, `nuts`, `mental case`, `mental` | `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` |
+| `sane` | [simple](#simple) | `sane` | `correct`, `adequate`, `sufficient`, `consistent`, `valid`, `coherent` |
+| `sanity-check` | [simple](#simple) | `sanity check` | `check`, `assertion`, `validation`, `smoke test` |
 | `bipolar` | [simple](#simple) | `bipolar` | `fluctuating`, `person with bipolar disorder` |
 | `schizo` | [simple](#simple) | `schizophrenic`, `schizo` | `person with schizophrenia` |
 | `manic` | [simple](#simple) | `suffers from schizophrenia`, `suffering from schizophrenia`, `afflicted with schizophrenia`, `manic` | `person with schizophrenia` |
