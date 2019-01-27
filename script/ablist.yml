@@ -94,6 +94,8 @@
     - consistent
     - valid
     - coherent
+    - sensible
+    - reasonable
   inconsiderate: sane
 - type: simple
   note: When describing a mathematical or programmatic value, using the phrase “sanity check” needlessly invokes the topic of mental health.  Consider using simply “check”, or a domain-specific or neutral term, instead.

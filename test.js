@@ -214,7 +214,7 @@ test('Phrasing', function(t) {
   t.same(
     process('First we check if the value is sane:'),
     [
-      '1:32-1:36: `sane` may be insensitive, use `correct`, `adequate`, `sufficient`, `consistent`, `valid`, `coherent` instead'
+      '1:32-1:36: `sane` may be insensitive, use `correct`, `adequate`, `sufficient`, `consistent`, `valid`, `coherent`, `sensible`, `reasonable` instead'
     ],
     'First we check if the value is sane:'
   )
