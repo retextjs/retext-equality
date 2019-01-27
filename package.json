@@ -71,7 +71,7 @@
     "tinyify": "^2.4.3",
     "unist-builder": "^1.0.2",
     "vfile-sort": "^2.0.0",
-    "xo": "^0.23.0"
+    "xo": "^0.24.0"
   },
   "scripts": {
     "generate": "node script/extract.js",
