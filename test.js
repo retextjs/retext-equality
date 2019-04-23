@@ -445,6 +445,20 @@ test('Phrasing', function(t) {
     "They're handicapable."
   )
 
+  t.same(
+    process(
+      'Now that the child elements are floated, obviously the parent element will collapse.'
+    ),
+    ['1:42-1:51: `obviously` may be insensitive, try not to use it'],
+    'Obviously'
+  )
+
+  t.same(
+    process('Of course the retina images are too large for non-retina screens'),
+    ['1:1-1:3: `Of course` may be insensitive, try not to use it'],
+    'Of course'
+  )
+
   t.end()
 })
 

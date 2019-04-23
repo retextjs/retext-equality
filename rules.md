@@ -103,6 +103,14 @@ And-patterns operate on a per-paragraph level.
 | `buckteeth` | [simple](#simple) | `bucktoothed`, `buckteeth` | `person with prominent teeth`, `prominent teeth` |
 | `special` | [simple](#simple) | `challenged`, `diffability`, `differently abled`, `handicapable`, `special`, `special needs`, `specially abled` | `has a disability`, `person with a disability`, `people with disabilities` |
 | `libtard` | [simple](#simple) | `fucktard`, `libtard`, `contard` | `disagreeable`, `uneducated`, `ignorant`, `naive`, `inconsiderate` |
+| `obviously` | [simple](#simple) | `obviously` |  |
+| `just` | [simple](#simple) | `just` |  |
+| `basically` | [simple](#simple) | `basically` |  |
+| `simply` | [simple](#simple) | `simply` |  |
+| `easy` | [simple](#simple) | `easy` |  |
+| `of-course` | [simple](#simple) | `of course` |  |
+| `clearly` | [simple](#simple) | `clearly` |  |
+| `everyone-knows` | [simple](#simple) | `everyone knows` |  |
 | `her-him` | [or](#or) | `her` (female), `hers` (female), `him` (male), `his` (male) | `their`, `theirs`, `them` |
 | `he-she` | [or](#or) | `she` (female), `he` (male), `she'd` (female), `he'd` (male), `she'll` (female), `he'll` (male), `she's` (female), `he's` (male) | `they`, `it` |
 | `herself-himself` | [or](#or) | `herself` (female), `himself` (male) | `themselves`, `theirself`, `self` |
