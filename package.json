@@ -62,7 +62,7 @@
     "browserify": "^16.0.0",
     "js-yaml": "^3.6.1",
     "mdast-util-heading-range": "^2.0.1",
-    "nyc": "^13.0.0",
+    "nyc": "^14.0.0",
     "remark-cli": "^6.0.0",
     "remark-lint-table-pipe-alignment": "^1.0.0",
     "remark-preset-wooorm": "^4.0.0",
