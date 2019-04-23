@@ -44,7 +44,7 @@ function transformer(tree) {
 function renderCell(phrases, includeCategories) {
   var result = []
 
-  Object.keys(phrases).forEach(function(value, index, values) {
+  Object.keys(phrases || {}).forEach(function(value, index, values) {
     result.push(u('inlineCode', value))
 
     if (includeCategories) {

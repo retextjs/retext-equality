@@ -146,7 +146,7 @@ function clean(value) {
     value = [value]
   }
 
-  if ('length' in value && value.length !== 0) {
+  if (value && 'length' in value && value.length !== 0) {
     copy = value
     value = {}
 
