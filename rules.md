@@ -117,12 +117,12 @@ And-patterns operate on a per-paragraph level.
 | `boy-girl` | [or](#or) | `girl` (female), `boy` (male) | `kid`, `child` |
 | `gals-men` | [or](#or) | `women` (female), `girls` (female), `gals` (female), `ladies` (female), `men` (male), `guys` (male), `dudes` (male), `gents` (male), `gentlemen` (male) | `people`, `persons`, `folks` |
 | `gal-guy` | [or](#or) | `woman` (female), `gal` (female), `lady` (female), `babe` (female), `bimbo` (female), `chick` (female), `guy` (male), `lad` (male), `fellow` (male), `dude` (male), `bro` (male), `gentleman` (male) | `person`, `friend`, `pal`, `folk`, `individual` |
-| `fatherland-motherland` | [or](#or) | `motherland` (female), `fatherland` (male) | `native land` |
+| `fatherland-motherland` | [or](#or) | `motherland` (female), `fatherland` (male) | `native land`, `homeland` |
 | `father-tongue-mother-tongue` | [or](#or) | `mother tongue` (female), `father tongue` (male) | `native tongue`, `native language` |
 | `freshmen-freshwomen` | [or](#or) | `freshwomen` (female), `freshmen` (male) | `first-year students`, `freshers` |
 | `garbageman-garbagewoman` | [or](#or) | `garbagewoman` (female), `garbageman` (male) | `garbage collector`, `waste collector`, `trash collector` |
 | `garbagemen-garbagewomen` | [or](#or) | `garbagewomen` (female), `garbagemen` (male) | `garbage collectors`, `waste collectors`, `trash collectors` |
-| `chairman-chairwoman` | [or](#or) | `chairwoman` (female), `chairman` (male) | `chair`, `chairperson`, `coordinator` |
+| `chairman-chairwoman` | [or](#or) | `chairwoman` (female), `chairman` (male) | `chair`, `head`, `chairperson`, `coordinator`, `committee head`, `moderator`, `presiding officer` |
 | `committee-man-committee-woman` | [or](#or) | `committee woman` (female), `committee man` (male) | `committee member` |
 | `cowboy-cowgirl` | [or](#or) | `cowgirl` (female), `cowboy` (male) | `cowhand` |
 | `cowboys-cowgirls` | [or](#or) | `cowgirls` (female), `cowboys` (male) | `cowhands` |
@@ -137,9 +137,9 @@ And-patterns operate on a per-paragraph level.
 | `stewardesses-stewards` | [or](#or) | `stewardesses` (female), `stewards` (male) | `flight attendants` |
 | `congressman-congresswoman` | [or](#or) | `congresswoman` (female), `congressman` (male) | `member of congress`, `congress person`, `legislator`, `representative` |
 | `congressmen-congresswomen` | [or](#or) | `congresswomen` (female), `congressmen` (male) | `members of congress`, `congress persons`, `legislators`, `representatives` |
-| `fireman-firewoman` | [or](#or) | `firewoman` (female), `fireman` (male) | `fire fighter` |
+| `fireman-firewoman` | [or](#or) | `firewoman` (female), `fireman` (male) | `fire fighter`, `fire officer` |
 | `firemen-firewomen` | [or](#or) | `firewomen` (female), `firemen` (male) | `fire fighters` |
-| `fisherman-fisherwoman` | [or](#or) | `fisherwoman` (female), `fisherman` (male) | `fisher`, `crew member` |
+| `fisherman-fisherwoman` | [or](#or) | `fisherwoman` (female), `fisherman` (male) | `fisher`, `crew member`, `fisherfolk`, `angler` |
 | `fishermen-fisherwomen` | [or](#or) | `fisherwomen` (female), `fishermen` (male) | `fishers` |
 | `brotherhood-sisterhood` | [or](#or) | `sisterhood` (female), `brotherhood` (male) | `kinship`, `community` |
 | `common-girl-common-man` | [or](#or) | `common girl` (female), `common man` (male) | `common person`, `average person` |
@@ -162,7 +162,7 @@ And-patterns operate on a per-paragraph level.
 | `newsmen-newswomen` | [or](#or) | `newswomen` (female), `newspaperwomen` (female), `anchorwomen` (female), `newsmen` (male), `newspapermen` (male), `anchormen` (male) | `anchors`, `journalists` |
 | `repairman-repairwoman` | [or](#or) | `repairwoman` (female), `repairman` (male) | `repairer`, `technician` |
 | `repairmen-repairwomen` | [or](#or) | `repairwomen` (female), `repairmen` (male) | `technicians` |
-| `saleslady-salesman` | [or](#or) | `saleswoman` (female), `sales woman` (female), `saleslady` (female), `salesman` (male), `sales man` (male) | `salesperson`, `sales clerk`, `sales rep`, `sales agent`, `seller` |
+| `saleslady-salesman` | [or](#or) | `saleswoman` (female), `sales woman` (female), `saleslady` (female), `salesman` (male), `sales man` (male) | `salesperson`, `sales clerk`, `sales rep`, `sales agent`, `sales attendant`, `seller`, `shop assistant` |
 | `salesmen-saleswomen` | [or](#or) | `saleswomen` (female), `sales women` (female), `salesladies` (female), `salesmen` (male), `sales men` (male) | `sales clerks`, `sales reps`, `sales agents`, `sellers` |
 | `serviceman-servicewoman` | [or](#or) | `servicewoman` (female), `serviceman` (male) | `soldier`, `service representative` |
 | `servicemen-servicewomen` | [or](#or) | `servicewomen` (female), `servicemen` (male) | `soldiers`, `service representatives` |
@@ -243,7 +243,7 @@ And-patterns operate on a per-paragraph level.
 | `laymen-laywomen` | [or](#or) | `laywomen` (female), `laymen` (male) | `civilians` |
 | `dame-lord` | [or](#or) | `dame` (female), `lord` (male) | `official`, `owner`, `expert`, `superior`, `chief`, `ruler` |
 | `dames-lords` | [or](#or) | `dames` (female), `lords` (male) | `officials`, `masters`, `chiefs`, `rulers` |
-| `manhood-womanhood` | [or](#or) | `womanhood` (female), `masculinity` (male), `manhood` (male) | `adulthood`, `personhood` |
+| `manhood-womanhood` | [or](#or) | `womanhood` (female), `masculinity` (male), `manhood` (male) | `adulthood`, `personhood`, `maturity` |
 | `femininity-manliness` | [or](#or) | `femininity` (female), `manliness` (male) | `humanity` |
 | `marksman-markswoman` | [or](#or) | `markswoman` (female), `marksman` (male) | `shooter` |
 | `marksmen-markswomen` | [or](#or) | `markswomen` (female), `marksmen` (male) | `shooters` |
@@ -283,7 +283,7 @@ And-patterns operate on a per-paragraph level.
 | `weathermen-weatherwomen` | [or](#or) | `weatherwomen` (female), `weathermen` (male) | `weather forecasters`, `meteorologists` |
 | `widow-widower` | [or](#or) | `widow` (female), `widows` (female), `widower` (male), `widowers` (male) | `bereaved` |
 | `own-man-own-woman` | [or](#or) | `own woman` (female), `own man` (male) | `own person` |
-| `frenchmen` | [simple](#simple) | `frenchmen` | `french` |
+| `frenchmen` | [simple](#simple) | `frenchmen` | `french`, `the french` |
 | `ladylike` | [simple](#simple) | `ladylike` | `courteous`, `cultured` |
 | `like-a-man` | [simple](#simple) | `like a man` | `resolutely`, `bravely` |
 | `maiden-name` | [simple](#simple) | `maiden name` | `birth name` |
@@ -295,13 +295,13 @@ And-patterns operate on a per-paragraph level.
 | `man-of-action` | [simple](#simple) | `man of action` | `dynamo` |
 | `man-of-letters` | [simple](#simple) | `man of letters` | `scholar`, `writer`, `literary figure` |
 | `man-of-the-world` | [simple](#simple) | `man of the world` | `sophisticate` |
-| `fellowship` | [simple](#simple) | `fellowship` | `camaraderie` |
+| `fellowship` | [simple](#simple) | `fellowship` | `camaraderie`, `community`, `organization` |
 | `freshman` | [simple](#simple) | `freshman`, `freshwoman` | `first-year student`, `fresher` |
 | `workmanship` | [simple](#simple) | `workmanship` | `quality construction`, `expertise` |
 | `housewife` | [simple](#simple) | `housewife` | `homemaker`, `homeworker` |
 | `housewives` | [simple](#simple) | `housewives` | `homemakers`, `homeworkers` |
 | `motherly` | [simple](#simple) | `motherly` | `loving`, `warm`, `nurturing` |
-| `manpower` | [simple](#simple) | `manpower` | `human resources`, `workforce`, `personnel`, `staff` |
+| `manpower` | [simple](#simple) | `manpower` | `human resources`, `workforce`, `personnel`, `staff`, `labor`, `labor force`, `staffing`, `combat personnel` |
 | `master-of-ceremonies` | [simple](#simple) | `master of ceremonies` | `emcee`, `moderator`, `convenor` |
 | `masterful` | [simple](#simple) | `masterful` | `skilled`, `authoritative`, `commanding` |
 | `mastermind` | [simple](#simple) | `mastermind` | `genius`, `creator`, `instigator`, `oversee`, `launch`, `originate` |
@@ -312,12 +312,61 @@ And-patterns operate on a per-paragraph level.
 | `madmen` | [simple](#simple) | `madmen`, `mad men` | `maniacs` |
 | `mankind` | [simple](#simple) | `mankind` | `humankind` |
 | `manhour` | [simple](#simple) | `manhour`, `man hour` | `staff hour`, `hour of work` |
-| `manhours` | [simple](#simple) | `manhours`, `man hours` | `staff hours`, `hours of work` |
+| `manhours` | [simple](#simple) | `manhours`, `man hours` | `staff hours`, `hours of work`, `hours of labor`, `hours` |
 | `manned` | [simple](#simple) | `manned` | `staffed`, `crewed`, `piloted` |
 | `unmanned` | [simple](#simple) | `unmanned` | `robotic`, `automated` |
 | `moaning` | [simple](#simple) | `bitching`, `moaning` | `whining`, `complaining`, `crying` |
 | `moan` | [simple](#simple) | `bitch`, `moan` | `whine`, `complain`, `cry` |
 | `wifebeater` | [simple](#simple) | `wife beater`, `wifebeater` | `tank top`, `sleeveless undershirt` |
+| `ancient-man` | [simple](#simple) | `ancient man` | `ancient civilization`, `ancient people` |
+| `authoress` | [simple](#simple) | `authoress` | `author`, `writer` |
+| `average-housewife` | [simple](#simple) | `average housewife` | `average consumer`, `average household`, `average homemaker` |
+| `average-man` | [simple](#simple) | `average man` | `average person` |
+| `average-working-man` | [simple](#simple) | `average working man` | `average wage earner`, `average taxpayer` |
+| `aviatrix` | [simple](#simple) | `aviatrix` | `aviator` |
+| `brotherhood-of-man` | [simple](#simple) | `brotherhood of man` | `the human family` |
+| `calendar-girl` | [simple](#simple) | `calendar girl` | `model` |
+| `call-girl` | [simple](#simple) | `call girl` | `escort`, `prostitute`, `sex worker` |
+| `churchman` | [simple](#simple) | `churchman` | `cleric`, `practicing Christian`, `pillar of the Church` |
+| `english-master` | [simple](#simple) | `english master` | `english coordinator`, `senior teacher of english` |
+| `englishmen` | [simple](#simple) | `englishmen` | `the english` |
+| `executrix` | [simple](#simple) | `executrix` | `executor` |
+| `father-of-*` | [simple](#simple) | `father of *` | `founder of` |
+| `founding-father` | [simple](#simple) | `founding father` | `the founders`, `founding leaders`, `forebears` |
+| `housemaid` | [simple](#simple) | `housemaid` | `house worker`, `domestic help` |
+| `industrial-man` | [simple](#simple) | `industrial man` | `industrial civilization`, `industrial people` |
+| `lady-doctor` | [simple](#simple) | `lady doctor` | `doctor` |
+| `leading-lady` | [simple](#simple) | `leading lady` | `lead` |
+| `maiden` | [simple](#simple) | `maiden` | `virgin` |
+| `maiden-race` | [simple](#simple) | `maiden race` | `first race` |
+| `maiden-speech` | [simple](#simple) | `maiden speech` | `first speech` |
+| `man-a-desk` | [simple](#simple) | `man a desk` | `staff a desk` |
+| `man-in-the-street` | [simple](#simple) | `man in the street` | `ordinary citizen`, `typical person`, `average person` |
+| `man-of-the-land` | [simple](#simple) | `man of the land` | `farmer`, `rural worker`, `grazier`, `landowner`, `rural community`, `country people`, `country folk` |
+| `mans-best-friend` | [simple](#simple) | `mans best friend` | `a faithful dog` |
+| `man-the-booth` | [simple](#simple) | `man the booth` | `staff the booth` |
+| `man-the-phones` | [simple](#simple) | `man the phones` | `answer the phones` |
+| `mansized-task` | [simple](#simple) | `mansized task`, `man sized task` | `a demanding task`, `a big job` |
+| `master-key` | [simple](#simple) | `master key`, `master copy` | `pass key`, `original` |
+| `master-plan` | [simple](#simple) | `master plan` | `grand scheme`, `guiding principles` |
+| `master-the-art` | [simple](#simple) | `master the art` | `become skilled` |
+| `men-of-science` | [simple](#simple) | `men of science` | `scientists` |
+| `midwife` | [simple](#simple) | `midwife` | `birthing nurse` |
+| `modern-man` | [simple](#simple) | `modern man` | `modern civilization`, `modern people` |
+| `no-mans-land` | [simple](#simple) | `no mans land` | `unoccupied territory`, `wasteland`, `deathtrap` |
+| `office-girls` | [simple](#simple) | `office girls` | `administrative staff` |
+| `poetess` | [simple](#simple) | `poetess` | `poet` |
+| `railwayman` | [simple](#simple) | `railwayman` | `railway worker` |
+| `sportsmanlike` | [simple](#simple) | `sportsmanlike` | `fair`, `sporting` |
+| `sportsmanship` | [simple](#simple) | `sportsmanship` | `fairness`, `good humor`, `sense of fair play` |
+| `statesmanlike` | [simple](#simple) | `statesmanlike`, `statesman like` | `diplomatic` |
+| `stockman` | [simple](#simple) | `stockman` | `cattle worker`, `farmhand`, `drover` |
+| `tradesmans-entrance` | [simple](#simple) | `tradesmans entrance` | `service entrance` |
+| `tax-man` | [simple](#simple) | `tax man` | `tax commissioner`, `tax office`, `tax collector` |
+| `usherette` | [simple](#simple) | `usherette` | `usher` |
+| `woman-lawyer` | [simple](#simple) | `woman lawyer` | `lawyer` |
+| `woman-painter` | [simple](#simple) | `woman painter` | `painter` |
+| `working-wife` | [simple](#simple) | `working mother`, `working wife` | `wage or salary earning woman`, `two-income family` |
 | `homosexual` | [simple](#simple) | `homosexual` | `gay`, `gay man`, `lesbian`, `gay person/people` |
 | `homosexual-relations` | [simple](#simple) | `homosexual relations`, `homosexual relationship` | `relationship` |
 | `homosexual-couple` | [simple](#simple) | `homosexual couple` | `couple` |

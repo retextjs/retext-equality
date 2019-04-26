@@ -41,7 +41,9 @@ test('retext-equality', function(t) {
 
   t.same(
     process('Ze frenchmen are comming.'),
-    ['1:4-1:13: `frenchmen` may be insensitive, use `french` instead'],
+    [
+      '1:4-1:13: `frenchmen` may be insensitive, use `french`, `the french` instead'
+    ],
     'gender polarising words'
   )
 
@@ -55,7 +57,9 @@ test('retext-equality', function(t) {
 
   t.same(
     process('Frenchmen are coming.'),
-    ['1:1-1:10: `Frenchmen` may be insensitive, use `French` instead'],
+    [
+      '1:1-1:10: `Frenchmen` may be insensitive, use `French`, `The french` instead'
+    ],
     'case-insensitive pronouns'
   )
 
@@ -457,6 +461,15 @@ test('Phrasing', function(t) {
     process('Of course the retina images are too large for non-retina screens'),
     ['1:1-1:3: `Of course` may be insensitive, try not to use it'],
     'Of course'
+  )
+
+  t.same(
+    process('The father of computers'),
+    [
+      '1:5-1:11: `father` may be insensitive, use `parent` instead',
+      '1:5-1:11: `father of computers` may be insensitive, use `founder of` instead'
+    ],
+    'Father of'
   )
 
   t.end()
