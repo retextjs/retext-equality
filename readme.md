@@ -59,7 +59,7 @@ processed [virtual file][vfile]s.
 
 ###### `options.ignore`
 
-`Array.<string>` — List of phrases _not_ to warn about
+`Array.<string>` — List of phrases *not* to warn about
 
 ###### `options.noBinary`
 
