@@ -4,26 +4,27 @@
 
 ###### Simple
 
-Simple-patterns highlight possible inconsiderate terms and suggest
+**Simple** patterns highlight possible inconsiderate terms and suggest
 potentially more considerate alternatives.
 
 ###### Or
 
-Or-patterns highlight possible inconsiderate terms unless every
-category is present.  This is used for gendered work titles and the
-like, where `garbageman and garbagewoman` is considered OK, and so is
-`his or her bike`.  These patterns can be turned into “simple” patterns
-by passing `noBinary: true`, thus suggesting two alternatives for
-`him or her`.
+**Or** patterns highlight possible inconsiderate terms unless every category is
+present.
+This is used for gendered work titles and the like, where `garbageman and
+garbagewoman` is considered OK, and so is `his or her bike`.
+These patterns can be turned into **simple** patterns by passing `noBinary:
+true`, thus suggesting two alternatives for `him or her`.
 
-Or-patterns can be joined by `and`, `or`, or a slash (`/`).
+**Or** patterns can be joined by `and`, `or`, or a slash (`/`).
 
 ###### And
 
-And-patterns highlight possible inconsiderate terms if every category is
-present.  This is used for one case: `master` and `slave`.
+**And** patterns highlight possible inconsiderate terms if every category is
+present.
+This is used for one case: `master` and `slave`.
 
-And-patterns operate on a per-paragraph level.
+**And** patterns operate on a per-paragraph level.
 
 ## List of Rules
 
