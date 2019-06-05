@@ -56,10 +56,12 @@
     "nlcst-to-string": "^2.0.0",
     "object-keys": "^1.0.7",
     "quotation": "^1.0.1",
+    "unist-util-is": "^3.0.0",
     "unist-util-visit": "^1.0.0"
   },
   "devDependencies": {
     "array-duplicated": "^2.0.0",
+    "array-unique": "^0.3.0",
     "bail": "^1.0.1",
     "browserify": "^16.0.0",
     "js-yaml": "^3.6.1",

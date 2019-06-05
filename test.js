@@ -2,19 +2,20 @@
 
 var test = require('tape')
 var retext = require('retext')
-var bail = require('bail')
 var sort = require('vfile-sort')
 var equality = require('.')
 
 test('retext-equality', function(t) {
-  var doc = 'Their child has a birth defect.'
-
-  t.same(process('toString and constructor.'), [])
+  t.same(
+    process('toString and constructor.'),
+    [],
+    'should support prototypal words'
+  )
 
   t.same(
     retext()
       .use(equality)
-      .processSync(doc).messages[0].note,
+      .processSync('Their child has a birth defect.').messages[0].note,
     'Assumes/implies that a person with a disability is deficient or inferior to others. When possible, specify the functional ability or its restriction. (source: https://ncdj.org/style-guide/)',
     'should patch `description` when applicable'
   )
@@ -475,19 +476,11 @@ test('Phrasing', function(t) {
   t.end()
 })
 
-/* Helpers. */
-
-/* Helper to get warnings from `equality` in `doc`. */
+// Helper to get warnings from `equality` in `doc`.
 function process(doc, options) {
-  var messages
-
-  retext()
+  var file = retext()
     .use(equality, options)
-    .process(doc, function(err, file) {
-      bail(err)
-      sort(file)
-      messages = file.messages
-    })
+    .processSync(doc)
 
-  return messages.map(String)
+  return sort(file).messages.map(String)
 }
