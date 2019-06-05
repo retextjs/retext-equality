@@ -63,6 +63,7 @@
     "js-yaml": "^3.6.1",
     "mdast-util-heading-range": "^2.0.1",
     "nyc": "^14.0.0",
+    "prettier": "^1.17.1",
     "remark-cli": "^6.0.0",
     "remark-lint-table-pipe-alignment": "^1.0.0",
     "remark-preset-wooorm": "^5.0.0",
