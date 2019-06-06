@@ -64,8 +64,11 @@
     "array-unique": "^0.3.0",
     "bail": "^1.0.1",
     "browserify": "^16.0.0",
+    "chalk": "^2.4.2",
+    "is-hidden": "^1.1.2",
     "js-yaml": "^3.6.1",
     "mdast-util-heading-range": "^2.0.1",
+    "not": "^0.1.0",
     "nyc": "^14.0.0",
     "prettier": "^1.17.1",
     "remark-cli": "^6.0.0",
@@ -79,7 +82,7 @@
     "xo": "^0.24.0"
   },
   "scripts": {
-    "generate": "node script/extract.js",
+    "generate": "node script/generate.js",
     "format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
     "build-bundle": "browserify . -s retextEquality > retext-equality.js",
     "build-mangle": "browserify . -s retextEquality -p tinyify > retext-equality.min.js",

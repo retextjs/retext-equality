@@ -117,10 +117,10 @@ See [`contributing.md`][contributing] in [`retextjs/.github`][health] for ways
 to get started.
 See [`support.md`][support] for ways to get help.
 
-To create new patterns, add them in the YAML files in the [`script/`][script]
+To create new patterns, add them in the YAML files in the [`data/`][script]
 directory, and run `npm install` and then `npm test` to build everything.
-New rules will be automatically added to `rules.md`.
 Please see the current patterns for inspiration.
+New English rules will be automatically added to `rules.md`.
 
 Once you are happy with the new rule, add a test for it in [`test.js`][test] and
 open a Pull Request.

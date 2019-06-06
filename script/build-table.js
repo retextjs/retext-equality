@@ -2,7 +2,7 @@
 
 var range = require('mdast-util-heading-range')
 var u = require('unist-builder')
-var patterns = require('../lib/patterns')
+var patterns = require('../lib/en')
 
 module.exports = table
 
