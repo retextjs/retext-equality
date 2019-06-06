@@ -73,9 +73,32 @@ By default `he` is warned about unless it’s followed by something like `or she
 or `and she`.
 When `noBinary` is `true`, both cases would be warned about.
 
-## Rules
+### Messages
 
-See [`rules.md`][rules] for a list of rules.
+See [`rules.md`][rules] for a list of rules and how rules work.
+
+Each message is emitted as a [`VFileMessage`][message] on `file`, with the
+following fields:
+
+###### `message.source`
+
+Name of this plugin (`'retext-equality'`).
+
+###### `message.ruleId`
+
+See `id` in [`rules.md`][rules].
+
+###### `message.actual`
+
+Current not ok phrase (`string`).
+
+###### `message.expected`
+
+Suggest ok phrase (`Array.<string>`).
+
+###### `message.note`
+
+Extra information, when available (`string?`).
 
 ## Related
 
@@ -153,6 +176,8 @@ abide by its terms.
 [author]: https://wooorm.com
 
 [retext]: https://github.com/retextjs/retext
+
+[message]: https://github.com/vfile/vfile-message
 
 [script]: script
 
