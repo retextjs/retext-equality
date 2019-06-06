@@ -8,6 +8,7 @@ var yaml = require('js-yaml')
 var unique = require('array-unique')
 var not = require('not')
 var hidden = require('is-hidden')
+var pkg = require('../package.json')
 
 var join = path.join
 var extname = path.extname
@@ -122,11 +123,33 @@ function generateLanguage(info) {
   }
 
   var basename = info.language + '.json'
+  var scriptname = info.language + '.js'
 
   // Write patterns.
   fs.writeFileSync(join('lib', basename), JSON.stringify(data, null, 2) + '\n')
 
-  console.log(chalk.green('✓') + ' wrote `' + basename + '`')
+  console.log(chalk.green('✓') + ' wrote `lib/' + basename + '`')
+
+  fs.writeFileSync(
+    scriptname,
+    [
+      "'use strict'",
+      '',
+      "var factory = require('./lib/factory.js')",
+      "var patterns = require('./lib/" + basename + "')",
+      '',
+      "module.exports = factory(patterns, '" + info.language + "')",
+      ''
+    ].join('\n')
+  )
+
+  console.log(chalk.green('✓') + ' wrote `' + scriptname + '`')
+
+  if (pkg.files.indexOf(scriptname) === -1) {
+    throw new Error(
+      'Please add `' + scriptname + '` to `files` in `package.json`'
+    )
+  }
 }
 
 // Clean a value.

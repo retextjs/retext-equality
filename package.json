@@ -46,6 +46,7 @@
   ],
   "files": [
     "lib",
+    "en.js",
     "index.js"
   ],
   "dependencies": {
