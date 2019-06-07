@@ -653,20 +653,8 @@
     - restless
     - unfocused
   inconsiderate:
+    # Upper case to only match `ADD`, not `add`.
+    - ADD
     - adhd
     - a.d.d.
     - a.d.h.d.
-- type: simple
-  caseSensitive: true
-  considerate:
-    - disorganized
-    - distracted
-    - energetic
-    - hyperactive
-    - impetuous
-    - impulsive
-    - inattentive
-    - restless
-    - unfocused
-  inconsiderate:
-    - ADD
