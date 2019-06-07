@@ -496,6 +496,26 @@ test('Phrasing', function(t) {
     'Father of'
   )
 
+  t.same(
+    process('Could you add the sugar?'),
+    [],
+    'add (lowercase, does not warn)'
+  )
+  t.same(
+    process('Their ADD is playing up'),
+    [
+      '1:7-1:10: `ADD` may be insensitive, use `Disorganized`, `Distracted`, `Energetic`, `Hyperactive`, `Impetuous`, `Impulsive`, `Inattentive`, `Restless`, `Unfocused` instead'
+    ],
+    'add (uppercase)'
+  )
+  t.same(
+    process('Their A.D.H.D. is playing up'),
+    [
+      '1:7-1:15: `A.D.H.D.` may be insensitive, use `Disorganized`, `Distracted`, `Energetic`, `Hyperactive`, `Impetuous`, `Impulsive`, `Inattentive`, `Restless`, `Unfocused` instead'
+    ],
+    'a.d.h.d'
+  )
+
   t.end()
 })
 
