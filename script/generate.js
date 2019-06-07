@@ -73,6 +73,7 @@ function generateLanguage(info) {
       id: parts.sort().join('-'),
       type: entry.type,
       apostrophe: entry.apostrophe ? true : undefined,
+      caseSensitive: entry.caseSensitive ? true : undefined,
       categories: unique(Object.values(inconsiderate)),
       considerate: clean(entry.considerate),
       inconsiderate: inconsiderate,
