@@ -70,7 +70,10 @@ function generateLanguage(info) {
     }
 
     return {
-      id: parts.sort().join('-'),
+      id: parts
+        .sort()
+        .join('-')
+        .toLowerCase(),
       type: entry.type,
       apostrophe: entry.apostrophe ? true : undefined,
       categories: unique(Object.values(inconsiderate)),
