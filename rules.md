@@ -104,6 +104,7 @@ This is used for one case: `master` and `slave`.
 | `buckteeth` | [simple](#simple) | `bucktoothed`, `buckteeth` | `person with prominent teeth`, `prominent teeth` |
 | `special` | [simple](#simple) | `challenged`, `diffability`, `differently abled`, `handicapable`, `special`, `special needs`, `specially abled` | `has a disability`, `person with a disability`, `people with disabilities` |
 | `libtard` | [simple](#simple) | `fucktard`, `libtard`, `contard` | `disagreeable`, `uneducated`, `ignorant`, `naive`, `inconsiderate` |
+| `add` | [simple](#simple) | `add`, `adhd`, `a.d.d.`, `a.d.h.d.` | `disorganized`, `distracted`, `energetic`, `hyperactive`, `impetuous`, `impulsive`, `inattentive`, `restless`, `unfocused` |
 | `obviously` | [simple](#simple) | `obviously` |  |
 | `just` | [simple](#simple) | `just` |  |
 | `basically` | [simple](#simple) | `basically` |  |
