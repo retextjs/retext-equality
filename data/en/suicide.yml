@@ -38,3 +38,12 @@
     - a note from the deceased
   inconsiderate:
     - suicide note
+- type: simple
+  note: When describing the behavior of computer software, using the word “hanged” needlessly invokes the topic of death by self-harm or lynching.  Consider using the phrase “stopped responding to events” or “became unresponsive” instead.
+  considerate:
+    - the app stopped responding
+    - the app stopped responding to events
+    - the app became unresponsive
+  inconsiderate:
+    - hang
+    - hanged

@@ -423,3 +423,4 @@ This is used for one case: `master` and `slave`.
 | `suicide-pact` | [simple](#simple) | `suicide epidemic`, `epidemic of suicides`, `suicide pact` | `rise in suicides` |
 | `failed-suicide` | [simple](#simple) | `failed suicide`, `failed attempt`, `suicide failure` | `suicide attempt`, `attempted suicide` |
 | `suicide-note` | [simple](#simple) | `suicide note` | `a note from the deceased` |
+| `hang` | [simple](#simple) | `hang`, `hanged` | `the app stopped responding`, `the app stopped responding to events`, `the app became unresponsive` |
