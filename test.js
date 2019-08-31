@@ -520,7 +520,7 @@ test('Phrasing', function(t) {
       'The app hanged when dragging a window between a non-Retina and a Retina display'
     ),
     [
-      '1:9-1:15: `hanged` may be insensitive, use `the app stopped responding`, `the app stopped responding to events`, `the app became unresponsive` instead'
+      '1:9-1:15: `hanged` may be insensitive, use `the app froze`, `the app stopped responding`, `the app stopped responding to events`, `the app became unresponsive` instead'
     ],
     'hang'
   )
