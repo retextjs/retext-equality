@@ -105,14 +105,11 @@ This is used for one case: `master` and `slave`.
 | `special` | [simple](#simple) | `challenged`, `diffability`, `differently abled`, `handicapable`, `special`, `special needs`, `specially abled` | `has a disability`, `person with a disability`, `people with disabilities` |
 | `libtard` | [simple](#simple) | `fucktard`, `libtard`, `contard` | `disagreeable`, `uneducated`, `ignorant`, `naive`, `inconsiderate` |
 | `add` | [simple](#simple) | `ADD`, `adhd`, `a.d.d.`, `a.d.h.d.` | `disorganized`, `distracted`, `energetic`, `hyperactive`, `impetuous`, `impulsive`, `inattentive`, `restless`, `unfocused` |
-| `obvious` | [simple](#simple) | `obvious` |  |
-| `obviously` | [simple](#simple) | `obviously` |  |
+| `obvious` | [simple](#simple) | `obvious`, `obviously` |  |
 | `just` | [simple](#simple) | `just` |  |
 | `basically` | [simple](#simple) | `basically` |  |
-| `simple` | [simple](#simple) | `simple` |  |
-| `simply` | [simple](#simple) | `simply` |  |
-| `easy` | [simple](#simple) | `easy` |  |
-| `easily` | [simple](#simple) | `easily` |  |
+| `simple` | [simple](#simple) | `simple`, `simply` |  |
+| `easy` | [simple](#simple) | `easy`, `easily` |  |
 | `of-course` | [simple](#simple) | `of course` |  |
 | `clearly` | [simple](#simple) | `clearly` |  |
 | `everyone-knows` | [simple](#simple) | `everyone knows` |  |

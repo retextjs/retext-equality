@@ -4,11 +4,9 @@
 # the start of a sentence according to CSS Tricks.
 # If you want messages for those, use `retext-intensify`.
 - type: simple
-  inconsiderate: obvious
-  note: Not everything is as obvious as you might think. And if it isn’t obvious to the reader, it can hurt.
-  source: https://css-tricks.com/words-avoid-educational-writing/
-- type: simple
-  inconsiderate: obviously
+  inconsiderate:
+    - obvious
+    - obviously
   note: Not everything is as obvious as you might think. And if it isn’t obvious to the reader, it can hurt.
   source: https://css-tricks.com/words-avoid-educational-writing/
 - type: simple
@@ -20,19 +18,15 @@
   note: It’s probably not that basic. If you’re going to explain a confusing previous sentence with a clearer next sentence, why not drop the former and only use the latter?
   source: https://css-tricks.com/words-avoid-educational-writing/
 - type: simple
-  inconsiderate: simple
+  inconsiderate:
+    - simple
+    - simply
   note: It’s probably not that simple. Even if it is, you probably don’t need to specifically say it.
   source: https://css-tricks.com/words-avoid-educational-writing/
 - type: simple
-  inconsiderate: simply
-  note: It’s probably not that simple. Even if it is, you probably don’t need to specifically say it.
-  source: https://css-tricks.com/words-avoid-educational-writing/
-- type: simple
-  inconsiderate: easy
-  note: It’s probably not that easy. Even if it is, you probably don’t need to specifically say it.
-  source: https://css-tricks.com/words-avoid-educational-writing/
-- type: simple
-  inconsiderate: easily
+  inconsiderate:
+    - easy
+    - easily
   note: It’s probably not that easy. Even if it is, you probably don’t need to specifically say it.
   source: https://css-tricks.com/words-avoid-educational-writing/
 - type: simple
