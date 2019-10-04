@@ -563,37 +563,37 @@
     uncles: male
 - type: or
   considerate:
-    - boogey
+    - boogeymonster
   inconsiderate:
     boogeywoman: female
     boogeyman: male
 - type: or
   considerate:
-    - boogie
+    - boogeymonster
   inconsiderate:
     boogiewoman: female
     boogieman: male
 - type: or
   considerate:
-    - bogey
+    - bogeymonster
   inconsiderate:
     bogeywoman: female
     bogeyman: male
 - type: or
   considerate:
-    - bogie
+    - bogeymonster
   inconsiderate:
     bogiewoman: female
     bogieman: male
 - type: or
   considerate:
-    - boogies
+    - boogeymonsters
   inconsiderate:
     boogiewomen: female
     boogiemen: male
 - type: or
   considerate:
-    - bogies
+    - bogeymonsters
   inconsiderate:
     bogiewomen: female
     bogiemen: male
