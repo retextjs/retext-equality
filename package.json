@@ -72,15 +72,15 @@
     "not": "^0.1.0",
     "nyc": "^14.0.0",
     "prettier": "^1.17.1",
-    "remark-cli": "^6.0.0",
+    "remark-cli": "^7.0.0",
     "remark-lint-table-pipe-alignment": "^1.0.0",
-    "remark-preset-wooorm": "^5.0.0",
-    "retext": "^6.0.0",
+    "remark-preset-wooorm": "^6.0.0",
+    "retext": "^7.0.0",
     "tape": "^4.0.0",
     "tinyify": "^2.4.3",
     "unist-builder": "^1.0.2",
     "vfile-sort": "^2.0.0",
-    "xo": "^0.24.0"
+    "xo": "^0.25.0"
   },
   "scripts": {
     "generate": "node script/generate.js",
@@ -110,6 +110,7 @@
     "prettier": true,
     "esnext": false,
     "rules": {
+      "unicorn/prefer-includes": "off",
       "guard-for-in": "off",
       "max-params": "off"
     },
