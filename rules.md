@@ -181,7 +181,7 @@ This is used for one case: `master` and `slave`.
 | `assemblyman-assemblywoman` | [or](#or) | `assemblywoman` (female), `assemblyman` (male) | `assembly person`, `assembly worker` |
 | `aunt-uncle` | [or](#or) | `kinswoman` (female), `aunt` (female), `kinsman` (male), `uncle` (male) | `relative` |
 | `aunts-uncles` | [or](#or) | `kinswomen` (female), `aunts` (female), `kinsmen` (male), `uncles` (male) | `relatives` |
-| `boogeyman-boogeywoman` | [or](#or) | `boogeywoman` (female), `boogeyman` (male) | `boogeymonster`, `boogey` |
+| `boogeyman-boogeywoman` | [or](#or) | `boogeywoman` (female), `boogeyman` (male) | `boogeymonster` |
 | `boogieman-boogiewoman` | [or](#or) | `boogiewoman` (female), `boogieman` (male) | `boogeymonster` |
 | `bogeyman-bogeywoman` | [or](#or) | `bogeywoman` (female), `bogeyman` (male) | `bogeymonster` |
 | `bogieman-bogiewoman` | [or](#or) | `bogiewoman` (female), `bogieman` (male) | `bogeymonster` |
@@ -381,11 +381,11 @@ This is used for one case: `master` and `slave`.
 | `homosexual-marriage` | [simple](#simple) | `homosexual marriage` | `gay marriage`, `same-sex marriage` |
 | `tranny` | [simple](#simple) | `tranny` | `transgender` |
 | `transvestite` | [simple](#simple) | `transvestite` | `cross-dresser` |
-| `sexchange` | [simple](#simple) | `sexchange`, `sex change` | `transition` |
-| `sex-change-operation` | [simple](#simple) | `sex change operation` | `sex reassignment surgery` |
+| `sexchange` | [simple](#simple) | `sexchange`, `sex change` | `transition`, `gender confirmation surgery` |
+| `sex-change-operation` | [simple](#simple) | `sex change operation` | `sex reassignment surgery`, `gender confirmation surgery` |
 | `transgenders` | [simple](#simple) | `transgenders` | `transgender people` |
 | `transgendered` | [simple](#simple) | `transgendered` | `transgender` |
-| `transgenderism` | [simple](#simple) | `transgenderism` | `being trangender`, `the movement for transgender equality` |
+| `transgenderism` | [simple](#simple) | `transgenderism` | `being transgender`, `the movement for transgender equality` |
 | `born-a-man` | [simple](#simple) | `biologically male`, `born a man`, `genetically male` | `assigned male at birth`, `designated male at birth` |
 | `born-a-woman` | [simple](#simple) | `biologically female`, `born a woman`, `genetically female` | `assigned female at birth`, `designated female at birth` |
 | `bathroom-bill` | [simple](#simple) | `bathroom bill` | `non-discrimination law`, `non-discrimination ordinance` |
