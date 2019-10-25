@@ -382,8 +382,8 @@ This is used for one case: `master` and `slave`.
 | `homosexual-marriage` | [simple](#simple) | `homosexual marriage` | `gay marriage`, `same-sex marriage` |
 | `tranny` | [simple](#simple) | `tranny` | `transgender` |
 | `transvestite` | [simple](#simple) | `transvestite` | `cross-dresser` |
-| `sexchange` | [simple](#simple) | `sexchange`, `sex change` | `transition` |
-| `sex-change-operation` | [simple](#simple) | `sex change operation` | `sex reassignment surgery` |
+| `sexchange` | [simple](#simple) | `sexchange`, `sex change` | `transition`, `gender confirmation surgery` |
+| `sex-change-operation` | [simple](#simple) | `sex change operation` | `sex reassignment surgery`, `gender confirmation surgery` |
 | `transgenders` | [simple](#simple) | `transgenders` | `transgender people` |
 | `transgendered` | [simple](#simple) | `transgendered` | `transgender` |
 | `transgenderism` | [simple](#simple) | `transgenderism` | `being transgender`, `the movement for transgender equality` |

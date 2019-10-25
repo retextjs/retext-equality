@@ -10,7 +10,7 @@
     - homosexual
 - type: simple
   source: https://www.glaad.org/reference/offensive
-  note: Avoid labeling something as LGBTQ+ unless you would call the same thing "straight"
+  note: Avoid labeling something as LGBTQ+ unless you would call the same thing “straight”
   considerate:
     - relationship
   inconsiderate:
@@ -18,7 +18,7 @@
     - homosexual relationship
 - type: simple
   source: https://www.glaad.org/reference/offensive
-  note: Avoid labeling something as LGBTQ+ unless you would call the same thing "straight"
+  note: Avoid labeling something as LGBTQ+ unless you would call the same thing “straight”
   considerate:
     - couple
   inconsiderate:
@@ -59,7 +59,7 @@
     - gay rights
 - type: simple
   source: https://www.glaad.org/reference/offensive
-  note: Derogatory terms for LGBTQ+ are offensive
+  note: Derogatory terms for LGBTQ+ people are offensive
   considerate:
     - gay
   inconsiderate:
@@ -70,12 +70,14 @@
     - sodomite
 - type: simple
   source: https://www.glaad.org/reference/style
+  note: Avoid using slang shorthand
   considerate:
     - bisexual
   inconsiderate:
     - bi
 - type: simple
   source: https://www.glaad.org/reference/style
+  note: Homosexual has a clinical history and is used to imply LGBTQ+ people are diseased or psychologically/emotionally disordered
   considerate:
     - gay marriage
     - same-sex marriage
@@ -83,52 +85,59 @@
     - homosexual marriage
 - type: simple
   source: https://www.glaad.org/reference/style
+  note: Derogatory terms for LGBTQ+ people are offensive
   considerate:
     - transgender
   inconsiderate:
     - tranny
 - type: simple
   source: https://www.glaad.org/reference/transgender
+  note: Avoid using outdated / offensive terms
   considerate:
     - cross-dresser
   inconsiderate:
     - transvestite
 - type: simple
   source: https://www.glaad.org/reference/transgender
+  note: Avoid overemphasizing surgery when discussing transgender people or the process of transition - it’s not a necessary component
   considerate:
     - transition
+    - gender confirmation surgery
   inconsiderate:
     - sexchange
     - sex change
 - type: simple
   source: https://www.glaad.org/reference/transgender
+  note: Shift focus away from the assigned sex and towards the identified gender
   considerate:
     - sex reassignment surgery
+    - gender confirmation surgery
   inconsiderate:
     - sex change operation
 - type: simple
   source: https://www.glaad.org/reference/transgender
-  note: Transgender should be used as an adjective, not as a noun.
+  note: Transgender should be used as an adjective, not as a noun
   considerate:
     - transgender people
   inconsiderate:
     - transgenders
 - type: simple
   source: https://www.glaad.org/reference/transgender
-  note: Transgender is not an adjective. It's a noun like woman or man.
+  note: Transgender is already an adjective
   considerate:
     - transgender
   inconsiderate:
     - transgendered
 - type: simple
   source: https://www.glaad.org/reference/transgender
+  note: This is a term used by anti-transgender activists to dehumanize transgender people and reduce who they are to a condition
   considerate:
     - being transgender
     - the movement for transgender equality
   inconsiderate:
     - transgenderism
 - type: simple
-  note: Assigned birth gender is complicated. Gender identity is more than what your parent(s) decided you were at birth.
+  note: Assigned birth gender is complicated; gender identity is more than what your parents decided you were at birth
   considerate:
     - assigned male at birth
     - designated male at birth
@@ -137,7 +146,7 @@
     - born a man
     - genetically male
 - type: simple
-  note: Assigned birth gender is complicated. Gender identity is more than what your parent(s) decided you were at birth.
+  note: Assigned birth gender is complicated; gender identity is more than what your parents decided you were at birth
   considerate:
     - assigned female at birth
     - designated female at birth
@@ -147,6 +156,7 @@
     - genetically female
 - type: simple
   source: https://www.glaad.org/reference/transgender
+  note: A term created and used by far-right extremists to oppose nondiscrimination laws that protect transgender people
   considerate:
     - non-discrimination law
     - non-discrimination ordinance
@@ -154,6 +164,7 @@
     - bathroom bill
 - type: simple
   source: http://www.isna.org/node/979
+  note: These terms are stigmatizing to patients and their families because intersex status is more complicated than the mere presence or absence of certain gonadal tissues
   considerate:
     - intersex
   inconsiderate:
@@ -162,6 +173,7 @@
     - pseudo hermaphroditic
 - type: simple
   source: http://www.isna.org/node/979
+  note: These terms are stigmatizing to patients and their families because intersex status is more complicated than the mere presence or absence of certain gonadal tissues
   considerate:
     - person who is intersex
     - person
@@ -172,7 +184,7 @@
     - pseudo hermaphrodite
 - type: simple
   source: https://www.reddit.com/r/asktransgender/comments/23wbq1/is_the_term_shemale_seen_as_offensive/
-  note: Transgender people prefer to be called by their chosen pronouns. If you're confused, just ask what pronouns they prefer.
+  note: This word dehumanizes transgender people
   considerate:
     - transgender person
     - person
