@@ -97,6 +97,7 @@
   source: https://www.glaad.org/reference/transgender
   considerate:
     - transition
+    - gender confirmation surgery
   inconsiderate:
     - sexchange
     - sex change
@@ -104,6 +105,7 @@
   source: https://www.glaad.org/reference/transgender
   considerate:
     - sex reassignment surgery
+    - gender confirmation surgery
   inconsiderate:
     - sex change operation
 - type: simple
