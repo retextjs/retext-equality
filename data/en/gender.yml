@@ -36,6 +36,7 @@
   considerate:
     - kid
     - child
+    - youth
   inconsiderate:
     girl: female
     boy: male
@@ -188,6 +189,7 @@
   inconsiderate:
     policewoman: female
     policeman: male
+    chick cop: female
 - type: or
   considerate:
     - officers
@@ -535,6 +537,7 @@
   considerate:
     - cabinet
     - cabinet members
+    - alderperson
   inconsiderate:
     alderwomen: female
     aldermen: male
@@ -610,6 +613,7 @@
     bondswomen: female
     bondsmen: male
 - type: or
+  source: https://www.bustle.com/articles/108321-6-reasons-to-refer-to-your-significant-other-as-your-partner
   considerate:
     - partner
     - significant other
@@ -618,6 +622,7 @@
     wife: female
     husband: male
 - type: or
+  source: https://www.bustle.com/articles/108321-6-reasons-to-refer-to-your-significant-other-as-your-partner
   considerate:
     - partners
     - significant others
@@ -626,6 +631,7 @@
     wives: female
     husbands: male
 - type: or
+  source: https://www.bustle.com/articles/108321-6-reasons-to-refer-to-your-significant-other-as-your-partner
   considerate:
     - partner
     - friend
@@ -634,6 +640,7 @@
     girlfriend: female
     boyfriend: male
 - type: or
+  source: https://www.bustle.com/articles/108321-6-reasons-to-refer-to-your-significant-other-as-your-partner
   considerate:
     - partners
     - friends
@@ -820,6 +827,7 @@
   considerate:
     - presenter
     - entertainer
+    - emcee
   inconsiderate:
     hostess: female
     host: male
@@ -827,6 +835,7 @@
   considerate:
     - presenters
     - entertainers
+    - emcees
   inconsiderate:
     hostesses: female
     hosts: male
@@ -867,12 +876,14 @@
 - type: or
   considerate:
     - role-model
+    - mentor
   inconsiderate:
     heroine: female
     hero: male
 - type: or
   considerate:
     - role-models
+    - mentor
   inconsiderate:
     heroines: female
     heroes: male
@@ -1463,6 +1474,7 @@
 - type: simple
   considerate:
     - maniacs
+    - enthusiasts
   inconsiderate:
     madmen: male
     mad men: male

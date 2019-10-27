@@ -222,7 +222,7 @@ test('Ignoring', function(t) {
       {ignore: ['pop']}
     ),
     [
-      '1:35-1:39: `host` may be insensitive, use `presenter`, `entertainer` instead'
+      '1:35-1:39: `host` may be insensitive, use `presenter`, `entertainer`, `emcee` instead'
     ],
     'should skip terms explicitly ignored terms'
   )
