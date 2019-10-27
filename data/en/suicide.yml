@@ -16,6 +16,7 @@
     - successful suicide
 - type: simple
   source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide
+  note: Using sensational words can cause copycat suicides or contagion
   considerate:
     - rise in suicides
   inconsiderate:
