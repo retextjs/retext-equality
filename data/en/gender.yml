@@ -613,6 +613,7 @@
     bondswomen: female
     bondsmen: male
 - type: or
+  source: https://www.bustle.com/articles/108321-6-reasons-to-refer-to-your-significant-other-as-your-partner
   considerate:
     - partner
     - significant other
@@ -621,6 +622,7 @@
     wife: female
     husband: male
 - type: or
+  source: https://www.bustle.com/articles/108321-6-reasons-to-refer-to-your-significant-other-as-your-partner
   considerate:
     - partners
     - significant others
@@ -629,6 +631,7 @@
     wives: female
     husbands: male
 - type: or
+  source: https://www.bustle.com/articles/108321-6-reasons-to-refer-to-your-significant-other-as-your-partner
   considerate:
     - partner
     - friend
@@ -637,6 +640,7 @@
     girlfriend: female
     boyfriend: male
 - type: or
+  source: https://www.bustle.com/articles/108321-6-reasons-to-refer-to-your-significant-other-as-your-partner
   considerate:
     - partners
     - friends
