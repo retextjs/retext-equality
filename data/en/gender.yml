@@ -36,6 +36,7 @@
   considerate:
     - kid
     - child
+    - youth
   inconsiderate:
     girl: female
     boy: male
@@ -188,6 +189,7 @@
   inconsiderate:
     policewoman: female
     policeman: male
+    chick cop: female
 - type: or
   considerate:
     - officers
@@ -535,6 +537,7 @@
   considerate:
     - cabinet
     - cabinet members
+    - alderperson
   inconsiderate:
     alderwomen: female
     aldermen: male
@@ -820,6 +823,7 @@
   considerate:
     - presenter
     - entertainer
+    - emcee
   inconsiderate:
     hostess: female
     host: male
@@ -827,6 +831,7 @@
   considerate:
     - presenters
     - entertainers
+    - emcees
   inconsiderate:
     hostesses: female
     hosts: male
@@ -867,12 +872,14 @@
 - type: or
   considerate:
     - role-model
+    - mentor
   inconsiderate:
     heroine: female
     hero: male
 - type: or
   considerate:
     - role-models
+    - mentor
   inconsiderate:
     heroines: female
     heroes: male
@@ -1463,6 +1470,7 @@
 - type: simple
   considerate:
     - maniacs
+    - enthusiasts
   inconsiderate:
     madmen: male
     mad men: male
