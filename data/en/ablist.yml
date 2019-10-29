@@ -173,6 +173,15 @@
     - multiple sclerosis victim
     - afflicted with multiple sclerosis
 - type: simple
+  source: https://ncdj.org/style-guide
+  note: Refer to a person's condition as a state, not as an affliction.
+  considerate: person who has muscular dystrophy
+  inconsiderate:
+    - suffers from muscular dystrophy
+    - afflicted with muscular dystrophy
+    - suffers from MD
+    - afflicted with MD
+- type: simple
   considerate: with family support needs
   inconsiderate: family burden
 - type: simple
