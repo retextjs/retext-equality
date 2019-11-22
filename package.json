@@ -50,7 +50,7 @@
     "index.js"
   ],
   "dependencies": {
-    "lodash": ">= 4.17.5",
+    "lodash": "^4.17.5",
     "nlcst-normalize": "^2.0.0",
     "nlcst-search": "^1.1.1",
     "nlcst-to-string": "^2.0.0",
