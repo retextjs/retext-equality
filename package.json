@@ -65,7 +65,7 @@
     "array-unique": "^0.3.0",
     "bail": "^1.0.1",
     "browserify": "^16.0.0",
-    "chalk": "^2.4.2",
+    "chalk": "^3.0.0",
     "is-hidden": "^1.1.2",
     "js-yaml": "^3.6.1",
     "mdast-util-heading-range": "^2.0.1",
@@ -78,7 +78,7 @@
     "retext": "^7.0.0",
     "tape": "^4.0.0",
     "tinyify": "^2.4.3",
-    "unist-builder": "^1.0.2",
+    "unist-builder": "^2.0.0",
     "vfile-sort": "^2.0.0",
     "xo": "^0.25.0"
   },
