@@ -49,6 +49,7 @@ This is used for one case: `master` and `slave`.
 | `mongoloid` | [simple](#simple) | `mongoloid` | `person with Down Syndrome` |
 | `stroke-victim` | [simple](#simple) | `stroke victim`, `suffering from a stroke`, `victim of a stroke` | `individual who has had a stroke` |
 | `multiple-sclerosis-victim` | [simple](#simple) | `suffers from multiple sclerosis`, `suffering from multiple sclerosis`, `victim of multiple sclerosis`, `multiple sclerosis victim`, `afflicted with multiple sclerosis` | `person who has multiple sclerosis` |
+| `suffers-from-md` | [simple](#simple) | `suffers from muscular dystrophy`, `afflicted with muscular dystrophy`, `suffers from MD`, `afflicted with MD` | `person who has muscular dystrophy` |
 | `family-burden` | [simple](#simple) | `family burden` | `with family support needs` |
 | `asylum` | [simple](#simple) | `asylum` | `psychiatric hospital`, `mental health hospital` |
 | `bedlam` | [simple](#simple) | `bedlam`, `madhouse`, `loony bin` | `chaos`, `hectic`, `pandemonium` |
@@ -99,7 +100,7 @@ This is used for one case: `master` and `slave`.
 | `daft` | [simple](#simple) | `daft` | `absurd`, `foolish` |
 | `idiot` | [simple](#simple) | `feebleminded`, `feeble minded`, `idiot`, `imbecile` | `foolish`, `ludicrous`, `silly` |
 | `harelipped` | [simple](#simple) | `harelipped`, `cleftlipped` | `person with a cleft-lip and palate` |
-| `harelip` | [simple](#simple) | `harelip` | `cleft-lip and palate` |
+| `harelip` | [simple](#simple) | `harelip`, `hare lip` | `cleft-lip and palate` |
 | `maniac` | [simple](#simple) | `maniac` | `fanatic`, `zealot`, `enthusiast` |
 | `buckteeth` | [simple](#simple) | `bucktoothed`, `buckteeth` | `person with prominent teeth`, `prominent teeth` |
 | `special` | [simple](#simple) | `challenged`, `diffability`, `differently abled`, `handicapable`, `special`, `special needs`, `specially abled` | `has a disability`, `person with a disability`, `people with disabilities` |
@@ -116,7 +117,7 @@ This is used for one case: `master` and `slave`.
 | `her-him` | [or](#or) | `her` (female), `hers` (female), `him` (male), `his` (male) | `their`, `theirs`, `them` |
 | `he-she` | [or](#or) | `she` (female), `he` (male), `she'd` (female), `he'd` (male), `she'll` (female), `he'll` (male), `she's` (female), `he's` (male) | `they`, `it` |
 | `herself-himself` | [or](#or) | `herself` (female), `himself` (male) | `themselves`, `theirself`, `self` |
-| `boy-girl` | [or](#or) | `girl` (female), `boy` (male) | `kid`, `child` |
+| `boy-girl` | [or](#or) | `girl` (female), `boy` (male) | `kid`, `child`, `youth` |
 | `gals-men` | [or](#or) | `women` (female), `girls` (female), `gals` (female), `ladies` (female), `men` (male), `guys` (male), `dudes` (male), `gents` (male), `gentlemen` (male) | `people`, `persons`, `folks` |
 | `gal-guy` | [or](#or) | `woman` (female), `gal` (female), `lady` (female), `babe` (female), `bimbo` (female), `chick` (female), `guy` (male), `lad` (male), `fellow` (male), `dude` (male), `bro` (male), `gentleman` (male) | `person`, `friend`, `pal`, `folk`, `individual` |
 | `fatherland-motherland` | [or](#or) | `motherland` (female), `fatherland` (male) | `native land`, `homeland` |
@@ -133,7 +134,7 @@ This is used for one case: `master` and `slave`.
 | `chairmen-chairwomen` | [or](#or) | `chairwomen` (female), `chairmen` (male) | `chairs`, `chairpersons`, `coordinators` |
 | `postman-postwoman` | [or](#or) | `postwoman` (female), `mailwoman` (female), `postman` (male), `mailman` (male) | `mail carrier`, `letter carrier`, `postal worker` |
 | `postmen-postwomen` | [or](#or) | `postwomen` (female), `mailwomen` (female), `postmen` (male), `mailmen` (male) | `mail carriers`, `letter carriers`, `postal workers` |
-| `policeman-policewoman` | [or](#or) | `policewoman` (female), `policeman` (male) | `officer`, `police officer` |
+| `chick-cop-policeman` | [or](#or) | `policewoman` (female), `policeman` (male), `chick cop` (female) | `officer`, `police officer` |
 | `policemen-policewomen` | [or](#or) | `policewomen` (female), `policemen` (male) | `officers`, `police officers` |
 | `steward-stewardess` | [or](#or) | `stewardess` (female), `steward` (male) | `flight attendant` |
 | `stewardesses-stewards` | [or](#or) | `stewardesses` (female), `stewards` (male) | `flight attendants` |
@@ -177,11 +178,11 @@ This is used for one case: `master` and `slave`.
 | `aircrewwoman-airman` | [or](#or) | `aircrewwoman` (female), `aircrew woman` (female), `aircrewman` (male), `airman` (male) | `pilot`, `aviator`, `airstaff` |
 | `aircrewwomen-airmen` | [or](#or) | `aircrewwomen` (female), `aircrew women` (female), `aircrewmen` (male), `airmen` (male) | `pilots`, `aviators`, `airstaff` |
 | `alderman-alderwoman` | [or](#or) | `alderwoman` (female), `alderman` (male) | `cabinet member` |
-| `aldermen-alderwomen` | [or](#or) | `alderwomen` (female), `aldermen` (male) | `cabinet`, `cabinet members` |
+| `aldermen-alderwomen` | [or](#or) | `alderwomen` (female), `aldermen` (male) | `cabinet`, `cabinet members`, `alderperson` |
 | `assemblyman-assemblywoman` | [or](#or) | `assemblywoman` (female), `assemblyman` (male) | `assembly person`, `assembly worker` |
 | `aunt-uncle` | [or](#or) | `kinswoman` (female), `aunt` (female), `kinsman` (male), `uncle` (male) | `relative` |
 | `aunts-uncles` | [or](#or) | `kinswomen` (female), `aunts` (female), `kinsmen` (male), `uncles` (male) | `relatives` |
-| `boogeyman-boogeywoman` | [or](#or) | `boogeywoman` (female), `boogeyman` (male) | `boogeymonster`, `boogey` |
+| `boogeyman-boogeywoman` | [or](#or) | `boogeywoman` (female), `boogeyman` (male) | `boogeymonster` |
 | `boogieman-boogiewoman` | [or](#or) | `boogiewoman` (female), `boogieman` (male) | `boogeymonster` |
 | `bogeyman-bogeywoman` | [or](#or) | `bogeywoman` (female), `bogeyman` (male) | `bogeymonster` |
 | `bogieman-bogiewoman` | [or](#or) | `bogiewoman` (female), `bogieman` (male) | `bogeymonster` |
@@ -218,15 +219,15 @@ This is used for one case: `master` and `slave`.
 | `countryman-countrywoman` | [or](#or) | `countrywoman` (female), `countryman` (male) | `country person` |
 | `countrymen-countrywomen` | [or](#or) | `countrywomen` (female), `countrymen` (male) | `country folk` |
 | `handyman-handywoman` | [or](#or) | `handywoman` (female), `craftswoman` (female), `handyman` (male), `craftsman` (male) | `artisan`, `craftsperson`, `skilled worker` |
-| `host-hostess` | [or](#or) | `hostess` (female), `host` (male) | `presenter`, `entertainer` |
-| `hostesses-hosts` | [or](#or) | `hostesses` (female), `hosts` (male) | `presenters`, `entertainers` |
+| `host-hostess` | [or](#or) | `hostess` (female), `host` (male) | `presenter`, `entertainer`, `emcee` |
+| `hostesses-hosts` | [or](#or) | `hostesses` (female), `hosts` (male) | `presenters`, `entertainers`, `emcees` |
 | `handymen-handywomen` | [or](#or) | `handywomen` (female), `craftswomen` (female), `handymen` (male), `craftsmen` (male) | `artisans`, `craftspersons`, `skilled workers` |
 | `hangman-hangwoman` | [or](#or) | `hangwoman` (female), `hangman` (male) | `guillotine` |
 | `hangmen-hangwomen` | [or](#or) | `hangwomen` (female), `hangmen` (male) | `guillotines` |
 | `henchman-henchwoman` | [or](#or) | `henchwoman` (female), `henchman` (male) | `sidekick` |
 | `henchmen-henchwomen` | [or](#or) | `henchwomen` (female), `henchmen` (male) | `sidekicks` |
-| `hero-heroine` | [or](#or) | `heroine` (female), `hero` (male) | `role-model` |
-| `heroes-heroines` | [or](#or) | `heroines` (female), `heroes` (male) | `role-models` |
+| `hero-heroine` | [or](#or) | `heroine` (female), `hero` (male) | `role-model`, `mentor` |
+| `heroes-heroines` | [or](#or) | `heroines` (female), `heroes` (male) | `role-models`, `mentor` |
 | `maternal-paternal` | [or](#or) | `maternal` (female), `paternal` (male), `fraternal` (male) | `parental`, `warm`, `intimate` |
 | `maternity-paternity` | [or](#or) | `maternity` (female), `paternity` (male) | `parental` |
 | `dads-moms` | [or](#or) | `mamas` (female), `mothers` (female), `moms` (female), `mums` (female), `mommas` (female), `mommies` (female), `papas` (male), `fathers` (male), `dads` (male), `daddies` (male) | `parents` |
@@ -311,7 +312,7 @@ This is used for one case: `master` and `slave`.
 | `masterplan` | [simple](#simple) | `masterplan` | `vision`, `comprehensive plan` |
 | `masterstroke` | [simple](#simple) | `masterstroke` | `trump card`, `stroke of genius` |
 | `madman` | [simple](#simple) | `madman`, `mad man` | `fanatic`, `zealot`, `enthusiast` |
-| `madmen` | [simple](#simple) | `madmen`, `mad men` | `maniacs` |
+| `madmen` | [simple](#simple) | `madmen`, `mad men` | `maniacs`, `enthusiasts` |
 | `mankind` | [simple](#simple) | `mankind` | `humankind` |
 | `manhour` | [simple](#simple) | `manhour`, `man hour` | `staff hour`, `hour of work` |
 | `manhours` | [simple](#simple) | `manhours`, `man hours` | `staff hours`, `hours of work`, `hours of labor`, `hours` |
@@ -385,7 +386,7 @@ This is used for one case: `master` and `slave`.
 | `sex-change-operation` | [simple](#simple) | `sex change operation` | `sex reassignment surgery` |
 | `transgenders` | [simple](#simple) | `transgenders` | `transgender people` |
 | `transgendered` | [simple](#simple) | `transgendered` | `transgender` |
-| `transgenderism` | [simple](#simple) | `transgenderism` | `being trangender`, `the movement for transgender equality` |
+| `transgenderism` | [simple](#simple) | `transgenderism` | `being transgender`, `the movement for transgender equality` |
 | `born-a-man` | [simple](#simple) | `biologically male`, `born a man`, `genetically male` | `assigned male at birth`, `designated male at birth` |
 | `born-a-woman` | [simple](#simple) | `biologically female`, `born a woman`, `genetically female` | `assigned female at birth`, `designated female at birth` |
 | `bathroom-bill` | [simple](#simple) | `bathroom bill` | `non-discrimination law`, `non-discrimination ordinance` |
