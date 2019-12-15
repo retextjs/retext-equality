@@ -64,8 +64,103 @@
     - red indians
     - redskins
 - type: simple
+  inconsiderate:
+    - animal spirit
+    - dream catcher
+    - spirit animal
+    - totem
+  note: Avoid using terms that oversimplify the complex and varied beliefs of indigenous religions.
+  source:
+    - https://www.worldreligionnews.com/opinion/spirit-animal-not-joke-oppression
+    - https://www.spiralnature.com/spirituality/spirit-animal-cultural-appropriation
   considerate:
-    - go back on one's offer
+    - favorite
+    - inspiration
+    - personal interest
+    - personality type
+- type: simple
+  inconsiderate:
+    - long time no hear
+    - long time no see
+  note: Avoid using phrases that implicitly mock people with limited knowledge of the English language.
+  source: https://www.npr.org/sections/codeswitch/2014/03/09/288300303/who-first-said-long-time-no-see-and-in-which-language
+  considerate:
+    - I haven’t seen you in a long time
+    - it’s been a long time
+- type: simple
+  inconsiderate:
+    - Indian country
+  note: Avoid using phrases referring to the genocidal United States “Indian Removal” laws.
+  source:
+    - https://newsmaven.io/indiancountrytoday/archive/off-the-reservation-a-teachable-moment-nW1d7U0JRkOszhtg8N1V1A/
+  considerate:
+    - enemy territory
+- type: simple
+  inconsiderate:
+    - jump the reservation
+    - off reserve
+    - off the reservation
+  note: Avoid using phrases referring to the genocidal United States “Indian Removal” laws.
+  source:
+    - http://blog.nativepartnership.org/off-the-reservation/
+    - https://www.wsj.com/articles/off-the-reservation-is-a-phrase-with-a-dark-past-1462552837
+    - https://www.npr.org/sections/codeswitch/2014/06/29/326690947/should-saying-someone-is-off-the-reservation-be-off-limits
+    - https://nowtoronto.com/news/native-references-and-terms-that-are-offensive-to-indigenous-people/
+  considerate:
+    - disobey
+    - endure
+    - object to
+    - oppose
+    - resist
+- type: simple
+  inconsiderate:
+    - circle the wagons
+    - on the warpath
+  note: Avoid using phrases referring to colonial stereotypes regarding Native Americans.
+  source:
+    - https://idioms.thefreedictionary.com/circle+the+wagons
+    - https://idioms.thefreedictionary.com/go+on+the+warpath
+  considerate:
+    - defend
+- type: simple
+  inconsiderate:
+    - too many chiefs
+  note: Avoid using phrases referring to colonial stereotypes regarding Native Americans.
+  source:
+    - https://idioms.thefreedictionary.com/too+many+chiefs+and+not+enough+Indians
+  considerate:
+    - too many chefs in the kitchen
+    - too many cooks spoil the broth
+- type: simple
+  inconsiderate:
+    - natives are restless
+    - natives are becoming restless
+    - natives are getting restless
+    - natives are growing restless
+  note: Avoid using phrases referring to colonial stereotypes regarding indigenous peoples.
+  source:
+    - https://tvtropes.org/pmwiki/pmwiki.php/Main/TheNativesAreRestless
+  considerate:
+    - dissatisfied
+    - frustrated
+- type: simple
+  inconsiderate:
+    - pow wow
+    - powwow
+  note: Avoid casually using this term, which refers to traditional indigenous celebration ceremonies that were banned by genocidal laws in the United States and Canada — Native people died fighting for this right.
+  source:
+    - https://twitter.com/chadloder/status/1203507070772793345
+    - http://nativeappropriations.com/2012/09/paul-frank-offends-every-native-person-on-the-planet-with-fashion-night-out-dream-catchin-pow-wow.html
+    - https://www.britannica.com/topic/powwow
+    - https://nowtoronto.com/news/native-references-and-terms-that-are-offensive-to-indigenous-people/
+  considerate:
+    - conference
+    - gathering
+    - meeting
+- type: simple
+  note: Avoid using phrases referring to colonial stereotypes regarding Native Americans.
+  considerate:
+    - go back on one’s offer
   inconsiderate:
     - indian give
     - indian giver
@@ -84,7 +179,7 @@
     - sand niggers
     - towel heads
 - type: simple
-  note: Whenever possible , always try to be gender inclusive.
+  note: Whenever possible, try to be gender inclusive.
   considerate:
     - Latinx
   inconsiderate:
@@ -112,7 +207,7 @@
     - spade
 - type: simple
   source: en.wikipedia.org/wiki/Romani_people#cite_ref-80
-  note: Gypsy is insensitive, use Roma or Romani. They're not Egyptian as their name suggests.
+  note: Gypsy is insensitive, use Roma or Romani. They’re not Egyptian as the name suggests.
   considerate:
     - Nomad
     - Traveler
@@ -159,13 +254,13 @@
   inconsiderate:
     - tribe
 - type: simple
-  note: Avoid using terms that make some groups sound inferior. Replace "sophisticated" with a neutral term such as "complex"
+  note: Avoid using terms that make some groups sound inferior. Replace “sophisticated” with a neutral term such as “complex”
   considerate:
     - complex culture
   inconsiderate:
     - sophisticated culture
 - type: simple
-  note: Avoid using terms that make some groups sound inferior. Replace "sophisticated" with a neutral term such as "complex"
+  note: Avoid using terms that make some groups sound inferior. Replace “sophisticated” with a neutral term such as “complex”
   considerate:
     - complex technology
   inconsiderate:
