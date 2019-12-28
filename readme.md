@@ -50,10 +50,9 @@ Now, running `node example` yields:
 
 ```txt
 example.txt
-    1:1-1:4  warning  `His` may be insensitive, use `Their`, `Theirs`, `Them` instead           her-him       retext-equality
-  1:31-1:37  warning  `master` / `slave` may be insensitive, use `primary` / `replica` instead  master-slave  retext-equality
+  1:1-1:5  warning  `He’s` may be insensitive, use `They`, `It` instead  he-she  retext-equality
 
-⚠ 2 warnings
+⚠ 1 warning
 ```
 
 ## API
