@@ -23,6 +23,10 @@
   ],
   "repository": "retextjs/retext-equality",
   "bugs": "https://github.com/retextjs/retext-equality/issues",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/unified"
+  },
   "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
