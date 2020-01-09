@@ -404,7 +404,15 @@ This is used for one case: `master` and `slave`.
 | `ghetto` | [simple](#simple) | `ghetto` | `projects`, `urban` |
 | `redskin` | [simple](#simple) | `red indian`, `pocahontas`, `redskin` | `Native American` |
 | `redskins` | [simple](#simple) | `red indians`, `redskins` | `Native American People` |
-| `indian-give` | [simple](#simple) | `indian give`, `indian giver` | `go back on one's offer` |
+| `totem` | [simple](#simple) | `animal spirit`, `dream catcher`, `spirit animal`, `totem` | `favorite`, `inspiration`, `personal interest`, `personality type` |
+| `long-time-no-see` | [simple](#simple) | `long time no hear`, `long time no see` | `I haven’t seen you in a long time`, `it’s been a long time` |
+| `indian-country` | [simple](#simple) | `Indian country` | `enemy territory` |
+| `off-reserve` | [simple](#simple) | `jump the reservation`, `off reserve`, `off the reservation` | `disobey`, `endure`, `object to`, `oppose`, `resist` |
+| `on-the-warpath` | [simple](#simple) | `circle the wagons`, `on the warpath` | `defend` |
+| `too-many-chiefs` | [simple](#simple) | `too many chiefs` | `too many chefs in the kitchen`, `too many cooks spoil the broth` |
+| `natives-are-restless` | [simple](#simple) | `natives are restless`, `natives are becoming restless`, `natives are getting restless`, `natives are growing restless` | `dissatisfied`, `frustrated` |
+| `powwow` | [simple](#simple) | `pow wow`, `powwow` | `conference`, `gathering`, `meeting` |
+| `indian-give` | [simple](#simple) | `indian give`, `indian giver` | `go back on one’s offer` |
 | `pinoys` | [simple](#simple) | `pinoys`, `pinays` | `Filipinos`, `Filipino people` |
 | `towel-heads` | [simple](#simple) | `sand niggers`, `towel heads` | `Arabs`, `Middle Eastern People` |
 | `latino` | [simple](#simple) | `latino`, `latina`, `mexican` | `Latinx` |
