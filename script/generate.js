@@ -88,9 +88,9 @@ function generateLanguage(info) {
   var phrases = []
 
   data.forEach(function(entry) {
-    if (entry.type !== 'simple' && entry.categories.length < 2) {
+    if (entry.type !== 'basic' && entry.categories.length < 2) {
       throw new Error(
-        'Use `type: simple` for single entries with one category: ' +
+        'Use `type: basic` for single entries with one category: ' +
           Object.keys(entry.inconsiderate).join(', ')
       )
     }

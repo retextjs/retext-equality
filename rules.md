@@ -2,9 +2,9 @@
 
 ## Pattern types
 
-###### Simple
+###### Basic
 
-**Simple** patterns highlight possible inconsiderate terms and suggest
+**Basic** patterns highlight possible inconsiderate terms and suggest
 potentially more considerate alternatives.
 
 ###### Or
@@ -13,7 +13,7 @@ potentially more considerate alternatives.
 present.
 This is used for gendered work titles and the like, where `garbageman and
 garbagewoman` is considered OK, and so is `his or her bike`.
-These patterns can be turned into **simple** patterns by passing `noBinary:
+These patterns can be turned into **basic** patterns by passing `noBinary:
 true`, thus suggesting two alternatives for `him or her`.
 
 **Or** patterns can be joined by `and`, `or`, or a slash (`/`).
@@ -30,90 +30,90 @@ This is used for one case: `master` and `slave`.
 
 | id | type | not ok | ok |
 | --- | ---- | ------ | --- |
-| `learning-disabled` | [simple](#simple) | `learning disabled` | `person with learning disabilities` |
-| `invalid` | [simple](#simple) | `disabled`, `invalid` | `turned off`, `has a disability`, `person with a disability`, `people with disabilities` |
-| `birth-defect` | [simple](#simple) | `birth defect` | `has a disability`, `person with a disability`, `people with disabilities` |
-| `suffers-from-disabilities` | [simple](#simple) | `suffers from disabilities`, `suffering from disabilities`, `suffering from a disability`, `afflicted with disabilities`, `afflicted with a disability` | `has a disability`, `person with a disability`, `people with disabilities` |
-| `intellectually-disabled-people` | [simple](#simple) | `intellectually disabled people` | `people with intellectual disabilities` |
-| `intellectually-disabled` | [simple](#simple) | `intellectually disabled`, `has intellectual issues`, `suffers from intellectual disabilities`, `suffering from intellectual disabilities`, `suffering from an intellectual disability`, `afflicted with intellectual disabilities`, `afflicted with a intellectual disability` | `person with an intellectual disability` |
-| `nuts` | [simple](#simple) | `batshit`, `psycho`, `crazy`, `delirious`, `insane`, `insanity`, `loony`, `lunacy`, `lunatic`, `mentally ill`, `psychopathology`, `mental defective`, `moron`, `moronic`, `nuts`, `mental case`, `mental` | `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` |
-| `sane` | [simple](#simple) | `sane` | `correct`, `adequate`, `sufficient`, `consistent`, `valid`, `coherent`, `sensible`, `reasonable` |
-| `sanity-check` | [simple](#simple) | `sanity check` | `check`, `assertion`, `validation`, `smoke test` |
-| `bipolar` | [simple](#simple) | `bipolar` | `fluctuating`, `person with bipolar disorder` |
-| `schizo` | [simple](#simple) | `schizophrenic`, `schizo` | `person with schizophrenia` |
-| `manic` | [simple](#simple) | `suffers from schizophrenia`, `suffering from schizophrenia`, `afflicted with schizophrenia`, `manic` | `person with schizophrenia` |
-| `handicapped-parking` | [simple](#simple) | `handicapped parking` | `accessible parking` |
-| `handicapped` | [simple](#simple) | `handicapped` | `person with a handicap`, `accessible` |
-| `amputee` | [simple](#simple) | `amputee` | `person with an amputation` |
-| `gimp` | [simple](#simple) | `cripple`, `crippled`, `gimp` | `person with a limp` |
-| `mongoloid` | [simple](#simple) | `mongoloid` | `person with Down Syndrome` |
-| `stroke-victim` | [simple](#simple) | `stroke victim`, `suffering from a stroke`, `victim of a stroke` | `individual who has had a stroke` |
-| `multiple-sclerosis-victim` | [simple](#simple) | `suffers from multiple sclerosis`, `suffering from multiple sclerosis`, `victim of multiple sclerosis`, `multiple sclerosis victim`, `afflicted with multiple sclerosis` | `person who has multiple sclerosis` |
-| `suffers-from-md` | [simple](#simple) | `suffers from muscular dystrophy`, `afflicted with muscular dystrophy`, `suffers from MD`, `afflicted with MD` | `person who has muscular dystrophy` |
-| `family-burden` | [simple](#simple) | `family burden` | `with family support needs` |
-| `asylum` | [simple](#simple) | `asylum` | `psychiatric hospital`, `mental health hospital` |
-| `bedlam` | [simple](#simple) | `bedlam`, `madhouse`, `loony bin` | `chaos`, `hectic`, `pandemonium` |
-| `downs-syndrome` | [simple](#simple) | `downs syndrome` | `Down Syndrome` |
-| `retard` | [simple](#simple) | `retard`, `retarded`, `short bus` | `silly`, `dullard`, `person with Down Syndrome`, `person with developmental disabilities`, `delay`, `hold back` |
-| `retards` | [simple](#simple) | `retards` | `sillies`, `dullards`, `people with developmental disabilities`, `people with Down’s Syndrome`, `delays`, `holds back` |
-| `psychotic` | [simple](#simple) | `psychotic`, `suffers from psychosis`, `suffering from psychosis`, `afflicted with psychosis`, `victim of psychosis` | `person with a psychotic condition`, `person with psychosis` |
-| `lame` | [simple](#simple) | `lame` | `boring`, `dull` |
-| `aids-victim` | [simple](#simple) | `suffering from aids`, `suffer from aids`, `suffers from aids`, `afflicted with aids`, `victim of aids`, `aids victim` | `person with AIDS` |
-| `wheelchair-bound` | [simple](#simple) | `confined to a wheelchair`, `bound to a wheelchair`, `restricted to a wheelchair`, `wheelchair bound` | `uses a wheelchair` |
-| `special-olympians` | [simple](#simple) | `special olympians`, `special olympic athletes` | `athletes`, `Special Olympics athletes` |
-| `ablebodied` | [simple](#simple) | `ablebodied` | `non-disabled` |
-| `addict` | [simple](#simple) | `addict`, `junkie` | `person with a drug addiction`, `person recovering from a drug addiction` |
-| `addicts` | [simple](#simple) | `addicts`, `junkies` | `people with a drug addiction`, `people recovering from a drug addiction` |
-| `alcoholic` | [simple](#simple) | `alcoholic`, `alcohol abuser` | `someone with an alcohol problem` |
-| `deafmute` | [simple](#simple) | `deaf and dumb`, `deafmute` | `deaf` |
-| `senile` | [simple](#simple) | `demented`, `senile` | `person with dementia` |
-| `depressed` | [simple](#simple) | `depressed` | `sad`, `blue`, `bummed out`, `person with seasonal affective disorder`, `person with psychotic depression`, `person with postpartum depression` |
-| `dwarf` | [simple](#simple) | `vertically challenged`, `midget`, `small person`, `dwarf` | `person with dwarfism`, `little person`, `little people`, `LP`, `person of short stature` |
-| `dyslexic` | [simple](#simple) | `dyslexic` | `person with dyslexia` |
-| `epileptic` | [simple](#simple) | `epileptic` | `person with epilepsy` |
-| `hearing-impaired` | [simple](#simple) | `hearing impaired`, `hearing impairment` | `hard of hearing`, `partially deaf`, `partial hearing loss`, `deaf` |
-| `victim-of-polio` | [simple](#simple) | `infantile paralysis`, `suffers from polio`, `suffering from polio`, `suffering from a polio`, `afflicted with polio`, `afflicted with a polio`, `victim of polio` | `polio`, `person who had polio` |
-| `victim-of-an-injury` | [simple](#simple) | `suffer from an injury`, `suffers from an injury`, `suffering from an injury`, `afflicted with an injury`, `victim of an injury` | `sustain an injury`, `receive an injury` |
-| `victim-of-injuries` | [simple](#simple) | `suffer from injuries`, `suffers from injuries`, `suffering from injuries`, `afflicted with injuries`, `victim of injuries` | `sustain injuries`, `receive injuries` |
-| `paraplegic` | [simple](#simple) | `paraplegic` | `person with paraplegia` |
-| `quadriplegic` | [simple](#simple) | `quadriplegic` | `person with quadriplegia` |
-| `spaz` | [simple](#simple) | `spaz` | `person with cerebral palsy`, `twitch`, `flinch`, `hectic` |
-| `spastic` | [simple](#simple) | `spastic` | `person with cerebral palsy`, `twitch`, `flinch` |
-| `stammering` | [simple](#simple) | `stammering` | `stuttering`, `disfluency of speech` |
-| `stutterer` | [simple](#simple) | `stutterer` | `person who stutters` |
-| `tourettes-syndrome` | [simple](#simple) | `tourettes syndrome`, `tourettes disorder` | `Tourette syndrome` |
-| `rehab-center` | [simple](#simple) | `rehab center`, `detox center` | `treatment center` |
-| `rehab` | [simple](#simple) | `rehab`, `detox` | `treatment` |
-| `sociopath` | [simple](#simple) | `sociopath` | `person with a personality disorder`, `person with psychopathic personality` |
-| `sociopaths` | [simple](#simple) | `sociopaths` | `people with psychopathic personalities`, `people with a personality disorder` |
-| `dumb` | [simple](#simple) | `dumb` | `foolish`, `ludicrous`, `speechless`, `silent` |
-| `wacko` | [simple](#simple) | `simpleton`, `stupid`, `wacko`, `whacko`, `low iq` | `foolish`, `ludicrous`, `unintelligent` |
-| `panic-attack` | [simple](#simple) | `panic attack` | `fit of terror`, `scare` |
-| `bony` | [simple](#simple) | `anorexic`, `bony` | `thin`, `slim` |
-| `ocd` | [simple](#simple) | `neurotic`, `ocd`, `o.c.d`, `o.c.d.` | `has an anxiety disorder`, `obsessive`, `pedantic`, `niggly`, `picky` |
-| `insomnia` | [simple](#simple) | `insomnia` | `restlessness`, `sleeplessness` |
-| `insomniac` | [simple](#simple) | `insomniac` | `person who has insomnia` |
-| `insomniacs` | [simple](#simple) | `insomniacs` | `people who have insomnia` |
-| `barren` | [simple](#simple) | `barren` | `empty`, `sterile`, `infertile` |
-| `deaf-to` | [simple](#simple) | `blind to`, `blind eye to`, `blinded by`, `deaf to`, `deaf ear to`, `deafened by` | `careless`, `heartless`, `indifferent`, `insensitive` |
-| `cretin` | [simple](#simple) | `cretin` | `creep`, `fool` |
-| `daft` | [simple](#simple) | `daft` | `absurd`, `foolish` |
-| `idiot` | [simple](#simple) | `feebleminded`, `feeble minded`, `idiot`, `imbecile` | `foolish`, `ludicrous`, `silly` |
-| `harelipped` | [simple](#simple) | `harelipped`, `cleftlipped` | `person with a cleft-lip and palate` |
-| `harelip` | [simple](#simple) | `harelip`, `hare lip` | `cleft-lip and palate` |
-| `maniac` | [simple](#simple) | `maniac` | `fanatic`, `zealot`, `enthusiast` |
-| `buckteeth` | [simple](#simple) | `bucktoothed`, `buckteeth` | `person with prominent teeth`, `prominent teeth` |
-| `special` | [simple](#simple) | `challenged`, `diffability`, `differently abled`, `handicapable`, `special`, `special needs`, `specially abled` | `has a disability`, `person with a disability`, `people with disabilities` |
-| `libtard` | [simple](#simple) | `fucktard`, `libtard`, `contard` | `disagreeable`, `uneducated`, `ignorant`, `naive`, `inconsiderate` |
-| `add` | [simple](#simple) | `ADD`, `adhd`, `a.d.d.`, `a.d.h.d.` | `disorganized`, `distracted`, `energetic`, `hyperactive`, `impetuous`, `impulsive`, `inattentive`, `restless`, `unfocused` |
-| `obvious` | [simple](#simple) | `obvious`, `obviously` |  |
-| `just` | [simple](#simple) | `just` |  |
-| `basically` | [simple](#simple) | `basically` |  |
-| `simple` | [simple](#simple) | `simple`, `simply` |  |
-| `easy` | [simple](#simple) | `easy`, `easily` |  |
-| `of-course` | [simple](#simple) | `of course` |  |
-| `clearly` | [simple](#simple) | `clearly` |  |
-| `everyone-knows` | [simple](#simple) | `everyone knows` |  |
+| `learning-disabled` | [basic](#basic) | `learning disabled` | `person with learning disabilities` |
+| `invalid` | [basic](#basic) | `disabled`, `invalid` | `turned off`, `has a disability`, `person with a disability`, `people with disabilities` |
+| `birth-defect` | [basic](#basic) | `birth defect` | `has a disability`, `person with a disability`, `people with disabilities` |
+| `suffers-from-disabilities` | [basic](#basic) | `suffers from disabilities`, `suffering from disabilities`, `suffering from a disability`, `afflicted with disabilities`, `afflicted with a disability` | `has a disability`, `person with a disability`, `people with disabilities` |
+| `intellectually-disabled-people` | [basic](#basic) | `intellectually disabled people` | `people with intellectual disabilities` |
+| `intellectually-disabled` | [basic](#basic) | `intellectually disabled`, `has intellectual issues`, `suffers from intellectual disabilities`, `suffering from intellectual disabilities`, `suffering from an intellectual disability`, `afflicted with intellectual disabilities`, `afflicted with a intellectual disability` | `person with an intellectual disability` |
+| `nuts` | [basic](#basic) | `batshit`, `psycho`, `crazy`, `delirious`, `insane`, `insanity`, `loony`, `lunacy`, `lunatic`, `mentally ill`, `psychopathology`, `mental defective`, `moron`, `moronic`, `nuts`, `mental case`, `mental` | `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` |
+| `sane` | [basic](#basic) | `sane` | `correct`, `adequate`, `sufficient`, `consistent`, `valid`, `coherent`, `sensible`, `reasonable` |
+| `sanity-check` | [basic](#basic) | `sanity check` | `check`, `assertion`, `validation`, `smoke test` |
+| `bipolar` | [basic](#basic) | `bipolar` | `fluctuating`, `person with bipolar disorder` |
+| `schizo` | [basic](#basic) | `schizophrenic`, `schizo` | `person with schizophrenia` |
+| `manic` | [basic](#basic) | `suffers from schizophrenia`, `suffering from schizophrenia`, `afflicted with schizophrenia`, `manic` | `person with schizophrenia` |
+| `handicapped-parking` | [basic](#basic) | `handicapped parking` | `accessible parking` |
+| `handicapped` | [basic](#basic) | `handicapped` | `person with a handicap`, `accessible` |
+| `amputee` | [basic](#basic) | `amputee` | `person with an amputation` |
+| `gimp` | [basic](#basic) | `cripple`, `crippled`, `gimp` | `person with a limp` |
+| `mongoloid` | [basic](#basic) | `mongoloid` | `person with Down Syndrome` |
+| `stroke-victim` | [basic](#basic) | `stroke victim`, `suffering from a stroke`, `victim of a stroke` | `individual who has had a stroke` |
+| `multiple-sclerosis-victim` | [basic](#basic) | `suffers from multiple sclerosis`, `suffering from multiple sclerosis`, `victim of multiple sclerosis`, `multiple sclerosis victim`, `afflicted with multiple sclerosis` | `person who has multiple sclerosis` |
+| `suffers-from-md` | [basic](#basic) | `suffers from muscular dystrophy`, `afflicted with muscular dystrophy`, `suffers from MD`, `afflicted with MD` | `person who has muscular dystrophy` |
+| `family-burden` | [basic](#basic) | `family burden` | `with family support needs` |
+| `asylum` | [basic](#basic) | `asylum` | `psychiatric hospital`, `mental health hospital` |
+| `bedlam` | [basic](#basic) | `bedlam`, `madhouse`, `loony bin` | `chaos`, `hectic`, `pandemonium` |
+| `downs-syndrome` | [basic](#basic) | `downs syndrome` | `Down Syndrome` |
+| `retard` | [basic](#basic) | `retard`, `retarded`, `short bus` | `silly`, `dullard`, `person with Down Syndrome`, `person with developmental disabilities`, `delay`, `hold back` |
+| `retards` | [basic](#basic) | `retards` | `sillies`, `dullards`, `people with developmental disabilities`, `people with Down’s Syndrome`, `delays`, `holds back` |
+| `psychotic` | [basic](#basic) | `psychotic`, `suffers from psychosis`, `suffering from psychosis`, `afflicted with psychosis`, `victim of psychosis` | `person with a psychotic condition`, `person with psychosis` |
+| `lame` | [basic](#basic) | `lame` | `boring`, `dull` |
+| `aids-victim` | [basic](#basic) | `suffering from aids`, `suffer from aids`, `suffers from aids`, `afflicted with aids`, `victim of aids`, `aids victim` | `person with AIDS` |
+| `wheelchair-bound` | [basic](#basic) | `confined to a wheelchair`, `bound to a wheelchair`, `restricted to a wheelchair`, `wheelchair bound` | `uses a wheelchair` |
+| `special-olympians` | [basic](#basic) | `special olympians`, `special olympic athletes` | `athletes`, `Special Olympics athletes` |
+| `ablebodied` | [basic](#basic) | `ablebodied` | `non-disabled` |
+| `addict` | [basic](#basic) | `addict`, `junkie` | `person with a drug addiction`, `person recovering from a drug addiction` |
+| `addicts` | [basic](#basic) | `addicts`, `junkies` | `people with a drug addiction`, `people recovering from a drug addiction` |
+| `alcoholic` | [basic](#basic) | `alcoholic`, `alcohol abuser` | `someone with an alcohol problem` |
+| `deafmute` | [basic](#basic) | `deaf and dumb`, `deafmute` | `deaf` |
+| `senile` | [basic](#basic) | `demented`, `senile` | `person with dementia` |
+| `depressed` | [basic](#basic) | `depressed` | `sad`, `blue`, `bummed out`, `person with seasonal affective disorder`, `person with psychotic depression`, `person with postpartum depression` |
+| `dwarf` | [basic](#basic) | `vertically challenged`, `midget`, `small person`, `dwarf` | `person with dwarfism`, `little person`, `little people`, `LP`, `person of short stature` |
+| `dyslexic` | [basic](#basic) | `dyslexic` | `person with dyslexia` |
+| `epileptic` | [basic](#basic) | `epileptic` | `person with epilepsy` |
+| `hearing-impaired` | [basic](#basic) | `hearing impaired`, `hearing impairment` | `hard of hearing`, `partially deaf`, `partial hearing loss`, `deaf` |
+| `victim-of-polio` | [basic](#basic) | `infantile paralysis`, `suffers from polio`, `suffering from polio`, `suffering from a polio`, `afflicted with polio`, `afflicted with a polio`, `victim of polio` | `polio`, `person who had polio` |
+| `victim-of-an-injury` | [basic](#basic) | `suffer from an injury`, `suffers from an injury`, `suffering from an injury`, `afflicted with an injury`, `victim of an injury` | `sustain an injury`, `receive an injury` |
+| `victim-of-injuries` | [basic](#basic) | `suffer from injuries`, `suffers from injuries`, `suffering from injuries`, `afflicted with injuries`, `victim of injuries` | `sustain injuries`, `receive injuries` |
+| `paraplegic` | [basic](#basic) | `paraplegic` | `person with paraplegia` |
+| `quadriplegic` | [basic](#basic) | `quadriplegic` | `person with quadriplegia` |
+| `spaz` | [basic](#basic) | `spaz` | `person with cerebral palsy`, `twitch`, `flinch`, `hectic` |
+| `spastic` | [basic](#basic) | `spastic` | `person with cerebral palsy`, `twitch`, `flinch` |
+| `stammering` | [basic](#basic) | `stammering` | `stuttering`, `disfluency of speech` |
+| `stutterer` | [basic](#basic) | `stutterer` | `person who stutters` |
+| `tourettes-syndrome` | [basic](#basic) | `tourettes syndrome`, `tourettes disorder` | `Tourette syndrome` |
+| `rehab-center` | [basic](#basic) | `rehab center`, `detox center` | `treatment center` |
+| `rehab` | [basic](#basic) | `rehab`, `detox` | `treatment` |
+| `sociopath` | [basic](#basic) | `sociopath` | `person with a personality disorder`, `person with psychopathic personality` |
+| `sociopaths` | [basic](#basic) | `sociopaths` | `people with psychopathic personalities`, `people with a personality disorder` |
+| `dumb` | [basic](#basic) | `dumb` | `foolish`, `ludicrous`, `speechless`, `silent` |
+| `wacko` | [basic](#basic) | `simpleton`, `stupid`, `wacko`, `whacko`, `low iq` | `foolish`, `ludicrous`, `unintelligent` |
+| `panic-attack` | [basic](#basic) | `panic attack` | `fit of terror`, `scare` |
+| `bony` | [basic](#basic) | `anorexic`, `bony` | `thin`, `slim` |
+| `ocd` | [basic](#basic) | `neurotic`, `ocd`, `o.c.d`, `o.c.d.` | `has an anxiety disorder`, `obsessive`, `pedantic`, `niggly`, `picky` |
+| `insomnia` | [basic](#basic) | `insomnia` | `restlessness`, `sleeplessness` |
+| `insomniac` | [basic](#basic) | `insomniac` | `person who has insomnia` |
+| `insomniacs` | [basic](#basic) | `insomniacs` | `people who have insomnia` |
+| `barren` | [basic](#basic) | `barren` | `empty`, `sterile`, `infertile` |
+| `deaf-to` | [basic](#basic) | `blind to`, `blind eye to`, `blinded by`, `deaf to`, `deaf ear to`, `deafened by` | `careless`, `heartless`, `indifferent`, `insensitive` |
+| `cretin` | [basic](#basic) | `cretin` | `creep`, `fool` |
+| `daft` | [basic](#basic) | `daft` | `absurd`, `foolish` |
+| `idiot` | [basic](#basic) | `feebleminded`, `feeble minded`, `idiot`, `imbecile` | `foolish`, `ludicrous`, `silly` |
+| `harelipped` | [basic](#basic) | `harelipped`, `cleftlipped` | `person with a cleft-lip and palate` |
+| `harelip` | [basic](#basic) | `harelip`, `hare lip` | `cleft-lip and palate` |
+| `maniac` | [basic](#basic) | `maniac` | `fanatic`, `zealot`, `enthusiast` |
+| `buckteeth` | [basic](#basic) | `bucktoothed`, `buckteeth` | `person with prominent teeth`, `prominent teeth` |
+| `special` | [basic](#basic) | `challenged`, `diffability`, `differently abled`, `handicapable`, `special`, `special needs`, `specially abled` | `has a disability`, `person with a disability`, `people with disabilities` |
+| `libtard` | [basic](#basic) | `fucktard`, `libtard`, `contard` | `disagreeable`, `uneducated`, `ignorant`, `naive`, `inconsiderate` |
+| `add` | [basic](#basic) | `ADD`, `adhd`, `a.d.d.`, `a.d.h.d.` | `disorganized`, `distracted`, `energetic`, `hyperactive`, `impetuous`, `impulsive`, `inattentive`, `restless`, `unfocused` |
+| `obvious` | [basic](#basic) | `obvious`, `obviously` |  |
+| `just` | [basic](#basic) | `just` |  |
+| `basically` | [basic](#basic) | `basically` |  |
+| `simple` | [basic](#basic) | `simple`, `simply` |  |
+| `easy` | [basic](#basic) | `easy`, `easily` |  |
+| `of-course` | [basic](#basic) | `of course` |  |
+| `clearly` | [basic](#basic) | `clearly` |  |
+| `everyone-knows` | [basic](#basic) | `everyone knows` |  |
 | `her-him` | [or](#or) | `her` (female), `hers` (female), `him` (male), `his` (male) | `their`, `theirs`, `them` |
 | `he-she` | [or](#or) | `she` (female), `he` (male), `she'd` (female), `he'd` (male), `she'll` (female), `he'll` (male), `she's` (female), `he's` (male) | `they`, `it` |
 | `herself-himself` | [or](#or) | `herself` (female), `himself` (male) | `themselves`, `theirself`, `self` |
@@ -286,150 +286,150 @@ This is used for one case: `master` and `slave`.
 | `weathermen-weatherwomen` | [or](#or) | `weatherwomen` (female), `weathermen` (male) | `weather forecasters`, `meteorologists` |
 | `widow-widower` | [or](#or) | `widow` (female), `widows` (female), `widower` (male), `widowers` (male) | `bereaved` |
 | `own-man-own-woman` | [or](#or) | `own woman` (female), `own man` (male) | `own person` |
-| `frenchmen` | [simple](#simple) | `frenchmen` | `french`, `the french` |
-| `ladylike` | [simple](#simple) | `ladylike` | `courteous`, `cultured` |
-| `like-a-man` | [simple](#simple) | `like a man` | `resolutely`, `bravely` |
-| `maiden-name` | [simple](#simple) | `maiden name` | `birth name` |
-| `maiden-voyage` | [simple](#simple) | `maiden voyage` | `first voyage` |
-| `man-enough` | [simple](#simple) | `man enough` | `strong enough` |
-| `oneupmanship` | [simple](#simple) | `oneupmanship` | `upstaging`, `competitiveness` |
-| `mrs-` | [simple](#simple) | `miss.`, `mrs.` | `ms.` |
-| `manmade` | [simple](#simple) | `manmade` | `manufactured`, `artificial`, `synthetic`, `machine-made`, `constructed` |
-| `man-of-action` | [simple](#simple) | `man of action` | `dynamo` |
-| `man-of-letters` | [simple](#simple) | `man of letters` | `scholar`, `writer`, `literary figure` |
-| `man-of-the-world` | [simple](#simple) | `man of the world` | `sophisticate` |
-| `fellowship` | [simple](#simple) | `fellowship` | `camaraderie`, `community`, `organization` |
-| `freshman` | [simple](#simple) | `freshman`, `freshwoman` | `first-year student`, `fresher` |
-| `workmanship` | [simple](#simple) | `workmanship` | `quality construction`, `expertise` |
-| `housewife` | [simple](#simple) | `housewife` | `homemaker`, `homeworker` |
-| `housewives` | [simple](#simple) | `housewives` | `homemakers`, `homeworkers` |
-| `motherly` | [simple](#simple) | `motherly` | `loving`, `warm`, `nurturing` |
-| `manpower` | [simple](#simple) | `manpower` | `human resources`, `workforce`, `personnel`, `staff`, `labor`, `labor force`, `staffing`, `combat personnel` |
-| `master-of-ceremonies` | [simple](#simple) | `master of ceremonies` | `emcee`, `moderator`, `convenor` |
-| `masterful` | [simple](#simple) | `masterful` | `skilled`, `authoritative`, `commanding` |
-| `mastermind` | [simple](#simple) | `mastermind` | `genius`, `creator`, `instigator`, `oversee`, `launch`, `originate` |
-| `masterpiece` | [simple](#simple) | `masterpiece` | `work of genius`, `chef d’oeuvre` |
-| `masterplan` | [simple](#simple) | `masterplan` | `vision`, `comprehensive plan` |
-| `masterstroke` | [simple](#simple) | `masterstroke` | `trump card`, `stroke of genius` |
-| `madman` | [simple](#simple) | `madman`, `mad man` | `fanatic`, `zealot`, `enthusiast` |
-| `madmen` | [simple](#simple) | `madmen`, `mad men` | `maniacs`, `enthusiasts` |
-| `mankind` | [simple](#simple) | `mankind` | `humankind` |
-| `manhour` | [simple](#simple) | `manhour`, `man hour` | `staff hour`, `hour of work` |
-| `manhours` | [simple](#simple) | `manhours`, `man hours` | `staff hours`, `hours of work`, `hours of labor`, `hours` |
-| `manned` | [simple](#simple) | `manned` | `staffed`, `crewed`, `piloted` |
-| `unmanned` | [simple](#simple) | `unmanned` | `robotic`, `automated` |
-| `moaning` | [simple](#simple) | `bitching`, `moaning` | `whining`, `complaining`, `crying` |
-| `moan` | [simple](#simple) | `bitch`, `moan` | `whine`, `complain`, `cry` |
-| `wifebeater` | [simple](#simple) | `wife beater`, `wifebeater` | `tank top`, `sleeveless undershirt` |
-| `ancient-man` | [simple](#simple) | `ancient man` | `ancient civilization`, `ancient people` |
-| `authoress` | [simple](#simple) | `authoress` | `author`, `writer` |
-| `average-housewife` | [simple](#simple) | `average housewife` | `average consumer`, `average household`, `average homemaker` |
-| `average-man` | [simple](#simple) | `average man` | `average person` |
-| `average-working-man` | [simple](#simple) | `average working man` | `average wage earner`, `average taxpayer` |
-| `aviatrix` | [simple](#simple) | `aviatrix` | `aviator` |
-| `brotherhood-of-man` | [simple](#simple) | `brotherhood of man` | `the human family` |
-| `calendar-girl` | [simple](#simple) | `calendar girl` | `model` |
-| `call-girl` | [simple](#simple) | `call girl` | `escort`, `prostitute`, `sex worker` |
-| `churchman` | [simple](#simple) | `churchman` | `cleric`, `practicing Christian`, `pillar of the Church` |
-| `english-master` | [simple](#simple) | `english master` | `english coordinator`, `senior teacher of english` |
-| `englishmen` | [simple](#simple) | `englishmen` | `the english` |
-| `executrix` | [simple](#simple) | `executrix` | `executor` |
-| `father-of-*` | [simple](#simple) | `father of *` | `founder of` |
-| `founding-father` | [simple](#simple) | `founding father` | `the founders`, `founding leaders`, `forebears` |
-| `housemaid` | [simple](#simple) | `housemaid` | `house worker`, `domestic help` |
-| `industrial-man` | [simple](#simple) | `industrial man` | `industrial civilization`, `industrial people` |
-| `lady-doctor` | [simple](#simple) | `lady doctor` | `doctor` |
-| `leading-lady` | [simple](#simple) | `leading lady` | `lead` |
-| `maiden` | [simple](#simple) | `maiden` | `virgin` |
-| `maiden-race` | [simple](#simple) | `maiden race` | `first race` |
-| `maiden-speech` | [simple](#simple) | `maiden speech` | `first speech` |
-| `man-a-desk` | [simple](#simple) | `man a desk` | `staff a desk` |
-| `man-in-the-street` | [simple](#simple) | `man in the street` | `ordinary citizen`, `typical person`, `average person` |
-| `man-of-the-land` | [simple](#simple) | `man of the land` | `farmer`, `rural worker`, `grazier`, `landowner`, `rural community`, `country people`, `country folk` |
-| `mans-best-friend` | [simple](#simple) | `mans best friend` | `a faithful dog` |
-| `man-the-booth` | [simple](#simple) | `man the booth` | `staff the booth` |
-| `man-the-phones` | [simple](#simple) | `man the phones` | `answer the phones` |
-| `mansized-task` | [simple](#simple) | `mansized task`, `man sized task` | `a demanding task`, `a big job` |
-| `master-key` | [simple](#simple) | `master key`, `master copy` | `pass key`, `original` |
-| `master-plan` | [simple](#simple) | `master plan` | `grand scheme`, `guiding principles` |
-| `master-the-art` | [simple](#simple) | `master the art` | `become skilled` |
-| `men-of-science` | [simple](#simple) | `men of science` | `scientists` |
-| `midwife` | [simple](#simple) | `midwife` | `birthing nurse` |
-| `modern-man` | [simple](#simple) | `modern man` | `modern civilization`, `modern people` |
-| `no-mans-land` | [simple](#simple) | `no mans land` | `unoccupied territory`, `wasteland`, `deathtrap` |
-| `office-girls` | [simple](#simple) | `office girls` | `administrative staff` |
-| `poetess` | [simple](#simple) | `poetess` | `poet` |
-| `railwayman` | [simple](#simple) | `railwayman` | `railway worker` |
-| `sportsmanlike` | [simple](#simple) | `sportsmanlike` | `fair`, `sporting` |
-| `sportsmanship` | [simple](#simple) | `sportsmanship` | `fairness`, `good humor`, `sense of fair play` |
-| `statesmanlike` | [simple](#simple) | `statesmanlike`, `statesman like` | `diplomatic` |
-| `stockman` | [simple](#simple) | `stockman` | `cattle worker`, `farmhand`, `drover` |
-| `tradesmans-entrance` | [simple](#simple) | `tradesmans entrance` | `service entrance` |
-| `tax-man` | [simple](#simple) | `tax man` | `tax commissioner`, `tax office`, `tax collector` |
-| `usherette` | [simple](#simple) | `usherette` | `usher` |
-| `woman-lawyer` | [simple](#simple) | `woman lawyer` | `lawyer` |
-| `woman-painter` | [simple](#simple) | `woman painter` | `painter` |
-| `working-wife` | [simple](#simple) | `working mother`, `working wife` | `wage or salary earning woman`, `two-income family` |
-| `homosexual` | [simple](#simple) | `homosexual` | `gay`, `gay man`, `lesbian`, `gay person/people` |
-| `homosexual-relations` | [simple](#simple) | `homosexual relations`, `homosexual relationship` | `relationship` |
-| `homosexual-couple` | [simple](#simple) | `homosexual couple` | `couple` |
-| `sexual-preference` | [simple](#simple) | `sexual preference` | `sexual orientation`, `orientation` |
-| `gay-lifestyle` | [simple](#simple) | `gay lifestyle`, `homosexual lifestyle` | `gay lives`, `gay/lesbian lives` |
-| `gay-agenda` | [simple](#simple) | `gay agenda`, `homosexual agenda` | `gay issues` |
-| `gay-rights` | [simple](#simple) | `special rights`, `gay rights` | `equal rights`, `civil rights for gay people` |
-| `fag` | [simple](#simple) | `fag`, `faggot`, `dyke`, `homo`, `sodomite` | `gay` |
-| `bi` | [simple](#simple) | `bi` | `bisexual` |
-| `homosexual-marriage` | [simple](#simple) | `homosexual marriage` | `gay marriage`, `same-sex marriage` |
-| `tranny` | [simple](#simple) | `tranny` | `transgender` |
-| `transvestite` | [simple](#simple) | `transvestite` | `cross-dresser` |
-| `sexchange` | [simple](#simple) | `sexchange`, `sex change` | `transition`, `gender confirmation surgery` |
-| `sex-change-operation` | [simple](#simple) | `sex change operation` | `sex reassignment surgery`, `gender confirmation surgery` |
-| `transgenders` | [simple](#simple) | `transgenders` | `transgender people` |
-| `transgendered` | [simple](#simple) | `transgendered` | `transgender` |
-| `transgenderism` | [simple](#simple) | `transgenderism` | `being transgender`, `the movement for transgender equality` |
-| `born-a-man` | [simple](#simple) | `biologically male`, `born a man`, `genetically male` | `assigned male at birth`, `designated male at birth` |
-| `born-a-woman` | [simple](#simple) | `biologically female`, `born a woman`, `genetically female` | `assigned female at birth`, `designated female at birth` |
-| `bathroom-bill` | [simple](#simple) | `bathroom bill` | `non-discrimination law`, `non-discrimination ordinance` |
-| `hermaphroditic` | [simple](#simple) | `hermaphroditic`, `pseudohermaphroditic`, `pseudo hermaphroditic` | `intersex` |
-| `hermaphrodite` | [simple](#simple) | `hermaphrodite`, `pseudohermaphrodite`, `pseudo hermaphrodite` | `person who is intersex`, `person`, `intersex person` |
-| `heshe` | [simple](#simple) | `shemale`, `she male`, `heshe`, `shehe` | `transgender person`, `person` |
-| `islamist` | [simple](#simple) | `islamist` | `muslim`, `person of Islamic faith`, `fanatic`, `zealot`, `follower of islam`, `follower of the islamic faith` |
-| `islamists` | [simple](#simple) | `islamists` | `muslims`, `people of Islamic faith`, `fanatics`, `zealots` |
+| `frenchmen` | [basic](#basic) | `frenchmen` | `french`, `the french` |
+| `ladylike` | [basic](#basic) | `ladylike` | `courteous`, `cultured` |
+| `like-a-man` | [basic](#basic) | `like a man` | `resolutely`, `bravely` |
+| `maiden-name` | [basic](#basic) | `maiden name` | `birth name` |
+| `maiden-voyage` | [basic](#basic) | `maiden voyage` | `first voyage` |
+| `man-enough` | [basic](#basic) | `man enough` | `strong enough` |
+| `oneupmanship` | [basic](#basic) | `oneupmanship` | `upstaging`, `competitiveness` |
+| `mrs-` | [basic](#basic) | `miss.`, `mrs.` | `ms.` |
+| `manmade` | [basic](#basic) | `manmade` | `manufactured`, `artificial`, `synthetic`, `machine-made`, `constructed` |
+| `man-of-action` | [basic](#basic) | `man of action` | `dynamo` |
+| `man-of-letters` | [basic](#basic) | `man of letters` | `scholar`, `writer`, `literary figure` |
+| `man-of-the-world` | [basic](#basic) | `man of the world` | `sophisticate` |
+| `fellowship` | [basic](#basic) | `fellowship` | `camaraderie`, `community`, `organization` |
+| `freshman` | [basic](#basic) | `freshman`, `freshwoman` | `first-year student`, `fresher` |
+| `workmanship` | [basic](#basic) | `workmanship` | `quality construction`, `expertise` |
+| `housewife` | [basic](#basic) | `housewife` | `homemaker`, `homeworker` |
+| `housewives` | [basic](#basic) | `housewives` | `homemakers`, `homeworkers` |
+| `motherly` | [basic](#basic) | `motherly` | `loving`, `warm`, `nurturing` |
+| `manpower` | [basic](#basic) | `manpower` | `human resources`, `workforce`, `personnel`, `staff`, `labor`, `labor force`, `staffing`, `combat personnel` |
+| `master-of-ceremonies` | [basic](#basic) | `master of ceremonies` | `emcee`, `moderator`, `convenor` |
+| `masterful` | [basic](#basic) | `masterful` | `skilled`, `authoritative`, `commanding` |
+| `mastermind` | [basic](#basic) | `mastermind` | `genius`, `creator`, `instigator`, `oversee`, `launch`, `originate` |
+| `masterpiece` | [basic](#basic) | `masterpiece` | `work of genius`, `chef d’oeuvre` |
+| `masterplan` | [basic](#basic) | `masterplan` | `vision`, `comprehensive plan` |
+| `masterstroke` | [basic](#basic) | `masterstroke` | `trump card`, `stroke of genius` |
+| `madman` | [basic](#basic) | `madman`, `mad man` | `fanatic`, `zealot`, `enthusiast` |
+| `madmen` | [basic](#basic) | `madmen`, `mad men` | `maniacs`, `enthusiasts` |
+| `mankind` | [basic](#basic) | `mankind` | `humankind` |
+| `manhour` | [basic](#basic) | `manhour`, `man hour` | `staff hour`, `hour of work` |
+| `manhours` | [basic](#basic) | `manhours`, `man hours` | `staff hours`, `hours of work`, `hours of labor`, `hours` |
+| `manned` | [basic](#basic) | `manned` | `staffed`, `crewed`, `piloted` |
+| `unmanned` | [basic](#basic) | `unmanned` | `robotic`, `automated` |
+| `moaning` | [basic](#basic) | `bitching`, `moaning` | `whining`, `complaining`, `crying` |
+| `moan` | [basic](#basic) | `bitch`, `moan` | `whine`, `complain`, `cry` |
+| `wifebeater` | [basic](#basic) | `wife beater`, `wifebeater` | `tank top`, `sleeveless undershirt` |
+| `ancient-man` | [basic](#basic) | `ancient man` | `ancient civilization`, `ancient people` |
+| `authoress` | [basic](#basic) | `authoress` | `author`, `writer` |
+| `average-housewife` | [basic](#basic) | `average housewife` | `average consumer`, `average household`, `average homemaker` |
+| `average-man` | [basic](#basic) | `average man` | `average person` |
+| `average-working-man` | [basic](#basic) | `average working man` | `average wage earner`, `average taxpayer` |
+| `aviatrix` | [basic](#basic) | `aviatrix` | `aviator` |
+| `brotherhood-of-man` | [basic](#basic) | `brotherhood of man` | `the human family` |
+| `calendar-girl` | [basic](#basic) | `calendar girl` | `model` |
+| `call-girl` | [basic](#basic) | `call girl` | `escort`, `prostitute`, `sex worker` |
+| `churchman` | [basic](#basic) | `churchman` | `cleric`, `practicing Christian`, `pillar of the Church` |
+| `english-master` | [basic](#basic) | `english master` | `english coordinator`, `senior teacher of english` |
+| `englishmen` | [basic](#basic) | `englishmen` | `the english` |
+| `executrix` | [basic](#basic) | `executrix` | `executor` |
+| `father-of-*` | [basic](#basic) | `father of *` | `founder of` |
+| `founding-father` | [basic](#basic) | `founding father` | `the founders`, `founding leaders`, `forebears` |
+| `housemaid` | [basic](#basic) | `housemaid` | `house worker`, `domestic help` |
+| `industrial-man` | [basic](#basic) | `industrial man` | `industrial civilization`, `industrial people` |
+| `lady-doctor` | [basic](#basic) | `lady doctor` | `doctor` |
+| `leading-lady` | [basic](#basic) | `leading lady` | `lead` |
+| `maiden` | [basic](#basic) | `maiden` | `virgin` |
+| `maiden-race` | [basic](#basic) | `maiden race` | `first race` |
+| `maiden-speech` | [basic](#basic) | `maiden speech` | `first speech` |
+| `man-a-desk` | [basic](#basic) | `man a desk` | `staff a desk` |
+| `man-in-the-street` | [basic](#basic) | `man in the street` | `ordinary citizen`, `typical person`, `average person` |
+| `man-of-the-land` | [basic](#basic) | `man of the land` | `farmer`, `rural worker`, `grazier`, `landowner`, `rural community`, `country people`, `country folk` |
+| `mans-best-friend` | [basic](#basic) | `mans best friend` | `a faithful dog` |
+| `man-the-booth` | [basic](#basic) | `man the booth` | `staff the booth` |
+| `man-the-phones` | [basic](#basic) | `man the phones` | `answer the phones` |
+| `mansized-task` | [basic](#basic) | `mansized task`, `man sized task` | `a demanding task`, `a big job` |
+| `master-key` | [basic](#basic) | `master key`, `master copy` | `pass key`, `original` |
+| `master-plan` | [basic](#basic) | `master plan` | `grand scheme`, `guiding principles` |
+| `master-the-art` | [basic](#basic) | `master the art` | `become skilled` |
+| `men-of-science` | [basic](#basic) | `men of science` | `scientists` |
+| `midwife` | [basic](#basic) | `midwife` | `birthing nurse` |
+| `modern-man` | [basic](#basic) | `modern man` | `modern civilization`, `modern people` |
+| `no-mans-land` | [basic](#basic) | `no mans land` | `unoccupied territory`, `wasteland`, `deathtrap` |
+| `office-girls` | [basic](#basic) | `office girls` | `administrative staff` |
+| `poetess` | [basic](#basic) | `poetess` | `poet` |
+| `railwayman` | [basic](#basic) | `railwayman` | `railway worker` |
+| `sportsmanlike` | [basic](#basic) | `sportsmanlike` | `fair`, `sporting` |
+| `sportsmanship` | [basic](#basic) | `sportsmanship` | `fairness`, `good humor`, `sense of fair play` |
+| `statesmanlike` | [basic](#basic) | `statesmanlike`, `statesman like` | `diplomatic` |
+| `stockman` | [basic](#basic) | `stockman` | `cattle worker`, `farmhand`, `drover` |
+| `tradesmans-entrance` | [basic](#basic) | `tradesmans entrance` | `service entrance` |
+| `tax-man` | [basic](#basic) | `tax man` | `tax commissioner`, `tax office`, `tax collector` |
+| `usherette` | [basic](#basic) | `usherette` | `usher` |
+| `woman-lawyer` | [basic](#basic) | `woman lawyer` | `lawyer` |
+| `woman-painter` | [basic](#basic) | `woman painter` | `painter` |
+| `working-wife` | [basic](#basic) | `working mother`, `working wife` | `wage or salary earning woman`, `two-income family` |
+| `homosexual` | [basic](#basic) | `homosexual` | `gay`, `gay man`, `lesbian`, `gay person/people` |
+| `homosexual-relations` | [basic](#basic) | `homosexual relations`, `homosexual relationship` | `relationship` |
+| `homosexual-couple` | [basic](#basic) | `homosexual couple` | `couple` |
+| `sexual-preference` | [basic](#basic) | `sexual preference` | `sexual orientation`, `orientation` |
+| `gay-lifestyle` | [basic](#basic) | `gay lifestyle`, `homosexual lifestyle` | `gay lives`, `gay/lesbian lives` |
+| `gay-agenda` | [basic](#basic) | `gay agenda`, `homosexual agenda` | `gay issues` |
+| `gay-rights` | [basic](#basic) | `special rights`, `gay rights` | `equal rights`, `civil rights for gay people` |
+| `fag` | [basic](#basic) | `fag`, `faggot`, `dyke`, `homo`, `sodomite` | `gay` |
+| `bi` | [basic](#basic) | `bi` | `bisexual` |
+| `homosexual-marriage` | [basic](#basic) | `homosexual marriage` | `gay marriage`, `same-sex marriage` |
+| `tranny` | [basic](#basic) | `tranny` | `transgender` |
+| `transvestite` | [basic](#basic) | `transvestite` | `cross-dresser` |
+| `sexchange` | [basic](#basic) | `sexchange`, `sex change` | `transition`, `gender confirmation surgery` |
+| `sex-change-operation` | [basic](#basic) | `sex change operation` | `sex reassignment surgery`, `gender confirmation surgery` |
+| `transgenders` | [basic](#basic) | `transgenders` | `transgender people` |
+| `transgendered` | [basic](#basic) | `transgendered` | `transgender` |
+| `transgenderism` | [basic](#basic) | `transgenderism` | `being transgender`, `the movement for transgender equality` |
+| `born-a-man` | [basic](#basic) | `biologically male`, `born a man`, `genetically male` | `assigned male at birth`, `designated male at birth` |
+| `born-a-woman` | [basic](#basic) | `biologically female`, `born a woman`, `genetically female` | `assigned female at birth`, `designated female at birth` |
+| `bathroom-bill` | [basic](#basic) | `bathroom bill` | `non-discrimination law`, `non-discrimination ordinance` |
+| `hermaphroditic` | [basic](#basic) | `hermaphroditic`, `pseudohermaphroditic`, `pseudo hermaphroditic` | `intersex` |
+| `hermaphrodite` | [basic](#basic) | `hermaphrodite`, `pseudohermaphrodite`, `pseudo hermaphrodite` | `person who is intersex`, `person`, `intersex person` |
+| `heshe` | [basic](#basic) | `shemale`, `she male`, `heshe`, `shehe` | `transgender person`, `person` |
+| `islamist` | [basic](#basic) | `islamist` | `muslim`, `person of Islamic faith`, `fanatic`, `zealot`, `follower of islam`, `follower of the islamic faith` |
+| `islamists` | [basic](#basic) | `islamists` | `muslims`, `people of Islamic faith`, `fanatics`, `zealots` |
 | `master-slave` | [and](#and) | `master` (a), `masters` (a), `slave` (b), `slaves` (b) | `primary`, `primaries`, `hub`, `hubs`, `reference`, `references`, `replica`, `replicas`, `spoke`, `spokes`, `secondary`, `secondaries` |
-| `eskimo` | [simple](#simple) | `eskimo` | `Inuit` |
-| `eskimos` | [simple](#simple) | `eskimos` | `Inuits` |
-| `oriental` | [simple](#simple) | `oriental` | `Asian person` |
-| `orientals` | [simple](#simple) | `orientals` | `Asian people` |
-| `nonwhite` | [simple](#simple) | `nonwhite`, `non white` | `person of color`, `people of color` |
-| `ghetto` | [simple](#simple) | `ghetto` | `projects`, `urban` |
-| `redskin` | [simple](#simple) | `red indian`, `pocahontas`, `redskin` | `Native American` |
-| `redskins` | [simple](#simple) | `red indians`, `redskins` | `Native American People` |
-| `totem` | [simple](#simple) | `animal spirit`, `dream catcher`, `spirit animal`, `totem` | `favorite`, `inspiration`, `personal interest`, `personality type` |
-| `long-time-no-see` | [simple](#simple) | `long time no hear`, `long time no see` | `I haven’t seen you in a long time`, `it’s been a long time` |
-| `indian-country` | [simple](#simple) | `Indian country` | `enemy territory` |
-| `off-reserve` | [simple](#simple) | `jump the reservation`, `off reserve`, `off the reservation` | `disobey`, `endure`, `object to`, `oppose`, `resist` |
-| `on-the-warpath` | [simple](#simple) | `circle the wagons`, `on the warpath` | `defend` |
-| `too-many-chiefs` | [simple](#simple) | `too many chiefs` | `too many chefs in the kitchen`, `too many cooks spoil the broth` |
-| `natives-are-restless` | [simple](#simple) | `natives are restless`, `natives are becoming restless`, `natives are getting restless`, `natives are growing restless` | `dissatisfied`, `frustrated` |
-| `powwow` | [simple](#simple) | `pow wow`, `powwow` | `conference`, `gathering`, `meeting` |
-| `indian-give` | [simple](#simple) | `indian give`, `indian giver` | `go back on one’s offer` |
-| `pinoys` | [simple](#simple) | `pinoys`, `pinays` | `Filipinos`, `Filipino people` |
-| `towel-heads` | [simple](#simple) | `sand niggers`, `towel heads` | `Arabs`, `Middle Eastern People` |
-| `latino` | [simple](#simple) | `latino`, `latina`, `mexican` | `Latinx` |
-| `japs` | [simple](#simple) | `japs` | `Japanese person`, `Japanese people` |
-| `goy` | [simple](#simple) | `kike`, `goyum`, `goy`, `shlomo` | `Jewish person` |
-| `spade` | [simple](#simple) | `spade` | `a Black person` |
-| `gyp` | [simple](#simple) | `gyppo`, `gypsy`, `Gipsy`, `gyp` | `Nomad`, `Traveler`, `Roma`, `Romani` |
-| `blacklist` | [simple](#simple) | `blacklist` | `blocklist`, `wronglist`, `banlist`, `deny list` |
-| `whitelist` | [simple](#simple) | `whitelist` | `passlist`, `alrightlist`, `safelist`, `allow list` |
-| `savage` | [simple](#simple) | `primitive`, `savage`, `stone age` | `simple`, `indigenous`, `hunter-gatherer` |
-| `tribe` | [simple](#simple) | `tribe` | `society`, `community` |
-| `sophisticated-culture` | [simple](#simple) | `sophisticated culture` | `complex culture` |
-| `sophisticated-technology` | [simple](#simple) | `sophisticated technology` | `complex technology` |
-| `make-*-great-again` | [simple](#simple) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
-| `committed-suicide` | [simple](#simple) | `committed suicide`, `completed suicide` | `died by suicide` |
-| `commit-suicide` | [simple](#simple) | `commit suicide`, `complete suicide`, `successful suicide` | `die by suicide` |
-| `suicide-pact` | [simple](#simple) | `suicide epidemic`, `epidemic of suicides`, `suicide pact` | `rise in suicides` |
-| `failed-suicide` | [simple](#simple) | `failed suicide`, `failed attempt`, `suicide failure` | `suicide attempt`, `attempted suicide` |
-| `suicide-note` | [simple](#simple) | `suicide note` | `a note from the deceased` |
-| `hang` | [simple](#simple) | `hang`, `hanged` | `the app froze`, `the app stopped responding`, `the app stopped responding to events`, `the app became unresponsive` |
+| `eskimo` | [basic](#basic) | `eskimo` | `Inuit` |
+| `eskimos` | [basic](#basic) | `eskimos` | `Inuits` |
+| `oriental` | [basic](#basic) | `oriental` | `Asian person` |
+| `orientals` | [basic](#basic) | `orientals` | `Asian people` |
+| `nonwhite` | [basic](#basic) | `nonwhite`, `non white` | `person of color`, `people of color` |
+| `ghetto` | [basic](#basic) | `ghetto` | `projects`, `urban` |
+| `redskin` | [basic](#basic) | `red indian`, `pocahontas`, `redskin` | `Native American` |
+| `redskins` | [basic](#basic) | `red indians`, `redskins` | `Native American People` |
+| `totem` | [basic](#basic) | `animal spirit`, `dream catcher`, `spirit animal`, `totem` | `favorite`, `inspiration`, `personal interest`, `personality type` |
+| `long-time-no-see` | [basic](#basic) | `long time no hear`, `long time no see` | `I haven’t seen you in a long time`, `it’s been a long time` |
+| `indian-country` | [basic](#basic) | `Indian country` | `enemy territory` |
+| `off-reserve` | [basic](#basic) | `jump the reservation`, `off reserve`, `off the reservation` | `disobey`, `endure`, `object to`, `oppose`, `resist` |
+| `on-the-warpath` | [basic](#basic) | `circle the wagons`, `on the warpath` | `defend` |
+| `too-many-chiefs` | [basic](#basic) | `too many chiefs` | `too many chefs in the kitchen`, `too many cooks spoil the broth` |
+| `natives-are-restless` | [basic](#basic) | `natives are restless`, `natives are becoming restless`, `natives are getting restless`, `natives are growing restless` | `dissatisfied`, `frustrated` |
+| `powwow` | [basic](#basic) | `pow wow`, `powwow` | `conference`, `gathering`, `meeting` |
+| `indian-give` | [basic](#basic) | `indian give`, `indian giver` | `go back on one’s offer` |
+| `pinoys` | [basic](#basic) | `pinoys`, `pinays` | `Filipinos`, `Filipino people` |
+| `towel-heads` | [basic](#basic) | `sand niggers`, `towel heads` | `Arabs`, `Middle Eastern People` |
+| `latino` | [basic](#basic) | `latino`, `latina`, `mexican` | `Latinx` |
+| `japs` | [basic](#basic) | `japs` | `Japanese person`, `Japanese people` |
+| `goy` | [basic](#basic) | `kike`, `goyum`, `goy`, `shlomo` | `Jewish person` |
+| `spade` | [basic](#basic) | `spade` | `a Black person` |
+| `gyp` | [basic](#basic) | `gyppo`, `gypsy`, `Gipsy`, `gyp` | `Nomad`, `Traveler`, `Roma`, `Romani` |
+| `blacklist` | [basic](#basic) | `blacklist` | `blocklist`, `wronglist`, `banlist`, `deny list` |
+| `whitelist` | [basic](#basic) | `whitelist` | `passlist`, `alrightlist`, `safelist`, `allow list` |
+| `savage` | [basic](#basic) | `primitive`, `savage`, `stone age` | `simple`, `indigenous`, `hunter-gatherer` |
+| `tribe` | [basic](#basic) | `tribe` | `society`, `community` |
+| `sophisticated-culture` | [basic](#basic) | `sophisticated culture` | `complex culture` |
+| `sophisticated-technology` | [basic](#basic) | `sophisticated technology` | `complex technology` |
+| `make-*-great-again` | [basic](#basic) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
+| `committed-suicide` | [basic](#basic) | `committed suicide`, `completed suicide` | `died by suicide` |
+| `commit-suicide` | [basic](#basic) | `commit suicide`, `complete suicide`, `successful suicide` | `die by suicide` |
+| `suicide-pact` | [basic](#basic) | `suicide epidemic`, `epidemic of suicides`, `suicide pact` | `rise in suicides` |
+| `failed-suicide` | [basic](#basic) | `failed suicide`, `failed attempt`, `suicide failure` | `suicide attempt`, `attempted suicide` |
+| `suicide-note` | [basic](#basic) | `suicide note` | `a note from the deceased` |
+| `hang` | [basic](#basic) | `hang`, `hanged` | `the app froze`, `the app stopped responding`, `the app stopped responding to events`, `the app became unresponsive` |

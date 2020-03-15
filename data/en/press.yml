@@ -1,4 +1,4 @@
-- type: simple
+- type: basic
   source: https://www.usnews.com/news/newsgram/articles/2013/04/04/the-associated-press-revises-islamist-another-politically-charged-term
   considerate:
     - muslim
@@ -9,7 +9,7 @@
     - follower of the islamic faith
   inconsiderate:
     - islamist
-- type: simple
+- type: basic
   source: https://www.usnews.com/news/newsgram/articles/2013/04/04/the-associated-press-revises-islamist-another-politically-charged-term
   considerate:
     - muslims

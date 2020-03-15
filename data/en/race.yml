@@ -17,53 +17,53 @@
     masters: a
     slave: b
     slaves: b
-- type: simple
+- type: basic
   considerate:
     - Inuit
   inconsiderate:
     - eskimo
-- type: simple
+- type: basic
   considerate:
     - Inuits
   inconsiderate:
     - eskimos
-- type: simple
+- type: basic
   considerate:
     - Asian person
   inconsiderate:
     - oriental
-- type: simple
+- type: basic
   considerate:
     - Asian people
   inconsiderate:
     - orientals
-- type: simple
+- type: basic
   considerate:
     - person of color
     - people of color
   inconsiderate:
     - nonwhite
     - non white
-- type: simple
+- type: basic
   considerate:
     - projects
     - urban
   inconsiderate:
     - ghetto
-- type: simple
+- type: basic
   considerate:
     - Native American
   inconsiderate:
     - red indian
     - pocahontas
     - redskin
-- type: simple
+- type: basic
   considerate:
     - Native American People
   inconsiderate:
     - red indians
     - redskins
-- type: simple
+- type: basic
   inconsiderate:
     - animal spirit
     - dream catcher
@@ -78,7 +78,7 @@
     - inspiration
     - personal interest
     - personality type
-- type: simple
+- type: basic
   inconsiderate:
     - long time no hear
     - long time no see
@@ -87,7 +87,7 @@
   considerate:
     - I haven’t seen you in a long time
     - it’s been a long time
-- type: simple
+- type: basic
   inconsiderate:
     - Indian country
   note: Avoid using phrases referring to the genocidal United States “Indian Removal” laws.
@@ -95,7 +95,7 @@
     - https://newsmaven.io/indiancountrytoday/archive/off-the-reservation-a-teachable-moment-nW1d7U0JRkOszhtg8N1V1A/
   considerate:
     - enemy territory
-- type: simple
+- type: basic
   inconsiderate:
     - jump the reservation
     - off reserve
@@ -112,7 +112,7 @@
     - object to
     - oppose
     - resist
-- type: simple
+- type: basic
   inconsiderate:
     - circle the wagons
     - on the warpath
@@ -122,7 +122,7 @@
     - https://idioms.thefreedictionary.com/go+on+the+warpath
   considerate:
     - defend
-- type: simple
+- type: basic
   inconsiderate:
     - too many chiefs
   note: Avoid using phrases referring to colonial stereotypes regarding Native Americans.
@@ -131,7 +131,7 @@
   considerate:
     - too many chefs in the kitchen
     - too many cooks spoil the broth
-- type: simple
+- type: basic
   inconsiderate:
     - natives are restless
     - natives are becoming restless
@@ -143,7 +143,7 @@
   considerate:
     - dissatisfied
     - frustrated
-- type: simple
+- type: basic
   inconsiderate:
     - pow wow
     - powwow
@@ -157,28 +157,28 @@
     - conference
     - gathering
     - meeting
-- type: simple
+- type: basic
   note: Avoid using phrases referring to colonial stereotypes regarding Native Americans.
   considerate:
     - go back on one’s offer
   inconsiderate:
     - indian give
     - indian giver
-- type: simple
+- type: basic
   considerate:
     - Filipinos
     - Filipino people
   inconsiderate:
     - pinoys
     - pinays
-- type: simple
+- type: basic
   considerate:
     - Arabs
     - Middle Eastern People
   inconsiderate:
     - sand niggers
     - towel heads
-- type: simple
+- type: basic
   note: Whenever possible, try to be gender inclusive.
   considerate:
     - Latinx
@@ -186,13 +186,13 @@
     - latino
     - latina
     - mexican
-- type: simple
+- type: basic
   considerate:
     - Japanese person
     - Japanese people
   inconsiderate:
     - japs
-- type: simple
+- type: basic
   considerate:
     - Jewish person
   inconsiderate:
@@ -200,12 +200,12 @@
     - goyum
     - goy
     - shlomo
-- type: simple
+- type: basic
   considerate:
     - a Black person
   inconsiderate:
     - spade
-- type: simple
+- type: basic
   source: en.wikipedia.org/wiki/Romani_people#cite_ref-80
   note: Gypsy is insensitive, use Roma or Romani. They’re not Egyptian as the name suggests.
   considerate:
@@ -218,7 +218,7 @@
     - gypsy
     - Gipsy
     - gyp
-- type: simple
+- type: basic
   note: Replace racially-charged language with more accurate and inclusive words
   considerate:
     - blocklist
@@ -227,7 +227,7 @@
     - deny list
   inconsiderate:
     - blacklist
-- type: simple
+- type: basic
   note: Replace racially-charged language with more accurate and inclusive words
   considerate:
     - passlist
@@ -236,7 +236,7 @@
     - allow list
   inconsiderate:
     - whitelist
-- type: simple
+- type: basic
   note: Avoid using terms that imply a group has not changed over time and that they are inferior
   considerate:
     - simple
@@ -246,20 +246,20 @@
     - primitive
     - savage
     - stone age
-- type: simple
+- type: basic
   note: Avoid using terms that make some groups sound inferior
   considerate:
     - society
     - community
   inconsiderate:
     - tribe
-- type: simple
+- type: basic
   note: Avoid using terms that make some groups sound inferior. Replace “sophisticated” with a neutral term such as “complex”
   considerate:
     - complex culture
   inconsiderate:
     - sophisticated culture
-- type: simple
+- type: basic
   note: Avoid using terms that make some groups sound inferior. Replace “sophisticated” with a neutral term such as “complex”
   considerate:
     - complex technology

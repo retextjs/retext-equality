@@ -3,41 +3,41 @@
 # The terms `however` and `so` are not included as they’re only an offense if at
 # the start of a sentence according to CSS Tricks.
 # If you want messages for those, use `retext-intensify`.
-- type: simple
+- type: basic
   inconsiderate:
     - obvious
     - obviously
   note: Not everything is as obvious as you might think. And if it isn’t obvious to the reader, it can hurt.
   source: https://css-tricks.com/words-avoid-educational-writing/
-- type: simple
+- type: basic
   inconsiderate: just
   note: Not everything is as easy as you might think. And if it isn’t easy for the reader, it can hurt.
   source: https://css-tricks.com/words-avoid-educational-writing/
-- type: simple
+- type: basic
   inconsiderate: basically
   note: It’s probably not that basic. If you’re going to explain a confusing previous sentence with a clearer next sentence, why not drop the former and only use the latter?
   source: https://css-tricks.com/words-avoid-educational-writing/
-- type: simple
+- type: basic
   inconsiderate:
     - simple
     - simply
   note: It’s probably not that simple. Even if it is, you probably don’t need to specifically say it.
   source: https://css-tricks.com/words-avoid-educational-writing/
-- type: simple
+- type: basic
   inconsiderate:
     - easy
     - easily
   note: It’s probably not that easy. Even if it is, you probably don’t need to specifically say it.
   source: https://css-tricks.com/words-avoid-educational-writing/
-- type: simple
+- type: basic
   inconsiderate: of course
   note: If it’s self-evident then maybe you don’t need to describe it. If it isn’t, don’t say it.
   source: https://css-tricks.com/words-avoid-educational-writing/
-- type: simple
+- type: basic
   inconsiderate: clearly
   note: If it’s self-evident then maybe you don’t need to describe it. If it isn’t, don’t say it.
   source: https://css-tricks.com/words-avoid-educational-writing/
-- type: simple
+- type: basic
   inconsiderate: everyone knows
   note: If it’s self-evident then maybe you don’t need to describe it. If it isn’t, don’t say it.
   source: https://css-tricks.com/words-avoid-educational-writing/

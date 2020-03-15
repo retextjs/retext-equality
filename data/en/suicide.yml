@@ -1,11 +1,11 @@
-- type: simple
+- type: basic
   source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide, https://www.speakingofsuicide.com/2013/04/13/language/
   considerate:
     - died by suicide
   inconsiderate:
     - committed suicide
     - completed suicide
-- type: simple
+- type: basic
   source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide, https://www.speakingofsuicide.com/2013/04/13/language/
   note: Committing suicide is not successful/unsuccessful, that sends the wrong message
   considerate:
@@ -14,7 +14,7 @@
     - commit suicide
     - complete suicide
     - successful suicide
-- type: simple
+- type: basic
   source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide
   note: Using sensational words can cause copycat suicides or contagion
   considerate:
@@ -23,7 +23,7 @@
     - suicide epidemic
     - epidemic of suicides
     - suicide pact
-- type: simple
+- type: basic
   source: https://www.speakingofsuicide.com/2013/04/13/language, https://www.afsp.org/news-events/for-the-media/reporting-on-suicide
   note: Attempted suicide should not be depicted as a failure
   considerate:
@@ -33,13 +33,13 @@
     - failed suicide
     - failed attempt
     - suicide failure
-- type: simple
+- type: basic
   source: https://www.afsp.org/news-events/for-the-media/reporting-on-suicide
   considerate:
     - a note from the deceased
   inconsiderate:
     - suicide note
-- type: simple
+- type: basic
   note: When describing the behavior of computer software, using the word “hanged” needlessly invokes the topic of death by self-harm or lynching.  Consider using the word “froze” or the phrase “stopped responding to events” or “became unresponsive” instead.
   considerate:
     - the app froze

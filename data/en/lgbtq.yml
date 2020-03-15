@@ -1,4 +1,4 @@
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/offensive
   note: This term has a clinical history and is used to imply LGBTQ+ people are diseased or psychologically/emotionally disordered
   considerate:
@@ -8,7 +8,7 @@
     - gay person/people
   inconsiderate:
     - homosexual
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/offensive
   note: Avoid labeling something as LGBTQ+ unless you would call the same thing “straight”
   considerate:
@@ -16,14 +16,14 @@
   inconsiderate:
     - homosexual relations
     - homosexual relationship
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/offensive
   note: Avoid labeling something as LGBTQ+ unless you would call the same thing “straight”
   considerate:
     - couple
   inconsiderate:
     - homosexual couple
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/offensive
   note: Implies that being LGBTQ+ is a choice
   considerate:
@@ -31,7 +31,7 @@
     - orientation
   inconsiderate:
     - sexual preference
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/offensive
   note: Implies that being LGBTQ+ is a choice
   considerate:
@@ -40,7 +40,7 @@
   inconsiderate:
     - gay lifestyle
     - homosexual lifestyle
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/offensive
   note: Used by anti-LGBTQ+ extremists to create a climate of fear around LGBTQ+ issues
   considerate:
@@ -48,7 +48,7 @@
   inconsiderate:
     - gay agenda
     - homosexual agenda
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/style
   note: LGBTQ+ rights are human rights
   considerate:
@@ -57,7 +57,7 @@
   inconsiderate:
     - special rights
     - gay rights
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/offensive
   note: Derogatory terms for LGBTQ+ people are offensive
   considerate:
@@ -68,14 +68,14 @@
     - dyke
     - homo
     - sodomite
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/style
   note: Avoid using slang shorthand
   considerate:
     - bisexual
   inconsiderate:
     - bi
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/style
   note: Homosexual has a clinical history and is used to imply LGBTQ+ people are diseased or psychologically/emotionally disordered
   considerate:
@@ -83,21 +83,21 @@
     - same-sex marriage
   inconsiderate:
     - homosexual marriage
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/style
   note: Derogatory terms for LGBTQ+ people are offensive
   considerate:
     - transgender
   inconsiderate:
     - tranny
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/transgender
   note: Avoid using outdated / offensive terms
   considerate:
     - cross-dresser
   inconsiderate:
     - transvestite
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/transgender
   note: Avoid overemphasizing surgery when discussing transgender people or the process of transition - it’s not a necessary component
   considerate:
@@ -106,7 +106,7 @@
   inconsiderate:
     - sexchange
     - sex change
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/transgender
   note: Shift focus away from the assigned sex and towards the identified gender
   considerate:
@@ -114,21 +114,21 @@
     - gender confirmation surgery
   inconsiderate:
     - sex change operation
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/transgender
   note: Transgender should be used as an adjective, not as a noun
   considerate:
     - transgender people
   inconsiderate:
     - transgenders
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/transgender
   note: Transgender is already an adjective
   considerate:
     - transgender
   inconsiderate:
     - transgendered
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/transgender
   note: This is a term used by anti-transgender activists to dehumanize transgender people and reduce who they are to a condition
   considerate:
@@ -136,7 +136,7 @@
     - the movement for transgender equality
   inconsiderate:
     - transgenderism
-- type: simple
+- type: basic
   note: Assigned birth gender is complicated; gender identity is more than what your parents decided you were at birth
   considerate:
     - assigned male at birth
@@ -145,7 +145,7 @@
     - biologically male
     - born a man
     - genetically male
-- type: simple
+- type: basic
   note: Assigned birth gender is complicated; gender identity is more than what your parents decided you were at birth
   considerate:
     - assigned female at birth
@@ -154,7 +154,7 @@
     - biologically female
     - born a woman
     - genetically female
-- type: simple
+- type: basic
   source: https://www.glaad.org/reference/transgender
   note: A term created and used by far-right extremists to oppose nondiscrimination laws that protect transgender people
   considerate:
@@ -162,7 +162,7 @@
     - non-discrimination ordinance
   inconsiderate:
     - bathroom bill
-- type: simple
+- type: basic
   source: http://www.isna.org/node/979
   note: These terms are stigmatizing to patients and their families because intersex status is more complicated than the mere presence or absence of certain gonadal tissues
   considerate:
@@ -171,7 +171,7 @@
     - hermaphroditic
     - pseudohermaphroditic
     - pseudo hermaphroditic
-- type: simple
+- type: basic
   source: http://www.isna.org/node/979
   note: These terms are stigmatizing to patients and their families because intersex status is more complicated than the mere presence or absence of certain gonadal tissues
   considerate:
@@ -182,7 +182,7 @@
     - hermaphrodite
     - pseudohermaphrodite
     - pseudo hermaphrodite
-- type: simple
+- type: basic
   source: https://www.reddit.com/r/asktransgender/comments/23wbq1/is_the_term_shemale_seen_as_offensive/
   note: This word dehumanizes transgender people
   considerate:
