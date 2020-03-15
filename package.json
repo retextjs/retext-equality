@@ -55,12 +55,9 @@
     "index.js"
   ],
   "dependencies": {
-    "lodash.difference": "^4.5.0",
-    "lodash.intersection": "^4.4.0",
     "nlcst-normalize": "^2.0.0",
     "nlcst-search": "^2.0.0",
     "nlcst-to-string": "^2.0.0",
-    "object-keys": "^1.0.7",
     "quotation": "^1.0.1",
     "unist-util-is": "^4.0.0",
     "unist-util-visit": "^2.0.0"
