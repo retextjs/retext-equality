@@ -68,24 +68,24 @@
   "devDependencies": {
     "array-duplicated": "^2.0.0",
     "array-unique": "^0.3.0",
-    "bail": "^1.0.1",
+    "bail": "^1.0.0",
     "browserify": "^16.0.0",
     "chalk": "^3.0.0",
-    "is-hidden": "^1.1.2",
-    "js-yaml": "^3.6.1",
-    "mdast-util-heading-range": "^2.0.1",
+    "is-hidden": "^1.0.0",
+    "js-yaml": "^3.0.0",
+    "mdast-util-heading-range": "^2.0.0",
     "not": "^0.1.0",
     "nyc": "^15.0.0",
-    "prettier": "^1.17.1",
+    "prettier": "^1.0.0",
     "remark-cli": "^7.0.0",
     "remark-lint-table-pipe-alignment": "^1.0.0",
     "remark-preset-wooorm": "^6.0.0",
     "retext": "^7.0.0",
     "tape": "^4.0.0",
-    "tinyify": "^2.4.3",
+    "tinyify": "^2.0.0",
     "unist-builder": "^2.0.0",
     "vfile-sort": "^2.0.0",
-    "xo": "^0.25.0"
+    "xo": "^0.28.0"
   },
   "scripts": {
     "generate": "node script/generate.js",
@@ -115,6 +115,7 @@
     "prettier": true,
     "esnext": false,
     "rules": {
+      "unicorn/string-content": "off",
       "unicorn/prefer-includes": "off",
       "guard-for-in": "off",
       "max-params": "off"
