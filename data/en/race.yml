@@ -197,9 +197,19 @@
     - Jewish person
   inconsiderate:
     - kike
-    - goyum
-    - goy
     - shlomo
+    - shyster
+    - hymie
+    - jewboy
+- type: basic
+  considerate:
+    - a person who is not Jewish
+    - not Jewish
+  inconsiderate:
+    - goyim
+    - goyum
+    - shiksa
+    - goy
 - type: basic
   considerate:
     - a Black person

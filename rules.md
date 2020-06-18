@@ -417,7 +417,8 @@ This is used for one case: `master` and `slave`.
 | `towel-heads` | [basic](#basic) | `sand niggers`, `towel heads` | `Arabs`, `Middle Eastern People` |
 | `latino` | [basic](#basic) | `latino`, `latina`, `mexican` | `Latinx` |
 | `japs` | [basic](#basic) | `japs` | `Japanese person`, `Japanese people` |
-| `goy` | [basic](#basic) | `kike`, `goyum`, `goy`, `shlomo` | `Jewish person` |
+| `kike` | [basic](#basic) | `kike`, `shlomo`, `shyster`, `hymie`, `jewboy` | `Jewish person` |
+| `goy` | [basic](#basic) | `goyim`, `goyum`, `shiksa`, `goy` | `a person who is not Jewish`, `not Jewish` |
 | `spade` | [basic](#basic) | `spade` | `a Black person` |
 | `gyp` | [basic](#basic) | `gyppo`, `gypsy`, `Gipsy`, `gyp` | `Nomad`, `Traveler`, `Roma`, `Romani` |
 | `blacklist` | [basic](#basic) | `blacklist` | `blocklist`, `wronglist`, `banlist`, `deny list` |
