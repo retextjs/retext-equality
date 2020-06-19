@@ -67,26 +67,25 @@
     "array-unique": "^0.3.0",
     "bail": "^1.0.0",
     "browserify": "^16.0.0",
-    "chalk": "^3.0.0",
+    "chalk": "^4.0.0",
     "is-hidden": "^1.0.0",
     "js-yaml": "^3.0.0",
     "mdast-util-heading-range": "^2.0.0",
     "not": "^0.1.0",
     "nyc": "^15.0.0",
-    "prettier": "^1.0.0",
-    "remark-cli": "^7.0.0",
-    "remark-lint-table-pipe-alignment": "^1.0.0",
-    "remark-preset-wooorm": "^6.0.0",
+    "prettier": "^2.0.0",
+    "remark-cli": "^8.0.0",
+    "remark-preset-wooorm": "^7.0.0",
     "retext": "^7.0.0",
-    "tape": "^4.0.0",
+    "tape": "^5.0.0",
     "tinyify": "^2.0.0",
     "unist-builder": "^2.0.0",
     "vfile-sort": "^2.0.0",
-    "xo": "^0.28.0"
+    "xo": "^0.32.0"
   },
   "scripts": {
     "generate": "node script/generate.js",
-    "format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+    "format": "remark . -qfo && prettier . --write && xo --fix",
     "build-bundle": "browserify . -s retextEquality > retext-equality.js",
     "build-mangle": "browserify . -s retextEquality -p tinyify > retext-equality.min.js",
     "build": "npm run build-bundle && npm run build-mangle",
@@ -112,8 +111,10 @@
     "prettier": true,
     "esnext": false,
     "rules": {
-      "unicorn/string-content": "off",
+      "unicorn/no-reduce": "off",
+      "unicorn/no-fn-reference-in-iterator": "off",
       "unicorn/prefer-includes": "off",
+      "unicorn/string-content": "off",
       "guard-for-in": "off",
       "max-params": "off"
     },
@@ -123,7 +124,7 @@
   },
   "remarkConfig": {
     "settings": {
-      "paddedTable": false
+      "tablePipeAlign": false
     },
     "plugins": [
       "preset-wooorm",

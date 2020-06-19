@@ -5,7 +5,7 @@ var retext = require('retext')
 var sort = require('vfile-sort')
 var equality = require('.')
 
-test('retext-equality', function(t) {
+test('retext-equality', function (t) {
   t.same(
     process('toString and constructor.'),
     [],
@@ -13,9 +13,12 @@ test('retext-equality', function(t) {
   )
 
   t.same(
-    retext()
-      .use(equality)
-      .processSync('Their child has a birth defect.').messages[0],
+    JSON.parse(
+      JSON.stringify(
+        retext().use(equality).processSync('Their child has a birth defect.')
+          .messages[0]
+      )
+    ),
     {
       message:
         '`birth defect` may be insensitive, use `has a disability`, `person with a disability`, `people with disabilities` instead',
@@ -213,7 +216,7 @@ test('retext-equality', function(t) {
   t.end()
 })
 
-test('Ignoring', function(t) {
+test('Ignoring', function (t) {
   t.same(
     process(
       [
@@ -230,7 +233,7 @@ test('Ignoring', function(t) {
   t.end()
 })
 
-test('Phrasing', function(t) {
+test('Phrasing', function (t) {
   t.same(
     process('This is insane.'),
     [
@@ -530,9 +533,7 @@ test('Phrasing', function(t) {
 
 // Helper to get warnings from `equality` in `doc`.
 function process(doc, options) {
-  var file = retext()
-    .use(equality, options)
-    .processSync(doc)
+  var file = retext().use(equality, options).processSync(doc)
 
   return sort(file).messages.map(String)
 }

@@ -18,7 +18,7 @@ var root = 'data'
 // Generate all languages.
 fs.readdirSync(root)
   .filter(not(hidden))
-  .map(function(language) {
+  .map(function (language) {
     return {language: language, root: join(root, language)}
   })
   .forEach(generateLanguage)
@@ -27,17 +27,17 @@ function generateLanguage(info) {
   var patterns = fs
     .readdirSync(info.root)
     .filter(not(hidden))
-    .filter(function(basename) {
+    .filter(function (basename) {
       return extname(basename) === '.yml'
     })
-    .map(function(basename) {
+    .map(function (basename) {
       return yaml.load(String(fs.readFileSync(join(info.root, basename))))
     })
-    .reduce(function(all, cur) {
+    .reduce(function (all, cur) {
       return all.concat(cur)
     }, [])
 
-  var data = patterns.map(function(entry) {
+  var data = patterns.map(function (entry) {
     var note = entry.note
     var source = entry.source
     var inconsiderate = clean(entry.inconsiderate)
@@ -70,10 +70,7 @@ function generateLanguage(info) {
     }
 
     return {
-      id: parts
-        .sort()
-        .join('-')
-        .toLowerCase(),
+      id: parts.sort().join('-').toLowerCase(),
       type: entry.type,
       apostrophe: entry.apostrophe ? true : undefined,
       categories: unique(Object.values(inconsiderate)),
@@ -87,7 +84,7 @@ function generateLanguage(info) {
   // Check patterns.
   var phrases = []
 
-  data.forEach(function(entry) {
+  data.forEach(function (entry) {
     if (entry.type !== 'basic' && entry.categories.length < 2) {
       throw new Error(
         'Use `type: basic` for single entries with one category: ' +
@@ -96,7 +93,7 @@ function generateLanguage(info) {
     }
 
     if (entry.inconsiderate) {
-      Object.keys(entry.inconsiderate).forEach(function(inconsiderate) {
+      Object.keys(entry.inconsiderate).forEach(function (inconsiderate) {
         phrases.push(inconsiderate)
 
         if (/-/.test(inconsiderate)) {
@@ -167,7 +164,7 @@ function clean(value) {
     copy = value
     value = {}
 
-    copy.forEach(function(phrase) {
+    copy.forEach(function (phrase) {
       value[phrase] = 'a' // Example category
     })
   }

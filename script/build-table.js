@@ -11,7 +11,7 @@ function table() {
 }
 
 function transformer(tree) {
-  range(tree, 'list of rules', function(start, nodes, end) {
+  range(tree, 'list of rules', function (start, nodes, end) {
     var rows = [
       u('tableRow', [
         u('tableCell', [u('text', 'id')]),
@@ -21,7 +21,7 @@ function transformer(tree) {
       ])
     ]
 
-    patterns.forEach(function(pattern) {
+    patterns.forEach(function (pattern) {
       rows.push(
         u('tableRow', [
           u('tableCell', [u('inlineCode', pattern.id)]),
@@ -44,7 +44,7 @@ function transformer(tree) {
 function renderCell(phrases, includeCategories) {
   var result = []
 
-  Object.keys(phrases || {}).forEach(function(value, index, values) {
+  Object.keys(phrases || {}).forEach(function (value, index, values) {
     result.push(u('inlineCode', value))
 
     if (includeCategories) {

@@ -29,7 +29,7 @@ This is used for one case: `master` and `slave`.
 ## List of Rules
 
 | id | type | not ok | ok |
-| --- | ---- | ------ | --- |
+| - | - | - | - |
 | `learning-disabled` | [basic](#basic) | `learning disabled` | `person with learning disabilities` |
 | `invalid` | [basic](#basic) | `disabled`, `invalid` | `turned off`, `has a disability`, `person with a disability`, `people with disabilities` |
 | `birth-defect` | [basic](#basic) | `birth defect` | `has a disability`, `person with a disability`, `people with disabilities` |
@@ -106,14 +106,14 @@ This is used for one case: `master` and `slave`.
 | `special` | [basic](#basic) | `challenged`, `diffability`, `differently abled`, `handicapable`, `special`, `special needs`, `specially abled` | `has a disability`, `person with a disability`, `people with disabilities` |
 | `libtard` | [basic](#basic) | `fucktard`, `libtard`, `contard` | `disagreeable`, `uneducated`, `ignorant`, `naive`, `inconsiderate` |
 | `add` | [basic](#basic) | `ADD`, `adhd`, `a.d.d.`, `a.d.h.d.` | `disorganized`, `distracted`, `energetic`, `hyperactive`, `impetuous`, `impulsive`, `inattentive`, `restless`, `unfocused` |
-| `obvious` | [basic](#basic) | `obvious`, `obviously` |  |
-| `just` | [basic](#basic) | `just` |  |
-| `basically` | [basic](#basic) | `basically` |  |
-| `simple` | [basic](#basic) | `simple`, `simply` |  |
-| `easy` | [basic](#basic) | `easy`, `easily` |  |
-| `of-course` | [basic](#basic) | `of course` |  |
-| `clearly` | [basic](#basic) | `clearly` |  |
-| `everyone-knows` | [basic](#basic) | `everyone knows` |  |
+| `obvious` | [basic](#basic) | `obvious`, `obviously` | |
+| `just` | [basic](#basic) | `just` | |
+| `basically` | [basic](#basic) | `basically` | |
+| `simple` | [basic](#basic) | `simple`, `simply` | |
+| `easy` | [basic](#basic) | `easy`, `easily` | |
+| `of-course` | [basic](#basic) | `of course` | |
+| `clearly` | [basic](#basic) | `clearly` | |
+| `everyone-knows` | [basic](#basic) | `everyone knows` | |
 | `her-him` | [or](#or) | `her` (female), `hers` (female), `him` (male), `his` (male) | `their`, `theirs`, `them` |
 | `he-she` | [or](#or) | `she` (female), `he` (male), `she'd` (female), `he'd` (male), `she'll` (female), `he'll` (male), `she's` (female), `he's` (male) | `they`, `it` |
 | `herself-himself` | [or](#or) | `herself` (female), `himself` (male) | `themselves`, `theirself`, `self` |
