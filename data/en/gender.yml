@@ -1473,7 +1473,8 @@
     mad man: male
 - type: basic
   considerate:
-    - maniacs
+    - fanatics
+    - zealots
     - enthusiasts
   inconsiderate:
     madmen: male

@@ -312,7 +312,7 @@ This is used for one case: `master` and `slave`.
 | `masterplan` | [basic](#basic) | `masterplan` | `vision`, `comprehensive plan` |
 | `masterstroke` | [basic](#basic) | `masterstroke` | `trump card`, `stroke of genius` |
 | `madman` | [basic](#basic) | `madman`, `mad man` | `fanatic`, `zealot`, `enthusiast` |
-| `madmen` | [basic](#basic) | `madmen`, `mad men` | `maniacs`, `enthusiasts` |
+| `madmen` | [basic](#basic) | `madmen`, `mad men` | `fanatics`, `zealots`, `enthusiasts` |
 | `mankind` | [basic](#basic) | `mankind` | `humankind` |
 | `manhour` | [basic](#basic) | `manhour`, `man hour` | `staff hour`, `hour of work` |
 | `manhours` | [basic](#basic) | `manhours`, `man hours` | `staff hours`, `hours of work`, `hours of labor`, `hours` |
