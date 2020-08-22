@@ -18,14 +18,6 @@ true`, thus suggesting two alternatives for `him or her`.
 
 **Or** patterns can be joined by `and`, `or`, or a slash (`/`).
 
-###### And
-
-**And** patterns highlight possible inconsiderate terms if every category is
-present.
-This is used for one case: `master` and `slave`.
-
-**And** patterns operate on a per-paragraph level.
-
 ## List of Rules
 
 | id | type | not ok | ok |
@@ -245,7 +237,7 @@ This is used for one case: `master` and `slave`.
 | `layman-laywoman` | [or](#or) | `laywoman` (female), `layman` (male) | `civilian` |
 | `laymen-laywomen` | [or](#or) | `laywomen` (female), `laymen` (male) | `civilians` |
 | `dame-lord` | [or](#or) | `dame` (female), `lord` (male) | `official`, `owner`, `expert`, `superior`, `chief`, `ruler` |
-| `dames-lords` | [or](#or) | `dames` (female), `lords` (male) | `officials`, `masters`, `chiefs`, `rulers` |
+| `dames-lords` | [or](#or) | `dames` (female), `lords` (male) | `officials`, `chiefs`, `rulers` |
 | `manhood-womanhood` | [or](#or) | `womanhood` (female), `masculinity` (male), `manhood` (male) | `adulthood`, `personhood`, `maturity` |
 | `femininity-manliness` | [or](#or) | `femininity` (female), `manliness` (male) | `humanity` |
 | `marksman-markswoman` | [or](#or) | `markswoman` (female), `marksman` (male) | `shooter` |
@@ -395,7 +387,8 @@ This is used for one case: `master` and `slave`.
 | `heshe` | [basic](#basic) | `shemale`, `she male`, `heshe`, `shehe` | `transgender person`, `person` |
 | `islamist` | [basic](#basic) | `islamist` | `muslim`, `person of Islamic faith`, `fanatic`, `zealot`, `follower of islam`, `follower of the islamic faith` |
 | `islamists` | [basic](#basic) | `islamists` | `muslims`, `people of Islamic faith`, `fanatics`, `zealots` |
-| `master-slave` | [and](#and) | `master` (a), `masters` (a), `slave` (b), `slaves` (b) | `primary`, `primaries`, `hub`, `hubs`, `reference`, `references`, `replica`, `replicas`, `spoke`, `spokes`, `secondary`, `secondaries` |
+| `master` | [basic](#basic) | `master` | `primary`, `hub`, `reference` |
+| `masters` | [basic](#basic) | `masters` | `primaries`, `hubs`, `references` |
 | `eskimo` | [basic](#basic) | `eskimo` | `Inuit` |
 | `eskimos` | [basic](#basic) | `eskimos` | `Inuits` |
 | `oriental` | [basic](#basic) | `oriental` | `Asian person` |
@@ -427,6 +420,7 @@ This is used for one case: `master` and `slave`.
 | `tribe` | [basic](#basic) | `tribe` | `society`, `community` |
 | `sophisticated-culture` | [basic](#basic) | `sophisticated culture` | `complex culture` |
 | `sophisticated-technology` | [basic](#basic) | `sophisticated technology` | `complex technology` |
+| `bugreport` | [basic](#basic) | `bugreport` | `bug report`, `snapshot` |
 | `make-*-great-again` | [basic](#basic) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
 | `committed-suicide` | [basic](#basic) | `committed suicide`, `completed suicide` | `died by suicide` |
 | `commit-suicide` | [basic](#basic) | `commit suicide`, `complete suicide`, `successful suicide` | `die by suicide` |

@@ -41,7 +41,7 @@ unified()
   .use(english)
   .use(equality)
   .use(stringify)
-  .process(vfile.readSync('example.txt'), function(err, file) {
+  .process(vfile.readSync('example.txt'), function (err, file) {
     console.error(report(err || file))
   })
 ```
@@ -122,7 +122,7 @@ Please see the current patterns for inspiration.
 New English rules will be automatically added to `rules.md`.
 
 Once you are happy with the new rule, add a test for it in [`test.js`][test] and
-open a Pull Request.
+open a pull request.
 
 This project has a [code of conduct][coc].
 By interacting with this repository, organization, or community you agree to

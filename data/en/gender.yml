@@ -1024,7 +1024,6 @@
 - type: or
   considerate:
     - officials
-    - masters
     - chiefs
     - rulers
   inconsiderate:

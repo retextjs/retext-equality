@@ -1,22 +1,19 @@
-- type: and
+- type: basic
+  note: Avoid using the term `master`; these suggestions are for the computer term, but there are better alternatives for other cases too
   considerate:
-    primary: a
-    primaries: a
-    hub: a
-    hubs: a
-    reference: a
-    references: a
-    replica: b
-    replicas: b
-    spoke: b
-    spokes: b
-    secondary: b
-    secondaries: b
+    - primary
+    - hub
+    - reference
   inconsiderate:
-    master: a
-    masters: a
-    slave: b
-    slaves: b
+    - master
+- type: basic
+  note: Avoid using the term `master`; these suggestions are for the computer term, but there are better alternatives for other cases too
+  considerate:
+    - primaries
+    - hubs
+    - references
+  inconsiderate:
+    - masters
 - type: basic
   considerate:
     - Inuit

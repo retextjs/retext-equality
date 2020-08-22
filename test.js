@@ -165,54 +165,6 @@ test('retext-equality', function (t) {
     'ablist-language'
   )
 
-  t.same(
-    process('Sam set up the network as master and slave.'),
-    [
-      '1:27-1:33: `master` / `slave` may be insensitive, use `primary` / `replica` instead'
-    ],
-    'relational insensitivities'
-  )
-
-  t.same(
-    process('Master and slave can be quite hurtful.'),
-    [
-      '1:1-1:7: `Master` / `slave` may be insensitive, use `Primary` / `Replica` instead'
-    ],
-    'relational insensitivities (case #1)'
-  )
-
-  t.same(
-    process('master and Slave can be quite hurtful.'),
-    [
-      '1:1-1:7: `master` / `Slave` may be insensitive, use `primary` / `replica` instead'
-    ],
-    'relational insensitivities (case #2)'
-  )
-
-  t.same(
-    process('Slaves. Master.'),
-    [
-      '1:1-1:7: `Slaves` / `Master` may be insensitive, use `Replica` / `Primary` instead'
-    ],
-    'relation order'
-  )
-
-  t.same(
-    process(
-      'All changes are written to the master server. The slaves are read-only copies of master.'
-    ),
-    [
-      '1:32-1:38: `master` / `slaves` may be insensitive, use `primary` / `replica` instead'
-    ],
-    'relation across sentences'
-  )
-
-  t.same(
-    process('Undefined and null are constants.'),
-    [],
-    'relation across sentences'
-  )
-
   t.end()
 })
 
