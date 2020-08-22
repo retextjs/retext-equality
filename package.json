@@ -58,7 +58,7 @@
     "nlcst-normalize": "^2.0.0",
     "nlcst-search": "^2.0.0",
     "nlcst-to-string": "^2.0.0",
-    "quotation": "^1.0.1",
+    "quotation": "^1.0.0",
     "unist-util-is": "^4.0.0",
     "unist-util-visit": "^2.0.0"
   },
@@ -78,10 +78,10 @@
     "remark-preset-wooorm": "^7.0.0",
     "retext": "^7.0.0",
     "tape": "^5.0.0",
-    "tinyify": "^2.0.0",
+    "tinyify": "^3.0.0",
     "unist-builder": "^2.0.0",
     "vfile-sort": "^2.0.0",
-    "xo": "^0.32.0"
+    "xo": "^0.33.0"
   },
   "scripts": {
     "generate": "node script/generate.js",
