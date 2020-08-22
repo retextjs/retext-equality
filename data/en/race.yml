@@ -274,3 +274,10 @@
     - complex technology
   inconsiderate:
     - sophisticated technology
+- type: basic
+  note: Avoid using `bugreport`, as the word `bugre` is a slur in Brazilian Portuguese
+  considerate:
+    - bug report
+    - snapshot
+  inconsiderate:
+    - bugreport
