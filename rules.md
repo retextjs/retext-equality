@@ -421,8 +421,8 @@ This is used for one case: `master` and `slave`.
 | `goy` | [basic](#basic) | `goyim`, `goyum`, `goy` | `a person who is not Jewish`, `not Jewish` |
 | `spade` | [basic](#basic) | `spade` | `a Black person` |
 | `gyp` | [basic](#basic) | `gyppo`, `gypsy`, `Gipsy`, `gyp` | `Nomad`, `Traveler`, `Roma`, `Romani` |
-| `blacklist` | [basic](#basic) | `blacklist` | `blocklist`, `wronglist`, `banlist`, `deny list` |
-| `whitelist` | [basic](#basic) | `whitelist` | `passlist`, `alrightlist`, `safelist`, `allow list` |
+| `blacklist` | [basic](#basic) | `blacklist`, `black list` | `blocklist`, `wronglist`, `banlist`, `deny list` |
+| `whitelist` | [basic](#basic) | `whitelist`, `white list` | `passlist`, `alrightlist`, `safelist`, `allow list` |
 | `savage` | [basic](#basic) | `primitive`, `savage`, `stone age` | `simple`, `indigenous`, `hunter-gatherer` |
 | `tribe` | [basic](#basic) | `tribe` | `society`, `community` |
 | `sophisticated-culture` | [basic](#basic) | `sophisticated culture` | `complex culture` |
