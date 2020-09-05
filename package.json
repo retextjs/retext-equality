@@ -91,7 +91,9 @@
     "build": "npm run build-bundle && npm run build-mangle",
     "test-api": "node test",
     "test-coverage": "nyc --reporter lcov tape test.js",
-    "test": "npm run generate && npm run format && npm run build && npm run test-coverage"
+    "build-all": "npm run generate && npm run format && npm run build",
+    "test": "npm run build-all && npm run test-coverage",
+    "postinstall": "npm run build-all"
   },
   "nyc": {
     "check-coverage": true,
