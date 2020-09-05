@@ -77,7 +77,8 @@ function generateLanguage(info) {
       considerate: clean(entry.considerate),
       inconsiderate: inconsiderate,
       condition: entry.condition,
-      note: note
+      note: note,
+      source
     }
   })
 
