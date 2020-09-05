@@ -40,6 +40,20 @@ test('retext-equality', function (t) {
         'person with a disability',
         'people with disabilities'
       ],
+      pattern: {
+        id: 'birth-defect',
+        type: 'basic',
+        categories: ['a'],
+        considerate: {
+          'has a disability': 'a',
+          'person with a disability': 'a',
+          'people with disabilities': 'a'
+        },
+        inconsiderate: {'birth defect': 'a'},
+        note:
+          'Assumes/implies that a person with a disability is deficient or inferior to others. When possible, specify the functional ability or its restriction. (source: https://ncdj.org/style-guide/)',
+        source: 'https://ncdj.org/style-guide/'
+      },
       note:
         'Assumes/implies that a person with a disability is deficient or inferior to others. When possible, specify the functional ability or its restriction. (source: https://ncdj.org/style-guide/)'
     },
