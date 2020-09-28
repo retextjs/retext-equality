@@ -479,6 +479,13 @@ test('Phrasing', function (t) {
     ],
     'hang'
   )
+  t.same(
+    process('The user has been whitelisted.'),
+    [
+      '1:19-1:30: `whitelisted` may be insensitive, use `passlisted`, `alrightlisted`, `safelisted`, `allow-listed` instead'
+    ],
+    'whitelist'
+  )
 
   t.end()
 })
