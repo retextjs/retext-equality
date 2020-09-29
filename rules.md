@@ -415,7 +415,13 @@ true`, thus suggesting two alternatives for `him or her`.
 | `spade` | [basic](#basic) | `spade` | `a Black person` |
 | `gyp` | [basic](#basic) | `gyppo`, `gypsy`, `Gipsy`, `gyp` | `Nomad`, `Traveler`, `Roma`, `Romani` |
 | `blacklist` | [basic](#basic) | `blacklist`, `black list` | `blocklist`, `wronglist`, `banlist`, `deny list` |
+| `blacklisted` | [basic](#basic) | `blacklisted` | `blocklisted`, `wronglisted`, `banlisted`, `deny-listed` |
+| `blacklisting` | [basic](#basic) | `blacklisting` | `blocklisting`, `wronglisting`, `banlisting`, `deny-listing` |
 | `whitelist` | [basic](#basic) | `whitelist`, `white list` | `passlist`, `alrightlist`, `safelist`, `allow list` |
+| `whitelisted` | [basic](#basic) | `whitelisted` | `passlisted`, `alrightlisted`, `safelisted`, `allow-listed` |
+| `whitelisting` | [basic](#basic) | `whitelisting` | `passlisting`, `alrightlisting`, `safelisting`, `allow-listing` |
+| `whitespace` | [basic](#basic) | `whitespace`, `white space` | `space`, `blank` |
+| `whitespaces` | [basic](#basic) | `whitespaces`, `white spaces` | `space`, `blank` |
 | `savage` | [basic](#basic) | `primitive`, `savage`, `stone age` | `simple`, `indigenous`, `hunter-gatherer` |
 | `tribe` | [basic](#basic) | `tribe` | `society`, `community` |
 | `sophisticated-culture` | [basic](#basic) | `sophisticated culture` | `complex culture` |

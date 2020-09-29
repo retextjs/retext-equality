@@ -235,6 +235,24 @@
 - type: basic
   note: Replace racially-charged language with more accurate and inclusive words
   considerate:
+    - blocklisted
+    - wronglisted
+    - banlisted
+    - deny-listed
+  inconsiderate:
+    - blacklisted
+- type: basic
+  note: Replace racially-charged language with more accurate and inclusive words
+  considerate:
+    - blocklisting
+    - wronglisting
+    - banlisting
+    - deny-listing
+  inconsiderate:
+    - blacklisting
+- type: basic
+  note: Replace racially-charged language with more accurate and inclusive words
+  considerate:
     - passlist
     - alrightlist
     - safelist
@@ -242,6 +260,40 @@
   inconsiderate:
     - whitelist
     - white list
+- type: basic
+  note: Replace racially-charged language with more accurate and inclusive words
+  considerate:
+    - passlisted
+    - alrightlisted
+    - safelisted
+    - allow-listed
+  inconsiderate:
+    - whitelisted
+- type: basic
+  note: Replace racially-charged language with more accurate and inclusive words
+  considerate:
+    - passlisting
+    - alrightlisting
+    - safelisting
+    - allow-listing
+  inconsiderate:
+    - whitelisting
+- type: basic
+  note: Replace racially-charged language with more accurate and inclusive words
+  considerate:
+    - space
+    - blank
+  inconsiderate:
+    - whitespace
+    - white space
+- type: basic
+  note: Replace racially-charged language with more accurate and inclusive words
+  considerate:
+    - space
+    - blank
+  inconsiderate:
+    - whitespaces
+    - white spaces
 - type: basic
   note: Avoid using terms that imply a group has not changed over time and that they are inferior
   considerate:
