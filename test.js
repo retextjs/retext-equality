@@ -486,6 +486,13 @@ test('Phrasing', function (t) {
     ],
     'whitelist'
   )
+  t.same(
+    process('Please use your preferred pronoun'),
+    [
+      '1:17-1:26: `preferred pronoun` may be insensitive, use `pronoun`, `pronouns` instead'
+    ],
+    'preferred pronoun'
+  )
 
   t.end()
 })
