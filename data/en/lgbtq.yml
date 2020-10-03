@@ -193,3 +193,14 @@
     - she male
     - heshe
     - shehe
+- type: basic
+  source: https://www.selfdefined.app/definitions/pronouns/
+  note: Preferred pronoun sounds like it is optional to use someone's correct pronoun
+  considerate:
+    - pronoun
+    - pronouns
+  inconsiderate:
+    - preferred pronoun
+    - preferred pronouns
+    - gender pronoun
+    - gender pronouns
