@@ -1,6 +1,6 @@
 {
   "name": "retext-equality",
-  "version": "5.3.0",
+  "version": "5.4.0",
   "description": "retext plugin to warn about possible insensitive, inconsiderate language",
   "license": "MIT",
   "keywords": [
