@@ -98,6 +98,7 @@ true`, thus suggesting two alternatives for `him or her`.
 | `special` | [basic](#basic) | `challenged`, `diffability`, `differently abled`, `handicapable`, `special`, `special needs`, `specially abled` | `has a disability`, `person with a disability`, `people with disabilities` |
 | `libtard` | [basic](#basic) | `fucktard`, `libtard`, `contard` | `disagreeable`, `uneducated`, `ignorant`, `naive`, `inconsiderate` |
 | `add` | [basic](#basic) | `ADD`, `adhd`, `a.d.d.`, `a.d.h.d.` | `disorganized`, `distracted`, `energetic`, `hyperactive`, `impetuous`, `impulsive`, `inattentive`, `restless`, `unfocused` |
+| `dummy` | [basic](#basic) | `dummyvariable`, `dummyvalue`, `dummyobject`, `dummy` | `test double`, `placeholder`, `fake`, `stub` |
 | `obvious` | [basic](#basic) | `obvious`, `obviously` | |
 | `just` | [basic](#basic) | `just` | |
 | `basically` | [basic](#basic) | `basically` | |

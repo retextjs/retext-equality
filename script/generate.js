@@ -116,7 +116,7 @@ function generateLanguage(info) {
   // Check for duplicates.
   var duplicates = duplicated(phrases)
 
-  if (duplicates.length !== 0) {
+  if (duplicates.length > 0) {
     throw new Error(
       'Refrain from multiple entries:\n  ' + duplicates.join(', ')
     )
@@ -160,7 +160,7 @@ function clean(value) {
     value = [value]
   }
 
-  if (value && 'length' in value && value.length !== 0) {
+  if (value && 'length' in value && value.length > 0) {
     copy = value
     value = {}
 
