@@ -668,3 +668,15 @@
     - adhd
     - a.d.d.
     - a.d.h.d.
+- type: basic
+  note: Dummy can refer to the inability to talk or be used as a derogatory word meaning stupid. In computer programming it is used where a value or behavior is unimportant. There are better alternatives for other use cases also.
+  considerate:
+    - test double
+    - placeholder
+    - fake
+    - stub
+  inconsiderate:
+    - dummyvariable
+    - dummyvalue
+    - dummyobject
+    - dummy

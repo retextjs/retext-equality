@@ -493,6 +493,16 @@ test('Phrasing', function (t) {
     ],
     'preferred pronoun'
   )
+  t.same(
+    process(
+      'The value held in the _dummyVariable will be ignored, as will dummy workflow methods.'
+    ),
+    [
+      '1:24-1:37: `dummyVariable` may be insensitive, use `test double`, `placeholder`, `fake`, `stub` instead',
+      '1:63-1:68: `dummy` may be insensitive, use `test double`, `placeholder`, `fake`, `stub` instead'
+    ],
+    'dummy'
+  )
 
   t.end()
 })
