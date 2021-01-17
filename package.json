@@ -70,7 +70,7 @@
     "browserify": "^17.0.0",
     "chalk": "^4.0.0",
     "is-hidden": "^1.0.0",
-    "js-yaml": "^3.0.0",
+    "js-yaml": "^4.0.0",
     "mdast-util-heading-range": "^2.0.0",
     "not": "^0.1.0",
     "nyc": "^15.0.0",
@@ -82,7 +82,7 @@
     "tinyify": "^3.0.0",
     "unist-builder": "^2.0.0",
     "vfile-sort": "^2.0.0",
-    "xo": "^0.34.0"
+    "xo": "^0.37.0"
   },
   "scripts": {
     "generate": "node script/generate.js",
@@ -112,10 +112,9 @@
     "prettier": true,
     "esnext": false,
     "rules": {
-      "unicorn/no-reduce": "off",
-      "unicorn/no-fn-reference-in-iterator": "off",
+      "unicorn/no-array-callback-reference": "off",
+      "unicorn/no-array-reduce": "off",
       "unicorn/prefer-includes": "off",
-      "unicorn/string-content": "off",
       "guard-for-in": "off",
       "max-params": "off"
     },
