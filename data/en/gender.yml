@@ -1328,6 +1328,11 @@
     maiden voyage: female
 - type: basic
   considerate:
+    - first flight
+  inconsiderate:
+    maiden flight: female
+- type: basic
+  considerate:
     - strong enough
   inconsiderate:
     man enough: male
