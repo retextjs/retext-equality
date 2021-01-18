@@ -330,3 +330,27 @@
     - snapshot
   inconsiderate:
     - bugreport
+- type: basic
+  source: https://en.wikipedia.org/wiki/Grandfather_clause#Origin
+  note: Avoid using phrases referring to racist United States “Jim Crow” laws.
+  considerate:
+    - legacy policy
+    - legacy clause
+    - deprecation policy
+  inconsiderate:
+    - grandfather clause
+    - grandfather policy
+- type: basic
+  source: https://en.wikipedia.org/wiki/Grandfather_clause#Origin
+  note: Avoid using phrases referring to racist United States “Jim Crow” laws.
+  considerate:
+    - deprecate
+  inconsiderate:
+    - grandfathering
+- type: basic
+  source: https://en.wikipedia.org/wiki/Grandfather_clause#Origin
+  note: Avoid using phrases referring to racist United States “Jim Crow” laws.
+  considerate:
+    - deprecated
+  inconsiderate:
+    - grandfathered
