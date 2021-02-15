@@ -134,9 +134,9 @@ abide by its terms.
 
 <!-- Definitions -->
 
-[build-badge]: https://img.shields.io/travis/retextjs/retext-equality.svg
+[build-badge]: https://github.com/retextjs/retext-equality/workflows/main/badge.svg
 
-[build]: https://travis-ci.org/retextjs/retext-equality
+[build]: https://github.com/retextjs/retext-equality/actions
 
 [coverage-badge]: https://img.shields.io/codecov/c/github/retextjs/retext-equality.svg
 
