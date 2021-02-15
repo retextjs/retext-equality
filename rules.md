@@ -284,6 +284,7 @@ true`, thus suggesting two alternatives for `him or her`.
 | `like-a-man` | [basic](#basic) | `like a man` | `resolutely`, `bravely` |
 | `maiden-name` | [basic](#basic) | `maiden name` | `birth name` |
 | `maiden-voyage` | [basic](#basic) | `maiden voyage` | `first voyage` |
+| `maiden-flight` | [basic](#basic) | `maiden flight` | `first flight` |
 | `man-enough` | [basic](#basic) | `man enough` | `strong enough` |
 | `oneupmanship` | [basic](#basic) | `oneupmanship` | `upstaging`, `competitiveness` |
 | `mrs-` | [basic](#basic) | `miss.`, `mrs.` | `ms.` |
