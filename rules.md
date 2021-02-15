@@ -429,6 +429,9 @@ true`, thus suggesting two alternatives for `him or her`.
 | `sophisticated-culture` | [basic](#basic) | `sophisticated culture` | `complex culture` |
 | `sophisticated-technology` | [basic](#basic) | `sophisticated technology` | `complex technology` |
 | `bugreport` | [basic](#basic) | `bugreport` | `bug report`, `snapshot` |
+| `grandfather-clause` | [basic](#basic) | `grandfather clause`, `grandfather policy` | `legacy policy`, `legacy clause`, `deprecation policy` |
+| `grandfathering` | [basic](#basic) | `grandfathering` | `deprecate` |
+| `grandfathered` | [basic](#basic) | `grandfathered` | `deprecated` |
 | `make-*-great-again` | [basic](#basic) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
 | `committed-suicide` | [basic](#basic) | `committed suicide`, `completed suicide` | `died by suicide` |
 | `commit-suicide` | [basic](#basic) | `commit suicide`, `complete suicide`, `successful suicide` | `die by suicide` |
