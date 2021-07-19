@@ -13,6 +13,9 @@ language.
 
 ## Install
 
+This package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c):
+Node 12+ is needed to use it and it must be `import`ed instead of `require`d.
+
 [npm][]:
 
 ```sh
@@ -30,19 +33,22 @@ He’s pretty set on beating your butt for sheriff.
 …and our script, `example.js`, looks like this:
 
 ```js
-var vfile = require('to-vfile')
-var report = require('vfile-reporter')
-var unified = require('unified')
-var english = require('retext-english')
-var stringify = require('retext-stringify')
-var equality = require('retext-equality')
+import {readSync} from 'to-vfile'
+import {reporter} from 'vfile-reporter'
+import {unified} from 'unified'
+import retextEnglish from 'retext-english'
+import retextEquality from 'retext-equality'
+import retextStringify from 'retext-stringify'
+
+const file = readSync('example.txt')
 
 unified()
-  .use(english)
-  .use(equality)
-  .use(stringify)
-  .process(vfile.readSync('example.txt'), function (err, file) {
-    console.error(report(err || file))
+  .use(retextEnglish)
+  .use(retextEquality)
+  .use(retextStringify)
+  .process(file)
+  .then((file) => {
+    console.error(reporter(file))
   })
 ```
 
@@ -57,7 +63,10 @@ example.txt
 
 ## API
 
-### `retext().use(equality[, options])`
+This package exports no identifiers.
+The default export is `retextEquality`.
+
+### `unified().use(retextEquality[, options])`
 
 Check for possible insensitive, inconsiderate language.
 
