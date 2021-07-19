@@ -5,14 +5,14 @@ import duplicated from 'array-duplicated'
 import yaml from 'js-yaml'
 import unique from 'array-unique'
 import not from 'not'
-import hidden from 'is-hidden'
+import {isHidden} from 'is-hidden'
 
 const pkg = JSON.parse(fs.readFileSync('package.json'))
 
 // Generate all languages.
 const files = fs
   .readdirSync('data')
-  .filter(not(hidden))
+  .filter(not(isHidden))
   .map((language) => ({language, root: path.join('data', language)}))
 let index = -1
 
@@ -21,7 +21,7 @@ while (++index < files.length) {
 
   var patterns = fs
     .readdirSync(info.root)
-    .filter(not(hidden))
+    .filter(not(isHidden))
     .filter((d) => path.extname(d) === '.yml')
     .map((d) => yaml.load(String(fs.readFileSync(path.join(info.root, d)))))
     .reduce(function (all, cur) {

@@ -1,6 +1,6 @@
 import test from 'tape'
-import retext from 'retext'
-import sort from 'vfile-sort'
+import {retext} from 'retext'
+import {sort} from 'vfile-sort'
 import retextEquality from './index.js'
 
 test('retext-equality', function (t) {
@@ -19,19 +19,19 @@ test('retext-equality', function (t) {
       )
     ),
     {
+      name: '1:19-1:24',
       message:
         '`birth defect` may be insensitive, use `has a disability`, `person with a disability`, `people with disabilities` instead',
-      name: '1:19-1:24',
       reason:
         '`birth defect` may be insensitive, use `has a disability`, `person with a disability`, `people with disabilities` instead',
       line: 1,
       column: 19,
-      location: {
+      source: 'retext-equality',
+      ruleId: 'birth-defect',
+      position: {
         start: {line: 1, column: 19, offset: 18},
         end: {line: 1, column: 24, offset: 23}
       },
-      source: 'retext-equality',
-      ruleId: 'birth-defect',
       fatal: false,
       actual: 'birth defect',
       expected: [

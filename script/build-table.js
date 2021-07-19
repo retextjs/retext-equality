@@ -1,5 +1,5 @@
-import headingRange from 'mdast-util-heading-range'
-import u from 'unist-builder'
+import {headingRange} from 'mdast-util-heading-range'
+import {u} from 'unist-builder'
 import {patterns} from '../lib/en.js'
 
 export default function table() {
