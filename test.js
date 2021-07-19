@@ -503,7 +503,12 @@ test('Phrasing', (t) => {
   t.end()
 })
 
-// Helper to get warnings from `equality` in `doc`.
+/**
+ * Helper to get warnings from `equality` in `doc`.
+ *
+ * @param {string} doc
+ * @param {import('./index.js').Options} [options]
+ */
 function process(doc, options) {
   const file = retext().use(retextEquality, options).processSync(doc)
 

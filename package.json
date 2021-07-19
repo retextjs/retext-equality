@@ -53,20 +53,29 @@
   "sideEffects": false,
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "files": [
     "lib/",
+    "en.d.ts",
     "en.js",
+    "index.d.ts",
     "index.js"
   ],
   "dependencies": {
+    "@types/unist": "^2.0.6",
     "nlcst-normalize": "^3.0.0",
     "nlcst-search": "^3.0.0",
     "nlcst-to-string": "^3.0.0",
     "quotation": "^2.0.0",
+    "unified": "^10.0.0",
     "unist-util-is": "^5.0.0",
-    "unist-util-visit": "^3.0.0"
+    "unist-util-visit": "^3.0.0",
+    "vfile": "^5.0.0"
   },
   "devDependencies": {
+    "@types/js-yaml": "^4.0.2",
+    "@types/mdast": "^3.0.7",
+    "@types/tape": "^4.0.0",
     "c8": "^7.0.0",
     "chalk": "^4.0.0",
     "is-hidden": "^2.0.0",
@@ -76,17 +85,21 @@
     "remark-cli": "^9.0.0",
     "remark-preset-wooorm": "^8.0.0",
     "retext": "^8.0.0",
+    "rimraf": "^3.0.0",
     "tape": "^5.0.0",
+    "type-coverage": "^2.0.0",
+    "typescript": "^4.0.0",
     "unist-builder": "^3.0.0",
     "vfile-sort": "^3.0.0",
     "xo": "^0.39.0"
   },
   "scripts": {
+    "build": "rimraf \"{lib,script}/**/*.d.ts\" \"*.d.ts\" && tsc && type-coverage",
     "generate": "node script/generate.js",
     "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
     "test-api": "node --conditions development test.js",
     "test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov node --conditions development test.js",
-    "test": "npm run generate && npm run format && npm run test-coverage"
+    "test": "npm run generate && npm run build && npm run format && npm run test-coverage"
   },
   "prettier": {
     "tabWidth": 2,
@@ -112,7 +125,13 @@
         "remark-lint-table-pipe-alignment",
         false
       ],
-      "./script/build-table"
+      "./script/build-table.js"
     ]
+  },
+  "typeCoverage": {
+    "atLeast": 100,
+    "detail": true,
+    "strict": true,
+    "ignoreCatch": true
   }
 }

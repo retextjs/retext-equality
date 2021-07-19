@@ -4,7 +4,8 @@ import chalk from 'chalk'
 import yaml from 'js-yaml'
 import {isHidden} from 'is-hidden'
 
-const pkg = JSON.parse(fs.readFileSync('package.json'))
+/** @type {{files: string[]}} */
+const pkg = JSON.parse(String(fs.readFileSync('package.json')))
 
 const own = {}.hasOwnProperty
 
@@ -18,6 +19,20 @@ while (++index < files.length) {
     continue
   }
 
+  /**
+   * @type {(
+   *   Array.<{
+   *     type: 'or'|'basic',
+   *     considerate: string|string[]|Record<string, string>,
+   *     inconsiderate: string|string[]|Record<string, string>,
+   *     condition?: string,
+   *     note?: string,
+   *     source?: string,
+   *     apostrophe?: boolean
+   *   }>
+   * )}
+   */
+  // @ts-expect-error: hush
   const patterns = fs
     .readdirSync(path.join('data', language))
     .filter((d) => !isHidden(d))
@@ -27,11 +42,14 @@ while (++index < files.length) {
     )
     .flat()
 
+  /** @type {string[]} */
   const phrases = []
 
   const data = patterns.map((entry) => {
     const inconsiderate = clean(entry.inconsiderate)
+    /** @type {Record<string, string>} */
     const categories = {}
+    /** @type {string[]} */
     const parts = []
     const note =
       entry.note && entry.source
@@ -39,6 +57,7 @@ while (++index < files.length) {
         : entry.source
         ? 'Source: ' + entry.source
         : entry.note || undefined
+    /** @type {string} */
     let phrase
 
     for (phrase in inconsiderate) {
@@ -113,7 +132,23 @@ while (++index < files.length) {
   // Write patterns.
   fs.writeFileSync(
     path.join('lib', language + '.js'),
-    'export const patterns = ' + JSON.stringify(data, null, 2) + '\n'
+    [
+      '/**',
+      ' * @typedef Pattern',
+      ' * @property {string} id',
+      " * @property {'or'|'basic'} type",
+      ' * @property {string[]} categories',
+      ' * @property {Record<string, string>} [considerate]',
+      ' * @property {Record<string, string>} inconsiderate',
+      ' * @property {string} [condition]',
+      ' * @property {string} [note]',
+      ' * @property {boolean} [apostrophe]',
+      ' */',
+      '',
+      '/** @type {Pattern[]} */',
+      'export const patterns = ' + JSON.stringify(data, null, 2),
+      ''
+    ].join('\n')
   )
 
   console.log(chalk.green('✓') + ' wrote `lib/' + language + '.js`')
@@ -140,13 +175,19 @@ while (++index < files.length) {
   }
 }
 
-// Clean a value.
+/**
+ * Clean a value.
+ *
+ * @param {string|string[]|Record<string, string>} value
+ * @returns {Record<string, string>}
+ */
 function clean(value) {
   if (typeof value === 'string') {
     value = [value]
   }
 
   if (Array.isArray(value)) {
+    /** @type {Record<string, string>} */
     const replacement = {}
     let index = -1
 
