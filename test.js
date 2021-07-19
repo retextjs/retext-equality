@@ -3,7 +3,7 @@ import {retext} from 'retext'
 import {sort} from 'vfile-sort'
 import retextEquality from './index.js'
 
-test('retext-equality', function (t) {
+test('retext-equality', (t) => {
   t.same(
     process('toString and constructor.'),
     [],
@@ -166,12 +166,10 @@ test('retext-equality', function (t) {
   t.end()
 })
 
-test('Ignoring', function (t) {
+test('Ignoring', (t) => {
   t.same(
     process(
-      [
-        'The process running on the remote host will pop a job off the queue.'
-      ].join('\n'),
+      'The process running on the remote host will pop a job off the queue.',
       {ignore: ['pop']}
     ),
     [
@@ -183,7 +181,7 @@ test('Ignoring', function (t) {
   t.end()
 })
 
-test('Phrasing', function (t) {
+test('Phrasing', (t) => {
   t.same(
     process('This is insane.'),
     [
@@ -507,7 +505,7 @@ test('Phrasing', function (t) {
 
 // Helper to get warnings from `equality` in `doc`.
 function process(doc, options) {
-  var file = retext().use(retextEquality, options).processSync(doc)
+  const file = retext().use(retextEquality, options).processSync(doc)
 
-  return sort(file).messages.map(String)
+  return sort(file).messages.map((d) => String(d))
 }

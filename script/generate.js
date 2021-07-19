@@ -1,70 +1,86 @@
 import fs from 'fs'
 import path from 'path'
 import chalk from 'chalk'
-import duplicated from 'array-duplicated'
 import yaml from 'js-yaml'
-import unique from 'array-unique'
-import not from 'not'
 import {isHidden} from 'is-hidden'
 
 const pkg = JSON.parse(fs.readFileSync('package.json'))
 
-// Generate all languages.
-const files = fs
-  .readdirSync('data')
-  .filter(not(isHidden))
-  .map((language) => ({language, root: path.join('data', language)}))
+const own = {}.hasOwnProperty
+
+const files = fs.readdirSync('data')
 let index = -1
 
 while (++index < files.length) {
-  const info = files[index]
+  const language = files[index]
 
-  var patterns = fs
-    .readdirSync(info.root)
-    .filter(not(isHidden))
+  if (isHidden(language)) {
+    continue
+  }
+
+  const patterns = fs
+    .readdirSync(path.join('data', language))
+    .filter((d) => !isHidden(d))
     .filter((d) => path.extname(d) === '.yml')
-    .map((d) => yaml.load(String(fs.readFileSync(path.join(info.root, d)))))
-    .reduce(function (all, cur) {
-      return all.concat(cur)
-    }, [])
+    .map((d) =>
+      yaml.load(String(fs.readFileSync(path.join('data', language, d))))
+    )
+    .flat()
 
-  var data = patterns.map(function (entry) {
-    var note = entry.note
-    var source = entry.source
-    var inconsiderate = clean(entry.inconsiderate)
-    var categories = {}
-    var parts = []
-    var phrase
-    var category
+  const phrases = []
 
-    if (source) {
-      if (note) {
-        note += ' (source: ' + source + ')'
-      } else {
-        note = 'Source: ' + source
-      }
-    }
+  const data = patterns.map((entry) => {
+    const inconsiderate = clean(entry.inconsiderate)
+    const categories = {}
+    const parts = []
+    const note =
+      entry.note && entry.source
+        ? entry.note + ' (source: ' + entry.source + ')'
+        : entry.source
+        ? 'Source: ' + entry.source
+        : entry.note || undefined
+    let phrase
 
     for (phrase in inconsiderate) {
-      category = inconsiderate[phrase]
+      if (own.call(inconsiderate, phrase)) {
+        const category = inconsiderate[phrase]
 
-      if (
-        !categories[category] ||
-        categories[category].length > phrase.length
-      ) {
-        categories[category] = phrase
+        phrases.push(phrase)
+
+        if (/-/.test(phrase)) {
+          throw new Error(
+            'Refrain from using dashes inside inconsiderate terms: they’ll be stripped when looking for words: ' +
+              Object.keys(inconsiderate).join(', ')
+          )
+        }
+
+        if (/['’]/.test(phrase) && !entry.apostrophe) {
+          throw new Error(
+            'Refrain from using apostrophes inside inconsiderate terms, they’ll be stripped when looking for words (or use `apostrophe: true`): ' +
+              Object.keys(inconsiderate).join(', ')
+          )
+        }
+
+        if (
+          !categories[category] ||
+          categories[category].length > phrase.length
+        ) {
+          categories[category] = phrase
+        }
       }
     }
 
     for (phrase in categories) {
-      parts.push(categories[phrase].replace(/[\s.]+/g, '-'))
+      if (own.call(categories, phrase)) {
+        parts.push(categories[phrase].replace(/[\s.]+/g, '-'))
+      }
     }
 
     return {
       id: parts.sort().join('-').toLowerCase(),
       type: entry.type,
       apostrophe: entry.apostrophe ? true : undefined,
-      categories: unique(Object.values(inconsiderate)),
+      categories: [...new Set(Object.values(inconsiderate))],
       considerate: clean(entry.considerate),
       inconsiderate,
       condition: entry.condition,
@@ -73,7 +89,6 @@ while (++index < files.length) {
   })
 
   // Check patterns.
-  var phrases = []
   let offset = -1
 
   while (++offset < data.length) {
@@ -85,65 +100,42 @@ while (++index < files.length) {
           Object.keys(entry.inconsiderate).join(', ')
       )
     }
-
-    if (entry.inconsiderate) {
-      let inconsiderate
-
-      for (inconsiderate in entry.inconsiderate) {
-        phrases.push(inconsiderate)
-
-        if (/-/.test(inconsiderate)) {
-          throw new Error(
-            'Refrain from using dashes inside inconsiderate terms: they’ll be stripped when looking for words: ' +
-              Object.keys(entry.inconsiderate).join(', ')
-          )
-        }
-
-        if (/['’]/.test(inconsiderate) && !entry.apostrophe) {
-          throw new Error(
-            'Refrain from using apostrophes inside inconsiderate terms, they’ll be stripped when looking for words (or use `apostrophe: true`): ' +
-              Object.keys(entry.inconsiderate).join(', ')
-          )
-        }
-      }
-    }
   }
 
   // Check for duplicates.
-  var duplicates = duplicated(phrases)
-
-  if (duplicates.length > 0) {
-    throw new Error(
-      'Refrain from multiple entries:\n  ' + duplicates.join(', ')
-    )
+  offset = -1
+  while (++offset < phrases.length) {
+    if (phrases.includes(phrases[offset], offset + 1)) {
+      throw new Error('Refrain from multiple entries:\n  ' + phrases[offset])
+    }
   }
 
   // Write patterns.
   fs.writeFileSync(
-    path.join('lib', info.language + '.js'),
+    path.join('lib', language + '.js'),
     'export const patterns = ' + JSON.stringify(data, null, 2) + '\n'
   )
 
-  console.log(chalk.green('✓') + ' wrote `lib/' + info.language + '.js`')
+  console.log(chalk.green('✓') + ' wrote `lib/' + language + '.js`')
 
   fs.writeFileSync(
-    info.language + '.js',
+    language + '.js',
     [
       "import {factory} from './lib/factory.js'",
-      "import {patterns} from './lib/" + info.language + ".js'",
+      "import {patterns} from './lib/" + language + ".js'",
       '',
-      "const retextEquality = factory(patterns, '" + info.language + "')",
+      "const retextEquality = factory(patterns, '" + language + "')",
       '',
       'export default retextEquality',
       ''
     ].join('\n')
   )
 
-  console.log(chalk.green('✓') + ' wrote `' + info.language + '.js`')
+  console.log(chalk.green('✓') + ' wrote `' + language + '.js`')
 
-  if (pkg.files.indexOf(info.language + '.js') === -1) {
+  if (!pkg.files.includes(language + '.js')) {
     throw new Error(
-      'Please add `' + info.language + '.js` to `files` in `package.json`'
+      'Please add `' + language + '.js` to `files` in `package.json`'
     )
   }
 }
