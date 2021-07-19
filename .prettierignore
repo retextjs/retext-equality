@@ -1,5 +1,2 @@
 coverage/
-retext-equality.js
-retext-equality.min.js
-*.json
 *.md

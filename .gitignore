@@ -1,8 +1,6 @@
-.DS_Store
-*.log
 node_modules/
 coverage/
-retext-equality.js
-retext-equality.min.js
 lib/en.json
+.DS_Store
+*.log
 yarn.lock
