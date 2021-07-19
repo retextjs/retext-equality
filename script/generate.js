@@ -1,38 +1,29 @@
-'use strict'
+import fs from 'fs'
+import path from 'path'
+import chalk from 'chalk'
+import duplicated from 'array-duplicated'
+import yaml from 'js-yaml'
+import unique from 'array-unique'
+import not from 'not'
+import hidden from 'is-hidden'
 
-var fs = require('fs')
-var path = require('path')
-var chalk = require('chalk')
-var duplicated = require('array-duplicated')
-var yaml = require('js-yaml')
-var unique = require('array-unique')
-var not = require('not')
-var hidden = require('is-hidden')
-var pkg = require('../package.json')
-
-var join = path.join
-var extname = path.extname
-
-var root = 'data'
+const pkg = JSON.parse(fs.readFileSync('package.json'))
 
 // Generate all languages.
-fs.readdirSync(root)
+const files = fs
+  .readdirSync('data')
   .filter(not(hidden))
-  .map(function (language) {
-    return {language: language, root: join(root, language)}
-  })
-  .forEach(generateLanguage)
+  .map((language) => ({language, root: path.join('data', language)}))
+let index = -1
 
-function generateLanguage(info) {
+while (++index < files.length) {
+  const info = files[index]
+
   var patterns = fs
     .readdirSync(info.root)
     .filter(not(hidden))
-    .filter(function (basename) {
-      return extname(basename) === '.yml'
-    })
-    .map(function (basename) {
-      return yaml.load(String(fs.readFileSync(join(info.root, basename))))
-    })
+    .filter((d) => path.extname(d) === '.yml')
+    .map((d) => yaml.load(String(fs.readFileSync(path.join(info.root, d)))))
     .reduce(function (all, cur) {
       return all.concat(cur)
     }, [])
@@ -75,16 +66,19 @@ function generateLanguage(info) {
       apostrophe: entry.apostrophe ? true : undefined,
       categories: unique(Object.values(inconsiderate)),
       considerate: clean(entry.considerate),
-      inconsiderate: inconsiderate,
+      inconsiderate,
       condition: entry.condition,
-      note: note
+      note
     }
   })
 
   // Check patterns.
   var phrases = []
+  let offset = -1
 
-  data.forEach(function (entry) {
+  while (++offset < data.length) {
+    const entry = data[offset]
+
     if (entry.type !== 'basic' && entry.categories.length < 2) {
       throw new Error(
         'Use `type: basic` for single entries with one category: ' +
@@ -93,7 +87,9 @@ function generateLanguage(info) {
     }
 
     if (entry.inconsiderate) {
-      Object.keys(entry.inconsiderate).forEach(function (inconsiderate) {
+      let inconsiderate
+
+      for (inconsiderate in entry.inconsiderate) {
         phrases.push(inconsiderate)
 
         if (/-/.test(inconsiderate)) {
@@ -109,9 +105,9 @@ function generateLanguage(info) {
               Object.keys(entry.inconsiderate).join(', ')
           )
         }
-      })
+      }
     }
-  })
+  }
 
   // Check for duplicates.
   var duplicates = duplicated(phrases)
@@ -122,51 +118,51 @@ function generateLanguage(info) {
     )
   }
 
-  var basename = info.language + '.json'
-  var scriptname = info.language + '.js'
-
   // Write patterns.
-  fs.writeFileSync(join('lib', basename), JSON.stringify(data, null, 2) + '\n')
+  fs.writeFileSync(
+    path.join('lib', info.language + '.js'),
+    'export const patterns = ' + JSON.stringify(data, null, 2) + '\n'
+  )
 
-  console.log(chalk.green('✓') + ' wrote `lib/' + basename + '`')
+  console.log(chalk.green('✓') + ' wrote `lib/' + info.language + '.js`')
 
   fs.writeFileSync(
-    scriptname,
+    info.language + '.js',
     [
-      "'use strict'",
+      "import {factory} from './lib/factory.js'",
+      "import {patterns} from './lib/" + info.language + ".js'",
       '',
-      "var factory = require('./lib/factory.js')",
-      "var patterns = require('./lib/" + basename + "')",
+      "const retextEquality = factory(patterns, '" + info.language + "')",
       '',
-      "module.exports = factory(patterns, '" + info.language + "')",
+      'export default retextEquality',
       ''
     ].join('\n')
   )
 
-  console.log(chalk.green('✓') + ' wrote `' + scriptname + '`')
+  console.log(chalk.green('✓') + ' wrote `' + info.language + '.js`')
 
-  if (pkg.files.indexOf(scriptname) === -1) {
+  if (pkg.files.indexOf(info.language + '.js') === -1) {
     throw new Error(
-      'Please add `' + scriptname + '` to `files` in `package.json`'
+      'Please add `' + info.language + '.js` to `files` in `package.json`'
     )
   }
 }
 
 // Clean a value.
 function clean(value) {
-  var copy
-
   if (typeof value === 'string') {
     value = [value]
   }
 
-  if (value && 'length' in value && value.length > 0) {
-    copy = value
-    value = {}
+  if (Array.isArray(value)) {
+    const replacement = {}
+    let index = -1
 
-    copy.forEach(function (phrase) {
-      value[phrase] = 'a' // Example category
-    })
+    while (++index < value.length) {
+      replacement[value[index]] = 'a' // Example category
+    }
+
+    return replacement
   }
 
   return value

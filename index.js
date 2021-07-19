@@ -1,3 +1,3 @@
-'use strict'
+import retextEquality from './en.js'
 
-module.exports = require('./en')
+export default retextEquality

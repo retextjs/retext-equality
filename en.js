@@ -1,6 +1,6 @@
-'use strict'
+import {factory} from './lib/factory.js'
+import {patterns} from './lib/en.js'
 
-var factory = require('./lib/factory.js')
-var patterns = require('./lib/en.json')
+const retextEquality = factory(patterns, 'en')
 
-module.exports = factory(patterns, 'en')
+export default retextEquality

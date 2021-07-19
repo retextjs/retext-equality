@@ -1,17 +1,13 @@
-'use strict'
+import headingRange from 'mdast-util-heading-range'
+import u from 'unist-builder'
+import {patterns} from '../lib/en.js'
 
-var range = require('mdast-util-heading-range')
-var u = require('unist-builder')
-var patterns = require('../lib/en')
-
-module.exports = table
-
-function table() {
+export default function table() {
   return transformer
 }
 
 function transformer(tree) {
-  range(tree, 'list of rules', function (start, nodes, end) {
+  headingRange(tree, 'list of rules', function (start, nodes, end) {
     var rows = [
       u('tableRow', [
         u('tableCell', [u('text', 'id')]),
@@ -21,7 +17,9 @@ function transformer(tree) {
       ])
     ]
 
-    patterns.forEach(function (pattern) {
+    let index = -1
+    while (++index < patterns.length) {
+      const pattern = patterns[index]
       rows.push(
         u('tableRow', [
           u('tableCell', [u('inlineCode', pattern.id)]),
@@ -35,7 +33,7 @@ function transformer(tree) {
           u('tableCell', renderCell(pattern.considerate))
         ])
       )
-    })
+    }
 
     return [start].concat(u('table', rows), end)
   })
@@ -43,8 +41,11 @@ function transformer(tree) {
 
 function renderCell(phrases, includeCategories) {
   var result = []
+  const values = Object.keys(phrases || {})
+  let index = -1
 
-  Object.keys(phrases || {}).forEach(function (value, index, values) {
+  while (++index < values.length) {
+    const value = values[index]
     result.push(u('inlineCode', value))
 
     if (includeCategories) {
@@ -54,7 +55,7 @@ function renderCell(phrases, includeCategories) {
     if (index !== values.length - 1) {
       result.push(u('text', ', '))
     }
-  })
+  }
 
   return result
 }

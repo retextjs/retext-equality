@@ -1,9 +1,7 @@
-'use strict'
-
-var test = require('tape')
-var retext = require('retext')
-var sort = require('vfile-sort')
-var equality = require('.')
+import test from 'tape'
+import retext from 'retext'
+import sort from 'vfile-sort'
+import retextEquality from './index.js'
 
 test('retext-equality', function (t) {
   t.same(
@@ -15,8 +13,9 @@ test('retext-equality', function (t) {
   t.same(
     JSON.parse(
       JSON.stringify(
-        retext().use(equality).processSync('Their child has a birth defect.')
-          .messages[0]
+        retext()
+          .use(retextEquality)
+          .processSync('Their child has a birth defect.').messages[0]
       )
     ),
     {
@@ -40,8 +39,7 @@ test('retext-equality', function (t) {
         'person with a disability',
         'people with disabilities'
       ],
-      note:
-        'Assumes/implies that a person with a disability is deficient or inferior to others. When possible, specify the functional ability or its restriction. (source: https://ncdj.org/style-guide/)'
+      note: 'Assumes/implies that a person with a disability is deficient or inferior to others. When possible, specify the functional ability or its restriction. (source: https://ncdj.org/style-guide/)'
     },
     'should emit a message'
   )
@@ -509,7 +507,7 @@ test('Phrasing', function (t) {
 
 // Helper to get warnings from `equality` in `doc`.
 function process(doc, options) {
-  var file = retext().use(equality, options).processSync(doc)
+  var file = retext().use(retextEquality, options).processSync(doc)
 
   return sort(file).messages.map(String)
 }

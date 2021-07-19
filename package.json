@@ -50,8 +50,11 @@
     "Bryce Kahle <bryce@brycekahle.com>",
     "Ben Hall <github@benhall.io>"
   ],
+  "sideEffects": false,
+  "type": "module",
+  "main": "index.js",
   "files": [
-    "lib",
+    "lib/",
     "en.js",
     "index.js"
   ],
@@ -82,11 +85,11 @@
     "tinyify": "^3.0.0",
     "unist-builder": "^2.0.0",
     "vfile-sort": "^2.0.0",
-    "xo": "^0.37.0"
+    "xo": "^0.39.0"
   },
   "scripts": {
     "generate": "node script/generate.js",
-    "format": "remark . -qfo && prettier . --write && xo --fix",
+    "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
     "test-api": "node --conditions development test.js",
     "test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov node --conditions development test.js",
     "test": "npm run generate && npm run format && npm run test-coverage"
@@ -101,8 +104,10 @@
   },
   "xo": {
     "prettier": true,
-    "esnext": false,
     "rules": {
+      "max-depth": "off",
+      "no-var": "off",
+      "prefer-arrow-callback": "off",
       "unicorn/no-array-callback-reference": "off",
       "unicorn/no-array-reduce": "off",
       "unicorn/prefer-includes": "off",

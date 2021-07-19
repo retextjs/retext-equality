@@ -1,6 +1,6 @@
 node_modules/
 coverage/
-lib/en.json
+lib/en.js
 .DS_Store
 *.log
 yarn.lock
