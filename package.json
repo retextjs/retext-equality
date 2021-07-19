@@ -59,12 +59,12 @@
     "index.js"
   ],
   "dependencies": {
-    "nlcst-normalize": "^2.0.0",
-    "nlcst-search": "^2.0.0",
-    "nlcst-to-string": "^2.0.0",
-    "quotation": "^1.0.0",
-    "unist-util-is": "^4.0.0",
-    "unist-util-visit": "^2.0.0"
+    "nlcst-normalize": "^3.0.0",
+    "nlcst-search": "^3.0.0",
+    "nlcst-to-string": "^3.0.0",
+    "quotation": "^2.0.0",
+    "unist-util-is": "^5.0.0",
+    "unist-util-visit": "^3.0.0"
   },
   "devDependencies": {
     "array-duplicated": "^2.0.0",
