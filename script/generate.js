@@ -1,5 +1,5 @@
-import fs from 'fs'
-import path from 'path'
+import fs from 'node:fs'
+import path from 'node:path'
 import chalk from 'chalk'
 import yaml from 'js-yaml'
 import {isHidden} from 'is-hidden'
@@ -37,10 +37,9 @@ while (++index < files.length) {
     .readdirSync(path.join('data', language))
     .filter((d) => !isHidden(d))
     .filter((d) => path.extname(d) === '.yml')
-    .map((d) =>
+    .flatMap((d) =>
       yaml.load(String(fs.readFileSync(path.join('data', language, d))))
     )
-    .flat()
 
   /** @type {string[]} */
   const phrases = []
