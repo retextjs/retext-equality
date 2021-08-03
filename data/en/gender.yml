@@ -51,6 +51,7 @@
     gals: female
     ladies: female
     man: male
+    boys: male
     men: male
     guys: male
     dudes: male
