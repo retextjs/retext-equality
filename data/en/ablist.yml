@@ -680,3 +680,11 @@
     - dummyvalue
     - dummyobject
     - dummy
+- type: basic
+  note: Binge might be insensitive towards folks with eating or drinking disorders
+  source: https://github.com/retextjs/retext-equality/issues/110
+  considerate:
+    - enthusiastic
+    - spree
+  inconsiderate:
+    - binge

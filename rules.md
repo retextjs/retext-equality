@@ -99,6 +99,7 @@ true`, thus suggesting two alternatives for `him or her`.
 | `libtard` | [basic](#basic) | `fucktard`, `libtard`, `contard` | `disagreeable`, `uneducated`, `ignorant`, `naive`, `inconsiderate` |
 | `add` | [basic](#basic) | `ADD`, `adhd`, `a.d.d.`, `a.d.h.d.` | `disorganized`, `distracted`, `energetic`, `hyperactive`, `impetuous`, `impulsive`, `inattentive`, `restless`, `unfocused` |
 | `dummy` | [basic](#basic) | `dummyvariable`, `dummyvalue`, `dummyobject`, `dummy` | `test double`, `placeholder`, `fake`, `stub` |
+| `binge` | [basic](#basic) | `binge` | `enthusiastic`, `spree` |
 | `obvious` | [basic](#basic) | `obvious`, `obviously` | |
 | `just` | [basic](#basic) | `just` | |
 | `basically` | [basic](#basic) | `basically` | |
