@@ -62,6 +62,7 @@
     - malicious
     - mean
     - disgusting
+    - incredible
     - vile
     - person with symptoms of mental illness
     - person with mental illness
@@ -85,6 +86,12 @@
     - nuts
     - mental case
     - mental
+- type: basic
+  note: Describe the behavior or illness without derogatory words.
+  considerate:
+    - incredibly
+  inconsiderate:
+    - insanely
 - type: basic
   note: When describing a mathematical or programmatic value, using the word “sane” needlessly invokes the topic of mental health.  Consider using a domain-specific or neutral term instead.
   considerate:

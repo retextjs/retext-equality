@@ -158,7 +158,7 @@ test('retext-equality', (t) => {
   t.same(
     process('Eric is mentally ill.'),
     [
-      '1:9-1:17: `mentally ill` may be insensitive, use `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
+      '1:9-1:17: `mentally ill` may be insensitive, use `rude`, `malicious`, `mean`, `disgusting`, `incredible`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
     ],
     'ablist-language'
   )
@@ -185,7 +185,7 @@ test('Phrasing', (t) => {
   t.same(
     process('This is insane.'),
     [
-      '1:9-1:15: `insane` may be insensitive, use `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
+      '1:9-1:15: `insane` may be insensitive, use `rude`, `malicious`, `mean`, `disgusting`, `incredible`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
     ],
     'This is insane'
   )
@@ -265,7 +265,7 @@ test('Phrasing', (t) => {
   t.same(
     process('Yeah, you were really psycho to him.'),
     [
-      '1:23-1:29: `psycho` may be insensitive, use `rude`, `malicious`, `mean`, `disgusting`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead',
+      '1:23-1:29: `psycho` may be insensitive, use `rude`, `malicious`, `mean`, `disgusting`, `incredible`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead',
       '1:33-1:36: `him` may be insensitive, when referring to a person, use `their`, `theirs`, `them` instead'
     ],
     'Yeah, you were really psycho to him'
