@@ -1,12 +1,17 @@
+/**
+ * @typedef {import('mdast').Root} Root
+ * @typedef {import('mdast').TableRow} TableRow
+ */
+
 import {headingRange} from 'mdast-util-heading-range'
 import {u} from 'unist-builder'
 import {patterns} from '../lib/en.js'
 
-/** @type {import('unified').Plugin<[]>} */
+/** @type {import('unified').Plugin<[], Root>} */
 export default function table() {
   return (tree) => {
     headingRange(tree, 'list of rules', (start, _, end) => {
-      /** @type {import('mdast').TableRow[]} */
+      /** @type {TableRow[]} */
       const rows = [
         u('tableRow', [
           u('tableCell', [u('text', 'id')]),
