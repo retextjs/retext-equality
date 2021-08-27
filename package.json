@@ -62,6 +62,7 @@
     "index.js"
   ],
   "dependencies": {
+    "@types/nlcst": "^1.0.0",
     "@types/unist": "^2.0.6",
     "nlcst-normalize": "^3.0.0",
     "nlcst-search": "^3.0.0",
