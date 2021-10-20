@@ -413,7 +413,7 @@ true`, thus suggesting two alternatives for `him or her`.
 | `indian-give` | [basic](#basic) | `indian give`, `indian giver` | `go back on one’s offer` |
 | `pinoys` | [basic](#basic) | `pinoys`, `pinays` | `Filipinos`, `Filipino people` |
 | `towel-heads` | [basic](#basic) | `sand niggers`, `towel heads` | `Arabs`, `Middle Eastern People` |
-| `latino` | [basic](#basic) | `latino`, `latina`, `mexican` | `Latinx` |
+| `latino` | [basic](#basic) | `latino`, `latina` | `Latinx` |
 | `japs` | [basic](#basic) | `japs` | `Japanese person`, `Japanese people` |
 | `hymie` | [basic](#basic) | `shlomo`, `shyster`, `hymie` | `Jewish person` |
 | `goy` | [basic](#basic) | `goyim`, `goyum`, `goy` | `a person who is not Jewish`, `not Jewish` |
