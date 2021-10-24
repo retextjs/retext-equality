@@ -109,6 +109,7 @@ true`, thus suggesting two alternatives for `him or her`.
 | `of-course` | [basic](#basic) | `of course` | |
 | `clearly` | [basic](#basic) | `clearly` | |
 | `everyone-knows` | [basic](#basic) | `everyone knows` | |
+| `straightforward` | [basic](#basic) | `straight forward`, `straightforward`, `straight forwardly`, `straightforwardly` | |
 | `her-him` | [or](#or) | `her` (female), `hers` (female), `him` (male), `his` (male) | `their`, `theirs`, `them` |
 | `he-she` | [or](#or) | `she` (female), `he` (male), `she'd` (female), `he'd` (male), `she'll` (female), `he'll` (male), `she's` (female), `he's` (male) | `they`, `it` |
 | `herself-himself` | [or](#or) | `herself` (female), `himself` (male) | `themselves`, `theirself`, `self` |
