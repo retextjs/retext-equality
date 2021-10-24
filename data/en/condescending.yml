@@ -41,3 +41,10 @@
   inconsiderate: everyone knows
   note: If it’s self-evident then maybe you don’t need to describe it. If it isn’t, don’t say it.
   source: https://css-tricks.com/words-avoid-educational-writing/
+- type: basic
+  inconsiderate:
+    - straight forward
+    - straightforward
+    - straight forwardly
+    - straightforwardly
+  note: It’s probably not that straight forward. Even if it is, you probably don’t need to specifically say it.
