@@ -44,5 +44,7 @@
 - type: basic
   inconsiderate:
     - straight forward
+    - straightforward
     - straight forwardly
+    - straightforwardly
   note: It’s probably not that straight forward. Even if it is, you probably don’t need to specifically say it.
