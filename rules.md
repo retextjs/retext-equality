@@ -22,6 +22,10 @@ true`, thus suggesting two alternatives for `him or her`.
 
 | id | type | not ok | ok |
 | - | - | - | - |
+| `slave` | [basic](#basic) | `slave`, `slaves` | `secondary`, `worker`, `replica`, `node` |
+| `blackhat` | [basic](#basic) | `blackhat` | `unethical hacker`, `malicious hacker` |
+| `whitehat` | [basic](#basic) | `whitehat` | `ethical hacker`, `security researcher` |
+| `man hours` | [basic](#basic) | `man hours` | `person hours`, `people hours` |
 | `learning-disabled` | [basic](#basic) | `learning disabled` | `person with learning disabilities` |
 | `invalid` | [basic](#basic) | `disabled`, `invalid` | `turned off`, `has a disability`, `person with a disability`, `people with disabilities` |
 | `birth-defect` | [basic](#basic) | `birth defect` | `has a disability`, `person with a disability`, `people with disabilities` |

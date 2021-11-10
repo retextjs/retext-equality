@@ -2,6 +2,7 @@
   note: Avoid using the term `master`; these suggestions are for the computer term, but there are better alternatives for other cases too
   considerate:
     - primary
+    - lead
     - hub
     - reference
   inconsiderate:
@@ -14,6 +15,36 @@
     - references
   inconsiderate:
     - masters
+- type: basic
+  note: Avoid using the term `slave`; these suggestions are for the computer term, but there are better alternatives for other cases too
+  considerate:
+    - secondary
+    - worker
+    - replica
+    - node
+  inconsiderate:
+    - slave
+- type: basic
+  note: Avoid using the term `slave`; these suggestions are for the computer term, but there are better alternatives for other cases too
+  considerate:
+    - secondaries
+    - workers
+    - replicas
+    - nodes
+  inconsiderate:
+    - slaves
+- type: basic
+  considerate:
+    - unethical hacker
+    - malicious actor
+  inconsiderate:
+    - blackhat
+- type: basic
+  considerate:
+    - ethical hacker
+    - security researcher
+  inconsiderate:
+    - whitehat
 - type: basic
   considerate:
     - Inuit
@@ -351,5 +382,6 @@
   note: Avoid using phrases referring to racist United States “Jim Crow” laws.
   considerate:
     - deprecated
+    - legacy
   inconsiderate:
     - grandfathered
