@@ -124,6 +124,7 @@ while (++index < files.length) {
   offset = -1
   while (++offset < phrases.length) {
     if (phrases.includes(phrases[offset], offset + 1)) {
+      console.log('Base Phrase is:', phrases[offset])
       throw new Error('Refrain from multiple entries:\n  ' + phrases[offset])
     }
   }

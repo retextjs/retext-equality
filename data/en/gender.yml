@@ -1301,12 +1301,6 @@
     own man: male
 - type: basic
   considerate:
-    - person hours
-    - people hours
-  inconsiderate:
-    - man hours
-- type: basic
-  considerate:
     - french
     - the french
   inconsiderate:
