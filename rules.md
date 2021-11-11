@@ -393,8 +393,12 @@ true`, thus suggesting two alternatives for `him or her`.
 | `gender-pronoun` | [basic](#basic) | `preferred pronoun`, `preferred pronouns`, `gender pronoun`, `gender pronouns` | `pronoun`, `pronouns` |
 | `islamist` | [basic](#basic) | `islamist` | `muslim`, `person of Islamic faith`, `fanatic`, `zealot`, `follower of islam`, `follower of the islamic faith` |
 | `islamists` | [basic](#basic) | `islamists` | `muslims`, `people of Islamic faith`, `fanatics`, `zealots` |
-| `master` | [basic](#basic) | `master` | `primary`, `hub`, `reference` |
+| `master` | [basic](#basic) | `master` | `primary`, `lead`, `hub`, `reference` |
 | `masters` | [basic](#basic) | `masters` | `primaries`, `hubs`, `references` |
+| `slave` | [basic](#basic) | `slave` | `secondary`, `worker`, `replica`, `node` |
+| `slaves` | [basic](#basic) | `slaves` | `secondaries`, `workers`, `replicas`, `nodes` |
+| `blackhat` | [basic](#basic) | `blackhat` | `unethical hacker`, `malicious actor` |
+| `whitehat` | [basic](#basic) | `whitehat` | `ethical hacker`, `security researcher` |
 | `eskimo` | [basic](#basic) | `eskimo` | `Inuit` |
 | `eskimos` | [basic](#basic) | `eskimos` | `Inuits` |
 | `oriental` | [basic](#basic) | `oriental` | `Asian person` |
@@ -435,7 +439,7 @@ true`, thus suggesting two alternatives for `him or her`.
 | `bugreport` | [basic](#basic) | `bugreport` | `bug report`, `snapshot` |
 | `grandfather-clause` | [basic](#basic) | `grandfather clause`, `grandfather policy` | `legacy policy`, `legacy clause`, `deprecation policy` |
 | `grandfathering` | [basic](#basic) | `grandfathering` | `deprecate` |
-| `grandfathered` | [basic](#basic) | `grandfathered` | `deprecated` |
+| `grandfathered` | [basic](#basic) | `grandfathered` | `deprecated`, `legacy` |
 | `make-*-great-again` | [basic](#basic) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
 | `committed-suicide` | [basic](#basic) | `committed suicide`, `completed suicide` | `died by suicide` |
 | `commit-suicide` | [basic](#basic) | `commit suicide`, `complete suicide`, `successful suicide` | `die by suicide` |
