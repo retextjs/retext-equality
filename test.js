@@ -39,7 +39,8 @@ test('retext-equality', (t) => {
         'person with a disability',
         'people with disabilities'
       ],
-      note: 'Assumes/implies that a person with a disability is deficient or inferior to others. When possible, specify the functional ability or its restriction. (source: https://ncdj.org/style-guide/)'
+      note: 'Assumes/implies that a person with a disability is deficient or inferior to others. When possible, specify the functional ability or its restriction. (source: https://ncdj.org/style-guide/)',
+      url: 'https://github.com/retextjs/retext-equality#readme'
     },
     'should emit a message'
   )
