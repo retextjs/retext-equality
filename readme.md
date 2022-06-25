@@ -72,7 +72,7 @@ Check for possible insensitive, inconsiderate language.
 
 ###### `options.ignore`
 
-List of phrases *not* to warn about (`Array.<string>`).
+List of phrases *not* to warn about (`Array<string>`).
 
 ###### `options.noBinary`
 
@@ -102,7 +102,7 @@ Current not ok phrase (`string`).
 
 ###### `message.expected`
 
-Suggest ok phrase (`Array.<string>`).
+Suggest ok phrase (`Array<string>`).
 
 ###### `message.note`
 

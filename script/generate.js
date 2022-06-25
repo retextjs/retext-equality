@@ -4,7 +4,7 @@ import chalk from 'chalk'
 import yaml from 'js-yaml'
 import {isHidden} from 'is-hidden'
 
-/** @type {{files: string[]}} */
+/** @type {{files: Array<string>}} */
 const pkg = JSON.parse(String(fs.readFileSync('package.json')))
 
 const own = {}.hasOwnProperty
@@ -21,10 +21,10 @@ while (++index < files.length) {
 
   /**
    * @type {(
-   *   Array.<{
+   *   Array<{
    *     type: 'or'|'basic',
-   *     considerate: string|string[]|Record<string, string>,
-   *     inconsiderate: string|string[]|Record<string, string>,
+   *     considerate: string|Array<string>|Record<string, string>,
+   *     inconsiderate: string|Array<string>|Record<string, string>,
    *     condition?: string,
    *     note?: string,
    *     source?: string,
@@ -41,14 +41,14 @@ while (++index < files.length) {
       yaml.load(String(fs.readFileSync(path.join('data', language, d))))
     )
 
-  /** @type {string[]} */
+  /** @type {Array<string>} */
   const phrases = []
 
   const data = patterns.map((entry) => {
     const inconsiderate = clean(entry.inconsiderate)
     /** @type {Record<string, string>} */
     const categories = {}
-    /** @type {string[]} */
+    /** @type {Array<string>} */
     const parts = []
     const note =
       entry.note && entry.source
@@ -136,7 +136,7 @@ while (++index < files.length) {
       ' * @typedef Pattern',
       ' * @property {string} id',
       " * @property {'or'|'basic'} type",
-      ' * @property {string[]} categories',
+      ' * @property {Array<string>} categories',
       ' * @property {Record<string, string>} [considerate]',
       ' * @property {Record<string, string>} inconsiderate',
       ' * @property {string} [condition]',
@@ -144,7 +144,7 @@ while (++index < files.length) {
       ' * @property {boolean} [apostrophe]',
       ' */',
       '',
-      '/** @type {Pattern[]} */',
+      '/** @type {Array<Pattern>} */',
       'export const patterns = ' + JSON.stringify(data, null, 2),
       ''
     ].join('\n')
@@ -177,7 +177,7 @@ while (++index < files.length) {
 /**
  * Clean a value.
  *
- * @param {string|string[]|Record<string, string>} value
+ * @param {string|Array<string>|Record<string, string>} value
  * @returns {Record<string, string>}
  */
 function clean(value) {

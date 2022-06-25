@@ -1,6 +1,7 @@
 /**
  * @typedef {import('mdast').Root} Root
  * @typedef {import('mdast').TableRow} TableRow
+ * @typedef {import('mdast').PhrasingContent} PhrasingContent
  */
 
 import {headingRange} from 'mdast-util-heading-range'
@@ -11,7 +12,7 @@ import {patterns} from '../lib/en.js'
 export default function table() {
   return (tree) => {
     headingRange(tree, 'list of rules', (start, _, end) => {
-      /** @type {TableRow[]} */
+      /** @type {Array<TableRow>} */
       const rows = [
         u('tableRow', [
           u('tableCell', [u('text', 'id')]),
@@ -52,7 +53,7 @@ function renderCell(phrases, includeCategories) {
   const map = phrases || {}
   const values = Object.keys(map)
   let index = -1
-  /** @type {import('mdast').PhrasingContent[]} */
+  /** @type {Array<PhrasingContent>} */
   const result = []
 
   while (++index < values.length) {
