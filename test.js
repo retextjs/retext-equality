@@ -513,5 +513,5 @@ test('Phrasing', (t) => {
 function process(doc, options) {
   const file = retext().use(retextEquality, options).processSync(doc)
 
-  return sort(file).messages.map((d) => String(d))
+  return sort(file).messages.map(String)
 }
