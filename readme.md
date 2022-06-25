@@ -77,7 +77,7 @@ import retextEnglish from 'retext-english'
 import retextEquality from 'retext-equality'
 import retextStringify from 'retext-stringify'
 
-const file = unified()
+const file = await unified()
   .use(retextEnglish)
   .use(retextEquality)
   .use(retextStringify)
