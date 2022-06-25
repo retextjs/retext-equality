@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import chalk from 'chalk'
-import yaml from 'js-yaml'
+import yaml from 'yaml'
 import {isHidden} from 'is-hidden'
 
 /** @type {{files: Array<string>}} */
@@ -32,13 +32,12 @@ while (++index < files.length) {
    *   }>
    * )}
    */
-  // @ts-expect-error: hush
   const patterns = fs
     .readdirSync(path.join('data', language))
     .filter((d) => !isHidden(d))
     .filter((d) => path.extname(d) === '.yml')
     .flatMap((d) =>
-      yaml.load(String(fs.readFileSync(path.join('data', language, d))))
+      yaml.parse(String(fs.readFileSync(path.join('data', language, d))))
     )
 
   /** @type {Array<string>} */
