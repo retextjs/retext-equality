@@ -8,51 +8,85 @@
 [![Backers][backers-badge]][collective]
 [![Chat][chat-badge]][chat]
 
-[**retext**][retext] plugin to check for possible insensitive, inconsiderate
-language.
+**[retext][]** plugin to check for possible insensitive, inconsiderate language.
+
+## Contents
+
+*   [What is this?](#what-is-this)
+*   [When should I use this?](#when-should-i-use-this)
+*   [Install](#install)
+*   [Use](#use)
+*   [API](#api)
+    *   [`unified().use(retextEquality[, options])`](#unifieduseretextequality-options)
+*   [Messages](#messages)
+*   [Types](#types)
+*   [Compatibility](#compatibility)
+*   [Related](#related)
+*   [Contributing](#contributing)
+*   [License](#license)
+
+## What is this?
+
+This package is a [unified][] ([retext][]) plugin to check for certain words
+that could be considered insensitive, or otherwise inconsiderate, in certain
+contexts.
+
+## When should I use this?
+
+You can opt-into this plugin when you’re dealing with your own text and want to
+check for potential mistakes.
 
 ## Install
 
-This package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c):
-Node 12+ is needed to use it and it must be `import`ed instead of `require`d.
-
-[npm][]:
+This package is [ESM only][esm].
+In Node.js (version 12.20+, 14.14+, 16.0+, or 18.0+), install with [npm][]:
 
 ```sh
 npm install retext-equality
 ```
 
+In Deno with [`esm.sh`][esmsh]:
+
+```js
+import retextEquality from 'https://esm.sh/retext-equality@6'
+```
+
+In browsers with [`esm.sh`][esmsh]:
+
+```html
+<script type="module">
+  import retextEquality from 'https://esm.sh/retext-equality@6?bundle'
+</script>
+```
+
 ## Use
 
-Say we have the following file, `example.txt`:
+Say our document `example.txt` contains:
 
 ```txt
 He’s pretty set on beating your butt for sheriff.
 ```
 
-…and our script, `example.js`, looks like this:
+…and our module `example.js` looks as follows:
 
 ```js
-import {readSync} from 'to-vfile'
+import {read} from 'to-vfile'
 import {reporter} from 'vfile-reporter'
 import {unified} from 'unified'
 import retextEnglish from 'retext-english'
 import retextEquality from 'retext-equality'
 import retextStringify from 'retext-stringify'
 
-const file = readSync('example.txt')
-
-unified()
+const file = unified()
   .use(retextEnglish)
   .use(retextEquality)
   .use(retextStringify)
-  .process(file)
-  .then((file) => {
-    console.error(reporter(file))
-  })
+  .process(await read('example.txt'))
+
+console.error(reporter(file))
 ```
 
-Now, running `node example` yields:
+…now running `node example.js` yields:
 
 ```txt
 example.txt
@@ -70,6 +104,10 @@ The default export is `retextEquality`.
 
 Check for possible insensitive, inconsiderate language.
 
+##### `options`
+
+Configuration (optional).
+
 ###### `options.ignore`
 
 List of phrases *not* to warn about (`Array<string>`).
@@ -79,9 +117,9 @@ List of phrases *not* to warn about (`Array<string>`).
 Do not allow binary references (`boolean`, default: `false`).
 By default `he` is warned about unless it’s followed by something like `or she`
 or `and she`.
-When `noBinary` is `true`, both cases would be warned about.
+When `noBinary` is `true`, both cases will be warned about.
 
-### Messages
+## Messages
 
 See [`rules.md`][rules] for a list of rules and how rules work.
 
@@ -106,7 +144,19 @@ Suggest ok phrase (`Array<string>`).
 
 ###### `message.note`
 
-Extra information, when available (`string?`).
+Extra info, when available (`string?`).
+
+## Types
+
+This package is fully typed with [TypeScript][].
+It exports the additional type `Options`.
+
+## Compatibility
+
+Projects maintained by the unified collective are compatible with all maintained
+versions of Node.js.
+As of now, that is Node.js 12.20+, 14.14+, 16.0+, and 18.0+.
+Our projects sometimes work with older versions, but this is not guaranteed.
 
 ## Related
 
@@ -125,17 +175,17 @@ See [`contributing.md`][contributing] in [`retextjs/.github`][health] for ways
 to get started.
 See [`support.md`][support] for ways to get help.
 
-To create new patterns, add them in the YAML files in the [`data/`][script]
-directory, and run `npm install` and then `npm test` to build everything.
-Please see the current patterns for inspiration.
-New English rules will be automatically added to `rules.md`.
-
-Once you are happy with the new rule, add a test for it in [`test.js`][test] and
-open a pull request.
-
 This project has a [code of conduct][coc].
 By interacting with this repository, organization, or community you agree to
 abide by its terms.
+
+To create new patterns, add them in the YAML files in the [`data/`][script]
+directory, and run `npm install` and then `npm test` to build everything.
+Please see the current patterns for inspiration.
+New English rules will automatically be added to `rules.md`.
+
+When you are happy with the new rule, add a test for it in [`test.js`][test],
+and open a pull request.
 
 ## License
 
@@ -171,17 +221,25 @@ abide by its terms.
 
 [npm]: https://docs.npmjs.com/cli/install
 
+[esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
+
+[esmsh]: https://esm.sh
+
+[typescript]: https://www.typescriptlang.org
+
 [health]: https://github.com/retextjs/.github
 
-[contributing]: https://github.com/retextjs/.github/blob/HEAD/contributing.md
+[contributing]: https://github.com/retextjs/.github/blob/main/contributing.md
 
-[support]: https://github.com/retextjs/.github/blob/HEAD/support.md
+[support]: https://github.com/retextjs/.github/blob/main/support.md
 
-[coc]: https://github.com/retextjs/.github/blob/HEAD/code-of-conduct.md
+[coc]: https://github.com/retextjs/.github/blob/main/code-of-conduct.md
 
 [license]: license
 
 [author]: https://wooorm.com
+
+[unified]: https://github.com/unifiedjs/unified
 
 [retext]: https://github.com/retextjs/retext
 
