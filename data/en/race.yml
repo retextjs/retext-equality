@@ -193,52 +193,12 @@
     - indian give
     - indian giver
 - type: basic
-  considerate:
-    - Filipinos
-    - Filipino people
-  inconsiderate:
-    - pinoys
-    - pinays
-- type: basic
-  considerate:
-    - Arabs
-    - Middle Eastern People
-  inconsiderate:
-    - sand niggers
-    - towel heads
-- type: basic
   note: Whenever possible, try to be gender inclusive.
   considerate:
     - Latinx
   inconsiderate:
     - latino
     - latina
-- type: basic
-  considerate:
-    - Japanese person
-    - Japanese people
-  inconsiderate:
-    - japs
-- type: basic
-  considerate:
-    - Jewish person
-  inconsiderate:
-    - shlomo
-    - shyster
-    - hymie
-- type: basic
-  considerate:
-    - a person who is not Jewish
-    - not Jewish
-  inconsiderate:
-    - goyim
-    - goyum
-    - goy
-- type: basic
-  considerate:
-    - a Black person
-  inconsiderate:
-    - spade
 - type: basic
   source: en.wikipedia.org/wiki/Romani_people#cite_ref-80
   note: Gypsy is insensitive, use Roma or Romani. They’re not Egyptian as the name suggests.
