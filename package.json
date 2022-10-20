@@ -81,7 +81,7 @@
     "is-hidden": "^2.0.0",
     "mdast-util-heading-range": "^3.0.0",
     "prettier": "^2.0.0",
-    "remark-cli": "^10.0.0",
+    "remark-cli": "^11.0.0",
     "remark-preset-wooorm": "^9.0.0",
     "retext": "^8.0.0",
     "rimraf": "^3.0.0",
@@ -90,7 +90,7 @@
     "typescript": "^4.0.0",
     "unist-builder": "^3.0.0",
     "vfile-sort": "^3.0.0",
-    "xo": "^0.50.0",
+    "xo": "^0.52.0",
     "yaml": "^2.0.0"
   },
   "scripts": {
