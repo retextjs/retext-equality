@@ -374,7 +374,7 @@ true`, thus suggesting two alternatives for `him or her`.
 | `gay-lifestyle` | [basic](#basic) | `gay lifestyle`, `homosexual lifestyle` | `gay lives`, `gay/lesbian lives` |
 | `gay-agenda` | [basic](#basic) | `gay agenda`, `homosexual agenda` | `gay issues` |
 | `gay-rights` | [basic](#basic) | `special rights`, `gay rights` | `equal rights`, `civil rights for gay people` |
-| `fag` | [basic](#basic) | `fag`, `faggot`, `dyke`, `homo`, `sodomite` | `gay` |
+| `fag` | [basic](#basic) | `fag`, `faggot`, `dyke`, `homo`, `sodomite`, `arse bandit`, `batty boy`, `bender`, `bent`, `bentshot`, `booty buffer`, `bufter`, `bufty`, `bum boy`, `bum chum`, `bum robber`, `chi chi man`, `flamer`, `fruit`, `fudge packer`, `nancy`, `pansy`, `pillow biter`, `poof`, `poofta`, `poofter`, `sod` | `gay` |
 | `bi` | [basic](#basic) | `bi` | `bisexual` |
 | `homosexual-marriage` | [basic](#basic) | `homosexual marriage` | `gay marriage`, `same-sex marriage` |
 | `tranny` | [basic](#basic) | `tranny` | `transgender` |
