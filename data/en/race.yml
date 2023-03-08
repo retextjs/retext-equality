@@ -308,22 +308,6 @@
   inconsiderate:
     - whitelisting
 - type: basic
-  note: Replace racially-charged language with more accurate and inclusive words
-  considerate:
-    - space
-    - blank
-  inconsiderate:
-    - whitespace
-    - white space
-- type: basic
-  note: Replace racially-charged language with more accurate and inclusive words
-  considerate:
-    - space
-    - blank
-  inconsiderate:
-    - whitespaces
-    - white spaces
-- type: basic
   note: Avoid using terms that imply a group has not changed over time and that they are inferior
   considerate:
     - simple
