@@ -1,6 +1,6 @@
 import test from 'tape'
 import {retext} from 'retext'
-import {sort} from 'vfile-sort'
+import {compareMessage} from 'vfile-sort'
 import retextEquality from './index.js'
 
 test('retext-equality', (t) => {
@@ -10,29 +10,28 @@ test('retext-equality', (t) => {
     'should support prototypal words'
   )
 
+  const file = retext()
+    .use(retextEquality)
+    .processSync('Their child has a birth defect.')
+
   t.same(
-    JSON.parse(
-      JSON.stringify(
-        retext()
-          .use(retextEquality)
-          .processSync('Their child has a birth defect.').messages[0]
-      )
-    ),
+    JSON.parse(JSON.stringify({...file.messages[0], ancestors: []})),
     {
-      name: '1:19-1:24',
+      ancestors: [],
+      column: 19,
+      fatal: false,
       message:
         '`birth defect` may be insensitive, use `has a disability`, `person with a disability`, `people with disabilities` instead',
-      reason:
-        '`birth defect` may be insensitive, use `has a disability`, `person with a disability`, `people with disabilities` instead',
       line: 1,
-      column: 19,
-      source: 'retext-equality',
-      ruleId: 'birth-defect',
-      position: {
+      name: '1:19-1:24',
+      place: {
         start: {line: 1, column: 19, offset: 18},
         end: {line: 1, column: 24, offset: 23}
       },
-      fatal: false,
+      reason:
+        '`birth defect` may be insensitive, use `has a disability`, `person with a disability`, `people with disabilities` instead',
+      ruleId: 'birth-defect',
+      source: 'retext-equality',
       actual: 'birth defect',
       expected: [
         'has a disability',
@@ -513,5 +512,5 @@ test('Phrasing', (t) => {
 function process(doc, options) {
   const file = retext().use(retextEquality, options).processSync(doc)
 
-  return sort(file).messages.map(String)
+  return [...file.messages].sort(compareMessage).map(String)
 }
