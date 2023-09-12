@@ -5,7 +5,7 @@
  */
 
 import {headingRange} from 'mdast-util-heading-range'
-import {patterns} from '../lib/en.js'
+import {patterns} from '../lib/patterns-en.js'
 
 /**
  * @returns

@@ -52,14 +52,12 @@
   ],
   "sideEffects": false,
   "type": "module",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "exports": {
+    "./en": "./lib/en.js",
+    ".": "./lib/en.js"
+  },
   "files": [
-    "lib/",
-    "en.d.ts",
-    "en.js",
-    "index.d.ts",
-    "index.js"
+    "lib/"
   ],
   "dependencies": {
     "@types/nlcst": "^2.0.0",
@@ -83,7 +81,6 @@
     "remark-preset-wooorm": "^9.0.0",
     "retext": "^9.0.0",
     "type-coverage": "^2.0.0",
-    "type-fest": "^4.0.0",
     "typescript": "^5.0.0",
     "vfile-sort": "^4.0.0",
     "xo": "^0.56.0",

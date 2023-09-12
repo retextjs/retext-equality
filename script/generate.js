@@ -1,8 +1,4 @@
 /**
- * @typedef {import('type-fest').PackageJson} PackageJson
- */
-
-/**
  * @typedef Pattern
  *   Pattern.
  * @property {boolean | undefined} [apostrophe]
@@ -44,11 +40,6 @@ import assert from 'node:assert/strict'
 import fs from 'node:fs/promises'
 import {isHidden} from 'is-hidden'
 import yaml from 'yaml'
-
-/** @type {PackageJson} */
-const pkg = JSON.parse(
-  String(await fs.readFile(new URL('../package.json', import.meta.url)))
-)
 
 const dataUrl = new URL('../data/', import.meta.url)
 
@@ -164,7 +155,7 @@ while (++index < languages.length) {
 
   // Write patterns.
   await fs.writeFile(
-    new URL('../lib/' + language + '.js', import.meta.url),
+    new URL('../lib/patterns-' + language + '.js', import.meta.url),
     [
       '/**',
       ' * @typedef Pattern',
@@ -184,28 +175,26 @@ while (++index < languages.length) {
     ].join('\n')
   )
 
-  console.log('✓ wrote `lib/' + language + '.js`')
+  console.log('✓ wrote `lib/patterns-' + language + '.js`')
 
   await fs.writeFile(
-    new URL('../' + language + '.js', import.meta.url),
+    new URL('../lib/' + language + '.js', import.meta.url),
     [
-      "import {factory} from './lib/factory.js'",
-      "import {patterns} from './lib/" + language + ".js'",
+      '/**',
+      " * @typedef {import('./create-plugin.js').Options} Options",
+      ' */',
       '',
-      "const retextEquality = factory(patterns, '" + language + "')",
+      "import {createPlugin} from './create-plugin.js'",
+      "import {patterns} from './patterns-" + language + ".js'",
+      '',
+      "const retextEquality = createPlugin(patterns, '" + language + "')",
       '',
       'export default retextEquality',
       ''
     ].join('\n')
   )
 
-  console.log('✓ wrote `' + language + '.js`')
-
-  assert(pkg.files, 'expected `files` in `package.json`')
-  assert(
-    pkg.files.includes(language + '.js'),
-    'expected `' + language + '.js` in `package.json#files`'
-  )
+  console.log('✓ wrote `lib/' + language + '.js`')
 }
 
 /**

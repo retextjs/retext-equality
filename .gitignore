@@ -1,7 +1,8 @@
-node_modules/
 coverage/
-lib/en.js
+node_modules/
 .DS_Store
 *.d.ts
 *.log
 yarn.lock
+/lib/patterns-en.js
+/lib/en.js
