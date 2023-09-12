@@ -49,14 +49,14 @@ npm install retext-equality
 In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import retextEquality from 'https://esm.sh/retext-equality@6'
+import retextEquality from 'https://esm.sh/retext-equality@7'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import retextEquality from 'https://esm.sh/retext-equality@6?bundle'
+  import retextEquality from 'https://esm.sh/retext-equality@7?bundle'
 </script>
 ```
 
