@@ -18,6 +18,7 @@
 *   [Use](#use)
 *   [API](#api)
     *   [`unified().use(retextEquality[, options])`](#unifieduseretextequality-options)
+    *   [`Options`](#options)
 *   [Messages](#messages)
 *   [Types](#types)
 *   [Compatibility](#compatibility)
@@ -39,7 +40,7 @@ check for potential mistakes.
 ## Install
 
 This package is [ESM only][esm].
-In Node.js (version 12.20+, 14.14+, 16.0+, or 18.0+), install with [npm][]:
+In Node.js (version 16+), install with [npm][]:
 
 ```sh
 npm install retext-equality
@@ -64,18 +65,18 @@ In browsers with [`esm.sh`][esmsh]:
 Say our document `example.txt` contains:
 
 ```txt
-He’s pretty set on beating your butt for sheriff.
+Now that the child elements are floated, obviously the parent element will collapse.
 ```
 
-…and our module `example.js` looks as follows:
+…and our module `example.js` contains:
 
 ```js
-import {read} from 'to-vfile'
-import {reporter} from 'vfile-reporter'
-import {unified} from 'unified'
 import retextEnglish from 'retext-english'
 import retextEquality from 'retext-equality'
 import retextStringify from 'retext-stringify'
+import {read} from 'to-vfile'
+import {unified} from 'unified'
+import {reporter} from 'vfile-reporter'
 
 const file = await unified()
   .use(retextEnglish)
@@ -86,11 +87,11 @@ const file = await unified()
 console.error(reporter(file))
 ```
 
-…now running `node example.js` yields:
+…then running `node example.js` yields:
 
 ```txt
 example.txt
-  1:1-1:5  warning  `He’s` may be insensitive, use `They`, `It` instead  he-she  retext-equality
+1:42-1:51 warning Unexpected potentially insensitive use of `obviously`, try not to use it obvious retext-equality
 
 ⚠ 1 warning
 ```
@@ -98,65 +99,55 @@ example.txt
 ## API
 
 This package exports no identifiers.
-The default export is `retextEquality`.
+The default export is [`retextEquality`][api-retext-equality].
 
 ### `unified().use(retextEquality[, options])`
 
-Check for possible insensitive, inconsiderate language.
+Check potentially insensitive language.
 
-##### `options`
+###### Parameters
 
-Configuration (optional).
+*   `options` ([`Options`][api-options], optional)
+    — configuration
 
-###### `options.ignore`
+###### Returns
 
-List of phrases *not* to warn about (`Array<string>`).
+Transform ([`Transformer`][unified-transformer]).
 
-###### `options.noBinary`
+### `Options`
 
-Do not allow binary references (`boolean`, default: `false`).
-By default `he` is warned about unless it’s followed by something like `or she`
-or `and she`.
-When `noBinary` is `true`, both cases will be warned about.
+Configuration (TypeScript type).
+
+###### Fields
+
+*   `ignore` (`Array<string>`, optional)
+    — phrases *not* to warn about
+*   `noBinary` (`boolean`, default: `false`)
+    — whether to warn for “he or she” and similar
 
 ## Messages
 
-See [`rules.md`][rules] for a list of rules and how rules work.
+See [`rules.md`][file-rules] for a list of rules and how rules work.
 
-Each message is emitted as a [`VFileMessage`][message] on `file`, with the
-following fields:
-
-###### `message.source`
-
-Name of this plugin (`'retext-equality'`).
-
-###### `message.ruleId`
-
-See `id` in [`rules.md`][rules].
-
-###### `message.actual`
-
-Current not ok phrase (`string`).
-
-###### `message.expected`
-
-Suggest ok phrase (`Array<string>`).
-
-###### `message.note`
-
-Extra info, when available (`string?`).
+Each message is emitted as a [`VFileMessage`][vfile-message] with `source` set
+to `'retext-equality'`, `ruleId` to an `id` from [`rules.md`][file-rules],
+`actual` to the not ok phrase, and `expected` to suggested phrases.
+Some messages also contain a `note` with extra info.
 
 ## Types
 
 This package is fully typed with [TypeScript][].
-It exports the additional type `Options`.
+It exports the additional type [`Options`][api-options].
 
 ## Compatibility
 
-Projects maintained by the unified collective are compatible with all maintained
+Projects maintained by the unified collective are compatible with maintained
 versions of Node.js.
-As of now, that is Node.js 12.20+, 14.14+, 16.0+, and 18.0+.
-Our projects sometimes work with older versions, but this is not guaranteed.
+
+When we cut a new major release, we drop support for unmaintained versions of
+Node.
+This means we try to keep the current release line, `retext-equality@^6`,
+compatible with Node.js 12.
 
 ## Related
 
@@ -179,13 +170,13 @@ This project has a [code of conduct][coc].
 By interacting with this repository, organization, or community you agree to
 abide by its terms.
 
-To create new patterns, add them in the YAML files in the [`data/`][script]
+To create new patterns, add them in the YAML files in the [`data/`][file-data]
 directory, and run `npm install` and then `npm test` to build everything.
 Please see the current patterns for inspiration.
 New English rules will automatically be added to `rules.md`.
 
-When you are happy with the new rule, add a test for it in [`test.js`][test],
-and open a pull request.
+When you are happy with the new rule, add a test for it in
+[`test.js`][file-test], and open a pull request.
 
 ## License
 
@@ -205,9 +196,9 @@ and open a pull request.
 
 [downloads]: https://www.npmjs.com/package/retext-equality
 
-[size-badge]: https://img.shields.io/bundlephobia/minzip/retext-equality.svg
+[size-badge]: https://img.shields.io/bundlejs/size/retext-equality
 
-[size]: https://bundlephobia.com/result?p=retext-equality
+[size]: https://bundlejs.com/?q=retext-equality
 
 [sponsors-badge]: https://opencollective.com/unified/sponsors/badge.svg
 
@@ -239,14 +230,20 @@ and open a pull request.
 
 [author]: https://wooorm.com
 
-[unified]: https://github.com/unifiedjs/unified
-
 [retext]: https://github.com/retextjs/retext
 
-[message]: https://github.com/vfile/vfile-message
+[unified]: https://github.com/unifiedjs/unified
 
-[script]: script
+[unified-transformer]: https://github.com/unifiedjs/unified#transformer
 
-[test]: test.js
+[vfile-message]: https://github.com/vfile/vfile-message
 
-[rules]: rules.md
+[file-rules]: rules.md
+
+[file-data]: data/
+
+[file-test]: test.js
+
+[api-options]: #options
+
+[api-retext-equality]: #unifieduseretextequality-options
