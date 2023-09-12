@@ -4,23 +4,23 @@
   "description": "retext plugin to warn about possible insensitive, inconsiderate language",
   "license": "MIT",
   "keywords": [
-    "unified",
-    "retext",
-    "retext-plugin",
-    "plugin",
+    "english",
     "equal",
+    "gender",
+    "identity",
+    "insensitive",
+    "language",
+    "neutral",
+    "orientation",
+    "plugin",
     "race",
     "religion",
-    "sex",
-    "orientation",
-    "identity",
-    "gender",
+    "retext",
+    "retext-plugin",
     "sensitive",
-    "insensitive",
-    "neutral",
-    "writing",
-    "language",
-    "english"
+    "sex",
+    "unified",
+    "writing"
   ],
   "repository": "retextjs/retext-equality",
   "bugs": "https://github.com/retextjs/retext-equality/issues",
@@ -94,31 +94,26 @@
   },
   "scripts": {
     "build": "tsc --build --clean && tsc --build && type-coverage",
-    "generate": "node script/generate.js",
-    "format": "remark . -qfo && prettier . -w --log-level warn && xo --fix",
+    "format": "remark . --frail --output --quiet && prettier . --log-level warn --write && xo --fix",
+    "generate": "node --conditions development script/generate.js",
+    "prepack": "npm run generate && npm run build && npm run format",
+    "test": "npm run generate && npm run build && npm run format && npm run test-coverage",
     "test-api": "node --conditions development test.js",
-    "test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov node --conditions development test.js",
-    "test": "npm run generate && npm run build && npm run format && npm run test-coverage"
+    "test-coverage": "c8 --100 --check-coverage --reporter lcov npm run test-api"
   },
   "prettier": {
-    "tabWidth": 2,
-    "useTabs": false,
-    "singleQuote": true,
     "bracketSpacing": false,
+    "singleQuote": true,
     "semi": false,
-    "trailingComma": "none"
-  },
-  "xo": {
-    "prettier": true,
-    "rules": {
-      "unicorn/prefer-string-replace-all": "off"
-    }
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "useTabs": false
   },
   "remarkConfig": {
     "plugins": [
-      "preset-wooorm",
+      "remark-preset-wooorm",
       [
-        "gfm",
+        "remark-gfm",
         {
           "tablePipeAlign": false
         }
@@ -133,7 +128,13 @@
   "typeCoverage": {
     "atLeast": 100,
     "detail": true,
-    "strict": true,
-    "ignoreCatch": true
+    "ignoreCatch": true,
+    "strict": true
+  },
+  "xo": {
+    "prettier": true,
+    "rules": {
+      "unicorn/prefer-string-replace-all": "off"
+    }
   }
 }
