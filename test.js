@@ -9,6 +9,12 @@ import {compareMessage} from 'vfile-sort'
 import retextEquality from './index.js'
 
 test('retext-equality', async function (t) {
+  await t.test('should expose the public api', async function () {
+    assert.deepEqual(Object.keys(await import('./index.js')).sort(), [
+      'default'
+    ])
+  })
+
   await t.test('should support prototypal words', async function () {
     assert.deepEqual(await process('toString and constructor.'), [])
   })
@@ -27,10 +33,10 @@ test('retext-equality', async function (t) {
         message:
           '`birth defect` may be insensitive, use `has a disability`, `person with a disability`, `people with disabilities` instead',
         line: 1,
-        name: '1:19-1:24',
+        name: '1:19-1:31',
         place: {
           start: {line: 1, column: 19, offset: 18},
-          end: {line: 1, column: 24, offset: 23}
+          end: {line: 1, column: 31, offset: 30}
         },
         reason:
           '`birth defect` may be insensitive, use `has a disability`, `person with a disability`, `people with disabilities` instead',
@@ -147,7 +153,7 @@ test('retext-equality', async function (t) {
     'should support `Downs Syndrome` (without apostrophe)',
     async function () {
       assert.deepEqual(await process('Downs Syndrome.'), [
-        '1:1-1:6: `Downs Syndrome` may be insensitive, use `Down Syndrome` instead'
+        '1:1-1:15: `Downs Syndrome` may be insensitive, use `Down Syndrome` instead'
       ])
     }
   )
@@ -156,14 +162,14 @@ test('retext-equality', async function (t) {
     'should support `Down’s Syndrome` (apostrophe)',
     async function () {
       assert.deepEqual(await process('Down’s Syndrome.'), [
-        '1:1-1:7: `Down’s Syndrome` may be insensitive, use `Down Syndrome` instead'
+        '1:1-1:16: `Down’s Syndrome` may be insensitive, use `Down Syndrome` instead'
       ])
     }
   )
 
   await t.test('should support ablist language', async function () {
     assert.deepEqual(await process('Eric is mentally ill.'), [
-      '1:9-1:17: `mentally ill` may be insensitive, use `rude`, `malicious`, `mean`, `disgusting`, `incredible`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
+      '1:9-1:21: `mentally ill` may be insensitive, use `rude`, `malicious`, `mean`, `disgusting`, `incredible`, `vile`, `person with symptoms of mental illness`, `person with mental illness`, `person with symptoms of a mental disorder`, `person with a mental disorder` instead'
     ])
   })
 
@@ -193,7 +199,7 @@ test('retext-equality', async function (t) {
 
   await t.test('should support `sanity check`', async function () {
     assert.deepEqual(await process("Let's do a quick sanity check here."), [
-      '1:18-1:24: `sanity check` may be insensitive, use `check`, `assertion`, `validation`, `smoke test` instead'
+      '1:18-1:30: `sanity check` may be insensitive, use `check`, `assertion`, `validation`, `smoke test` instead'
     ])
   })
 
@@ -271,7 +277,7 @@ test('retext-equality', async function (t) {
 
   await t.test('should support `panic attack`', async function () {
     assert.deepEqual(await process('You almost gave me a panic attack!'), [
-      '1:22-1:27: `panic attack` may be insensitive, use `fit of terror`, `scare` instead'
+      '1:22-1:34: `panic attack` may be insensitive, use `fit of terror`, `scare` instead'
     ])
   })
 
@@ -304,7 +310,7 @@ test('retext-equality', async function (t) {
       await process('When condemned by the ruler he committed suicide.'),
       [
         '1:29-1:31: `he` may be insensitive, use `they`, `it` instead',
-        '1:32-1:41: `committed suicide` may be insensitive, use `died by suicide` instead'
+        '1:32-1:49: `committed suicide` may be insensitive, use `died by suicide` instead'
       ]
     )
   })
@@ -360,13 +366,13 @@ test('retext-equality', async function (t) {
 
   await t.test('should support `great again` (1)', async function () {
     assert.deepEqual(await process('We will make this event great again'), [
-      '1:9-1:13: `make this event great again` may be insensitive, use `improve` instead'
+      '1:9-1:36: `make this event great again` may be insensitive, use `improve` instead'
     ])
   })
 
   await t.test('should support `great again` (2)', async function () {
     assert.deepEqual(await process('We will make something great again'), [
-      '1:9-1:13: `make something great again` may be insensitive, use `improve` instead'
+      '1:9-1:35: `make something great again` may be insensitive, use `improve` instead'
     ])
   })
 
@@ -390,14 +396,14 @@ test('retext-equality', async function (t) {
       await process(
         'Of course the retina images are too large for non-retina screens'
       ),
-      ['1:1-1:3: `Of course` may be insensitive, try not to use it']
+      ['1:1-1:10: `Of course` may be insensitive, try not to use it']
     )
   })
 
   await t.test('should support `father of`', async function () {
     assert.deepEqual(await process('The father of computers'), [
       '1:5-1:11: `father` may be insensitive, use `parent` instead',
-      '1:5-1:11: `father of computers` may be insensitive, use `founder of` instead'
+      '1:5-1:24: `father of computers` may be insensitive, use `founder of` instead'
     ])
   })
 
@@ -439,7 +445,7 @@ test('retext-equality', async function (t) {
 
   await t.test('should support `preferred pronoun`', async function () {
     assert.deepEqual(await process('Please use your preferred pronoun'), [
-      '1:17-1:26: `preferred pronoun` may be insensitive, use `pronoun`, `pronouns` instead'
+      '1:17-1:34: `preferred pronoun` may be insensitive, use `pronoun`, `pronouns` instead'
     ])
   })
 
@@ -457,17 +463,17 @@ test('retext-equality', async function (t) {
 })
 
 /**
- * Helper to get messages from `retextEquality` in `doc`.
+ * Helper to get messages from `retextEquality`.
  *
- * @param {string} doc
+ * @param {string} value
  *   Document to process.
  * @param {Options | undefined} [options]
- *   Configuration.
+ *   Configuration (optional).
  * @returns {Promise<ReadonlyArray<string>>}
  *   Sorted and serialized messages.
  */
-async function process(doc, options) {
-  const file = await retext().use(retextEquality, options).process(doc)
+async function process(value, options) {
+  const file = await retext().use(retextEquality, options).process(value)
 
   return [...file.messages].sort(compareMessage).map(String)
 }

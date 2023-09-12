@@ -1,55 +1,87 @@
 /**
+ * @typedef {import('mdast').PhrasingContent} PhrasingContent
  * @typedef {import('mdast').Root} Root
  * @typedef {import('mdast').TableRow} TableRow
- * @typedef {import('mdast').PhrasingContent} PhrasingContent
  */
 
 import {headingRange} from 'mdast-util-heading-range'
-import {u} from 'unist-builder'
 import {patterns} from '../lib/en.js'
 
-/** @type {import('unified').Plugin<[], Root>} */
-export default function table() {
-  return (tree) => {
-    headingRange(tree, 'list of rules', (start, _, end) => {
+/**
+ * @returns
+ *   Transform.
+ */
+export default function remarkBuildTable() {
+  /**
+   * Transform.
+   *
+   * @param {Root} tree
+   *   Tree.
+   * @returns {undefined}
+   *   Nothing.
+   */
+  return function (tree) {
+    headingRange(tree, 'list of rules', function (start, _, end) {
       /** @type {Array<TableRow>} */
       const rows = [
-        u('tableRow', [
-          u('tableCell', [u('text', 'id')]),
-          u('tableCell', [u('text', 'type')]),
-          u('tableCell', [u('text', 'not ok')]),
-          u('tableCell', [u('text', 'ok')])
-        ])
+        {
+          type: 'tableRow',
+          children: [
+            {type: 'tableCell', children: [{type: 'text', value: 'id'}]},
+            {type: 'tableCell', children: [{type: 'text', value: 'type'}]},
+            {type: 'tableCell', children: [{type: 'text', value: 'not ok'}]},
+            {type: 'tableCell', children: [{type: 'text', value: 'ok'}]}
+          ]
+        }
       ]
 
       let index = -1
       while (++index < patterns.length) {
         const pattern = patterns[index]
-        rows.push(
-          u('tableRow', [
-            u('tableCell', [u('inlineCode', pattern.id)]),
-            u('tableCell', [
-              u('link', {url: '#' + pattern.type}, [u('text', pattern.type)])
-            ]),
-            u(
-              'tableCell',
-              renderCell(pattern.inconsiderate, pattern.categories.length > 1)
-            ),
-            u('tableCell', renderCell(pattern.considerate))
-          ])
-        )
+
+        rows.push({
+          type: 'tableRow',
+          children: [
+            {
+              type: 'tableCell',
+              children: [{type: 'inlineCode', value: pattern.id}]
+            },
+            {
+              type: 'tableCell',
+              children: [
+                {
+                  type: 'link',
+                  url: '#' + pattern.type,
+                  children: [{type: 'text', value: pattern.type}]
+                }
+              ]
+            },
+            {
+              type: 'tableCell',
+              children: createCell(
+                pattern.inconsiderate,
+                pattern.categories.length > 1
+              )
+            },
+            {type: 'tableCell', children: createCell(pattern.considerate)}
+          ]
+        })
       }
 
-      return [start, u('table', rows), end]
+      return [start, {type: 'table', children: rows}, end]
     })
   }
 }
 
 /**
- * @param {Record<string, string>|undefined} phrases
- * @param {boolean} [includeCategories]
+ * @param {Readonly<Record<string, string>> | undefined} phrases
+ *   Phrases.
+ * @param {boolean | undefined} [includeCategories=false]
+ *   Whether to include categories (default: `false`).
+ * @returns {Array<PhrasingContent>}
+ *   Result.
  */
-function renderCell(phrases, includeCategories) {
+function createCell(phrases, includeCategories) {
   const map = phrases || {}
   const values = Object.keys(map)
   let index = -1
@@ -58,14 +90,15 @@ function renderCell(phrases, includeCategories) {
 
   while (++index < values.length) {
     const value = values[index]
-    result.push(u('inlineCode', value))
+
+    result.push({type: 'inlineCode', value})
 
     if (includeCategories) {
-      result.push(u('text', ' (' + map[value] + ')'))
+      result.push({type: 'text', value: ' (' + map[value] + ')'})
     }
 
     if (index !== values.length - 1) {
-      result.push(u('text', ', '))
+      result.push({type: 'text', value: ', '})
     }
   }
 

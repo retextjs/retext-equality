@@ -1,82 +1,124 @@
-import fs from 'node:fs'
-import path from 'node:path'
-import chalk from 'chalk'
-import yaml from 'yaml'
+/**
+ * @typedef {import('type-fest').PackageJson} PackageJson
+ */
+
+/**
+ * @typedef Pattern
+ *   Pattern.
+ * @property {boolean | undefined} [apostrophe]
+ *   Whether the pattern contains intentional apostrophes (default: `false`).
+ * @property {Array<string>} categories
+ *   Categories.
+ * @property {string | undefined} [condition]
+ *   Extra condition (optional).
+ * @property {Record<string, string> | undefined} [considerate]
+ *   Considerate alternatives.
+ * @property {string} id
+ *   Unique identifier.
+ * @property {Record<string, string>} inconsiderate
+ *   Inconsiderate values.
+ * @property {string | undefined} [note]
+ *   Note (optional).
+ * @property {'basic' | 'or'} type
+ *   Type.
+ *
+ * @typedef RawPattern
+ *   Pattern from YAML.
+ * @property {boolean} [apostrophe]
+ *   Whether the pattern contains intentional apostrophes.
+ * @property {string} [condition]
+ *   Extra condition (optional).
+ * @property {Record<string, string> | Array<string> | string} considerate
+ *   Considerate alternatives.
+ * @property {Record<string, string> | Array<string> | string} inconsiderate
+ *   Inconsiderate values.
+ * @property {string} [note]
+ *   Extra note.
+ * @property {string} [source]
+ *   Source of pattern.
+ * @property {'basic' | 'or'} type
+ *   Type.
+ */
+
+import assert from 'node:assert/strict'
+import fs from 'node:fs/promises'
 import {isHidden} from 'is-hidden'
+import yaml from 'yaml'
 
-/** @type {{files: Array<string>}} */
-const pkg = JSON.parse(String(fs.readFileSync('package.json')))
+/** @type {PackageJson} */
+const pkg = JSON.parse(
+  String(await fs.readFile(new URL('../package.json', import.meta.url)))
+)
 
-const own = {}.hasOwnProperty
+const dataUrl = new URL('../data/', import.meta.url)
 
-const files = fs.readdirSync('data')
+const languages = await fs.readdir(dataUrl)
+
 let index = -1
 
-while (++index < files.length) {
-  const language = files[index]
+while (++index < languages.length) {
+  const language = languages[index]
 
   if (isHidden(language)) {
     continue
   }
 
-  /**
-   * @type {(
-   *   Array<{
-   *     type: 'or'|'basic',
-   *     considerate: string|Array<string>|Record<string, string>,
-   *     inconsiderate: string|Array<string>|Record<string, string>,
-   *     condition?: string,
-   *     note?: string,
-   *     source?: string,
-   *     apostrophe?: boolean
-   *   }>
-   * )}
-   */
-  const patterns = fs
-    .readdirSync(path.join('data', language))
-    .filter((d) => !isHidden(d))
-    .filter((d) => path.extname(d) === '.yml')
-    .flatMap((d) =>
-      yaml.parse(String(fs.readFileSync(path.join('data', language, d))))
-    )
+  const languageUrl = new URL(language + '/', dataUrl)
+  const files = await fs.readdir(languageUrl)
+  /** @type {Array<RawPattern>} */
+  const rawPatterns = []
 
-  /** @type {Array<string>} */
-  const phrases = []
+  let fileIndex = -1
+  while (++fileIndex < files.length) {
+    const filename = files[fileIndex]
 
-  const data = patterns.map((entry) => {
+    if (isHidden(filename)) {
+      continue
+    }
+
+    assert(filename.endsWith('.yml'), 'expected `' + filename + '` to be yaml')
+
+    const buf = await fs.readFile(new URL(filename, languageUrl))
+
+    rawPatterns.push(...yaml.parse(String(buf)))
+  }
+
+  /** @type {Set<string>} */
+  const phrases = new Set()
+
+  const data = rawPatterns.map(function (entry) {
     const inconsiderate = clean(entry.inconsiderate)
     /** @type {Record<string, string>} */
     const categories = {}
     /** @type {Array<string>} */
     const parts = []
-    const note =
-      entry.note && entry.source
-        ? entry.note + ' (source: ' + entry.source + ')'
-        : entry.source
-        ? 'Source: ' + entry.source
-        : entry.note || undefined
     /** @type {string} */
     let phrase
 
     for (phrase in inconsiderate) {
-      if (own.call(inconsiderate, phrase)) {
+      if (Object.hasOwn(inconsiderate, phrase)) {
         const category = inconsiderate[phrase]
 
-        phrases.push(phrase)
+        assert(
+          !phrases.has(phrase),
+          'unexpected duplicate entry `' + phrase + '`'
+        )
 
-        if (/-/.test(phrase)) {
-          throw new Error(
-            'Refrain from using dashes inside inconsiderate terms: they’ll be stripped when looking for words: ' +
-              Object.keys(inconsiderate).join(', ')
-          )
-        }
+        phrases.add(phrase)
 
-        if (/['’]/.test(phrase) && !entry.apostrophe) {
-          throw new Error(
-            'Refrain from using apostrophes inside inconsiderate terms, they’ll be stripped when looking for words (or use `apostrophe: true`): ' +
-              Object.keys(inconsiderate).join(', ')
-          )
-        }
+        assert(
+          !/-/.test(phrase),
+          'unexpected dashes in inconsiderate term (`' +
+            phrase +
+            '`), they’ll be stripped when looking for words: remove them'
+        )
+
+        assert(
+          entry.apostrophe || !/['’]/.test(phrase),
+          'unexpected apostrophes in inconsiderate terms (`' +
+            phrase +
+            '`), they’ll be stripped when looking for words: remove them or add `apostrophe: true`'
+        )
 
         if (
           !categories[category] ||
@@ -88,71 +130,64 @@ while (++index < files.length) {
     }
 
     for (phrase in categories) {
-      if (own.call(categories, phrase)) {
+      if (Object.hasOwn(categories, phrase)) {
         parts.push(categories[phrase].replace(/[\s.]+/g, '-'))
       }
     }
 
-    return {
-      id: parts.sort().join('-').toLowerCase(),
-      type: entry.type,
+    /** @type {Pattern} */
+    const pattern = {
       apostrophe: entry.apostrophe ? true : undefined,
       categories: [...new Set(Object.values(inconsiderate))],
-      considerate: clean(entry.considerate),
-      inconsiderate,
       condition: entry.condition,
-      note
+      considerate: clean(entry.considerate),
+      id: parts.sort().join('-').toLowerCase(),
+      inconsiderate,
+      note:
+        entry.note && entry.source
+          ? entry.note + ' (source: ' + entry.source + ')'
+          : entry.source
+          ? 'Source: ' + entry.source
+          : entry.note || undefined,
+      type: entry.type
     }
+
+    assert(
+      pattern.type === 'basic' || pattern.categories.length > 1,
+      'unexpected single category in non-basic pattern (' +
+        Object.keys(pattern.inconsiderate).join(', ') +
+        '), add: `type: basic`'
+    )
+
+    return pattern
   })
 
-  // Check patterns.
-  let offset = -1
-
-  while (++offset < data.length) {
-    const entry = data[offset]
-
-    if (entry.type !== 'basic' && entry.categories.length < 2) {
-      throw new Error(
-        'Use `type: basic` for single entries with one category: ' +
-          Object.keys(entry.inconsiderate).join(', ')
-      )
-    }
-  }
-
-  // Check for duplicates.
-  offset = -1
-  while (++offset < phrases.length) {
-    if (phrases.includes(phrases[offset], offset + 1)) {
-      throw new Error('Refrain from multiple entries:\n  ' + phrases[offset])
-    }
-  }
-
   // Write patterns.
-  fs.writeFileSync(
-    path.join('lib', language + '.js'),
+  await fs.writeFile(
+    new URL('../lib/' + language + '.js', import.meta.url),
     [
       '/**',
       ' * @typedef Pattern',
-      ' * @property {string} id',
-      " * @property {'or'|'basic'} type",
-      ' * @property {Array<string>} categories',
-      ' * @property {Record<string, string>} [considerate]',
-      ' * @property {Record<string, string>} inconsiderate',
-      ' * @property {string} [condition]',
-      ' * @property {string} [note]',
       ' * @property {boolean} [apostrophe]',
+      ' * @property {Array<string>} categories',
+      ' * @property {string} [condition]',
+      ' * @property {Record<string, string>} [considerate]',
+      ' * @property {string} id',
+      ' * @property {Record<string, string>} inconsiderate',
+      ' * @property {string} [note]',
+      " * @property {'or' | 'basic'} type",
       ' */',
       '',
-      '/** @type {Array<Pattern>} */',
-      'export const patterns = ' + JSON.stringify(data, null, 2),
+      '/** @type {ReadonlyArray<Pattern>} */',
+      'export const patterns = ' + JSON.stringify(data, undefined, 2),
       ''
     ].join('\n')
   )
 
-  console.log(chalk.green('✓') + ' wrote `lib/' + language + '.js`')
+  console.log('✓ wrote `lib/' + language + '.js`')
 
-  fs.writeFileSync(
-    language + '.js',
+  await fs.writeFile(
+    new URL('../' + language + '.js', import.meta.url),
     [
       "import {factory} from './lib/factory.js'",
       "import {patterns} from './lib/" + language + ".js'",
@@ -164,20 +199,22 @@ while (++index < files.length) {
     ].join('\n')
   )
 
-  console.log(chalk.green('✓') + ' wrote `' + language + '.js`')
+  console.log('✓ wrote `' + language + '.js`')
 
-  if (!pkg.files.includes(language + '.js')) {
-    throw new Error(
-      'Please add `' + language + '.js` to `files` in `package.json`'
-    )
-  }
+  assert(pkg.files, 'expected `files` in `package.json`')
+  assert(
+    pkg.files.includes(language + '.js'),
+    'expected `' + language + '.js` in `package.json#files`'
+  )
 }
 
 /**
  * Clean a value.
  *
- * @param {string|Array<string>|Record<string, string>} value
+ * @param {Record<string, string> | Array<string> | string} value
+ *   Values.
  * @returns {Record<string, string>}
+ *   Clean values.
  */
 function clean(value) {
   if (typeof value === 'string') {
