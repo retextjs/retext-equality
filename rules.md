@@ -10,11 +10,11 @@ potentially more considerate alternatives.
 ###### Or
 
 **Or** patterns highlight possible inconsiderate terms unless every category is
-present.
-This is used for gendered work titles and the like, where `garbageman and
-garbagewoman` is considered OK, and so is `his or her bike`.
-These patterns can be turned into **basic** patterns by passing `noBinary:
-true`, thus suggesting two alternatives for `him or her`.
+present and `binary` is on.
+This is used for gendered work titles such as `garbageman and garbagewoman`, or
+stuff like `his or her bike`.
+Normally these are treated as basic patterns, but you can pass `binary: true`
+to allow them.
 
 **Or** patterns can be joined by `and`, `or`, or a slash (`/`).
 

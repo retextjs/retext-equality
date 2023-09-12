@@ -90,47 +90,57 @@ test('retext-equality', async function (t) {
     ])
   })
 
-  await t.test('should ignore `/` comparison', async function () {
-    assert.deepEqual(await process('Her/his bicycle.'), [])
+  await t.test('should ignore `/` comparison w/ `binary`', async function () {
+    assert.deepEqual(await process('Her/his bicycle.', {binary: true}), [])
   })
 
-  await t.test('should ignore `and` comparison', async function () {
-    assert.deepEqual(await process('Her and his bicycle.'), [])
+  await t.test('should warn for `/` comparison', async function () {
+    assert.deepEqual(await process('Her/his bicycle.'), [
+      '1:1-1:4: Unexpected potentially insensitive use of `Her`, when referring to a person, in somes cases `Their`, `Theirs`, `Them` may be better',
+      '1:5-1:8: Unexpected potentially insensitive use of `his`, when referring to a person, in somes cases `their`, `theirs`, `them` may be better'
+    ])
+  })
+
+  await t.test('should ignore `and` comparison w/ `binary`', async function () {
+    assert.deepEqual(await process('Her and his bicycle.', {binary: true}), [])
+  })
+
+  await t.test('should ignore `or` comparison w/ `binary`', async function () {
+    assert.deepEqual(await process('Her or his bicycle.', {binary: true}), [])
   })
 
   await t.test(
-    'should not ignore `and` comparison when `noBinary: true`',
+    'should warn for binary `and` comparison by default',
     async function () {
-      assert.deepEqual(
-        await process('Her and his bicycle.', {noBinary: true}),
-        [
-          '1:1-1:4: Unexpected potentially insensitive use of `Her`, when referring to a person, in somes cases `Their`, `Theirs`, `Them` may be better',
-          '1:9-1:12: Unexpected potentially insensitive use of `his`, when referring to a person, in somes cases `their`, `theirs`, `them` may be better'
-        ]
-      )
+      assert.deepEqual(await process('Her and his bicycle.'), [
+        '1:1-1:4: Unexpected potentially insensitive use of `Her`, when referring to a person, in somes cases `Their`, `Theirs`, `Them` may be better',
+        '1:9-1:12: Unexpected potentially insensitive use of `his`, when referring to a person, in somes cases `their`, `theirs`, `them` may be better'
+      ])
     }
   )
 
-  await t.test('should ignore `or` comparison', async function () {
-    assert.deepEqual(await process('Her or his bicycle.'), [])
-  })
-
   await t.test(
-    'should not ignore `or` comparison when `noBinary: true`',
+    'should warn for binary `or` comparison with `binary: false` (default)',
     async function () {
-      assert.deepEqual(await process('Her or his bicycle.', {noBinary: true}), [
+      assert.deepEqual(await process('Her or his bicycle.', {binary: false}), [
         '1:1-1:4: Unexpected potentially insensitive use of `Her`, when referring to a person, in somes cases `Their`, `Theirs`, `Them` may be better',
         '1:8-1:11: Unexpected potentially insensitive use of `his`, when referring to a person, in somes cases `their`, `theirs`, `them` may be better'
       ])
     }
   )
 
-  await t.test('should not ignore other close words', async function () {
-    assert.deepEqual(await process('Her bike, his bicycle.'), [
-      '1:1-1:4: Unexpected potentially insensitive use of `Her`, when referring to a person, in somes cases `Their`, `Theirs`, `Them` may be better',
-      '1:11-1:14: Unexpected potentially insensitive use of `his`, when referring to a person, in somes cases `their`, `theirs`, `them` may be better'
-    ])
-  })
+  await t.test(
+    'should not ignore other close words w/ `binary`',
+    async function () {
+      assert.deepEqual(
+        await process('Her bike, his bicycle.', {binary: true}),
+        [
+          '1:1-1:4: Unexpected potentially insensitive use of `Her`, when referring to a person, in somes cases `Their`, `Theirs`, `Them` may be better',
+          '1:11-1:14: Unexpected potentially insensitive use of `his`, when referring to a person, in somes cases `their`, `theirs`, `them` may be better'
+        ]
+      )
+    }
+  )
 
   await t.test('should support `bipolar` (without dash)', async function () {
     assert.deepEqual(await process('Two bipolar magnets.'), [

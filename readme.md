@@ -122,8 +122,8 @@ Configuration (TypeScript type).
 
 *   `ignore` (`Array<string>`, optional)
     — phrases *not* to warn about
-*   `noBinary` (`boolean`, default: `false`)
-    — whether to warn for “he or she” and similar
+*   `binary` (`boolean`, default: `false`)
+    — whether to allow “he or she”, “garbagemen and garbagewomen”, and similar
 
 ## Messages
 
