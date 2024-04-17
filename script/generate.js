@@ -138,8 +138,8 @@ while (++index < languages.length) {
         entry.note && entry.source
           ? entry.note + ' (source: ' + entry.source + ')'
           : entry.source
-          ? 'Source: ' + entry.source
-          : entry.note || undefined,
+            ? 'Source: ' + entry.source
+            : entry.note || undefined,
       type: entry.type
     }
 

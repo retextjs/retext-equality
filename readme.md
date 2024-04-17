@@ -12,19 +12,19 @@
 
 ## Contents
 
-*   [What is this?](#what-is-this)
-*   [When should I use this?](#when-should-i-use-this)
-*   [Install](#install)
-*   [Use](#use)
-*   [API](#api)
-    *   [`unified().use(retextEquality[, options])`](#unifieduseretextequality-options)
-    *   [`Options`](#options)
-*   [Messages](#messages)
-*   [Types](#types)
-*   [Compatibility](#compatibility)
-*   [Related](#related)
-*   [Contributing](#contributing)
-*   [License](#license)
+* [What is this?](#what-is-this)
+* [When should I use this?](#when-should-i-use-this)
+* [Install](#install)
+* [Use](#use)
+* [API](#api)
+  * [`unified().use(retextEquality[, options])`](#unifieduseretextequality-options)
+  * [`Options`](#options)
+* [Messages](#messages)
+* [Types](#types)
+* [Compatibility](#compatibility)
+* [Related](#related)
+* [Contributing](#contributing)
+* [License](#license)
 
 ## What is this?
 
@@ -107,8 +107,8 @@ Check potentially insensitive language.
 
 ###### Parameters
 
-*   `options` ([`Options`][api-options], optional)
-    — configuration
+* `options` ([`Options`][api-options], optional)
+  — configuration
 
 ###### Returns
 
@@ -120,10 +120,10 @@ Configuration (TypeScript type).
 
 ###### Fields
 
-*   `ignore` (`Array<string>`, optional)
-    — phrases *not* to warn about
-*   `binary` (`boolean`, default: `false`)
-    — whether to allow “he or she”, “garbagemen and garbagewomen”, and similar
+* `ignore` (`Array<string>`, optional)
+  — phrases *not* to warn about
+* `binary` (`boolean`, default: `false`)
+  — whether to allow “he or she”, “garbagemen and garbagewomen”, and similar
 
 ## Messages
 
@@ -151,14 +151,14 @@ compatible with Node.js 16.
 
 ## Related
 
-*   [`alex`](https://github.com/get-alex/alex)
-    — Catch insensitive, inconsiderate writing
-*   [`retext-passive`](https://github.com/retextjs/retext-passive)
-    — Check passive voice
-*   [`retext-profanities`](https://github.com/retextjs/retext-profanities)
-    — Check for profane and vulgar wording
-*   [`retext-simplify`](https://github.com/retextjs/retext-simplify)
-    — Check phrases for simpler alternatives
+* [`alex`](https://github.com/get-alex/alex)
+  — Catch insensitive, inconsiderate writing
+* [`retext-passive`](https://github.com/retextjs/retext-passive)
+  — Check passive voice
+* [`retext-profanities`](https://github.com/retextjs/retext-profanities)
+  — Check for profane and vulgar wording
+* [`retext-simplify`](https://github.com/retextjs/retext-simplify)
+  — Check phrases for simpler alternatives
 
 ## Contributing
 
