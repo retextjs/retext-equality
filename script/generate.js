@@ -153,6 +153,10 @@ while (++index < languages.length) {
     return pattern
   })
 
+  data.sort(function (a, b) {
+    return a.id.localeCompare(b.id, 'en')
+  })
+
   // Write patterns.
   await fs.writeFile(
     new URL('../lib/patterns-' + language + '.js', import.meta.url),
